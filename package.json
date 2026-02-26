@@ -1,0 +1,87 @@
+{
+    "name": "type-editor",
+    "description": "Type is another ProseMirror clone. Original: https://github.com/ProseMirror",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "https://type-editor.io",
+    "maintainers": [
+        {
+            "name": "Type Editor",
+            "email": "type-editor@mailbox.org",
+            "web": "https://type-editor.io"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/type-editor/type.git"
+    },
+    "private": true,
+    "type": "module",
+    "sideEffects": false,
+    "keywords": [
+        "type",
+        "type-editor",
+        "richtext-editor",
+        "prosemirror"
+    ],
+    "workspaces": [
+        "demo/*",
+        "packages/*",
+        "packages-compat/*",
+        "adapters/*"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@microsoft/api-extractor": "^7.57.6",
+        "@types/jsdom": "^28.0.0",
+        "@types/markdown-it": "^14.1.2",
+        "@types/node": "^25.3.1",
+        "@typescript-eslint/eslint-plugin": "^8.56.1",
+        "@typescript-eslint/parser": "^8.56.1",
+        "@vitest/browser-playwright": "^4.0.18",
+        "eslint": "^9.0.0",
+        "eslint-plugin-prettier": "^5.5.5",
+        "eslint-plugin-simple-import-sort": "^12.1.1",
+        "ist": "^1.1.7",
+        "jiti": "^2.6.1",
+        "jsdom": "^28.1.0",
+        "markdown-it": "^14.1.1",
+        "pdfjs-dist": "^5.4.624",
+        "playwright": "^1.58.2",
+        "prettier": "^3.8.1",
+        "terser": "^5.46.0",
+        "typedoc": "^0.28.17",
+        "typedoc-plugin-markdown": "^4.10.0",
+        "typedoc-theme-fresh": "^0.2.3",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.56.1",
+        "vite": "^7.3.1",
+        "vite-plugin-dts": "^4.5.4",
+        "vite-tsconfig-paths": "^6.1.1",
+        "vitepress": "2.0.0-alpha.16",
+        "vitest": "^4.0.18"
+    },
+    "scripts": {
+        "build": "pnpm recursive run build",
+        "build:prod": "NODE_ENV=production npm run build",
+        "build:dev": "NODE_ENV=development pnpm recursive run build:dev",
+        "build:ts": "pnpm recursive run build:ts",
+        "install:pnpm": "npm install --global corepack@latest && corepack enable pnpm",
+        "install:playwright": "npx playwright install",
+        "clean": "rm -rf node_modules dist .cache .eslintcache .tsbuildinfo && rm -rf ./**/*/dist && rm -rf ./**/*/node_modules",
+        "clean:vitecache": "rm -rf node_modules/.vite node_modules/.vitest",
+        "start": "pnpm --prefix ./demo run start",
+        "test": "pnpm recursive run test",
+        "docs": "typedoc && vitepress build && node .vitepress/add-versions.js",
+        "docs:dev": "vitepress dev",
+        "docs:markdown": "typedoc",
+        "docs:html": "vitepress build node .vitepress/add-versions.js",
+        "docs:preview": "vitepress preview"
+    },
+    "overrides": {
+        "@microsoft/api-extractor": {
+            "typescript": "$typescript"
+        }
+    },
+    "packageManager": "pnpm@10.30.3"
+}

@@ -1,0 +1,17 @@
+{
+    "extends": "../../../tsconfig.base.json",
+    "compilerOptions": {
+        "strict": false,
+        "strictNullChecks": false,
+        "noUncheckedIndexedAccess": false,
+        "forceConsistentCasingInFileNames": false,
+        "declarationMap": true,
+        "sourceMap": true,
+        "paths": {
+            "@src/*": ["../src/*"]
+        }
+    },
+    "include": [
+        "./**/*.ts"
+    ]
+}

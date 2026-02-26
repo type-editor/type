@@ -1,0 +1,30 @@
+{
+	"name": "@type-editor-compat/search",
+	"description": "Compatibility layer for @type-editor/search providing ProseMirror-compatible type signatures",
+	"version": "0.0.1",
+	"license": "MIT",
+	"homepage": "https://type-editor.io",
+	"type": "module",
+	"sideEffects": false,
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./style/search.css": "./dist/style/search.css"
+	},
+	"dependencies": {
+		"@type-editor/search": "workspace:^",
+		"@type-editor/state": "workspace:^",
+        "@type-editor-compat/state": "workspace:^"
+	},
+	"scripts": {
+		"build": "vite build",
+		"build:prod": "NODE_ENV=production vite build --mode production",
+		"build:dev": "NODE_ENV=development tsc && vite build --mode development",
+		"build:ts": "tsc --noEmit"
+	}
+}

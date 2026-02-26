@@ -1,0 +1,12 @@
+export {redo} from './commands/redo';
+export {redoNoScroll} from './commands/redo-no-scroll';
+export {undo} from './commands/undo';
+export {undoNoScroll} from './commands/undo-no-scroll';
+export {closeHistory} from './helper/close-history';
+export {isHistoryTransaction} from './helper/is-history-transaction';
+export {mustPreserveItems} from './helper/must-preserve-items';
+export {redoDepth} from './helper/redo-depth';
+export {undoDepth} from './helper/undo-depth';
+export {history} from './plugin/history-plugin';
+export {HistoryState} from './state/HistoryState';
+export type {HistoryOptions} from './types/HistoryOptions';

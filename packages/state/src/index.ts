@@ -1,0 +1,13 @@
+export type { EditorStateConfiguration } from './editor-state/EditorState';
+export {EditorState} from './editor-state/EditorState';
+export {FieldDesc} from './editor-state/FieldDesc';
+export {Plugin} from './plugin/Plugin';
+export {PluginKey} from './plugin/PluginKey';
+export {AllSelection} from './selection/AllSelection';
+export {NodeSelection} from './selection/NodeSelection';
+export {Selection} from './selection/Selection';
+export {SelectionFactory} from './selection/SelectionFactory';
+export {SelectionRange} from './selection/SelectionRange';
+export {TextSelection} from './selection/TextSelection';
+export {Transaction} from './Transaction';
+export type {StateFieldApplyFunction,StateFieldInitFunction} from '@type-editor/editor-types';

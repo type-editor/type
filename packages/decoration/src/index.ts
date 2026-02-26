@@ -1,0 +1,10 @@
+export {Decoration} from './decoration/Decoration';
+export {DecorationFactory} from './decoration/DecorationFactory';
+export { DecorationGroup } from './decoration/DecorationGroup';
+export {DecorationSet} from './decoration/DecorationSet';
+export { InlineType } from './decoration/InlineType';
+export { NodeType } from './decoration/NodeType';
+export {viewDecorations} from './decoration/view-decorations';
+export { WidgetType } from './decoration/WidgetType';
+export type {DecorationAttrs} from './types/decoration/DecorationAttrs';
+export type {WidgetConstructor} from './types/decoration/WidgetConstructor';

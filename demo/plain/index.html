@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Type Editor</title>
+
+    <link rel="stylesheet" href="/prosemirror.css" />
+    <link rel="stylesheet" href="/demo.css" />
+</head>
+
+<body>
+
+<span class="logo">
+    <a href=""><img src="/type-logo.svg" width="120" alt="Type Editor" /></a>
+</span>
+
+<!-- Edit and Save buttons -->
+<div class="edit-buttons">
+    <button id="edit-btn" class="pm-button">Edit</button>
+    <button id="save-btn" class="pm-button">Save</button>
+</div>
+
+<!-- ProseMirror editor container -->
+<div id="editor-container" class="demo" style="display: none;"></div>
+
+<!-- Static readonly content container -->
+<div id="readonly-container" class="demo">
+
+    <!-- ProseMirror-menubar-wrapper is used here to apply the same CSS styling -->
+    <div class="ProseMirror-menubar-wrapper">
+        <div id="readonly-content" class="ProseMirror">
+
+        </div>
+    </div>
+</div>
+
+<script src="./create-editor.ts" type="module"></script>
+
+<script type="module">
+    import { initialContent } from '../initial-content';
+
+    document.getElementById('readonly-content').innerHTML = initialContent;
+
+
+</script>
+</body>
+
+</html>

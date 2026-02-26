@@ -1,0 +1,86 @@
+{
+	"name": "@type-editor/demo",
+	"description": "This is a demo package for the Type Editor. It contains a simple implementation of the editor using the core modules and some plugins.",
+	"version": "0.0.1",
+	"license": "MIT",
+	"homepage": "https://type-editor.io",
+	"maintainers": [
+		{
+			"name": "Type Editor",
+			"email": "type-editor@mailbox.org",
+			"web": "https://type-editor.io"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/type-editor/type.git"
+	},
+	"type": "module",
+	"sideEffects": false,
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"keywords": [
+		"type",
+		"type-editor",
+		"richtext-editor",
+		"prosemirror"
+	],
+	"dependencies": {
+		"@type-editor/adapter-core": "workspace:^",
+		"@type-editor/adapter-react": "workspace:^",
+		"@type-editor/adapter-svelte": "workspace:^",
+		"@type-editor/adapter-vue": "workspace:^",
+		"@type-editor/commands": "workspace:^",
+		"@type-editor/commons": "workspace:^",
+		"@type-editor/decoration": "workspace:^",
+		"@type-editor/dom-change-util": "workspace:^",
+		"@type-editor/dom-coords-util": "workspace:^",
+		"@type-editor/dom-util": "workspace:^",
+		"@type-editor/dropcursor": "workspace:^",
+		"@type-editor/editor-types": "workspace:^",
+		"@type-editor/gapcursor": "workspace:^",
+		"@type-editor/history": "workspace:^",
+		"@type-editor/input": "workspace:^",
+		"@type-editor/inputrules": "workspace:^",
+		"@type-editor/keymap": "workspace:^",
+		"@type-editor/menu": "workspace:^",
+		"@type-editor/model": "workspace:^",
+		"@type-editor/schema": "workspace:^",
+		"@type-editor/selection-util": "workspace:^",
+		"@type-editor/state": "workspace:^",
+		"@type-editor/transform": "workspace:^",
+		"@type-editor/view": "workspace:^",
+		"@type-editor/viewdesc": "workspace:^",
+		"nanoid": "^5.1.6",
+		"react": "^19.2.3",
+		"react-dom": "^19.2.3",
+		"svelte": "^5.46.1",
+		"vue": "^3.5.26",
+        "w3c-keyname": "^2.2.8"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@type-editor/editor-types": "workspace:^",
+		"@types/react": "^19.0.0",
+		"@types/react-dom": "^19.0.0",
+		"@vitejs/plugin-react": "^5.1.4",
+		"@vitejs/plugin-vue": "^6.0.3",
+		"eslint-plugin-vue": "^10.7.0",
+		"vue-eslint-parser": "^10.2.0"
+	},
+	"scripts": {
+		"build": "vite build",
+		"build:prod": "NODE_ENV=production vite build --mode production",
+		"build:dev": "NODE_ENV=development tsc && vite build --mode development",
+		"build:ts": "tsc --noEmit",
+		"start": "vite --force --mode development",
+		"test": "",
+		"test:watch": ""
+	}
+}

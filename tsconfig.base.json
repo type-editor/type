@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "lib": [
+            "ESNext",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "verbatimModuleSyntax": true,
+        "resolveJsonModule": true,
+        "paths": {
+            "@test-builder/*": ["./packages/test-builder/src/*"]
+        }
+    },
+    "include": [
+        "./*.ts",
+        "./*.d.ts"
+    ]
+}

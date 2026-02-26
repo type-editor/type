@@ -1,0 +1,33 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPointStrategy": "packages",
+    "entryPoints": [
+        "packages/*"
+    ],
+    "out": "docs",
+    "exclude": [
+        "packages/example-setup",
+        "packages/test-builder"
+    ],
+    "plugin": [
+        "typedoc-plugin-markdown"
+    ],
+    "modulesFileName": "index",
+    "sanitizeComments": true,
+    "formatWithPrettier": true,
+    "useHTMLEncodedBrackets": true,
+    "useCodeBlocks": true,
+    "expandObjects": true,
+    "indexFormat": "htmlTable",
+    "parametersFormat": "table",
+    "interfacePropertiesFormat": "table",
+    "classPropertiesFormat": "table",
+    "enumMembersFormat": "table",
+    "propertyMembersFormat": "table",
+    "typeDeclarationFormat": "table",
+    "name": "Type Editor",
+    "hideGenerator": true,
+    "excludePrivate": true,
+    "excludeExternals": true
+}
+

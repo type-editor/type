@@ -1,0 +1,45 @@
+{
+    "name": "@type-editor-compat/view",
+    "description": "Compatibility layer for @type-editor/view providing ProseMirror-compatible type signatures",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "https://type-editor.io",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/type-editor/type.git"
+    },
+    "type": "module",
+    "sideEffects": false,
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        },
+        "./style/prosemirror.css": "./dist/style/prosemirror.css"
+    },
+    "dependencies": {
+        "@type-editor/commons": "workspace:^",
+        "@type-editor/decoration": "workspace:^",
+        "@type-editor/dom-change-util": "workspace:^",
+        "@type-editor/dom-coords-util": "workspace:^",
+        "@type-editor/dom-util": "workspace:^",
+        "@type-editor/model": "workspace:^",
+        "@type-editor/selection-util": "workspace:^",
+        "@type-editor/view": "workspace:^",
+        "@type-editor/viewdesc": "workspace:^",
+        "@type-editor-compat/model": "workspace:^",
+        "@type-editor-compat/state": "workspace:^"
+    },
+    "devDependencies": {
+        "@type-editor/editor-types": "workspace:^"
+    },
+    "scripts": {
+        "build": "vite build",
+        "build:prod": "NODE_ENV=production vite build --mode production",
+        "build:dev": "NODE_ENV=development tsc && vite build --mode development",
+        "build:ts": "tsc --noEmit"
+    }
+}

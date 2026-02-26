@@ -1,0 +1,35 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "strict": false,
+        "strictNullChecks": false,
+        "noImplicitAny": false,
+        "noUncheckedIndexedAccess": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictFunctionTypes": false,
+        "strictBindCallApply": false,
+        "strictPropertyInitialization": false,
+        "noImplicitThis": false,
+        "useUnknownInCatchVariables": false,
+        "declarationMap": false,
+        "sourceMap": false,
+        "removeComments": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "jsx": "react-jsx"
+    },
+    "include": [
+        "packages/**/*.ts",
+        "demo/**/*.ts",
+        "demo/**/*.tsx",
+        "demo/**/*.vue",
+        "demo/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "packages/*/test",
+        "packages/*/test-browser",
+        "packages/browser-tests"
+    ]
+}

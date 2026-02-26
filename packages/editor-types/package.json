@@ -1,0 +1,51 @@
+{
+    "name": "@type-editor/editor-types",
+    "description": "Common Types for the Type Editor.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "https://type-editor.io",
+    "maintainers": [
+        {
+            "name": "Type Editor",
+            "email": "type-editor@mailbox.org",
+            "web": "https://type-editor.io"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/type-editor/type.git"
+    },
+    "type": "module",
+    "sideEffects": false,
+    "module": "dist/index.js",
+    "types": "./dist/@types/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/@types/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "keywords": [
+        "type",
+        "type-editor",
+        "richtext-editor",
+        "prosemirror"
+    ],
+    "peerDependencies": {
+        "@type-editor/commons": "workspace:^",
+        "@type-editor/model": "workspace:^"
+    },
+    "devDependencies": {
+        "@type-editor/commons": "workspace:^",
+        "@type-editor/model": "workspace:^"
+    },
+    "scripts": {
+        "build": "vite build",
+        "build:prod": "NODE_ENV=production vite build --mode production",
+        "build:dev": "NODE_ENV=development tsc && vite build --mode development",
+        "build:ts": "tsc --noEmit",
+        "test": "",
+        "test:watch": ""
+    }
+}

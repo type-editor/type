@@ -1,0 +1,174 @@
+import type { DOMOutputSpec } from '@src/types/dom-parser/DOMOutputSpec';
+import type { NodeSpec } from '@src/types/schema/NodeSpec';
+import { browser } from '@type-editor/commons';
+
+// const pDOM: DOMOutputSpec = ['p', {class: node.attrs.class}, 0],
+const blockquoteDOM: DOMOutputSpec = ['blockquote', 0];
+const hrDOM: DOMOutputSpec = ['hr'];
+const preDOM: DOMOutputSpec = ['pre', ['code', 0]];
+const brDOM: DOMOutputSpec = ['br'];
+
+
+/**
+ * [Specs](#model.NodeSpec) for the nodes defined in this schema.
+ */
+export const nodes = {
+
+    /**
+     * NodeSpec The top level document node.
+     */
+    doc: {
+        content: 'block+',
+    } as NodeSpec,
+
+    /**
+     * A plain paragraph textblock. Represented in the DOM
+     * as a `<p>` element.
+     */
+    paragraph: {
+        attrs: {
+            'textAlign': {
+                default: browser.dir === 'ltr' ? 'left' : 'right', validate: ((value: any) => {
+                    if (!(!value
+                        || value === 'left'
+                        || value === 'right'
+                        || value === 'justify'
+                        || value === 'center')) {
+                        throw new Error('Unsupported value for text-align');
+                    }
+                })
+            },
+        },
+        content: 'inline*',
+        group: 'block',
+        parseDOM: [{
+            tag: 'p', getAttrs: (node: HTMLElement): { textAlign: string } => {
+                return {
+                    textAlign: node.style.textAlign
+                        ? node.style.textAlign
+                        : browser.dir === 'ltr' ? 'left' : 'right',
+                };
+            }
+        }],
+        toDOM(node) {
+            return ['p', {style: `text-align:${node.attrs.textAlign};`}, 0];
+        },
+    } as NodeSpec,
+
+    /**
+     * A blockquote (`<blockquote>`) wrapping one or more blocks.
+     */
+    blockquote: {
+        content: 'block+',
+        group: 'block',
+        defining: true,
+        parseDOM: [{tag: 'blockquote'}],
+        toDOM() {
+            return blockquoteDOM;
+        },
+    } as NodeSpec,
+
+    /**
+     * A horizontal rule (`<hr>`).
+     */
+    horizontal_rule: {
+        group: 'block',
+        parseDOM: [{tag: 'hr'}],
+        toDOM() {
+            return hrDOM;
+        },
+    } as NodeSpec,
+
+    /**
+     * A heading textblock, with a `level` attribute that
+     * should hold the number 1 to 6. Parsed and serialized as `<h1>` to
+     * `<h6>` elements.
+     */
+    heading: {
+        attrs: {level: {default: 1, validate: 'number'}},
+        content: 'inline*',
+        group: 'block',
+        defining: true,
+        parseDOM: [
+            {tag: 'h1', attrs: {level: 1}},
+            {tag: 'h2', attrs: {level: 2}},
+            {tag: 'h3', attrs: {level: 3}},
+            {tag: 'h4', attrs: {level: 4}},
+            {tag: 'h5', attrs: {level: 5}},
+            {tag: 'h6', attrs: {level: 6}},
+        ],
+        toDOM(node) {
+            return [`h${node.attrs.level}`, 0];
+        },
+    } as NodeSpec,
+
+    /**
+     * A code listing. Disallows marks or non-text inline
+     * nodes by default. Represented as a `<pre>` element with a
+     * `<code>` element inside of it.
+     *
+     */
+    code_block: {
+        content: 'text*',
+        marks: '',
+        group: 'block',
+        code: true,
+        defining: true,
+        parseDOM: [{tag: 'pre', preserveWhitespace: 'full'}],
+        toDOM() {
+            return preDOM;
+        },
+    } as NodeSpec,
+
+    /**
+     * A text node.
+     */
+    text: {
+        group: 'inline',
+    } as NodeSpec,
+
+    /**
+     * An inline image (`<img>`) node. Supports `src`,
+     * `alt`, and `href` attributes. The latter two default to the empty
+     * string.
+     */
+    image: {
+        inline: true,
+        attrs: {
+            src: {validate: 'string'},
+            alt: {default: null, validate: 'string|null'},
+            title: {default: null, validate: 'string|null'},
+        },
+        group: 'inline',
+        draggable: true,
+        parseDOM: [
+            {
+                tag: 'img[src]',
+                getAttrs(dom: HTMLElement) {
+                    return {
+                        src: dom.getAttribute('src'),
+                        title: dom.getAttribute('title'),
+                        alt: dom.getAttribute('alt'),
+                    };
+                },
+            },
+        ],
+        toDOM(node) {
+            const {src, alt, title} = node.attrs;
+            return ['img', {src, alt, title}];
+        },
+    } as NodeSpec,
+
+    /**
+     * A hard line break, represented in the DOM as `<br>`.
+     */
+    hard_break: {
+        inline: true,
+        group: 'inline',
+        selectable: false,
+        parseDOM: [{tag: 'br'}],
+        toDOM() {
+            return brDOM;
+        },
+    } as NodeSpec,
+};

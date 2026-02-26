@@ -1,0 +1,10 @@
+README.md
+**/README.md
+
+**/.git
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+preview/
+yarn.lock

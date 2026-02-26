@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+  - packages-compat/*
+  - adapters/*
+  - demo
+
+onlyBuiltDependencies:
+  - esbuild

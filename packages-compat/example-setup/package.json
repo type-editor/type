@@ -1,0 +1,52 @@
+{
+	"name": "@type-editor-compat/example-setup",
+	"description": "Compatibility layer for @type-editor/example-setup providing ProseMirror-compatible type signatures",
+	"version": "0.0.1",
+	"license": "MIT",
+	"homepage": "https://type-editor.io",
+	"type": "module",
+	"sideEffects": false,
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./style/style.css": "./dist/style/style.css"
+	},
+    "dependencies": {
+        "@type-editor/commands": "workspace:^",
+        "@type-editor-compat/commands": "workspace:^",
+        "@type-editor/commons": "workspace:^",
+        "@type-editor/dropcursor": "workspace:^",
+        "@type-editor-compat/dropcursor": "workspace:^",
+        "@type-editor/gapcursor": "workspace:^",
+        "@type-editor-compat/gapcursor": "workspace:^",
+        "@type-editor/history": "workspace:^",
+        "@type-editor-compat/history": "workspace:^",
+        "@type-editor/inputrules": "workspace:^",
+        "@type-editor-compat/inputrules": "workspace:^",
+        "@type-editor/keymap": "workspace:^",
+        "@type-editor-compat/keymap": "workspace:^",
+        "@type-editor/model": "workspace:^",
+        "@type-editor-compat/model": "workspace:^",
+        "@type-editor/menu": "workspace:^",
+        "@type-editor-compat/menu": "workspace:^",
+        "@type-editor/schema": "workspace:^",
+        "@type-editor-compat/schema": "workspace:^",
+        "@type-editor/state": "workspace:^",
+        "@type-editor-compat/state": "workspace:^",
+        "@type-editor/transform": "workspace:^"
+    },
+    "devDependencies": {
+        "@type-editor/editor-types": "workspace:^"
+    },
+    "scripts": {
+		"build": "vite build",
+		"build:prod": "NODE_ENV=production vite build --mode production",
+		"build:dev": "NODE_ENV=development tsc && vite build --mode development",
+		"build:ts": "tsc --noEmit"
+	}
+}

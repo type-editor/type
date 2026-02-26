@@ -1,0 +1,32 @@
+{
+    "name": "@type-editor-compat/test-builder",
+    "description": "Compatibility layer for @type-editor/test-builder providing ProseMirror-compatible type signatures",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "https://type-editor.io",
+    "type": "module",
+    "sideEffects": false,
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "peerDependencies": {
+        "@type-editor/test-builder": "workspace:^",
+        "vitest": "^4.0.16"
+    },
+    "devDependencies": {
+        "@type-editor/test-builder": "workspace:^",
+        "vitest": "^4.0.16"
+    },
+    "scripts": {
+        "build": "vite build",
+        "build:prod": "NODE_ENV=production vite build --mode production",
+        "build:dev": "NODE_ENV=development tsc && vite build --mode development",
+        "build:ts": "tsc --noEmit"
+    }
+}

@@ -1,0 +1,1 @@
+window.versions = [{"text":"0.0.1","link":"https://type-editor.io/0.0.1/"}];

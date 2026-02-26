@@ -1,0 +1,16 @@
+[**Type Editor**](../../../../../README.md)
+
+---
+
+[Type Editor](../../../../../index.md) / [@type-editor/search](../../../README.md) / [commands/replace-current](../README.md) / replaceCurrent
+
+# Variable: replaceCurrent
+
+```ts
+const replaceCurrent: Command;
+```
+
+Defined in: [commands/replace-current.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/commands/replace-current.ts#L10)
+
+Replace the currently selected instance of the search query, if
+any. Don't move to the next match.

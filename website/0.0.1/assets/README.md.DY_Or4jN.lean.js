@@ -1,0 +1,1 @@
+import{_ as r,o as a,c as i,ak as t,al as o}from"./chunks/framework.EVMbD_FN.js";const k=JSON.parse('{"title":"Type","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),s={name:"README.md"};function n(l,e,d,h,p,c){return a(),i("div",null,[...e[0]||(e[0]=[t("",39)])])}const f=r(s,[["render",n]]);export{k as __pageData,f as default};

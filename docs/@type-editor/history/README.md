@@ -1,0 +1,454 @@
+[**Type Editor**](../../README.md)
+
+---
+
+[Type Editor](../../index.md) / @type-editor/history
+
+# @type-editor/history
+
+A refactored version of ProseMirror's [prosemirror-history](https://github.com/ProseMirror/prosemirror-history) module, providing undo/redo history functionality for rich text editors.
+
+## Installation
+
+```bash
+npm install @type-editor/history
+```
+
+## Overview
+
+This module implements a selective undo/redo history for ProseMirror-based editors. Unlike a simple rollback mechanism, this history is **selective**, meaning it can undo specific changes while keeping other, later changes intact. This is essential for collaborative editing scenarios where multiple users may be editing simultaneously.
+
+### How It Works
+
+ProseMirror's history isn't simply a way to roll back to a previous state, because ProseMirror supports applying changes without adding them to the history (for example during collaboration).
+
+Each history 'Branch' (one for undo, one for redo) maintains an array of 'Items' that can optionally hold a step (an actual undoable change) and always hold a position map (needed to adjust positions for changes below them).
+
+An item that has both a step and a selection bookmark marks the start of an 'event' — a group of changes that will be undone or redone together.
+
+## Usage
+
+### Basic Setup
+
+```typescript
+import { history, undo, redo } from "@type-editor/history";
+import { keymap } from "@type-editor/keymap";
+import { EditorState } from "@type-editor/state";
+
+const state = EditorState.create({
+  schema,
+  plugins: [
+    history(),
+    keymap({
+      "Mod-z": undo,
+      "Mod-Shift-z": redo,
+    }),
+  ],
+});
+```
+
+### Configuration Options
+
+The `history()` plugin accepts an optional configuration object:
+
+```typescript
+history({
+  depth: 100, // Maximum number of history events (default: 100)
+  newGroupDelay: 500, // Delay in ms before starting a new group (default: 500)
+});
+```
+
+| Option          | Type     | Default | Description                                                                                                                                           |
+| --------------- | -------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `depth`         | `number` | `100`   | The number of history events to keep before the oldest events are discarded                                                                           |
+| `newGroupDelay` | `number` | `500`   | The delay in milliseconds between changes after which a new history group should be started. Adjacent changes within this delay are grouped together. |
+
+## Commands
+
+### Undo Commands
+
+| Command        | Description                                                                                  |
+| -------------- | -------------------------------------------------------------------------------------------- |
+| `undo`         | Undoes the last change and scrolls the selection into view. Typically bound to `Mod-z`.      |
+| `undoNoScroll` | Undoes the last change without scrolling. Useful when you want to handle scrolling manually. |
+
+### Redo Commands
+
+| Command        | Description                                                                                                                  |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `redo`         | Redoes the last undone change and scrolls the selection into view. Typically bound to `Mod-Shift-z` (or `Mod-y` on Windows). |
+| `redoNoScroll` | Redoes the last undone change without scrolling.                                                                             |
+
+### Example
+
+```typescript
+import { undo, redo, undoNoScroll, redoNoScroll } from "@type-editor/history";
+import { keymap } from "@type-editor/keymap";
+
+const historyKeymap = keymap({
+  "Mod-z": undo,
+  "Mod-Shift-z": redo,
+  "Mod-y": redo, // Alternative redo binding for Windows
+});
+```
+
+## Helper Functions
+
+### undoDepth
+
+Returns the number of undoable events available in the editor's history.
+
+```typescript
+import { undoDepth } from "@type-editor/history";
+
+const canUndo = undoDepth(state) > 0;
+console.log(`You can undo ${undoDepth(state)} changes`);
+```
+
+### redoDepth
+
+Returns the number of redoable events available in the editor's history.
+
+```typescript
+import { redoDepth } from "@type-editor/history";
+
+const canRedo = redoDepth(state) > 0;
+console.log(`You can redo ${redoDepth(state)} changes`);
+```
+
+### closeHistory
+
+Forces subsequent changes to be recorded as a separate history event, preventing them from being merged with the previous event.
+
+```typescript
+import { closeHistory } from "@type-editor/history";
+
+// Force the next change to start a new history event
+const tr = closeHistory(state.tr);
+dispatch(tr.insertText("new text"));
+```
+
+### isHistoryTransaction
+
+Returns `true` if the given transaction was generated by the history plugin (i.e., an undo or redo operation).
+
+```typescript
+import { isHistoryTransaction } from '@type-editor/history';
+
+// In a plugin's appendTransaction
+appendTransaction(transactions, oldState, newState) {
+  if (transactions.some(isHistoryTransaction)) {
+    // Handle undo/redo transactions differently
+  }
+}
+```
+
+## Controlling History
+
+### Preventing Changes from Being Recorded
+
+You can prevent a transaction from being added to the history by setting the `addToHistory` metadata to `false`:
+
+```typescript
+const tr = state.tr.insertText("text").setMeta("addToHistory", false);
+dispatch(tr);
+```
+
+This is useful for:
+
+- Collaborative changes from other users
+- UI state changes that shouldn't be undoable
+- Decorations or annotations
+
+### Grouping Changes
+
+Changes made within the `newGroupDelay` window (default 500ms) are automatically grouped together as a single undo event. You can force a new group to start by using `closeHistory`:
+
+```typescript
+import { closeHistory } from "@type-editor/history";
+
+// First change
+dispatch(state.tr.insertText("Hello"));
+
+// Force next change to be a separate event
+dispatch(closeHistory(state.tr));
+
+// This will be a separate undo event
+dispatch(state.tr.insertText(" World"));
+```
+
+## API Reference
+
+### Exports
+
+| Export                 | Type       | Description                          |
+| ---------------------- | ---------- | ------------------------------------ |
+| `history`              | `function` | Creates the history plugin           |
+| `undo`                 | `Command`  | Undo command with scroll             |
+| `undoNoScroll`         | `Command`  | Undo command without scroll          |
+| `redo`                 | `Command`  | Redo command with scroll             |
+| `redoNoScroll`         | `Command`  | Redo command without scroll          |
+| `undoDepth`            | `function` | Get number of undo events            |
+| `redoDepth`            | `function` | Get number of redo events            |
+| `closeHistory`         | `function` | Close current history event          |
+| `isHistoryTransaction` | `function` | Check if transaction is from history |
+| `HistoryState`         | `class`    | The history state class              |
+| `HistoryOptions`       | `type`     | Configuration options interface      |
+| `mustPreserveItems`    | `function` | Check if items should be preserved   |
+
+## License
+
+MIT
+
+## Modules
+
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+[commands/redo](commands/redo/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[commands/redo-no-scroll](commands/redo-no-scroll/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[commands/undo](commands/undo/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[commands/undo-no-scroll](commands/undo-no-scroll/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[commands/util/build-command](commands/util/build-command/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[helper/close-history](helper/close-history/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[helper/is-history-transaction](helper/is-history-transaction/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[helper/must-preserve-items](helper/must-preserve-items/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[helper/redo-depth](helper/redo-depth/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[helper/undo-depth](helper/undo-depth/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[plugin/apply-transaction](plugin/apply-transaction/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[plugin/handle-history-input-event](plugin/handle-history-input-event/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[plugin/history-plugin](plugin/history-plugin/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[plugin/history-plugin-key](plugin/history-plugin-key/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[state/Branch](state/Branch/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[state/create-rope-sequence](state/create-rope-sequence/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[state/HistoryState](state/HistoryState/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[types/HistoryEventState](types/HistoryEventState/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[types/HistoryOptions](types/HistoryOptions/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+<tr>
+<td>
+
+[types/RopeSequence](types/RopeSequence/README.md)
+
+</td>
+<td>
+
+&hyphen;
+
+</td>
+</tr>
+</tbody>
+</table>

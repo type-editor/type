@@ -1,7 +1,7 @@
 {
 	"name": "@type-editor/demo",
 	"description": "This is a demo package for the Type Editor. It contains a simple implementation of the editor using the core modules and some plugins.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"homepage": "https://type-editor.io",
 	"maintainers": [

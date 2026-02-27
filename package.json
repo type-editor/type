@@ -1,7 +1,7 @@
 {
     "name": "type-editor",
     "description": "Type is another ProseMirror clone. Original: https://github.com/ProseMirror",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "homepage": "https://type-editor.io",
     "maintainers": [

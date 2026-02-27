@@ -1,7 +1,7 @@
 {
     "name": "@type-editor-compat/schema-basic",
     "description": "This is a refactored version of the ProseMirror's 'schema-basic' module.  Original: https://github.com/ProseMirror/prosemirror-schema-basic",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "homepage": "https://type-editor.io",
     "type": "module",

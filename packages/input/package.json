@@ -1,7 +1,7 @@
 {
     "name": "@type-editor/input",
     "description": "Input related functions and event handler for the Type Editor.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "homepage": "https://type-editor.io",
     "maintainers": [

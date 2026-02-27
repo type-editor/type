@@ -1,7 +1,7 @@
 {
     "name": "@type-editor/adapter-core",
     "description": "Type editor adapter core package",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "homepage": "https://type-editor.io",
     "maintainers": [

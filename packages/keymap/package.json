@@ -1,7 +1,7 @@
 {
 	"name": "@type-editor/keymap",
 	"description": "This is a refactored version of the ProseMirror's 'keymap' module.  Original: https://github.com/ProseMirror/prosemirror-keymap",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"homepage": "https://type-editor.io",
 	"maintainers": [

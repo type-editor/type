@@ -1,7 +1,7 @@
 {
     "name": "@type-editor/viewdesc",
     "description": "Type Editor - ViewDesc Module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "homepage": "https://type-editor.io",
     "maintainers": [

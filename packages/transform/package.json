@@ -1,7 +1,7 @@
 {
 	"name": "@type-editor/transform",
 	"description": "This is a refactored version of the ProseMirror's 'transform' module.  Original: https://github.com/ProseMirror/prosemirror-transform",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"homepage": "https://type-editor.io",
 	"maintainers": [

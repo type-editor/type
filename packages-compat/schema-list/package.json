@@ -1,7 +1,7 @@
 {
     "name": "@type-editor-compat/schema-list",
     "description": "This is a refactored version of the ProseMirror's 'schema-list' module.  Original: https://github.com/ProseMirror/prosemirror-schema-list",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "homepage": "https://type-editor.io",
     "type": "module",

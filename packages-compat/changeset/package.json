@@ -1,7 +1,7 @@
 {
     "name": "@type-editor-compat/changeset",
     "description": "Compatibility layer for @type-editor/changeset providing ProseMirror-compatible type signatures",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "homepage": "https://type-editor.io",
     "type": "module",

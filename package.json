@@ -62,7 +62,7 @@
         "vitest": "^4.0.18"
     },
     "scripts": {
-        "publish": "pnpm publish -r --access public --no-git-checks",
+        "release": "pnpm publish -r --access public --no-git-checks",
         "build": "pnpm recursive run build",
         "build:prod": "NODE_ENV=production npm run build",
         "build:dev": "NODE_ENV=development pnpm recursive run build:dev",

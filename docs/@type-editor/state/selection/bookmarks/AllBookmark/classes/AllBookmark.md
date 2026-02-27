@@ -6,7 +6,7 @@
 
 # Class: AllBookmark
 
-Defined in: [state/src/selection/bookmarks/AllBookmark.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/bookmarks/AllBookmark.ts#L11)
+Defined in: [state/src/selection/bookmarks/AllBookmark.ts:11](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/bookmarks/AllBookmark.ts#L11)
 
 Bookmark implementation for all-selections.
 Since all-selections always span the entire document, this bookmark
@@ -36,7 +36,7 @@ new AllBookmark(): AllBookmark;
 map(): this;
 ```
 
-Defined in: [state/src/selection/bookmarks/AllBookmark.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/bookmarks/AllBookmark.ts#L20)
+Defined in: [state/src/selection/bookmarks/AllBookmark.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/bookmarks/AllBookmark.ts#L20)
 
 Map this bookmark through document changes.
 All-selections are not affected by document changes, so this
@@ -62,7 +62,7 @@ SelectionBookmark.map;
 resolve(doc): PmSelection;
 ```
 
-Defined in: [state/src/selection/bookmarks/AllBookmark.ts:30](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/bookmarks/AllBookmark.ts#L30)
+Defined in: [state/src/selection/bookmarks/AllBookmark.ts:30](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/bookmarks/AllBookmark.ts#L30)
 
 Resolve this bookmark to an all-selection.
 

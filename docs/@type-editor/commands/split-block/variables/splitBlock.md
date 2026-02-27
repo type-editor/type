@@ -10,7 +10,7 @@
 const splitBlock: Command;
 ```
 
-Defined in: [split-block.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/split-block.ts#L33)
+Defined in: [split-block.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/split-block.ts#L33)
 
 Standard command to split the parent block at the selection.
 

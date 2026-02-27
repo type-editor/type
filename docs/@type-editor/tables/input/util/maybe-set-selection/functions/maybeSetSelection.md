@@ -10,7 +10,7 @@
 function maybeSetSelection(state, dispatch, selection): boolean;
 ```
 
-Defined in: [tables/src/input/util/maybe-set-selection.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/input/util/maybe-set-selection.ts#L13)
+Defined in: [tables/src/input/util/maybe-set-selection.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/input/util/maybe-set-selection.ts#L13)
 
 Conditionally sets a new selection if it differs from the current one.
 

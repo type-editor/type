@@ -10,7 +10,7 @@
 function findDiffEnd(a, b, posA, posB): DiffPosition;
 ```
 
-Defined in: [packages/model/src/diff/find-diff-end.ts:76](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/diff/find-diff-end.ts#L76)
+Defined in: [packages/model/src/diff/find-diff-end.ts:76](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/diff/find-diff-end.ts#L76)
 
 Find the last position at which two fragments differ.
 

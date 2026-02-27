@@ -6,7 +6,7 @@
 
 # Class: SearchQuery
 
-Defined in: [SearchQuery.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L24)
+Defined in: [SearchQuery.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L24)
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: [SearchQuery.ts:24](https://github.com/type-editor/type/blob/8f2401b
 new SearchQuery(config): SearchQuery;
 ```
 
-Defined in: [SearchQuery.ts:72](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L72)
+Defined in: [SearchQuery.ts:72](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L72)
 
 Creates a new search query object.
 
@@ -40,7 +40,7 @@ Creates a new search query object.
 get caseSensitive(): boolean;
 ```
 
-Defined in: [SearchQuery.ts:98](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L98)
+Defined in: [SearchQuery.ts:98](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L98)
 
 Gets whether the search is case-sensitive.
 
@@ -58,7 +58,7 @@ Gets whether the search is case-sensitive.
 get search(): string;
 ```
 
-Defined in: [SearchQuery.ts:91](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L91)
+Defined in: [SearchQuery.ts:91](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L91)
 
 Gets the search string or regular expression pattern.
 
@@ -76,7 +76,7 @@ Gets the search string or regular expression pattern.
 get valid(): boolean;
 ```
 
-Defined in: [SearchQuery.ts:105](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L105)
+Defined in: [SearchQuery.ts:105](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L105)
 
 Gets whether this query is valid (non-empty and syntactically correct if regex).
 
@@ -92,7 +92,7 @@ Gets whether this query is valid (non-empty and syntactically correct if regex).
 eq(other): boolean;
 ```
 
-Defined in: [SearchQuery.ts:116](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L116)
+Defined in: [SearchQuery.ts:116](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L116)
 
 Compares this query to another query for equality.
 Two queries are equal if all their configuration options match.
@@ -120,7 +120,7 @@ findNext(
    to?): SearchResult;
 ```
 
-Defined in: [SearchQuery.ts:135](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L135)
+Defined in: [SearchQuery.ts:135](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L135)
 
 Finds the next occurrence of this query in the given range.
 The search continues forward from the `from` position until a match is found
@@ -151,7 +151,7 @@ findPrev(
    to?): SearchResult;
 ```
 
-Defined in: [SearchQuery.ts:168](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L168)
+Defined in: [SearchQuery.ts:168](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L168)
 
 Finds the previous occurrence of this query in the given range.
 The search continues backward from the `from` position until a match is found
@@ -181,7 +181,7 @@ The search result if found, or `null` if no match exists
 getReplacements(state, result): ReplacementRange[];
 ```
 
-Defined in: [SearchQuery.ts:233](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L233)
+Defined in: [SearchQuery.ts:233](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L233)
 
 Generates the ranges that should be replaced for a search result.
 This can return multiple ranges when `this.replace` contains capture group
@@ -214,7 +214,7 @@ An array of replacement ranges with their insertion slices
 unquote(text): string;
 ```
 
-Defined in: [SearchQuery.ts:197](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/SearchQuery.ts#L197)
+Defined in: [SearchQuery.ts:197](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/SearchQuery.ts#L197)
 
 Processes escape sequences in the given text.
 If `literal` mode is enabled, returns text as-is.

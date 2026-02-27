@@ -6,7 +6,7 @@
 
 # Interface: SearchResult
 
-Defined in: [types/SearchResult.ts:4](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/SearchResult.ts#L4)
+Defined in: [types/SearchResult.ts:4](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/SearchResult.ts#L4)
 
 Represents a matched instance of a search query.
 
@@ -14,7 +14,7 @@ Represents a matched instance of a search query.
 
 | Property                                      | Type               | Description                                                                                                                | Defined in                                                                                                                                                  |
 | --------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-from"></a> `from`             | `number`           | The starting position of the match in the document.                                                                        | [types/SearchResult.ts:8](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/SearchResult.ts#L8)   |
-| <a id="property-match"></a> `match`           | `RegExpMatchArray` | The regular expression match array. This will be non-null only for regular expression queries and contains capture groups. | [types/SearchResult.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/SearchResult.ts#L19) |
-| <a id="property-matchstart"></a> `matchStart` | `number`           | The starting position of the text block where the match was found.                                                         | [types/SearchResult.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/SearchResult.ts#L24) |
-| <a id="property-to"></a> `to`                 | `number`           | The ending position of the match in the document.                                                                          | [types/SearchResult.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/SearchResult.ts#L13) |
+| <a id="property-from"></a> `from`             | `number`           | The starting position of the match in the document.                                                                        | [types/SearchResult.ts:8](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/SearchResult.ts#L8)   |
+| <a id="property-match"></a> `match`           | `RegExpMatchArray` | The regular expression match array. This will be non-null only for regular expression queries and contains capture groups. | [types/SearchResult.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/SearchResult.ts#L19) |
+| <a id="property-matchstart"></a> `matchStart` | `number`           | The starting position of the text block where the match was found.                                                         | [types/SearchResult.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/SearchResult.ts#L24) |
+| <a id="property-to"></a> `to`                 | `number`           | The ending position of the match in the document.                                                                          | [types/SearchResult.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/SearchResult.ts#L13) |

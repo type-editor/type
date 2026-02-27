@@ -10,7 +10,7 @@
 function syncNodeSelection(view, sel): void;
 ```
 
-Defined in: [sync-node-selection.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/selection-util/src/selection/sync-node-selection.ts#L15)
+Defined in: [sync-node-selection.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/selection-util/src/selection/sync-node-selection.ts#L15)
 
 Synchronizes node selection state between ProseMirror and the DOM.
 

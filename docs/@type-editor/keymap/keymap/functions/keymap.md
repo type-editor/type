@@ -10,7 +10,7 @@
 function keymap(bindings): Plugin_2;
 ```
 
-Defined in: [keymap.ts:43](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/keymap/src/keymap.ts#L43)
+Defined in: [keymap.ts:43](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/keymap/src/keymap.ts#L43)
 
 Creates a keymap plugin for the given set of key bindings.
 

@@ -6,7 +6,7 @@
 
 # Interface: RopeSequence&lt;T&gt;
 
-Defined in: [types/RopeSequence.ts:2](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L2)
+Defined in: [types/RopeSequence.ts:2](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L2)
 
 ## Type Parameters
 
@@ -18,8 +18,8 @@ Defined in: [types/RopeSequence.ts:2](https://github.com/type-editor/type/blob/8
 
 | Property                              | Modifier   | Type     | Description                                                                                                           | Defined in                                                                                                                                                   |
 | ------------------------------------- | ---------- | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-depth"></a> `depth`   | `readonly` | `number` | The depth of the tree structure. Leaf nodes have depth 0, internal nodes have depth max(left.depth, right.depth) + 1. | [types/RopeSequence.ts:8](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L8)   |
-| <a id="property-length"></a> `length` | `readonly` | `number` | The total number of elements in this rope sequence.                                                                   | [types/RopeSequence.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L13) |
+| <a id="property-depth"></a> `depth`   | `readonly` | `number` | The depth of the tree structure. Leaf nodes have depth 0, internal nodes have depth max(left.depth, right.depth) + 1. | [types/RopeSequence.ts:8](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L8)   |
+| <a id="property-length"></a> `length` | `readonly` | `number` | The total number of elements in this rope sequence.                                                                   | [types/RopeSequence.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L13) |
 
 ## Methods
 
@@ -29,7 +29,7 @@ Defined in: [types/RopeSequence.ts:2](https://github.com/type-editor/type/blob/8
 append(other): RopeSequence<T>;
 ```
 
-Defined in: [types/RopeSequence.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L25)
+Defined in: [types/RopeSequence.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L25)
 
 Append an array or other rope to this one, returning a new rope.
 
@@ -57,7 +57,7 @@ A new rope sequence containing all elements from this rope followed by elements 
 appendInner(other): RopeSequence<T>;
 ```
 
-Defined in: [types/RopeSequence.ts:44](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L44)
+Defined in: [types/RopeSequence.ts:44](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L44)
 
 Internal method to create an Append node combining two ropes.
 Can be overridden by subclasses to implement balancing strategies.
@@ -82,7 +82,7 @@ A new rope sequence combining this and other
 flatten(): T[];
 ```
 
-Defined in: [types/RopeSequence.ts:101](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L101)
+Defined in: [types/RopeSequence.ts:101](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L101)
 
 #### Returns
 
@@ -99,7 +99,7 @@ forEach(
    to?): void;
 ```
 
-Defined in: [types/RopeSequence.ts:81](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L81)
+Defined in: [types/RopeSequence.ts:81](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L81)
 
 Call the given function for each element between the given indices.
 
@@ -132,7 +132,7 @@ forEachInner(
    start): boolean;
 ```
 
-Defined in: [types/RopeSequence.ts:107](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L107)
+Defined in: [types/RopeSequence.ts:107](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L107)
 
 #### Parameters
 
@@ -159,7 +159,7 @@ forEachInvertedInner(
    start): boolean;
 ```
 
-Defined in: [types/RopeSequence.ts:109](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L109)
+Defined in: [types/RopeSequence.ts:109](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L109)
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: [types/RopeSequence.ts:109](https://github.com/type-editor/type/blob
 get(i): T;
 ```
 
-Defined in: [types/RopeSequence.ts:67](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L67)
+Defined in: [types/RopeSequence.ts:67](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L67)
 
 Retrieve the element at the given position from this rope.
 
@@ -209,7 +209,7 @@ The element at the specified index, or undefined if the index is out of bounds
 leafAppend(other): RopeSequence<T>;
 ```
 
-Defined in: [types/RopeSequence.ts:103](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L103)
+Defined in: [types/RopeSequence.ts:103](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L103)
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: [types/RopeSequence.ts:103](https://github.com/type-editor/type/blob
 leafPrepend(other): RopeSequence<T>;
 ```
 
-Defined in: [types/RopeSequence.ts:105](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L105)
+Defined in: [types/RopeSequence.ts:105](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L105)
 
 #### Parameters
 
@@ -252,7 +252,7 @@ map<U>(
    to): U[];
 ```
 
-Defined in: [types/RopeSequence.ts:97](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L97)
+Defined in: [types/RopeSequence.ts:97](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L97)
 
 Map the given function over the elements of the rope, producing a flat array.
 
@@ -287,7 +287,7 @@ A new array containing the transformed elements
 prepend(other): RopeSequence<T>;
 ```
 
-Defined in: [types/RopeSequence.ts:35](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L35)
+Defined in: [types/RopeSequence.ts:35](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L35)
 
 Prepend an array or other rope to this one, returning a new rope.
 
@@ -313,7 +313,7 @@ A new rope sequence containing all elements from other followed by elements from
 slice(from?, to?): RopeSequence<T>;
 ```
 
-Defined in: [types/RopeSequence.ts:56](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/types/RopeSequence.ts#L56)
+Defined in: [types/RopeSequence.ts:56](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/types/RopeSequence.ts#L56)
 
 Create a rope representing a sub-sequence of this rope.
 

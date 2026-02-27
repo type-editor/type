@@ -6,7 +6,7 @@
 
 # Class: PmMapResult
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:32](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L32)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:32](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L32)
 
 An object representing a mapped position with additional information about the mapping.
 
@@ -52,7 +52,7 @@ new PmMapResult(
    recover): PmMapResult;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:85](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L85)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:85](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L85)
 
 Create a mapping result object.
 
@@ -91,7 +91,7 @@ const resultWithRecover = new MapResult(10, DeletionInfo.AFTER, 12345);
 get deleted(): boolean;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:214](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L214)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:214](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L214)
 
 Indicates whether the position was deleted during the transformation.
 
@@ -143,7 +143,7 @@ MapResult.deleted;
 get deletedAcross(): boolean;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:310](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L310)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:310](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L310)
 
 Indicates whether a deletion spanned across the position.
 
@@ -194,7 +194,7 @@ MapResult.deletedAcross;
 get deletedAfter(): boolean;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:277](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L277)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:277](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L277)
 
 Indicates whether content immediately after the mapped position was deleted.
 
@@ -244,7 +244,7 @@ MapResult.deletedAfter;
 get deletedBefore(): boolean;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:246](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L246)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:246](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L246)
 
 Indicates whether content immediately before the mapped position was deleted.
 
@@ -294,7 +294,7 @@ MapResult.deletedBefore;
 get delInfo(): number;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:145](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L145)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:145](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L145)
 
 Bitwise flags indicating what content was deleted at the mapped position.
 
@@ -348,7 +348,7 @@ MapResult.delInfo;
 get pos(): number;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:110](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L110)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:110](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L110)
 
 The mapped position in the transformed document.
 
@@ -388,7 +388,7 @@ MapResult.pos;
 get recover(): number;
 ```
 
-Defined in: [packages/transform/src/change-map/PmMapResult.ts:181](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-map/PmMapResult.ts#L181)
+Defined in: [packages/transform/src/change-map/PmMapResult.ts:181](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/PmMapResult.ts#L181)
 
 Recovery value for mapping through mirrored transformations, or `null`.
 

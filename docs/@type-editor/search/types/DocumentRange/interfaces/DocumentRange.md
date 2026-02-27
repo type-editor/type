@@ -6,7 +6,7 @@
 
 # Interface: DocumentRange
 
-Defined in: [types/DocumentRange.ts:4](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/DocumentRange.ts#L4)
+Defined in: [types/DocumentRange.ts:4](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/DocumentRange.ts#L4)
 
 Represents a range in the document.
 
@@ -14,5 +14,5 @@ Represents a range in the document.
 
 | Property                          | Type     | Defined in                                                                                                                                                  |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-from"></a> `from` | `number` | [types/DocumentRange.ts:5](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/DocumentRange.ts#L5) |
-| <a id="property-to"></a> `to`     | `number` | [types/DocumentRange.ts:6](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/types/DocumentRange.ts#L6) |
+| <a id="property-from"></a> `from` | `number` | [types/DocumentRange.ts:5](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/DocumentRange.ts#L5) |
+| <a id="property-to"></a> `to`     | `number` | [types/DocumentRange.ts:6](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/DocumentRange.ts#L6) |

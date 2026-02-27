@@ -10,7 +10,7 @@
 function looksLikeBackspaceKey(view, doc, change, $from, $to): boolean;
 ```
 
-Defined in: [parse-change/looks-like-backspace-key.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-change-util/src/dom-change/parse-change/looks-like-backspace-key.ts#L33)
+Defined in: [parse-change/looks-like-backspace-key.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-change-util/src/dom-change/parse-change/looks-like-backspace-key.ts#L33)
 
 Checks if the change looks like the effect of pressing the Backspace key.
 

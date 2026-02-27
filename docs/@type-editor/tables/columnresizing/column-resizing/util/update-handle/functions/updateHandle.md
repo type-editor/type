@@ -10,7 +10,7 @@
 function updateHandle(view, value): void;
 ```
 
-Defined in: [tables/src/columnresizing/column-resizing/util/update-handle.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/columnresizing/column-resizing/util/update-handle.ts#L11)
+Defined in: [tables/src/columnresizing/column-resizing/util/update-handle.ts:11](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/columnresizing/column-resizing/util/update-handle.ts#L11)
 
 Updates the active resize handle position by dispatching a transaction.
 

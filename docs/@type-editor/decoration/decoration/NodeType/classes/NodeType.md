@@ -6,7 +6,7 @@
 
 # Class: NodeType
 
-Defined in: [decoration/NodeType.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L19)
+Defined in: [decoration/NodeType.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L19)
 
 Node decoration type that applies styling or attributes to an entire
 node in the document. Node decorations span exactly one node.
@@ -32,7 +32,7 @@ They wrap the entire node's DOM representation.
 new NodeType(attrs, spec?): NodeType;
 ```
 
-Defined in: [decoration/NodeType.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L31)
+Defined in: [decoration/NodeType.ts:31](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L31)
 
 Creates a new node decoration type.
 
@@ -55,8 +55,8 @@ Creates a new node decoration type.
 
 | Property                                                                                | Modifier   | Type                              | Default value | Description                                                              | Inherited from                                                                                                                                                                                                                          | Defined in                                                                                                                                                                                    |
 | --------------------------------------------------------------------------------------- | ---------- | --------------------------------- | ------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-side"></a> `side`                                                       | `readonly` | `0`                               | `0`           | Node decorations have no side preference since they wrap an entire node. | -                                                                                                                                                                                                                                       | [decoration/NodeType.ts:46](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L46)                             |
-| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations       | [`AbstractDecorationType`](../../AbstractDecorationType/classes/AbstractDecorationType.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationType/classes/AbstractDecorationType.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
+| <a id="property-side"></a> `side`                                                       | `readonly` | `0`                               | `0`           | Node decorations have no side preference since they wrap an entire node. | -                                                                                                                                                                                                                                       | [decoration/NodeType.ts:46](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L46)                             |
+| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations       | [`AbstractDecorationType`](../../AbstractDecorationType/classes/AbstractDecorationType.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationType/classes/AbstractDecorationType.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
 
 ## Accessors
 
@@ -68,7 +68,7 @@ Creates a new node decoration type.
 get attrs(): DecorationAttrs;
 ```
 
-Defined in: [decoration/NodeType.ts:37](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L37)
+Defined in: [decoration/NodeType.ts:37](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L37)
 
 ##### Returns
 
@@ -84,7 +84,7 @@ Defined in: [decoration/NodeType.ts:37](https://github.com/type-editor/type/blob
 get spec(): NodeDecorationOptions;
 ```
 
-Defined in: [decoration/NodeType.ts:53](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L53)
+Defined in: [decoration/NodeType.ts:53](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L53)
 
 Get the specification object for this node decoration.
 
@@ -108,7 +108,7 @@ DecorationType.spec;
 protected compareObjs(a, b): boolean;
 ```
 
-Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
+Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
 
 Deep comparison of two objects to check if they have the same properties
 and values. This is used to determine if two decoration specs are equal.
@@ -138,7 +138,7 @@ True if objects are equal, false otherwise
 destroy(): void;
 ```
 
-Defined in: [decoration/NodeType.ts:119](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L119)
+Defined in: [decoration/NodeType.ts:119](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L119)
 
 Clean up this decoration. Node decorations have no cleanup needed.
 
@@ -160,7 +160,7 @@ DecorationType.destroy;
 eq(other): boolean;
 ```
 
-Defined in: [decoration/NodeType.ts:109](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L109)
+Defined in: [decoration/NodeType.ts:109](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L109)
 
 Check if this node type is equal to another decoration type.
 
@@ -194,7 +194,7 @@ map(
    oldOffset): PmDecoration;
 ```
 
-Defined in: [decoration/NodeType.ts:66](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L66)
+Defined in: [decoration/NodeType.ts:66](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L66)
 
 Map this decoration through a document change.
 
@@ -227,7 +227,7 @@ DecorationType.map;
 valid(node, span): boolean;
 ```
 
-Defined in: [decoration/NodeType.ts:90](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/NodeType.ts#L90)
+Defined in: [decoration/NodeType.ts:90](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/NodeType.ts#L90)
 
 Check if this node decoration is valid for the given node and span.
 A node decoration is valid only if it spans exactly one non-text node.

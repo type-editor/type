@@ -17,7 +17,7 @@ function caretFromPoint(
 };
 ```
 
-Defined in: [caret-from-point.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/selection-util/src/selection/caret-from-point.ts#L31)
+Defined in: [caret-from-point.ts:31](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/selection-util/src/selection/caret-from-point.ts#L31)
 
 Gets the caret position from a point in the document.
 
@@ -49,8 +49,8 @@ An object containing the node and offset at the point, or undefined if not found
 
 | Name     | Type     | Defined in                                                                                                                                                                |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `node`   | `Node`   | [caret-from-point.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/selection-util/src/selection/caret-from-point.ts#L33) |
-| `offset` | `number` | [caret-from-point.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/selection-util/src/selection/caret-from-point.ts#L33) |
+| `node`   | `Node`   | [caret-from-point.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/selection-util/src/selection/caret-from-point.ts#L33) |
+| `offset` | `number` | [caret-from-point.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/selection-util/src/selection/caret-from-point.ts#L33) |
 
 ## Example
 

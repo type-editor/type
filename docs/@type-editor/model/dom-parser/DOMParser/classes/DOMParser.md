@@ -6,7 +6,7 @@
 
 # Class: DOMParser
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:39](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L39)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:39](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L39)
 
 A DOM parser represents a strategy for parsing DOM content into a
 ProseMirror document conforming to a given schema. Its behavior is
@@ -37,7 +37,7 @@ const slice = parser.parseSlice(domElement);
 new DOMParser(schema, rules): DOMParser;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:117](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L117)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:117](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L117)
 
 Create a parser that targets the given schema, using the given
 parsing rules.
@@ -67,7 +67,7 @@ is needed based on the schema's content model.
 get matchedStyles(): readonly string[];
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:140](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L140)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:140](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L140)
 
 Get the list of CSS property names that have associated style parse rules.
 
@@ -90,7 +90,7 @@ A readonly array of CSS property names (e.g., ["font-weight", "color"]).
 get normalizeLists(): boolean;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:152](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L152)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:152](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L152)
 
 Get whether list normalization should be performed during parsing.
 
@@ -113,7 +113,7 @@ True if list normalization should be performed, false otherwise.
 get schema(): Schema;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:161](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L161)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:161](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L161)
 
 Get the ProseMirror schema this parser targets.
 
@@ -135,7 +135,7 @@ matchStyle(
    after?): StyleParseRule;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:404](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L404)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:404](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L404)
 
 Find the first matching style parse rule for the given CSS property and value.
 
@@ -187,7 +187,7 @@ matchTag(
    after?): TagParseRule;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:343](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L343)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:343](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L343)
 
 Find the first matching tag parse rule for the given DOM element.
 
@@ -225,7 +225,7 @@ which relies on the attrs being set on the rule object.
 parse(dom, options?): Node;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:465](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L465)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:465](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L465)
 
 Parse a document from the content of a DOM node.
 
@@ -271,7 +271,7 @@ const doc2 = parser.parse(domElement, {
 parseSlice(dom, options?): Slice;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:521](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L521)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:521](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L521)
 
 Parses the content of the given DOM node, like
 [`parse`](#model.DOMParser.parse), and takes the same set of
@@ -321,7 +321,7 @@ const tr = state.tr.replaceRange(from, to, slice);
 static fromSchema(schema): DOMParser;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:199](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L199)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:199](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L199)
 
 Construct a DOM parser using the parsing rules listed in a
 schema's [node specs](#model.NodeSpec.parseDOM) and
@@ -372,7 +372,7 @@ const doc = parser.parse(document.querySelector("#content"));
 static schemaRules(schema): ParseRule[];
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParser.ts:235](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParser.ts#L235)
+Defined in: [packages/model/src/dom-parser/DOMParser.ts:235](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/DOMParser.ts#L235)
 
 Extract and combine all parsing rules from a schema's node and mark specifications,
 sorted by priority (higher priority rules come first).

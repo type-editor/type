@@ -6,7 +6,7 @@
 
 # Class: TokenStream
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:7](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L7)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:7](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L7)
 
 Tokenizes and provides streaming access to a content expression string.
 Splits the expression into individual tokens for parsing.
@@ -19,7 +19,7 @@ Splits the expression into individual tokens for parsing.
 new TokenStream(expression, nodeTypes): TokenStream;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L26)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:26](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L26)
 
 Creates a new token stream from a content expression string.
 
@@ -44,7 +44,7 @@ Creates a new token stream from a content expression string.
 get inline(): boolean;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:48](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L48)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:48](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L48)
 
 Tracks whether the expression contains inline content (true),
 block content (false), or hasn't been determined yet (null).
@@ -60,7 +60,7 @@ Used to prevent mixing inline and block content in expressions.
 set inline(isInline): void;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:52](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L52)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:52](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L52)
 
 ##### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [packages/model/src/content-parser/TokenStream.ts:52](https://github
 get next(): string;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:88](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L88)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:88](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L88)
 
 Gets the current token without consuming it.
 
@@ -102,7 +102,7 @@ The current token, or undefined if at end of stream
 get nodeTypes(): Readonly<Record<string, NodeType>>;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:79](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L79)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:79](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L79)
 
 Map of available node types for name resolution
 
@@ -120,7 +120,7 @@ Map of available node types for name resolution
 get pos(): number;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L59)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:59](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L59)
 
 Current position in the token array
 
@@ -134,7 +134,7 @@ Current position in the token array
 set pos(position): void;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:69](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L69)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:69](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L69)
 
 Current position in the token array
 
@@ -160,7 +160,7 @@ If position is negative
 eat(tok): boolean;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:99](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L99)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:99](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L99)
 
 Attempts to consume a specific token.
 If the current token matches, advances the position and returns true.
@@ -185,7 +185,7 @@ true if the token was consumed, false otherwise
 err(str): never;
 ```
 
-Defined in: [packages/model/src/content-parser/TokenStream.ts:113](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/content-parser/TokenStream.ts#L113)
+Defined in: [packages/model/src/content-parser/TokenStream.ts:113](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/TokenStream.ts#L113)
 
 Throws a syntax error with context about the content expression.
 

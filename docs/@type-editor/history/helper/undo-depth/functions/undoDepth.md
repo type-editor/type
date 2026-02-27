@@ -10,7 +10,7 @@
 function undoDepth(state): number;
 ```
 
-Defined in: [helper/undo-depth.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/helper/undo-depth.ts#L21)
+Defined in: [helper/undo-depth.ts:21](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/helper/undo-depth.ts#L21)
 
 Returns the number of undoable events available in the editor's history.
 

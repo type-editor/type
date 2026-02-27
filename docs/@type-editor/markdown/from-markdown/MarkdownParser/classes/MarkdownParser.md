@@ -6,7 +6,7 @@
 
 # Class: MarkdownParser
 
-Defined in: [from-markdown/MarkdownParser.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/from-markdown/MarkdownParser.ts#L16)
+Defined in: [from-markdown/MarkdownParser.ts:16](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParser.ts#L16)
 
 A configuration of a Markdown parser. Such a parser uses
 [markdown-it](https://github.com/markdown-it/markdown-it) to
@@ -24,7 +24,7 @@ new MarkdownParser(
    tokens): MarkdownParser;
 ```
 
-Defined in: [from-markdown/MarkdownParser.ts:36](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/from-markdown/MarkdownParser.ts#L36)
+Defined in: [from-markdown/MarkdownParser.ts:36](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParser.ts#L36)
 
 Create a parser with the given configuration. You can configure
 the markdown-it parser to parse the dialect you want, and provide
@@ -49,9 +49,9 @@ have the following properties:
 
 | Property                                    | Modifier   | Type                                                                                      | Defined in                                                                                                                                                                        |
 | ------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-schema"></a> `schema`       | `readonly` | `Schema`                                                                                  | [from-markdown/MarkdownParser.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/from-markdown/MarkdownParser.ts#L18) |
-| <a id="property-tokenizer"></a> `tokenizer` | `readonly` | `MarkdownIt`                                                                              | [from-markdown/MarkdownParser.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/from-markdown/MarkdownParser.ts#L19) |
-| <a id="property-tokens"></a> `tokens`       | `readonly` | `Record`&lt;`string`, [`ParseSpec`](../../../types/ParseSpec/interfaces/ParseSpec.md)&gt; | [from-markdown/MarkdownParser.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/from-markdown/MarkdownParser.ts#L20) |
+| <a id="property-schema"></a> `schema`       | `readonly` | `Schema`                                                                                  | [from-markdown/MarkdownParser.ts:18](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParser.ts#L18) |
+| <a id="property-tokenizer"></a> `tokenizer` | `readonly` | `MarkdownIt`                                                                              | [from-markdown/MarkdownParser.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParser.ts#L19) |
+| <a id="property-tokens"></a> `tokens`       | `readonly` | `Record`&lt;`string`, [`ParseSpec`](../../../types/ParseSpec/interfaces/ParseSpec.md)&gt; | [from-markdown/MarkdownParser.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParser.ts#L20) |
 
 ## Methods
 
@@ -61,7 +61,7 @@ have the following properties:
 parse(text, markdownEnv?): Node_2;
 ```
 
-Defined in: [from-markdown/MarkdownParser.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/from-markdown/MarkdownParser.ts#L59)
+Defined in: [from-markdown/MarkdownParser.ts:59](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParser.ts#L59)
 
 Parse a string as [CommonMark](http://commonmark.org/) markup,
 and create a ProseMirror document as prescribed by this parser's

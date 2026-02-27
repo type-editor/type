@@ -10,7 +10,7 @@
 function isCellSelection(value): value is CellSelection;
 ```
 
-Defined in: [tables/src/utils/query.ts:70](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/query.ts#L70)
+Defined in: [tables/src/utils/query.ts:70](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/utils/query.ts#L70)
 
 Type guard to check if a value is a [CellSelection](../../../cellselection/CellSelection/classes/CellSelection.md) instance.
 

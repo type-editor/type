@@ -10,7 +10,7 @@
 function moveSelectionBlock(state, dir): Selection_2;
 ```
 
-Defined in: [util/move-selection-block.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/util/move-selection-block.ts#L13)
+Defined in: [util/move-selection-block.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/util/move-selection-block.ts#L13)
 
 Moves the selection to the next or previous block-level position.
 

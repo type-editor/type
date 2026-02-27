@@ -6,7 +6,7 @@
 
 # Class: EditorView
 
-Defined in: [EditorView.ts:68](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L68)
+Defined in: [EditorView.ts:68](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L68)
 
 An editor view manages the DOM structure that represents an
 editable document. Its state and behavior are determined by its
@@ -32,7 +32,7 @@ The view is responsible for:
 new EditorView(editorContainer, props): EditorView;
 ```
 
-Defined in: [EditorView.ts:200](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L200)
+Defined in: [EditorView.ts:200](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L200)
 
 Create a view. `place` may be a DOM node that the editor should
 be appended to, a function that will place it into the document,
@@ -84,7 +84,7 @@ const view = new EditorView(
 get composing(): boolean;
 ```
 
-Defined in: [EditorView.ts:466](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L466)
+Defined in: [EditorView.ts:466](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L466)
 
 Holds `true` when a
 [composition](https://w3c.github.io/uievents/#events-compositionevents)
@@ -113,7 +113,7 @@ get cursorWrapper(): {
 };
 ```
 
-Defined in: [EditorView.ts:361](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L361)
+Defined in: [EditorView.ts:361](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L361)
 
 The cursor wrapper widget decoration used to display stored marks
 when the cursor is at a position with no text.
@@ -129,8 +129,8 @@ when the cursor is at a position with no text.
 
 | Name   | Type           | Defined in                                                                                                                                  |
 | ------ | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `deco` | `PmDecoration` | [EditorView.ts:361](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L361) |
-| `dom`  | `Node`         | [EditorView.ts:361](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L361) |
+| `deco` | `PmDecoration` | [EditorView.ts:361](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L361) |
+| `dom`  | `Node`         | [EditorView.ts:361](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L361) |
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ PmEditorView.cursorWrapper;
 get docView(): NodeViewDesc;
 ```
 
-Defined in: [EditorView.ts:376](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L376)
+Defined in: [EditorView.ts:376](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L376)
 
 The document view descriptor, representing the entire document's
 DOM structure.
@@ -173,7 +173,7 @@ PmEditorView.docView;
 get dom(): HTMLElement;
 ```
 
-Defined in: [EditorView.ts:427](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L427)
+Defined in: [EditorView.ts:427](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L427)
 
 The editor's DOM node. This is the element that should be placed
 in the document.
@@ -198,7 +198,7 @@ PmEditorView.dom;
 get domObserver(): DOMObserver;
 ```
 
-Defined in: [EditorView.ts:450](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L450)
+Defined in: [EditorView.ts:450](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L450)
 
 **`Internal`**
 
@@ -224,7 +224,7 @@ PmEditorView.domObserver;
 get dragging(): Dragging;
 ```
 
-Defined in: [EditorView.ts:411](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L411)
+Defined in: [EditorView.ts:411](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L411)
 
 When editor content is being dragged, this contains information
 about the dragged slice and whether it is being copied or moved.
@@ -240,7 +240,7 @@ At any other time, it is null.
 set dragging(dragging): void;
 ```
 
-Defined in: [EditorView.ts:419](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L419)
+Defined in: [EditorView.ts:419](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L419)
 
 Sets the current dragging state.
 
@@ -270,7 +270,7 @@ PmEditorView.dragging;
 get editable(): boolean;
 ```
 
-Defined in: [EditorView.ts:434](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L434)
+Defined in: [EditorView.ts:434](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L434)
 
 Indicates whether the editor is currently editable.
 
@@ -294,7 +294,7 @@ PmEditorView.editable;
 get focused(): boolean;
 ```
 
-Defined in: [EditorView.ts:328](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L328)
+Defined in: [EditorView.ts:328](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L328)
 
 **`Internal`**
 
@@ -310,7 +310,7 @@ Indicates whether the view currently has focus.
 set focused(focused): void;
 ```
 
-Defined in: [EditorView.ts:337](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L337)
+Defined in: [EditorView.ts:337](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L337)
 
 **`Internal`**
 
@@ -342,7 +342,7 @@ PmEditorView.focused;
 get input(): InputState;
 ```
 
-Defined in: [EditorView.ts:442](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L442)
+Defined in: [EditorView.ts:442](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L442)
 
 **`Internal`**
 
@@ -368,7 +368,7 @@ PmEditorView.input;
 get isDestroyed(): boolean;
 ```
 
-Defined in: [EditorView.ts:475](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L475)
+Defined in: [EditorView.ts:475](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L475)
 
 This is true when the view has been
 [destroyed](#view.EditorView.destroy) (and thus should not be
@@ -394,7 +394,7 @@ PmEditorView.isDestroyed;
 get lastSelectedViewDesc(): ViewDesc;
 ```
 
-Defined in: [EditorView.ts:384](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L384)
+Defined in: [EditorView.ts:384](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L384)
 
 **`Internal`**
 
@@ -410,7 +410,7 @@ The view descriptor that was last selected (for internal use).
 set lastSelectedViewDesc(lastSelectedViewDesc): void;
 ```
 
-Defined in: [EditorView.ts:393](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L393)
+Defined in: [EditorView.ts:393](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L393)
 
 **`Internal`**
 
@@ -442,7 +442,7 @@ PmEditorView.lastSelectedViewDesc;
 get markCursor(): readonly Mark[];
 ```
 
-Defined in: [EditorView.ts:345](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L345)
+Defined in: [EditorView.ts:345](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L345)
 
 The marks that should be applied to the next input. This is used
 to represent stored marks in a zero-width position.
@@ -457,7 +457,7 @@ readonly `Mark`[]
 set markCursor(markCursor): void;
 ```
 
-Defined in: [EditorView.ts:353](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L353)
+Defined in: [EditorView.ts:353](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L353)
 
 Sets the marks to be applied to the next input.
 
@@ -487,7 +487,7 @@ PmEditorView.markCursor;
 get nodeViews(): Readonly<NodeViewSet>;
 ```
 
-Defined in: [EditorView.ts:368](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L368)
+Defined in: [EditorView.ts:368](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L368)
 
 The set of node and mark view constructors currently in use.
 
@@ -511,7 +511,7 @@ PmEditorView.nodeViews;
 get props(): Readonly<DirectEditorProps>;
 ```
 
-Defined in: [EditorView.ts:275](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L275)
+Defined in: [EditorView.ts:275](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L275)
 
 The view's current [props](#view.EditorProps).
 Returns a frozen copy of the props with the current state.
@@ -536,7 +536,7 @@ PmEditorView.props;
 get root(): Document | ShadowRoot;
 ```
 
-Defined in: [EditorView.ts:294](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L294)
+Defined in: [EditorView.ts:294](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L294)
 
 Get the document root in which the editor exists. This will
 usually be the top-level `document`, but might be a [shadow
@@ -563,7 +563,7 @@ PmEditorView.root;
 get state(): EditorState;
 ```
 
-Defined in: [EditorView.ts:457](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L457)
+Defined in: [EditorView.ts:457](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L457)
 
 The view's current editor state.
 
@@ -587,7 +587,7 @@ PmEditorView.state;
 get trackWrites(): Node;
 ```
 
-Defined in: [EditorView.ts:402](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L402)
+Defined in: [EditorView.ts:402](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L402)
 
 **`Internal`**
 
@@ -612,7 +612,7 @@ PmEditorView.trackWrites;
 addPlugin(plugin): void;
 ```
 
-Defined in: [EditorView.ts:547](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L547)
+Defined in: [EditorView.ts:547](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L547)
 
 Dynamically adds a plugin to the editor view. The plugin must not have
 state components (state, filterTransaction, or appendTransaction) - such
@@ -657,7 +657,7 @@ PmEditorView.addPlugin;
 clearTrackWrites(): void;
 ```
 
-Defined in: [EditorView.ts:562](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L562)
+Defined in: [EditorView.ts:562](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L562)
 
 **`Internal`**
 
@@ -686,7 +686,7 @@ coordsAtPos(pos, side?): {
 };
 ```
 
-Defined in: [EditorView.ts:856](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L856)
+Defined in: [EditorView.ts:856](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L856)
 
 Returns the viewport rectangle at a given document position.
 `left` and `right` will be the same number, as this returns a
@@ -717,10 +717,10 @@ An object with left, right, top, and bottom properties
 
 | Name     | Type     | Defined in                                                                                                                                  |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `bottom` | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L856) |
-| `left`   | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L856) |
-| `right`  | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L856) |
-| `top`    | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L856) |
+| `bottom` | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L856) |
+| `left`   | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L856) |
+| `right`  | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L856) |
+| `top`    | `number` | [EditorView.ts:856](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L856) |
 
 #### Example
 
@@ -749,7 +749,7 @@ PmEditorView.coordsAtPos;
 destroy(): void;
 ```
 
-Defined in: [EditorView.ts:990](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L990)
+Defined in: [EditorView.ts:990](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L990)
 
 Removes the editor from the DOM and destroys all [node
 views](#view.NodeView). After calling this method, the view
@@ -784,7 +784,7 @@ PmEditorView.destroy;
 dispatch(transaction): void;
 ```
 
-Defined in: [EditorView.ts:1085](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L1085)
+Defined in: [EditorView.ts:1085](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L1085)
 
 Dispatch a transaction. Will call
 [`dispatchTransaction`](#view.DirectEditorProps.dispatchTransaction)
@@ -829,7 +829,7 @@ PmEditorView.dispatch;
 dispatchEvent(event): void;
 ```
 
-Defined in: [EditorView.ts:1023](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L1023)
+Defined in: [EditorView.ts:1023](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L1023)
 
 Used for testing. Dispatches a DOM event to the input state handler.
 
@@ -860,7 +860,7 @@ domAtPos(pos, side?): {
 };
 ```
 
-Defined in: [EditorView.ts:874](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L874)
+Defined in: [EditorView.ts:874](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L874)
 
 Find the DOM position that corresponds to the given document
 position. When `side` is negative, find the position as close as
@@ -891,8 +891,8 @@ An object with the DOM node and offset
 
 | Name     | Type     | Defined in                                                                                                                                  |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `node`   | `Node`   | [EditorView.ts:874](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L874) |
-| `offset` | `number` | [EditorView.ts:874](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L874) |
+| `node`   | `Node`   | [EditorView.ts:874](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L874) |
+| `offset` | `number` | [EditorView.ts:874](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L874) |
 
 #### Implementation of
 
@@ -908,7 +908,7 @@ PmEditorView.domAtPos;
 domSelection(): Selection;
 ```
 
-Defined in: [EditorView.ts:1060](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L1060)
+Defined in: [EditorView.ts:1060](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L1060)
 
 Gets the current DOM selection object.
 
@@ -932,7 +932,7 @@ PmEditorView.domSelection;
 domSelectionRange(): DOMSelectionRange;
 ```
 
-Defined in: [EditorView.ts:1032](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L1032)
+Defined in: [EditorView.ts:1032](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L1032)
 
 Gets the current DOM selection range, with workarounds for Safari shadow DOM.
 
@@ -956,7 +956,7 @@ PmEditorView.domSelectionRange;
 endOfTextblock(dir, state?): boolean;
 ```
 
-Defined in: [EditorView.ts:932](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L932)
+Defined in: [EditorView.ts:932](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L932)
 
 Find out whether the selection is at the end of a textblock when
 moving in a given direction. When, for example, given `'left'`,
@@ -992,7 +992,7 @@ PmEditorView.endOfTextblock;
 focus(): void;
 ```
 
-Defined in: [EditorView.ts:788](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L788)
+Defined in: [EditorView.ts:788](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L788)
 
 Focus the editor.
 
@@ -1027,7 +1027,7 @@ PmEditorView.focus;
 hasFocus(): boolean;
 ```
 
-Defined in: [EditorView.ts:752](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L752)
+Defined in: [EditorView.ts:752](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L752)
 
 Query whether the view has focus.
 
@@ -1060,7 +1060,7 @@ PmEditorView.hasFocus;
 nodeDOM(pos): Node;
 ```
 
-Defined in: [EditorView.ts:891](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L891)
+Defined in: [EditorView.ts:891](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L891)
 
 Find the DOM node that represents the document node after the
 given position. May return `null` when the position doesn't point
@@ -1097,7 +1097,7 @@ PmEditorView.nodeDOM;
 pasteHTML(html, event?): boolean;
 ```
 
-Defined in: [EditorView.ts:945](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L945)
+Defined in: [EditorView.ts:945](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L945)
 
 Run the editor's paste logic with the given HTML string. The
 `event`, if given, will be passed to the
@@ -1130,7 +1130,7 @@ PmEditorView.pasteHTML;
 pasteText(text, event?): boolean;
 ```
 
-Defined in: [EditorView.ts:956](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L956)
+Defined in: [EditorView.ts:956](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L956)
 
 Run the editor's paste logic with the given plain-text input.
 
@@ -1164,7 +1164,7 @@ posAtCoords(coords): {
 };
 ```
 
-Defined in: [EditorView.ts:828](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L828)
+Defined in: [EditorView.ts:828](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L828)
 
 Given a pair of viewport coordinates, return the document
 position that corresponds to them. May return null if the given
@@ -1195,8 +1195,8 @@ An object with pos and inside properties, or null if outside editor
 
 | Name     | Type     | Defined in                                                                                                                                  |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `inside` | `number` | [EditorView.ts:828](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L828) |
-| `pos`    | `number` | [EditorView.ts:828](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L828) |
+| `inside` | `number` | [EditorView.ts:828](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L828) |
+| `pos`    | `number` | [EditorView.ts:828](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L828) |
 
 #### Example
 
@@ -1227,7 +1227,7 @@ posAtDOM(
    bias?): number;
 ```
 
-Defined in: [EditorView.ts:912](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L912)
+Defined in: [EditorView.ts:912](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L912)
 
 Find the document position that corresponds to a given DOM
 position. (Whenever possible, it is preferable to inspect the
@@ -1270,7 +1270,7 @@ PmEditorView.posAtDOM;
 scrollToSelection(): void;
 ```
 
-Defined in: [EditorView.ts:639](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L639)
+Defined in: [EditorView.ts:639](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L639)
 
 Scrolls the current selection into view if it's not already visible.
 
@@ -1296,7 +1296,7 @@ serializeForClipboard(slice): {
 };
 ```
 
-Defined in: [EditorView.ts:971](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L971)
+Defined in: [EditorView.ts:971](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L971)
 
 Serialize the given slice as it would be if it was copied from
 this editor. Returns a DOM element that contains a
@@ -1325,9 +1325,9 @@ An object containing the DOM representation, text, and transformed slice
 
 | Name    | Type          | Defined in                                                                                                                                  |
 | ------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`   | `HTMLElement` | [EditorView.ts:971](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L971) |
-| `slice` | `Slice`       | [EditorView.ts:971](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L971) |
-| `text`  | `string`      | [EditorView.ts:971](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L971) |
+| `dom`   | `HTMLElement` | [EditorView.ts:971](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L971) |
+| `slice` | `Slice`       | [EditorView.ts:971](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L971) |
+| `text`  | `string`      | [EditorView.ts:971](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L971) |
 
 #### Implementation of
 
@@ -1343,7 +1343,7 @@ PmEditorView.serializeForClipboard;
 setProps(props): void;
 ```
 
-Defined in: [EditorView.ts:610](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L610)
+Defined in: [EditorView.ts:610](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L610)
 
 Update the view by updating existing props object with the object
 given as argument. Equivalent to `view.update(Object.assign({},
@@ -1375,7 +1375,7 @@ PmEditorView.setProps;
 someProp<PropName, Result>(propName, callbackFunc): Result;
 ```
 
-Defined in: [EditorView.ts:688](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L688)
+Defined in: [EditorView.ts:688](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L688)
 
 Goes over the values of a prop, first those provided directly,
 then those from plugins given to the view, then from plugins in
@@ -1428,7 +1428,7 @@ PmEditorView.someProp;
 someProp<PropName>(propName): NonNullable<EditorProps<any>[PropName]>;
 ```
 
-Defined in: [EditorView.ts:693](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L693)
+Defined in: [EditorView.ts:693](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L693)
 
 Goes over the values of a prop, first those provided directly,
 then those from plugins given to the view, then from plugins in
@@ -1481,7 +1481,7 @@ PmEditorView.someProp;
 toHtml(): string;
 ```
 
-Defined in: [EditorView.ts:512](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L512)
+Defined in: [EditorView.ts:512](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L512)
 
 Converts the editor content to an HTML string with ProseMirror-specific
 classes removed. This provides a clean HTML representation suitable for
@@ -1516,7 +1516,7 @@ PmEditorView.toHtml;
 toJSON(pluginFields?): string;
 ```
 
-Defined in: [EditorView.ts:493](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L493)
+Defined in: [EditorView.ts:493](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L493)
 
 Serializes the current editor state to a JSON string.
 This can be used to save the editor content and state for persistence.
@@ -1555,7 +1555,7 @@ PmEditorView.toJSON;
 update(props): void;
 ```
 
-Defined in: [EditorView.ts:582](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L582)
+Defined in: [EditorView.ts:582](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L582)
 
 Update the view's props. Will immediately cause an update to
 the DOM.
@@ -1595,7 +1595,7 @@ PmEditorView.update;
 updateRoot(): void;
 ```
 
-Defined in: [EditorView.ts:801](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L801)
+Defined in: [EditorView.ts:801](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L801)
 
 When an existing editor view is moved to a new document or
 shadow tree, call this to make it recompute its root.
@@ -1618,7 +1618,7 @@ PmEditorView.updateRoot;
 updateState(state): void;
 ```
 
-Defined in: [EditorView.ts:632](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L632)
+Defined in: [EditorView.ts:632](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L632)
 
 Update the editor's `state` prop, without touching any of the
 other props.
@@ -1661,7 +1661,7 @@ static fromHTML(
    markViews?): EditorView;
 ```
 
-Defined in: [EditorView.ts:246](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L246)
+Defined in: [EditorView.ts:246](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L246)
 
 #### Parameters
 
@@ -1692,7 +1692,7 @@ static fromJSON(
    markViews?): EditorView;
 ```
 
-Defined in: [EditorView.ts:236](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/EditorView.ts#L236)
+Defined in: [EditorView.ts:236](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/view/src/EditorView.ts#L236)
 
 #### Parameters
 

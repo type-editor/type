@@ -10,7 +10,7 @@
 function fixTable(state, table, tablePos, transaction): PmTransaction;
 ```
 
-Defined in: [tables/src/fixtables/fix-table.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/fixtables/fix-table.ts#L22)
+Defined in: [tables/src/fixtables/fix-table.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/fixtables/fix-table.ts#L22)
 
 Fix the given table, if necessary. Will append to the transaction
 it was given, if non-null, or create a new one if necessary.

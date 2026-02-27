@@ -10,7 +10,7 @@
 const undoInputRule: Command;
 ```
 
-Defined in: [commands/undo-input-rule.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/inputrules/src/commands/undo-input-rule.ts#L15)
+Defined in: [commands/undo-input-rule.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/inputrules/src/commands/undo-input-rule.ts#L15)
 
 This is a command that will undo an input rule, if applying such a
 rule was the last thing that the user did.

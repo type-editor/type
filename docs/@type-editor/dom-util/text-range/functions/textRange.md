@@ -10,7 +10,7 @@
 function textRange(node, from?, to?): Range;
 ```
 
-Defined in: [text-range.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-util/src/dom/text-range.ts#L22)
+Defined in: [text-range.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-util/src/dom/text-range.ts#L22)
 
 Creates or reuses a DOM Range for a text node.
 

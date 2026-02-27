@@ -6,7 +6,7 @@
 
 # Interface: PmDecoration
 
-Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L16)
+Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:16](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L16)
 
 Decoration objects can be provided to the view through the
 [`decorations` prop](#view.EditorProps.decorations). They come in
@@ -21,12 +21,12 @@ results, and inline UI elements.
 
 | Property                              | Modifier   | Type                                                                    | Defined in                                                                                                                                                                                                                  |
 | ------------------------------------- | ---------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-from"></a> `from`     | `readonly` | `number`                                                                | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L18) |
-| <a id="property-inline"></a> `inline` | `readonly` | `boolean`                                                               | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L22) |
-| <a id="property-spec"></a> `spec`     | `readonly` | [`DecorationSpec`](../../DecorationSpec/type-aliases/DecorationSpec.md) | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L21) |
-| <a id="property-to"></a> `to`         | `readonly` | `number`                                                                | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L19) |
-| <a id="property-type"></a> `type`     | `readonly` | [`DecorationType`](../../DecorationType/interfaces/DecorationType.md)   | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L20) |
-| <a id="property-widget"></a> `widget` | `readonly` | `boolean`                                                               | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L23) |
+| <a id="property-from"></a> `from`     | `readonly` | `number`                                                                | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:18](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L18) |
+| <a id="property-inline"></a> `inline` | `readonly` | `boolean`                                                               | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L22) |
+| <a id="property-spec"></a> `spec`     | `readonly` | [`DecorationSpec`](../../DecorationSpec/type-aliases/DecorationSpec.md) | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:21](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L21) |
+| <a id="property-to"></a> `to`         | `readonly` | `number`                                                                | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L19) |
+| <a id="property-type"></a> `type`     | `readonly` | [`DecorationType`](../../DecorationType/interfaces/DecorationType.md)   | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L20) |
+| <a id="property-widget"></a> `widget` | `readonly` | `boolean`                                                               | [packages/editor-types/src/types/view/decoration/PmDecoration.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L23) |
 
 ## Methods
 
@@ -36,7 +36,7 @@ results, and inline UI elements.
 copy(from, to): PmDecoration;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:32](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L32)
+Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:32](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L32)
 
 Create a copy of this decoration with new positions.
 
@@ -61,7 +61,7 @@ A new decoration with the same type but different positions
 eq(other, offset?): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:41](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L41)
+Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:41](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L41)
 
 Check if this decoration is equal to another decoration.
 
@@ -89,7 +89,7 @@ map(
    oldOffset): PmDecoration;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:51](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L51)
+Defined in: [packages/editor-types/src/types/view/decoration/PmDecoration.ts:51](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/decoration/PmDecoration.ts#L51)
 
 Map this decoration through a document change.
 

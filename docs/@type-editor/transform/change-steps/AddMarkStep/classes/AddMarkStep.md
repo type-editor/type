@@ -6,7 +6,7 @@
 
 # Class: AddMarkStep
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L22)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L22)
 
 A step that adds a mark to all inline content between two positions.
 
@@ -36,7 +36,7 @@ new AddMarkStep(
    mark): AddMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:34](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L34)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:34](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L34)
 
 Create a mark step.
 
@@ -66,7 +66,7 @@ Create a mark step.
 get to(): number;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:43](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L43)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:43](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L43)
 
 ##### Returns
 
@@ -78,7 +78,7 @@ Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:43](https://gith
 set to(to): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:47](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L47)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:47](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L47)
 
 ##### Parameters
 
@@ -98,7 +98,7 @@ Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:47](https://gith
 apply(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:89](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L89)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:89](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L89)
 
 Apply this step to a document, adding the mark to all inline content in the range.
 
@@ -130,7 +130,7 @@ A StepResult indicating success (with the modified document) or failure (with er
 getMap(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L86)
+Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L86)
 
 Get the step map that represents the changes made by this step,
 and which can be used to transform between positions in the old
@@ -154,7 +154,7 @@ A StepMap describing the position changes, or StepMap.empty if no changes.
 invert(): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:119](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L119)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:119](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L119)
 
 Create an inverted version of this step that removes the mark.
 
@@ -179,7 +179,7 @@ A RemoveMarkStep that undoes this step by removing the added mark.
 map(mapping): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:133](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L133)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:133](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L133)
 
 Map this step through a mappable object, adjusting positions.
 
@@ -214,7 +214,7 @@ protected mapFragment(
    parent): Fragment;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L144)
+Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L144)
 
 Recursively map over inline nodes in a fragment, applying a callback function.
 
@@ -248,7 +248,7 @@ A new fragment with transformed nodes, preserving the structure.
 merge(other): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:153](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L153)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:153](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L153)
 
 Try to merge this step with another step for optimization.
 
@@ -280,7 +280,7 @@ A merged AddMarkStep covering the combined range if compatible, or null if the s
 toJSON(): StepJSON;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:173](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L173)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:173](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L173)
 
 Serialize this step to JSON for storage or transmission.
 
@@ -304,7 +304,7 @@ The JSON representation of this step including stepType, mark, from, and to prop
 static fromJSON(schema, json): AddMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:62](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AddMarkStep.ts#L62)
+Defined in: [packages/transform/src/change-steps/AddMarkStep.ts:62](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/AddMarkStep.ts#L62)
 
 Deserialize an AddMarkStep from its JSON representation.
 
@@ -340,7 +340,7 @@ When the JSON is invalid, positions are negative, from \> to, or mark is missing
 static registerStep(jsonId, stepClass): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L61)
+Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L61)
 
 To be able to serialize steps to JSON, each step needs a string
 ID to attach to its JSON representation. Use this method to

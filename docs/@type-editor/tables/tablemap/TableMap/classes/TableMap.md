@@ -6,7 +6,7 @@
 
 # Class: TableMap
 
-Defined in: [tables/src/tablemap/TableMap.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L15)
+Defined in: [tables/src/tablemap/TableMap.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L15)
 
 A table map describes the structure of a given table. To avoid
 recomputing them all the time, they are cached per table node. To
@@ -25,7 +25,7 @@ new TableMap(
    problems): TableMap;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L31)
+Defined in: [tables/src/tablemap/TableMap.ts:31](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L31)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [tables/src/tablemap/TableMap.ts:31](https://github.com/type-editor/
 get height(): number;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:53](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L53)
+Defined in: [tables/src/tablemap/TableMap.ts:53](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L53)
 
 ##### Returns
 
@@ -66,7 +66,7 @@ Defined in: [tables/src/tablemap/TableMap.ts:53](https://github.com/type-editor/
 get map(): number[];
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:57](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L57)
+Defined in: [tables/src/tablemap/TableMap.ts:57](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L57)
 
 ##### Returns
 
@@ -82,7 +82,7 @@ Defined in: [tables/src/tablemap/TableMap.ts:57](https://github.com/type-editor/
 get problems(): Problem[];
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:41](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L41)
+Defined in: [tables/src/tablemap/TableMap.ts:41](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L41)
 
 ##### Returns
 
@@ -94,7 +94,7 @@ Defined in: [tables/src/tablemap/TableMap.ts:41](https://github.com/type-editor/
 set problems(problems): void;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:45](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L45)
+Defined in: [tables/src/tablemap/TableMap.ts:45](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L45)
 
 ##### Parameters
 
@@ -116,7 +116,7 @@ Defined in: [tables/src/tablemap/TableMap.ts:45](https://github.com/type-editor/
 get width(): number;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:49](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L49)
+Defined in: [tables/src/tablemap/TableMap.ts:49](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L49)
 
 ##### Returns
 
@@ -130,7 +130,7 @@ Defined in: [tables/src/tablemap/TableMap.ts:49](https://github.com/type-editor/
 cellsInRect(rect): number[];
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:188](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L188)
+Defined in: [tables/src/tablemap/TableMap.ts:188](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L188)
 
 Return the position of all cells that have the top left corner in
 the given rectangle.
@@ -155,7 +155,7 @@ Array of table-relative positions of cells with top-left corners in the rect
 colCount(pos): number;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:117](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L117)
+Defined in: [tables/src/tablemap/TableMap.ts:117](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L117)
 
 Find the left side (column index) of the cell at the given position.
 
@@ -183,7 +183,7 @@ If no cell exists at the given position
 findCell(pos): Rect;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:80](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L80)
+Defined in: [tables/src/tablemap/TableMap.ts:80](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L80)
 
 Find the dimensions of the cell at the given position.
 
@@ -214,7 +214,7 @@ nextCell(
    dir): number;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:135](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L135)
+Defined in: [tables/src/tablemap/TableMap.ts:135](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L135)
 
 Find the next cell in the given direction, starting from the cell at `pos`, if any.
 
@@ -243,7 +243,7 @@ positionAt(
    table): number;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:223](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L223)
+Defined in: [tables/src/tablemap/TableMap.ts:223](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L223)
 
 Return the position at which the cell at the given row and column
 starts, or would start, if a cell started there.
@@ -270,7 +270,7 @@ The table-relative position where the cell at (row, col) starts
 rectBetween(a, b): Rect;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:158](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L158)
+Defined in: [tables/src/tablemap/TableMap.ts:158](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L158)
 
 Get the rectangle spanning the two given cells.
 
@@ -295,7 +295,7 @@ A Rect that encompasses both cells
 static get(table): TableMap;
 ```
 
-Defined in: [tables/src/tablemap/TableMap.ts:69](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/tablemap/TableMap.ts#L69)
+Defined in: [tables/src/tablemap/TableMap.ts:69](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/tablemap/TableMap.ts#L69)
 
 Find the table map for the given table node.
 Results are cached, so subsequent calls with the same node are efficient.

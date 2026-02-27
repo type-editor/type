@@ -10,6 +10,6 @@
 const defaultMarkdownSerializer: MarkdownSerializer;
 ```
 
-Defined in: [to-markdown/default-markdown-serializer.ts:9](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/to-markdown/default-markdown-serializer.ts#L9)
+Defined in: [to-markdown/default-markdown-serializer.ts:9](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/to-markdown/default-markdown-serializer.ts#L9)
 
 A serializer for the [basic schema](#schema).

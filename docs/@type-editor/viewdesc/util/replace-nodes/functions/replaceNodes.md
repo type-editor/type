@@ -10,7 +10,7 @@
 function replaceNodes(nodes, from, to, view, replacement?): ViewDesc[];
 ```
 
-Defined in: [util/replace-nodes.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/util/replace-nodes.ts#L22)
+Defined in: [util/replace-nodes.ts:22](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/util/replace-nodes.ts#L22)
 
 Replace range from-to in an array of view descs with replacement
 (may be undefined to just delete). This goes very much against the grain

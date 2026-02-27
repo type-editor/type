@@ -10,7 +10,7 @@
 type AttrValue = string | number | boolean | null | undefined;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/AttrValue.ts:5](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/AttrValue.ts#L5)
+Defined in: [packages/editor-types/src/types/transform/AttrValue.ts:5](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/AttrValue.ts#L5)
 
 Represents the possible types for an attribute value.
 Attributes can be strings, numbers, booleans, null, or undefined.

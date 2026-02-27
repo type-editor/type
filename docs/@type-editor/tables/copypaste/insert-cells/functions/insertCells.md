@@ -10,7 +10,7 @@
 function insertCells(state, dispatch, tableStart, rect, cells): void;
 ```
 
-Defined in: [tables/src/copypaste/insert-cells.ts:42](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/copypaste/insert-cells.ts#L42)
+Defined in: [tables/src/copypaste/insert-cells.ts:42](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/copypaste/insert-cells.ts#L42)
 
 Inserts a rectangular area of cells into a table at a specified position.
 

@@ -10,7 +10,7 @@
 const findNextNoWrap: Command;
 ```
 
-Defined in: [commands/find-next-no-wrap.ts:10](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/commands/find-next-no-wrap.ts#L10)
+Defined in: [commands/find-next-no-wrap.ts:10](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/commands/find-next-no-wrap.ts#L10)
 
 Find the next instance of the search query and move the selection
 to it. Don't wrap around at the end of document or search range.

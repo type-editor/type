@@ -10,7 +10,7 @@
 function anchorInRightPlace(view): boolean;
 ```
 
-Defined in: [anchor-in-right-place.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/selection-util/src/selection/anchor-in-right-place.ts#L15)
+Defined in: [anchor-in-right-place.ts:15](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/selection-util/src/selection/anchor-in-right-place.ts#L15)
 
 Checks if the DOM selection's anchor is at the expected position.
 

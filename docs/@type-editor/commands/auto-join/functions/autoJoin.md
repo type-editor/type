@@ -10,7 +10,7 @@
 function autoJoin(command, isJoinable): Command;
 ```
 
-Defined in: [auto-join.ts:34](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/auto-join.ts#L34)
+Defined in: [auto-join.ts:34](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/auto-join.ts#L34)
 
 Wraps a command to automatically join adjacent nodes when they become joinable
 after the command executes.

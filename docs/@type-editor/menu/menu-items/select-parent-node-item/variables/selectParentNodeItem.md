@@ -10,6 +10,6 @@
 const selectParentNodeItem: MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/select-parent-node-item.ts:10](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menu-items/select-parent-node-item.ts#L10)
+Defined in: [packages/menu/src/menu-items/select-parent-node-item.ts:10](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menu-items/select-parent-node-item.ts#L10)
 
 Menu item for the `selectParentNode` command.

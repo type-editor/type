@@ -10,7 +10,7 @@
 const joinUp: Command;
 ```
 
-Defined in: [join-up.ts:44](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/join-up.ts#L44)
+Defined in: [join-up.ts:44](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/join-up.ts#L44)
 
 Joins the selected block with the block above it.
 

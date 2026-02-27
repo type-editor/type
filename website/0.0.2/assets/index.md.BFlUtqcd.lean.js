@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as o,ak as i}from"./chunks/framework.BhGvdB6H.js";const c=JSON.parse('{"title":"Type Editor","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),a={name:"index.md"};function s(p,r,d,h,m,l){return e(),o("div",null,[...r[0]||(r[0]=[i("",5)])])}const f=t(a,[["render",s]]);export{c as __pageData,f as default};

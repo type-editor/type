@@ -10,4 +10,4 @@
 const KEY_ARROW_LEFT: "ArrowLeft" = "ArrowLeft";
 ```
 
-Defined in: [input-handler/key-codes.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/input/src/input-handler/key-codes.ts#L20)
+Defined in: [input-handler/key-codes.ts:20](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/input-handler/key-codes.ts#L20)

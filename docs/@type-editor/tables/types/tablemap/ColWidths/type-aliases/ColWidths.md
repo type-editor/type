@@ -10,6 +10,6 @@
 type ColWidths = number[];
 ```
 
-Defined in: [tables/src/types/tablemap/ColWidths.ts:4](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/types/tablemap/ColWidths.ts#L4)
+Defined in: [tables/src/types/tablemap/ColWidths.ts:4](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/types/tablemap/ColWidths.ts#L4)
 
 Array of column widths. Each element represents the width of a column in pixels.

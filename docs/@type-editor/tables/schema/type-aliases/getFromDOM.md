@@ -10,7 +10,7 @@
 type getFromDOM = (dom) => unknown;
 ```
 
-Defined in: [tables/src/schema.ts:127](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/schema.ts#L127)
+Defined in: [tables/src/schema.ts:127](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/schema.ts#L127)
 
 Function type for reading an attribute value from a DOM element.
 

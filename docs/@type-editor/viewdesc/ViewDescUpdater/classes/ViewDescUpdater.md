@@ -6,7 +6,7 @@
 
 # Class: ViewDescUpdater
 
-Defined in: [ViewDescUpdater.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L24)
+Defined in: [ViewDescUpdater.ts:24](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L24)
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: [ViewDescUpdater.ts:24](https://github.com/type-editor/type/blob/29c
 new ViewDescUpdater(viewDesc, view): ViewDescUpdater;
 ```
 
-Defined in: [ViewDescUpdater.ts:30](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L30)
+Defined in: [ViewDescUpdater.ts:30](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L30)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ static update(
    innerDeco): boolean;
 ```
 
-Defined in: [ViewDescUpdater.ts:46](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L46)
+Defined in: [ViewDescUpdater.ts:46](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L46)
 
 If this desc must be updated to match the given node decoration,
 do so and return true.
@@ -74,7 +74,7 @@ static updateChildren(
    pos): void;
 ```
 
-Defined in: [ViewDescUpdater.ts:65](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L65)
+Defined in: [ViewDescUpdater.ts:65](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/ViewDescUpdater.ts#L65)
 
 Syncs `this.children` to match `this.node.content` and the local
 decorations, possibly introducing nesting for marks. Then, in a

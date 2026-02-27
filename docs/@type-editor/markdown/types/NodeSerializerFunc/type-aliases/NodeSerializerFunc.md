@@ -10,7 +10,7 @@
 type NodeSerializerFunc = (state, node, parent, index) => void;
 ```
 
-Defined in: [types/NodeSerializerFunc.ts:14](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/types/NodeSerializerFunc.ts#L14)
+Defined in: [types/NodeSerializerFunc.ts:14](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/types/NodeSerializerFunc.ts#L14)
 
 A function type for serializing ProseMirror nodes to Markdown.
 

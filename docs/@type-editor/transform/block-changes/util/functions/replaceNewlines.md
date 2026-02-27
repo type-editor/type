@@ -10,7 +10,7 @@
 function replaceNewlines(transform, node, pos, mapFrom): void;
 ```
 
-Defined in: [packages/transform/src/block-changes/util.ts:17](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/block-changes/util.ts#L17)
+Defined in: [packages/transform/src/block-changes/util.ts:17](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/block-changes/util.ts#L17)
 
 Replace all newline characters in text nodes with linebreak replacement nodes.
 This is used when joining blocks that should preserve line breaks as nodes.

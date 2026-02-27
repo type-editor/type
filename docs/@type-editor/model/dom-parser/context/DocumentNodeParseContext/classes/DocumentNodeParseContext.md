@@ -6,7 +6,7 @@
 
 # Class: DocumentNodeParseContext
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L22)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:22](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L22)
 
 Represents a node being built during parsing.
 
@@ -33,7 +33,7 @@ new DocumentNodeParseContext(
    options): DocumentNodeParseContext;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:59](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L59)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:59](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L59)
 
 Creates a new node context for managing node construction during parsing.
 
@@ -62,7 +62,7 @@ Creates a new node context for managing node construction during parsing.
 get content(): Node[];
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:94](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L94)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:94](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L94)
 
 Gets the array of child nodes that have been added to this context.
 
@@ -84,7 +84,7 @@ Gets the array of child nodes that have been added to this context.
 get match(): ContentMatch;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:78](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L78)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:78](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L78)
 
 Gets the current content match state for validating additional content.
 
@@ -98,7 +98,7 @@ Gets the current content match state for validating additional content.
 set match(match): void;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:87](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L87)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:87](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L87)
 
 Sets the content match state.
 
@@ -126,7 +126,7 @@ Sets the content match state.
 get options(): number;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:115](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L115)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:115](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L115)
 
 Gets the parsing options bitfield for this context.
 
@@ -140,7 +140,7 @@ Gets the parsing options bitfield for this context.
 set options(options): void;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:124](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L124)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:124](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L124)
 
 Sets the parsing options bitfield.
 
@@ -168,7 +168,7 @@ Sets the parsing options bitfield.
 get solid(): boolean;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:108](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L108)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:108](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L108)
 
 Gets whether this context is solid (shouldn't be exited when finding a place for content).
 
@@ -190,7 +190,7 @@ Gets whether this context is solid (shouldn't be exited when finding a place for
 get type(): NodeType;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:101](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L101)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:101](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L101)
 
 Gets the type of node being built, or null if building a fragment.
 
@@ -210,7 +210,7 @@ Gets the type of node being built, or null if building a fragment.
 findWrapping(node): readonly NodeType[];
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:140](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L140)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:140](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L140)
 
 Finds a sequence of wrapper node types needed to make the given node fit in this context.
 
@@ -248,7 +248,7 @@ finish(openEnd):
   | Node;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:174](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L174)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:174](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L174)
 
 Finishes building this node context and returns the resulting node or fragment.
 
@@ -285,7 +285,7 @@ This method:
 inlineContext(node): boolean;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:198](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L198)
+Defined in: [packages/model/src/dom-parser/context/DocumentNodeParseContext.ts:198](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/dom-parser/context/DocumentNodeParseContext.ts#L198)
 
 Determines whether this context represents inline content.
 

@@ -6,7 +6,7 @@
 
 # Class: SelectionFactory
 
-Defined in: [state/src/selection/SelectionFactory.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/SelectionFactory.ts#L13)
+Defined in: [state/src/selection/SelectionFactory.ts:13](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/selection/SelectionFactory.ts#L13)
 
 Factory class for creating selection instances.
 Delegates to the specific selection classes' factory methods.
@@ -31,7 +31,7 @@ new SelectionFactory(): SelectionFactory;
 static createAllSelection(document): AllSelection;
 ```
 
-Defined in: [state/src/selection/SelectionFactory.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/SelectionFactory.ts#L23)
+Defined in: [state/src/selection/SelectionFactory.ts:23](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/selection/SelectionFactory.ts#L23)
 
 Create an all-selection that spans the entire document.
 This selection type is useful when you need to select all content,
@@ -71,7 +71,7 @@ Optional integer position (required if first arg is a Node)
 static createNodeSelection(position): NodeSelection;
 ```
 
-Defined in: [state/src/selection/SelectionFactory.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/SelectionFactory.ts#L33)
+Defined in: [state/src/selection/SelectionFactory.ts:33](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/selection/SelectionFactory.ts#L33)
 
 Create a node selection from a resolved position.
 
@@ -93,7 +93,7 @@ A new NodeSelection instance
 static createNodeSelection(node, position): NodeSelection;
 ```
 
-Defined in: [state/src/selection/SelectionFactory.ts:42](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/SelectionFactory.ts#L42)
+Defined in: [state/src/selection/SelectionFactory.ts:42](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/selection/SelectionFactory.ts#L42)
 
 Create a node selection from a document and position offset.
 
@@ -139,7 +139,7 @@ static createTextSelection(
    head?): TextSelection;
 ```
 
-Defined in: [state/src/selection/SelectionFactory.ts:68](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/SelectionFactory.ts#L68)
+Defined in: [state/src/selection/SelectionFactory.ts:68](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/selection/SelectionFactory.ts#L68)
 
 Create a text selection from a document node and integer positions.
 
@@ -163,7 +163,7 @@ A new TextSelection instance
 static createTextSelection(anchor, head?): TextSelection;
 ```
 
-Defined in: [state/src/selection/SelectionFactory.ts:77](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/selection/SelectionFactory.ts#L77)
+Defined in: [state/src/selection/SelectionFactory.ts:77](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/selection/SelectionFactory.ts#L77)
 
 Create a text selection from resolved positions.
 

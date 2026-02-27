@@ -10,7 +10,7 @@
 function keyUpHandler(view, event): boolean;
 ```
 
-Defined in: [input-handler/keyboard/key-up-handler.ts:8](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/input/src/input-handler/keyboard/key-up-handler.ts#L8)
+Defined in: [input-handler/keyboard/key-up-handler.ts:8](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/input-handler/keyboard/key-up-handler.ts#L8)
 
 Handles keyup events, primarily to track Shift key state.
 

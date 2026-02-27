@@ -10,7 +10,7 @@
 function singleRect(target, bias): DOMRect;
 ```
 
-Defined in: [dom-coords/util/single-rect.ts:10](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-coords-util/src/dom-coords/util/single-rect.ts#L10)
+Defined in: [dom-coords/util/single-rect.ts:10](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-coords-util/src/dom-coords/util/single-rect.ts#L10)
 
 Get a single non-zero rectangle from an element or range.
 Prefers the first or last rectangle based on bias, falling back to

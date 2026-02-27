@@ -10,7 +10,7 @@
 function stopNativeHorizontalDeleteBackward(_state, _dispatch, view): boolean;
 ```
 
-Defined in: [stop-native-horizontal-delete.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/stop-native-horizontal-delete.ts#L13)
+Defined in: [stop-native-horizontal-delete.ts:13](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/stop-native-horizontal-delete.ts#L13)
 
 ## Parameters
 

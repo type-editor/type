@@ -10,7 +10,7 @@
 function isSelectionLengthInRange(state, max?, min?): boolean;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/is-len-in-range.ts:11](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menu-items/util/is-len-in-range.ts#L11)
+Defined in: [packages/menu/src/menu-items/util/is-len-in-range.ts:11](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menu-items/util/is-len-in-range.ts#L11)
 
 Checks if the current selection length is within a specified range.
 

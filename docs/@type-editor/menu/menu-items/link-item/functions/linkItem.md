@@ -10,7 +10,7 @@
 function linkItem(title?, linkMarkType?, codeBlockNodeType?): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/link-item.ts:64](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menu-items/link-item.ts#L64)
+Defined in: [packages/menu/src/menu-items/link-item.ts:64](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menu-items/link-item.ts#L64)
 
 Creates a menu item for adding, editing, or removing links in the editor.
 

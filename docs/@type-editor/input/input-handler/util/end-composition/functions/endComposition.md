@@ -10,7 +10,7 @@
 function endComposition(view, restarting?): boolean;
 ```
 
-Defined in: [input-handler/util/end-composition.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/input/src/input-handler/util/end-composition.ts#L15)
+Defined in: [input-handler/util/end-composition.ts:15](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/input-handler/util/end-composition.ts#L15)
 
 Ends the current composition, flushing any pending DOM changes and
 updating the editor state as necessary.

@@ -6,7 +6,7 @@
 
 # Interface: MenuElement
 
-Defined in: [packages/menu/src/types/MenuElement.ts:10](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/types/MenuElement.ts#L10)
+Defined in: [packages/menu/src/types/MenuElement.ts:10](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/types/MenuElement.ts#L10)
 
 The types defined in this module aren't the only thing you can
 display in your menu. Anything that conforms to this interface can
@@ -27,7 +27,7 @@ render(
 };
 ```
 
-Defined in: [packages/menu/src/types/MenuElement.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/types/MenuElement.ts#L24)
+Defined in: [packages/menu/src/types/MenuElement.ts:24](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/types/MenuElement.ts#L24)
 
 Render the element for display in the menu. Must return a DOM
 element and a function that can be used to update the element to
@@ -56,5 +56,5 @@ An object containing the DOM element and an update function
 
 | Name       | Type                   | Defined in                                                                                                                                                                |
 | ---------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`      | `HTMLElement`          | [packages/menu/src/types/MenuElement.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/types/MenuElement.ts#L24) |
-| `update()` | (`state`) => `boolean` | [packages/menu/src/types/MenuElement.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/types/MenuElement.ts#L24) |
+| `dom`      | `HTMLElement`          | [packages/menu/src/types/MenuElement.ts:24](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/types/MenuElement.ts#L24) |
+| `update()` | (`state`) => `boolean` | [packages/menu/src/types/MenuElement.ts:24](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/types/MenuElement.ts#L24) |

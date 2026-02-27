@@ -6,7 +6,7 @@
 
 # Class: CellSelection
 
-Defined in: [tables/src/cellselection/CellSelection.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L33)
+Defined in: [tables/src/cellselection/CellSelection.ts:33](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L33)
 
 A Selection subclass that represents a cell selection spanning part of a table.
 With the plugin enabled, these will be created when the user selects across cells,
@@ -45,7 +45,7 @@ const colSel = CellSelection.colSelection($anchorCell, $headCell);
 new CellSelection($anchorCell, $headCell?): CellSelection;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:52](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L52)
+Defined in: [tables/src/cellselection/CellSelection.ts:52](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L52)
 
 Creates a table cell selection identified by its anchor and head cells.
 The positions given to this constructor should point _before_ two
@@ -119,7 +119,7 @@ Selection.$anchor;
 get $anchorCell(): ResolvedPos;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:65](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L65)
+Defined in: [tables/src/cellselection/CellSelection.ts:65](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L65)
 
 The resolved position of the anchor cell (the fixed endpoint of the selection).
 
@@ -223,7 +223,7 @@ Selection.$head;
 get $headCell(): ResolvedPos;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:73](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L73)
+Defined in: [tables/src/cellselection/CellSelection.ts:73](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L73)
 
 The resolved position of the head cell (the moving endpoint of the selection).
 
@@ -539,7 +539,7 @@ Selection.visible;
 content(): Slice;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:356](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L356)
+Defined in: [tables/src/cellselection/CellSelection.ts:356](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L356)
 
 Returns a rectangular slice of table rows containing the selected cells.
 
@@ -577,7 +577,7 @@ Selection.content;
 eq(other): boolean;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:522](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L522)
+Defined in: [tables/src/cellselection/CellSelection.ts:522](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L522)
 
 Compares this selection with another for equality.
 
@@ -615,7 +615,7 @@ Selection.eq;
 forEachCell(callbackFunc): void;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:439](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L439)
+Defined in: [tables/src/cellselection/CellSelection.ts:439](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L439)
 
 Iterates over all cells in the selection, calling the provided callback
 for each cell with the cell node and its absolute document position.
@@ -646,7 +646,7 @@ selection.forEachCell((cell, pos) => {
 getBookmark(): CellBookmark;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:548](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L548)
+Defined in: [tables/src/cellselection/CellSelection.ts:548](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L548)
 
 Returns a bookmark that can be used to recreate this selection after document changes.
 
@@ -702,7 +702,7 @@ Selection.isAllSelection;
 isColSelection(): boolean;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:467](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L467)
+Defined in: [tables/src/cellselection/CellSelection.ts:467](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L467)
 
 Checks whether this selection spans entire columns (from top to bottom of the table).
 
@@ -749,7 +749,7 @@ Selection.isNodeSelection;
 isRowSelection(): boolean;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:492](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L492)
+Defined in: [tables/src/cellselection/CellSelection.ts:492](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L492)
 
 Checks whether this selection spans entire rows (from left to right of the table).
 
@@ -796,7 +796,7 @@ Selection.isTextSelection;
 map(doc, mapping): CellSelection | Selection_2;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:324](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L324)
+Defined in: [tables/src/cellselection/CellSelection.ts:324](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L324)
 
 Maps this selection through a document change.
 
@@ -838,7 +838,7 @@ Selection.map;
 replace(transaction, content?): void;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:384](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L384)
+Defined in: [tables/src/cellselection/CellSelection.ts:384](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L384)
 
 Replaces the content of all selected cells with the given content.
 
@@ -877,7 +877,7 @@ Selection.replace;
 replaceWith(tr, node): void;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:421](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L421)
+Defined in: [tables/src/cellselection/CellSelection.ts:421](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L421)
 
 Replaces the content of all selected cells with the given node.
 
@@ -912,7 +912,7 @@ Selection.replaceWith;
 toJSON(): CellSelectionJSON;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:535](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L535)
+Defined in: [tables/src/cellselection/CellSelection.ts:535](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L535)
 
 Converts this selection to a JSON-serializable object.
 
@@ -1025,7 +1025,7 @@ Selection.between;
 static colSelection($anchorCell, $headCell?): CellSelection;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:93](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L93)
+Defined in: [tables/src/cellselection/CellSelection.ts:93](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L93)
 
 Creates the smallest column selection that covers the given anchor and head cells.
 
@@ -1063,7 +1063,7 @@ static create(
    headCell?): CellSelection;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:178](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L178)
+Defined in: [tables/src/cellselection/CellSelection.ts:178](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L178)
 
 Factory method to create a CellSelection from anchor and head cell positions.
 
@@ -1120,7 +1120,7 @@ Selection.findFrom;
 static fromJSON(doc, json): CellSelection;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:166](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L166)
+Defined in: [tables/src/cellselection/CellSelection.ts:166](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L166)
 
 Creates a CellSelection from a JSON representation.
 
@@ -1336,7 +1336,7 @@ Selection.registerTextSelectionHandler;
 static rowSelection($anchorCell, $headCell?): CellSelection;
 ```
 
-Defined in: [tables/src/cellselection/CellSelection.ts:134](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/cellselection/CellSelection.ts#L134)
+Defined in: [tables/src/cellselection/CellSelection.ts:134](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/CellSelection.ts#L134)
 
 Creates the smallest row selection that covers the given anchor and head cells.
 

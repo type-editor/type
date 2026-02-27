@@ -10,7 +10,7 @@
 function isEquivalentPosition(node, off, targetNode, targetOff): boolean;
 ```
 
-Defined in: [is-equivalent-position.ts:39](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-util/src/dom/is-equivalent-position.ts#L39)
+Defined in: [is-equivalent-position.ts:39](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-util/src/dom/is-equivalent-position.ts#L39)
 
 Checks if two DOM positions are equivalent.
 

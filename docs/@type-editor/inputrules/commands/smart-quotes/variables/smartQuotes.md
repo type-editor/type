@@ -10,6 +10,6 @@
 const smartQuotes: ReadonlyArray<InputRule>;
 ```
 
-Defined in: [commands/smart-quotes.ts:10](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/inputrules/src/commands/smart-quotes.ts#L10)
+Defined in: [commands/smart-quotes.ts:10](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/inputrules/src/commands/smart-quotes.ts#L10)
 
 Smart-quote related input rules.

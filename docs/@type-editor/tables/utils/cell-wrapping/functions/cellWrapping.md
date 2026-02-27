@@ -10,7 +10,7 @@
 function cellWrapping($pos): Node_2;
 ```
 
-Defined in: [tables/src/utils/cell-wrapping.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/utils/cell-wrapping.ts#L24)
+Defined in: [tables/src/utils/cell-wrapping.ts:24](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/utils/cell-wrapping.ts#L24)
 
 Finds the cell node that wraps the given position.
 

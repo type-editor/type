@@ -10,7 +10,7 @@
 function setCellAttr(name, value): Command;
 ```
 
-Defined in: [tables/src/commands/set-cell-attr.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/commands/set-cell-attr.ts#L20)
+Defined in: [tables/src/commands/set-cell-attr.ts:20](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/commands/set-cell-attr.ts#L20)
 
 Creates a command that sets a specific attribute to a given value on the selected cell(s).
 

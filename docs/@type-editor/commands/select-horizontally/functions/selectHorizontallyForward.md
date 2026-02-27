@@ -10,7 +10,7 @@
 function selectHorizontallyForward(_state, _dispatch, view): boolean;
 ```
 
-Defined in: [select-horizontally.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/select-horizontally.ts#L23)
+Defined in: [select-horizontally.ts:23](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/select-horizontally.ts#L23)
 
 ## Parameters
 

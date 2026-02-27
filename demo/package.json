@@ -15,6 +15,7 @@
 		"type": "git",
 		"url": "git://github.com/type-editor/type.git"
 	},
+    "private": true,
 	"type": "module",
 	"sideEffects": false,
 	"module": "dist/index.js",

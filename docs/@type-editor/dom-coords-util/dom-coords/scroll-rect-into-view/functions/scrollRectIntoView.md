@@ -10,7 +10,7 @@
 function scrollRectIntoView(view, rect, startDOM): void;
 ```
 
-Defined in: [dom-coords/scroll-rect-into-view.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-coords-util/src/dom-coords/scroll-rect-into-view.ts#L19)
+Defined in: [dom-coords/scroll-rect-into-view.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-coords-util/src/dom-coords/scroll-rect-into-view.ts#L19)
 
 Scroll the given rectangle into view within the editor, walking up through
 scrollable ancestors and adjusting scroll positions as needed.

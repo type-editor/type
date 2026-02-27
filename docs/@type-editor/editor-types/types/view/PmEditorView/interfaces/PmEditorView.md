@@ -6,31 +6,31 @@
 
 # Interface: PmEditorView
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L15)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L15)
 
 ## Properties
 
 | Property                                                          | Modifier   | Type                                                                                                         | Defined in                                                                                                                                                                                            |
 | ----------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-composing"></a> `composing`                       | `readonly` | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:32](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L32) |
-| <a id="property-cursorwrapper"></a> `cursorWrapper`               | `readonly` | \{ `deco`: [`PmDecoration`](../../decoration/PmDecoration/interfaces/PmDecoration.md); `dom`: `Node`; \}     | [packages/editor-types/src/types/view/PmEditorView.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L21) |
-| `cursorWrapper.deco`                                              | `public`   | [`PmDecoration`](../../decoration/PmDecoration/interfaces/PmDecoration.md)                                   | [packages/editor-types/src/types/view/PmEditorView.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L21) |
-| `cursorWrapper.dom`                                               | `public`   | `Node`                                                                                                       | [packages/editor-types/src/types/view/PmEditorView.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L21) |
-| <a id="property-docview"></a> `docView`                           | `readonly` | [`PmNodeViewDesc`](../../view-desc/PmNodeViewDesc/interfaces/PmNodeViewDesc.md)                              | [packages/editor-types/src/types/view/PmEditorView.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L23) |
-| <a id="property-dom"></a> `dom`                                   | `readonly` | `HTMLElement`                                                                                                | [packages/editor-types/src/types/view/PmEditorView.ts:27](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L27) |
-| <a id="property-domobserver"></a> `domObserver`                   | `readonly` | [`PmDOMObserver`](../../PmDOMObserver/interfaces/PmDOMObserver.md)                                           | [packages/editor-types/src/types/view/PmEditorView.ts:30](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L30) |
-| <a id="property-dragging"></a> `dragging`                         | `public`   | [`PmDragging`](../../input-handler/PmDragging/interfaces/PmDragging.md)                                      | [packages/editor-types/src/types/view/PmEditorView.ts:26](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L26) |
-| <a id="property-editable"></a> `editable`                         | `readonly` | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L28) |
-| <a id="property-focused"></a> `focused`                           | `public`   | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L19) |
-| <a id="property-input"></a> `input`                               | `readonly` | [`PmInputState`](../../input-handler/PmInputState/interfaces/PmInputState.md)                                | [packages/editor-types/src/types/view/PmEditorView.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L29) |
-| <a id="property-isdestroyed"></a> `isDestroyed`                   | `readonly` | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:33](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L33) |
-| <a id="property-lastselectedviewdesc"></a> `lastSelectedViewDesc` | `public`   | [`PmViewDesc`](../../view-desc/PmViewDesc/interfaces/PmViewDesc.md)                                          | [packages/editor-types/src/types/view/PmEditorView.ts:24](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L24) |
-| <a id="property-markcursor"></a> `markCursor`                     | `public`   | readonly `Mark`[]                                                                                            | [packages/editor-types/src/types/view/PmEditorView.ts:20](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L20) |
-| <a id="property-nodeviews"></a> `nodeViews`                       | `readonly` | `Readonly`&lt;[`NodeViewSet`](../../editor-view/NodeViewSet/type-aliases/NodeViewSet.md)&gt;                 | [packages/editor-types/src/types/view/PmEditorView.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L22) |
-| <a id="property-props"></a> `props`                               | `readonly` | `Readonly`&lt;[`DirectEditorProps`](../../editor-view/DirectEditorProps/interfaces/DirectEditorProps.md)&gt; | [packages/editor-types/src/types/view/PmEditorView.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L17) |
-| <a id="property-root"></a> `root`                                 | `readonly` | `Document` \| `ShadowRoot`                                                                                   | [packages/editor-types/src/types/view/PmEditorView.ts:18](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L18) |
-| <a id="property-state"></a> `state`                               | `readonly` | [`PmEditorState`](../../../state/editor-state/PmEditorState/interfaces/PmEditorState.md)                     | [packages/editor-types/src/types/view/PmEditorView.ts:31](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L31) |
-| <a id="property-trackwrites"></a> `trackWrites`                   | `readonly` | `Node`                                                                                                       | [packages/editor-types/src/types/view/PmEditorView.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L25) |
+| <a id="property-composing"></a> `composing`                       | `readonly` | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:32](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L32) |
+| <a id="property-cursorwrapper"></a> `cursorWrapper`               | `readonly` | \{ `deco`: [`PmDecoration`](../../decoration/PmDecoration/interfaces/PmDecoration.md); `dom`: `Node`; \}     | [packages/editor-types/src/types/view/PmEditorView.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L21) |
+| `cursorWrapper.deco`                                              | `public`   | [`PmDecoration`](../../decoration/PmDecoration/interfaces/PmDecoration.md)                                   | [packages/editor-types/src/types/view/PmEditorView.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L21) |
+| `cursorWrapper.dom`                                               | `public`   | `Node`                                                                                                       | [packages/editor-types/src/types/view/PmEditorView.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L21) |
+| <a id="property-docview"></a> `docView`                           | `readonly` | [`PmNodeViewDesc`](../../view-desc/PmNodeViewDesc/interfaces/PmNodeViewDesc.md)                              | [packages/editor-types/src/types/view/PmEditorView.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L23) |
+| <a id="property-dom"></a> `dom`                                   | `readonly` | `HTMLElement`                                                                                                | [packages/editor-types/src/types/view/PmEditorView.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L27) |
+| <a id="property-domobserver"></a> `domObserver`                   | `readonly` | [`PmDOMObserver`](../../PmDOMObserver/interfaces/PmDOMObserver.md)                                           | [packages/editor-types/src/types/view/PmEditorView.ts:30](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L30) |
+| <a id="property-dragging"></a> `dragging`                         | `public`   | [`PmDragging`](../../input-handler/PmDragging/interfaces/PmDragging.md)                                      | [packages/editor-types/src/types/view/PmEditorView.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L26) |
+| <a id="property-editable"></a> `editable`                         | `readonly` | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L28) |
+| <a id="property-focused"></a> `focused`                           | `public`   | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L19) |
+| <a id="property-input"></a> `input`                               | `readonly` | [`PmInputState`](../../input-handler/PmInputState/interfaces/PmInputState.md)                                | [packages/editor-types/src/types/view/PmEditorView.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L29) |
+| <a id="property-isdestroyed"></a> `isDestroyed`                   | `readonly` | `boolean`                                                                                                    | [packages/editor-types/src/types/view/PmEditorView.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L33) |
+| <a id="property-lastselectedviewdesc"></a> `lastSelectedViewDesc` | `public`   | [`PmViewDesc`](../../view-desc/PmViewDesc/interfaces/PmViewDesc.md)                                          | [packages/editor-types/src/types/view/PmEditorView.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L24) |
+| <a id="property-markcursor"></a> `markCursor`                     | `public`   | readonly `Mark`[]                                                                                            | [packages/editor-types/src/types/view/PmEditorView.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L20) |
+| <a id="property-nodeviews"></a> `nodeViews`                       | `readonly` | `Readonly`&lt;[`NodeViewSet`](../../editor-view/NodeViewSet/type-aliases/NodeViewSet.md)&gt;                 | [packages/editor-types/src/types/view/PmEditorView.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L22) |
+| <a id="property-props"></a> `props`                               | `readonly` | `Readonly`&lt;[`DirectEditorProps`](../../editor-view/DirectEditorProps/interfaces/DirectEditorProps.md)&gt; | [packages/editor-types/src/types/view/PmEditorView.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L17) |
+| <a id="property-root"></a> `root`                                 | `readonly` | `Document` \| `ShadowRoot`                                                                                   | [packages/editor-types/src/types/view/PmEditorView.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L18) |
+| <a id="property-state"></a> `state`                               | `readonly` | [`PmEditorState`](../../../state/editor-state/PmEditorState/interfaces/PmEditorState.md)                     | [packages/editor-types/src/types/view/PmEditorView.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L31) |
+| <a id="property-trackwrites"></a> `trackWrites`                   | `readonly` | `Node`                                                                                                       | [packages/editor-types/src/types/view/PmEditorView.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L25) |
 
 ## Methods
 
@@ -40,7 +40,7 @@ Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:15](https://gi
 addPlugin(plugin): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:423](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L423)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:423](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L423)
 
 Dynamically adds a plugin to the editor view. The plugin will be
 initialized and its state will be included in subsequent transactions.
@@ -74,7 +74,7 @@ view.addPlugin(myPlugin);
 clearTrackWrites(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:39](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L39)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:39](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L39)
 
 **`Internal`**
 
@@ -97,7 +97,7 @@ coordsAtPos(pos, side?): {
 };
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L208)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L208)
 
 Returns the viewport rectangle at a given document position.
 `left` and `right` will be the same number, as this returns a
@@ -128,10 +128,10 @@ An object with left, right, top, and bottom properties
 
 | Name     | Type     | Defined in                                                                                                                                                                                              |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `bottom` | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
-| `left`   | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
-| `right`  | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
-| `top`    | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
+| `bottom` | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
+| `left`   | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
+| `right`  | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
+| `top`    | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:208](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L208) |
 
 #### Example
 
@@ -154,7 +154,7 @@ tooltip.style.top = rect.bottom + "px";
 destroy(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:321](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L321)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:321](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L321)
 
 Removes the editor from the DOM and destroys all [node
 views](#view.NodeView). After calling this method, the view
@@ -183,7 +183,7 @@ componentWillUnmount() {
 dispatch(transaction): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:365](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L365)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:365](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L365)
 
 Dispatch a transaction. Will call
 [`dispatchTransaction`](#view.DirectEditorProps.dispatchTransaction)
@@ -222,7 +222,7 @@ view.dispatch(view.state.transaction.deleteSelection());
 dispatchEvent(event): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:328](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L328)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:328](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L328)
 
 Used for testing. Dispatches a DOM event to the input state handler.
 
@@ -247,7 +247,7 @@ domAtPos(pos, side?): {
 };
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:224](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L224)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:224](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L224)
 
 Find the DOM position that corresponds to the given document
 position. When `side` is negative, find the position as close as
@@ -278,8 +278,8 @@ An object with the DOM node and offset
 
 | Name     | Type     | Defined in                                                                                                                                                                                              |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `node`   | `Node`   | [packages/editor-types/src/types/view/PmEditorView.ts:224](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L224) |
-| `offset` | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:224](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L224) |
+| `node`   | `Node`   | [packages/editor-types/src/types/view/PmEditorView.ts:224](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L224) |
+| `offset` | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:224](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L224) |
 
 ---
 
@@ -289,7 +289,7 @@ An object with the DOM node and offset
 domSelection(): Selection;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:342](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L342)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:342](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L342)
 
 Gets the current DOM selection object.
 
@@ -307,7 +307,7 @@ The DOM selection object, or null if not available
 domSelectionRange(): DOMSelectionRange;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:335](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L335)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:335](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L335)
 
 Gets the current DOM selection range, with workarounds for Safari shadow DOM.
 
@@ -325,7 +325,7 @@ The DOM selection range with focus and anchor information
 endOfTextblock(dir, state?): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:271](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L271)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:271](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L271)
 
 Find out whether the selection is at the end of a textblock when
 moving in a given direction. When, for example, given `'left'`,
@@ -355,7 +355,7 @@ true if at the end of a textblock in the given direction
 focus(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:151](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L151)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:151](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L151)
 
 Focus the editor.
 
@@ -384,7 +384,7 @@ view.dispatch(
 hasFocus(): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:136](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L136)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:136](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L136)
 
 Query whether the view has focus.
 
@@ -411,7 +411,7 @@ if (view.hasFocus()) {
 nodeDOM(pos): Node;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:239](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L239)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:239](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L239)
 
 Find the DOM node that represents the document node after the
 given position. May return `null` when the position doesn't point
@@ -442,7 +442,7 @@ The DOM node at the position, or null if not found or inside opaque view
 pasteHTML(html, event?): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:282](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L282)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:282](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L282)
 
 Run the editor's paste logic with the given HTML string. The
 `event`, if given, will be passed to the
@@ -469,7 +469,7 @@ true if the paste was handled
 pasteText(text, event?): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:291](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L291)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:291](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L291)
 
 Run the editor's paste logic with the given plain-text input.
 
@@ -497,7 +497,7 @@ posAtCoords(coords): {
 };
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:182](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L182)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:182](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L182)
 
 Given a pair of viewport coordinates, return the document
 position that corresponds to them. May return null if the given
@@ -528,8 +528,8 @@ An object with pos and inside properties, or null if outside editor
 
 | Name     | Type     | Defined in                                                                                                                                                                                              |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `inside` | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:182](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L182) |
-| `pos`    | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:182](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L182) |
+| `inside` | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:182](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L182) |
+| `pos`    | `number` | [packages/editor-types/src/types/view/PmEditorView.ts:182](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L182) |
 
 #### Example
 
@@ -554,7 +554,7 @@ posAtDOM(
    bias?): number;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:257](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L257)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:257](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L257)
 
 Find the document position that corresponds to a given DOM
 position. (Whenever possible, it is preferable to inspect the
@@ -591,7 +591,7 @@ If the DOM position is not inside the editor
 scrollToSelection(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:86](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L86)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:86](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L86)
 
 Scrolls the current selection into view if it's not already visible.
 
@@ -611,7 +611,7 @@ serializeForClipboard(slice): {
 };
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L304)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L304)
 
 Serialize the given slice as it would be if it was copied from
 this editor. Returns a DOM element that contains a
@@ -640,9 +640,9 @@ An object containing the DOM representation, text, and transformed slice
 
 | Name    | Type          | Defined in                                                                                                                                                                                              |
 | ------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`   | `HTMLElement` | [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L304) |
-| `slice` | `Slice`       | [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L304) |
-| `text`  | `string`      | [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L304) |
+| `dom`   | `HTMLElement` | [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L304) |
+| `slice` | `Slice`       | [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L304) |
+| `text`  | `string`      | [packages/editor-types/src/types/view/PmEditorView.ts:304](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L304) |
 
 ---
 
@@ -652,7 +652,7 @@ An object containing the DOM representation, text, and transformed slice
 setProps(props): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:66](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L66)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:66](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L66)
 
 Update the view by updating existing props object with the object
 given as argument. Equivalent to `view.update(Object.assign({},
@@ -678,7 +678,7 @@ view.props, props))`.
 someProp<PropName, Result>(propName, callbackFunc): Result;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:111](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L111)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:111](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L111)
 
 Goes over the values of a prop, first those provided directly,
 then those from plugins given to the view, then from plugins in
@@ -725,7 +725,7 @@ const decos = view.someProp("decorations");
 someProp<PropName>(propName): NonNullable<EditorProps<any>[PropName]>;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:116](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L116)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:116](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L116)
 
 ##### Type Parameters
 
@@ -751,7 +751,7 @@ someProp<PropName, Result>(propName, callbackFunc?):
   | Result;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:118](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L118)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:118](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L118)
 
 ##### Type Parameters
 
@@ -780,7 +780,7 @@ Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:118](https://g
 toHtml(): string;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:405](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L405)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:405](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L405)
 
 Serializes the editor content to an HTML string representation.
 This uses the schema's DOM serializer to convert the document
@@ -811,7 +811,7 @@ navigator.clipboard.writeText(view.toHtml());
 toJSON(pluginFields?): string;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:386](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L386)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:386](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L386)
 
 Serializes the editor state to a JSON string representation.
 This can be used to save the document state for persistence or
@@ -848,7 +848,7 @@ const jsonWithPlugins = view.toJSON({ myPlugin: myPluginInstance });
 update(props): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:57](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L57)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:57](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L57)
 
 Update the view's props. Will immediately cause an update to
 the DOM.
@@ -882,7 +882,7 @@ view.update({
 updateRoot(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:157](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L157)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:157](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L157)
 
 When an existing editor view is moved to a new document or
 shadow tree, call this to make it recompute its root.
@@ -899,7 +899,7 @@ shadow tree, call this to make it recompute its root.
 updateState(state): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:81](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/PmEditorView.ts#L81)
+Defined in: [packages/editor-types/src/types/view/PmEditorView.ts:81](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/PmEditorView.ts#L81)
 
 Update the editor's `state` prop, without touching any of the
 other props.

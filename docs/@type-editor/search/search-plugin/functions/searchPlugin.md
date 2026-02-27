@@ -10,7 +10,7 @@
 function searchPlugin(options?): Plugin_2;
 ```
 
-Defined in: [search-plugin.ts:34](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-plugin.ts#L34)
+Defined in: [search-plugin.ts:34](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-plugin.ts#L34)
 
 Creates a search plugin that stores a current search query and searched range,
 and highlights matches of the query.

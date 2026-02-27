@@ -10,7 +10,7 @@
 function wrapIn(nodeType, attrs?): Command;
 ```
 
-Defined in: [wrap-in.ts:52](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/wrap-in.ts#L52)
+Defined in: [wrap-in.ts:52](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/wrap-in.ts#L52)
 
 Creates a command that wraps the selection in a node of the given type.
 

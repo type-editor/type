@@ -6,7 +6,7 @@
 
 # Interface: PmTransaction
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:9](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L9)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:9](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L9)
 
 Abstraction to build up and track an array of
 [steps](#transform.Step) representing a document transformation.
@@ -22,19 +22,19 @@ that they can be chained.
 
 | Property                                                  | Modifier   | Type                                                                   | Inherited from                                                                                                                                                                                       | Defined in                                                                                                                                                                                                                |
 | --------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-before"></a> `before`                     | `readonly` | `Node_2`                                                               | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`before`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-before)         | [packages/editor-types/src/types/transform/TransformDocument.ts:30](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L30) |
-| <a id="property-doc"></a> `doc`                           | `readonly` | `Node_2`                                                               | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`doc`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-doc)               | [packages/editor-types/src/types/transform/TransformDocument.ts:26](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L26) |
-| <a id="property-docchanged"></a> `docChanged`             | `readonly` | `boolean`                                                              | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`docChanged`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-docchanged) | [packages/editor-types/src/types/transform/TransformDocument.ts:31](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L31) |
-| <a id="property-docs"></a> `docs`                         | `readonly` | readonly `Node_2`[]                                                    | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`docs`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-docs)             | [packages/editor-types/src/types/transform/TransformDocument.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L28) |
-| <a id="property-isgeneric"></a> `isGeneric`               | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L16)                 |
-| <a id="property-mapping"></a> `mapping`                   | `readonly` | [`PmMapping`](../../../transform/PmMapping/interfaces/PmMapping.md)    | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`mapping`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-mapping)       | [packages/editor-types/src/types/transform/TransformDocument.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L29) |
-| <a id="property-scrolledintoview"></a> `scrolledIntoView` | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L17)                 |
-| <a id="property-selection"></a> `selection`               | `readonly` | [`PmSelection`](../../selection/PmSelection/interfaces/PmSelection.md) | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L13)                 |
-| <a id="property-selectionset"></a> `selectionSet`         | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L14)                 |
-| <a id="property-steps"></a> `steps`                       | `readonly` | readonly [`PmStep`](../../../transform/PmStep/interfaces/PmStep.md)[]  | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`steps`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-steps)           | [packages/editor-types/src/types/transform/TransformDocument.ts:27](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L27) |
-| <a id="property-storedmarks"></a> `storedMarks`           | `readonly` | readonly `Mark`[]                                                      | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L11)                 |
-| <a id="property-storedmarksset"></a> `storedMarksSet`     | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L15)                 |
-| <a id="property-time"></a> `time`                         | `readonly` | `number`                                                               | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L12)                 |
+| <a id="property-before"></a> `before`                     | `readonly` | `Node_2`                                                               | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`before`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-before)         | [packages/editor-types/src/types/transform/TransformDocument.ts:30](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L30) |
+| <a id="property-doc"></a> `doc`                           | `readonly` | `Node_2`                                                               | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`doc`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-doc)               | [packages/editor-types/src/types/transform/TransformDocument.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L26) |
+| <a id="property-docchanged"></a> `docChanged`             | `readonly` | `boolean`                                                              | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`docChanged`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-docchanged) | [packages/editor-types/src/types/transform/TransformDocument.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L31) |
+| <a id="property-docs"></a> `docs`                         | `readonly` | readonly `Node_2`[]                                                    | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`docs`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-docs)             | [packages/editor-types/src/types/transform/TransformDocument.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L28) |
+| <a id="property-isgeneric"></a> `isGeneric`               | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L16)                 |
+| <a id="property-mapping"></a> `mapping`                   | `readonly` | [`PmMapping`](../../../transform/PmMapping/interfaces/PmMapping.md)    | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`mapping`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-mapping)       | [packages/editor-types/src/types/transform/TransformDocument.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L29) |
+| <a id="property-scrolledintoview"></a> `scrolledIntoView` | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L17)                 |
+| <a id="property-selection"></a> `selection`               | `readonly` | [`PmSelection`](../../selection/PmSelection/interfaces/PmSelection.md) | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L13)                 |
+| <a id="property-selectionset"></a> `selectionSet`         | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L14)                 |
+| <a id="property-steps"></a> `steps`                       | `readonly` | readonly [`PmStep`](../../../transform/PmStep/interfaces/PmStep.md)[]  | [`TransformDocument`](../../../transform/TransformDocument/interfaces/TransformDocument.md).[`steps`](../../../transform/TransformDocument/interfaces/TransformDocument.md#property-steps)           | [packages/editor-types/src/types/transform/TransformDocument.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L27) |
+| <a id="property-storedmarks"></a> `storedMarks`           | `readonly` | readonly `Mark`[]                                                      | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L11)                 |
+| <a id="property-storedmarksset"></a> `storedMarksSet`     | `readonly` | `boolean`                                                              | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L15)                 |
+| <a id="property-time"></a> `time`                         | `readonly` | `number`                                                               | -                                                                                                                                                                                                    | [packages/editor-types/src/types/state/PmTransaction.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L12)                 |
 
 ## Methods
 
@@ -47,7 +47,7 @@ addMark(
    mark): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:269](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L269)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:269](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L269)
 
 Add the given mark to the inline content between `from` and `to`.
 
@@ -77,7 +77,7 @@ This transform instance for chaining.
 addNodeMark(position, mark): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:235](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L235)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:235](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L235)
 
 Add a mark to the node at position `pos`.
 
@@ -110,7 +110,7 @@ When there is no node at the given position.
 addStep(step, doc): void;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:46](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L46)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:46](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L46)
 
 Add a step to the transform without applying it (assumes it has already been applied).
 Updates the internal state to track the step and its resulting document.
@@ -138,7 +138,7 @@ Updates the internal state to track the step and its resulting document.
 addStoredMark(mark): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:39](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L39)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:39](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L39)
 
 Add a mark to the set of stored marks.
 
@@ -163,7 +163,7 @@ changedRange(): {
 };
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:102](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L102)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:102](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L102)
 
 #### Returns
 
@@ -176,8 +176,8 @@ Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:102](https:/
 
 | Name   | Type     | Defined in                                                                                                                                                                                                  |
 | ------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `from` | `number` | [packages/editor-types/src/types/state/PmTransaction.ts:102](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L102) |
-| `to`   | `number` | [packages/editor-types/src/types/state/PmTransaction.ts:102](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L102) |
+| `from` | `number` | [packages/editor-types/src/types/state/PmTransaction.ts:102](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L102) |
+| `to`   | `number` | [packages/editor-types/src/types/state/PmTransaction.ts:102](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L102) |
 
 ---
 
@@ -190,7 +190,7 @@ clearIncompatible(
    match?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:295](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L295)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:295](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L295)
 
 Removes all marks and nodes from the content of the node at
 `position` that don't match the given new parent node type. Accepts
@@ -223,7 +223,7 @@ This transform instance for chaining.
 delete(from, to): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:89](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L89)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:89](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L89)
 
 Delete the content between the given positions.
 
@@ -252,7 +252,7 @@ This transform instance for chaining.
 deleteRange(from, to): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:147](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L147)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:147](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L147)
 
 Delete the given range, expanding it to cover fully covered
 parent nodes until a valid replace is found.
@@ -282,7 +282,7 @@ This transform instance for chaining.
 deleteSelection(): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:72](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L72)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:72](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L72)
 
 Delete the selection.
 
@@ -298,7 +298,7 @@ Delete the selection.
 ensureMarks(marks): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:34](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L34)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:34](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L34)
 
 Make sure the current stored marks or, if that is null, the marks
 at the selection, match the given set of marks. Does nothing if
@@ -322,7 +322,7 @@ this is already the case.
 getMeta(key): any;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:89](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L89)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:89](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L89)
 
 Retrieve a metadata property for a given name or plugin.
 
@@ -344,7 +344,7 @@ Retrieve a metadata property for a given name or plugin.
 getUpdated(): number;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L25)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L25)
 
 #### Returns
 
@@ -358,7 +358,7 @@ Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:25](https://
 insert(pos, content): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:97](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L97)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:97](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L97)
 
 Insert the given content at the given position.
 
@@ -390,7 +390,7 @@ insertText(
    to?): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:78](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L78)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:78](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L78)
 
 Replace the given range, or the selection if no range is given,
 with a text node containing the given string.
@@ -415,7 +415,7 @@ with a text node containing the given string.
 join(pos, depth?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:168](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L168)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:168](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L168)
 
 Join the blocks around the given position. If depth is 2, their
 last and first siblings are also joined, and so on.
@@ -445,7 +445,7 @@ This transform instance for chaining.
 lift(range, target): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:159](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L159)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:159](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L159)
 
 Split the content in the given range off from its parent, if there
 is sibling content before or after it, and move it up the tree to
@@ -478,7 +478,7 @@ This transform instance for chaining.
 maybeStep(step): PmStepResult;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:48](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L48)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:48](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L48)
 
 Try to apply a step in this transformation, ignoring it if it
 fails. Returns the step result.
@@ -510,7 +510,7 @@ removeMark(
    mark?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:281](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L281)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:281](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L281)
 
 Remove marks from inline nodes between `from` and `to`. When
 `mark` is a single mark, remove precisely that mark. When it is
@@ -543,7 +543,7 @@ This transform instance for chaining.
 removeNodeMark(position, mark): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:245](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L245)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:245](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L245)
 
 Remove a mark (or all marks of the given type) from the node at
 position `pos`.
@@ -577,7 +577,7 @@ When there is no node at the given position.
 removeStoredMark(mark): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:44](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L44)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:44](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L44)
 
 Remove a mark or mark type from the set of stored marks.
 
@@ -602,7 +602,7 @@ replace(
    slice?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:67](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L67)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:67](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L67)
 
 Replace the part of the document between `from` and `to` with the
 given `slice`. No-op replacements (empty slice over empty range) are
@@ -637,7 +637,7 @@ replaceRange(
    slice): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:123](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L123)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:123](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L123)
 
 Replace a range of the document with a given slice, using
 `from`, `to`, and the slice's
@@ -686,7 +686,7 @@ replaceRangeWith(
    node): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:138](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L138)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:138](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L138)
 
 Replace the given range with a node, but use `from` and `to` as
 hints, rather than precise positions. When from and to are the same
@@ -722,7 +722,7 @@ This transform instance for chaining.
 replaceSelection(slice): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:58](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L58)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:58](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L58)
 
 Replace the current selection with the given slice.
 
@@ -744,7 +744,7 @@ Replace the current selection with the given slice.
 replaceSelectionWith(node, inheritMarks?): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:67](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L67)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:67](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L67)
 
 Replace the selection with the given node. When `inheritMarks` is
 true and the content is inline, it inherits the marks from the
@@ -772,7 +772,7 @@ replaceWith(
    content): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:79](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L79)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:79](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L79)
 
 Replace the given range with the given content, which may be a
 fragment, node, or array of nodes.
@@ -803,7 +803,7 @@ This transform instance for chaining.
 scrollIntoView(): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:95](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L95)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:95](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L95)
 
 Indicate that the editor should scroll the selection into view
 when updated to the state produced by this transaction.
@@ -824,7 +824,7 @@ setBlockType(
    attrs?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:190](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L190)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:190](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L190)
 
 Set the type of all textblocks (partly) between `from` and `to` to
 the given node type with the given attributes.
@@ -856,7 +856,7 @@ This transform instance for chaining.
 setDocAttribute(attr, value): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:226](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L226)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:226](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L226)
 
 Set a single attribute on the document to a new value.
 
@@ -885,7 +885,7 @@ This transform instance for chaining.
 setMeta(key, value): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:84](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L84)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:84](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L84)
 
 Store a metadata property in this transaction, keyed either by
 name or by plugin.
@@ -912,7 +912,7 @@ setNodeAttribute(
    value): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:218](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L218)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:218](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L218)
 
 Set a single attribute on a given node to a new value.
 The `pos` addresses the document content. Use `setDocAttribute`
@@ -948,7 +948,7 @@ setNodeMarkup(
    marks?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:204](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L204)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:204](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L204)
 
 Change the type, attributes, and/or marks of the node at `pos`.
 When `type` isn't given, the existing node type is preserved.
@@ -980,7 +980,7 @@ This transform instance for chaining.
 setSelection(selection): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L23)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L23)
 
 Update the transaction's current selection. Will determine the
 selection that the editor gets when the transaction is applied.
@@ -1003,7 +1003,7 @@ selection that the editor gets when the transaction is applied.
 setStoredMarks(marks): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:100](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L100)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:100](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L100)
 
 Set the current stored marks.
 
@@ -1025,7 +1025,7 @@ Set the current stored marks.
 setTime(time): PmTransaction;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:52](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L52)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:52](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L52)
 
 Update the timestamp for the transaction.
 
@@ -1047,7 +1047,7 @@ Update the timestamp for the transaction.
 setUpdated(updated): void;
 ```
 
-Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:27](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/PmTransaction.ts#L27)
+Defined in: [packages/editor-types/src/types/state/PmTransaction.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/PmTransaction.ts#L27)
 
 #### Parameters
 
@@ -1070,7 +1070,7 @@ split(
    typesAfter?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:258](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L258)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:258](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L258)
 
 Split the node at the given position, and optionally, if `depth` is
 greater than one, any number of nodes above that. By default, the
@@ -1104,7 +1104,7 @@ This transform instance for chaining.
 step(step): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:40](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L40)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:40](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L40)
 
 Apply a new step in this transform, saving the result. Throws an
 error when the step fails.
@@ -1137,7 +1137,7 @@ When the step fails to apply.
 wrap(range, wrappers): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:178](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/TransformDocument.ts#L178)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:178](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/TransformDocument.ts#L178)
 
 Wrap the given [range](#model.NodeRange) in the given set of wrappers.
 The wrappers are assumed to be valid in this position, and should

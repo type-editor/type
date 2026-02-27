@@ -10,7 +10,7 @@
 const IOS_ENTER_TIME_THRESHOLD: 225 = 225;
 ```
 
-Defined in: [constants.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/constants.ts#L11)
+Defined in: [constants.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-change-util/src/dom-change/constants.ts#L11)
 
 Time threshold (in milliseconds) for detecting iOS Enter key events.
 iOS has specific timing-based detection for Enter key presses.

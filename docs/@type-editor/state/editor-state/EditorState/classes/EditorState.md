@@ -6,7 +6,7 @@
 
 # Class: EditorState
 
-Defined in: [state/src/editor-state/EditorState.ts:65](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L65)
+Defined in: [state/src/editor-state/EditorState.ts:65](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L65)
 
 The state of a ProseMirror editor is represented by an object of
 this type. A state is a persistent data structure—it isn't
@@ -31,7 +31,7 @@ new EditorState(
    isUpdate?): EditorState;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:93](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L93)
+Defined in: [state/src/editor-state/EditorState.ts:93](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L93)
 
 Constructor for EditorState. Should not be called directly - use EditorState.create() or EditorState.fromJSON() instead.
 
@@ -61,7 +61,7 @@ If editorStateDto is null/undefined or if isUpdate is true but transaction is mi
 get doc(): Node_2;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:141](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L141)
+Defined in: [state/src/editor-state/EditorState.ts:141](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L141)
 
 The current document.
 
@@ -85,7 +85,7 @@ PmEditorState.doc;
 get plugins(): readonly Plugin<any>[];
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:178](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L178)
+Defined in: [state/src/editor-state/EditorState.ts:178](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L178)
 
 The plugins that are active in this state.
 
@@ -109,7 +109,7 @@ PmEditorState.plugins;
 get schema(): Schema;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:171](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L171)
+Defined in: [state/src/editor-state/EditorState.ts:171](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L171)
 
 The schema of the state's document.
 
@@ -133,7 +133,7 @@ PmEditorState.schema;
 get scrollToSelection(): number;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:156](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L156)
+Defined in: [state/src/editor-state/EditorState.ts:156](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L156)
 
 Counter that is incremented whenever a transaction with scrolledIntoView set is applied.
 Used by the view to detect when it should scroll the selection into view.
@@ -158,7 +158,7 @@ PmEditorState.scrollToSelection;
 get selection(): PmSelection;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:148](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L148)
+Defined in: [state/src/editor-state/EditorState.ts:148](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L148)
 
 The current selection.
 
@@ -182,7 +182,7 @@ PmEditorState.selection;
 get storedMarks(): readonly Mark[];
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:164](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L164)
+Defined in: [state/src/editor-state/EditorState.ts:164](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L164)
 
 A set of marks to apply to the next input. Will be null when
 no explicit marks have been set.
@@ -207,7 +207,7 @@ PmEditorState.storedMarks;
 get tr(): Transaction;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:192](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L192)
+Defined in: [state/src/editor-state/EditorState.ts:192](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L192)
 
 ##### Deprecated
 
@@ -233,7 +233,7 @@ PmEditorState.tr;
 get transaction(): Transaction;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:185](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L185)
+Defined in: [state/src/editor-state/EditorState.ts:185](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L185)
 
 Accessor that constructs and returns a new [transaction](#state.Transaction) from this state.
 
@@ -257,7 +257,7 @@ PmEditorState.transaction;
 get type(): string;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:134](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L134)
+Defined in: [state/src/editor-state/EditorState.ts:134](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L134)
 
 ##### Returns
 
@@ -271,7 +271,7 @@ Defined in: [state/src/editor-state/EditorState.ts:134](https://github.com/type-
 apply(transaction): EditorState;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:406](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L406)
+Defined in: [state/src/editor-state/EditorState.ts:406](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L406)
 
 Apply the given transaction to produce a new state.
 This is a convenience method that calls applyTransaction and returns only the state.
@@ -305,7 +305,7 @@ applyTransaction(rootTransaction): {
 };
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:422](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L422)
+Defined in: [state/src/editor-state/EditorState.ts:422](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L422)
 
 Verbose variant of [`apply`](#state.EditorState.apply) that
 returns the precise transactions that were applied (which might
@@ -334,8 +334,8 @@ An object containing the new state and array of all applied transactions
 
 | Name           | Type                                                                    | Defined in                                                                                                                                                                         |
 | -------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `state`        | `EditorState`                                                           | [state/src/editor-state/EditorState.ts:423](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L423) |
-| `transactions` | readonly [`Transaction`](../../../Transaction/classes/Transaction.md)[] | [state/src/editor-state/EditorState.ts:424](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L424) |
+| `state`        | `EditorState`                                                           | [state/src/editor-state/EditorState.ts:423](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L423) |
+| `transactions` | readonly [`Transaction`](../../../Transaction/classes/Transaction.md)[] | [state/src/editor-state/EditorState.ts:424](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L424) |
 
 #### Implementation of
 
@@ -351,7 +351,7 @@ PmEditorState.applyTransaction;
 getFieldPluginValue(key): unknown;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:395](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L395)
+Defined in: [state/src/editor-state/EditorState.ts:395](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L395)
 
 Get the value of a plugin field.
 
@@ -381,7 +381,7 @@ PmEditorState.getFieldPluginValue;
 getPlugin(key): Plugin<any>;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:385](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L385)
+Defined in: [state/src/editor-state/EditorState.ts:385](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L385)
 
 Get a plugin by its key.
 
@@ -411,7 +411,7 @@ PmEditorState.getPlugin;
 reconfigure(config): EditorState;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:468](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L468)
+Defined in: [state/src/editor-state/EditorState.ts:468](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L468)
 
 Create a new state based on this one, but with an adjusted set
 of active plugins. State fields that exist in both sets of
@@ -448,7 +448,7 @@ PmEditorState.reconfigure;
 toJSON(pluginFields?, onlyDocument?): StateJSON;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:493](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L493)
+Defined in: [state/src/editor-state/EditorState.ts:493](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L493)
 
 Serialize this state to JSON. If you want to serialize the state
 of plugins, pass an object mapping property names to use in the
@@ -490,7 +490,7 @@ PmEditorState.toJSON;
 static create(config): EditorState;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:273](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L273)
+Defined in: [state/src/editor-state/EditorState.ts:273](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L273)
 
 Create a new editor state from a configuration object.
 This is the recommended way to create a new state.
@@ -525,7 +525,7 @@ const state = EditorState.create({
 static createConfig(schema, plugins?): EditorStateConfiguration;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:296](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L296)
+Defined in: [state/src/editor-state/EditorState.ts:296](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L296)
 
 Creates an EditorStateConfiguration object from a schema and plugins array.
 This method combines built-in field descriptors with plugin-provided field descriptors.
@@ -558,7 +558,7 @@ static fromJSON(
    pluginFields?): EditorState;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:220](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L220)
+Defined in: [state/src/editor-state/EditorState.ts:220](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L220)
 
 Deserialize a JSON representation of a state. The `config` parameter should
 have at least a `schema` field, and should contain an array of
@@ -604,7 +604,7 @@ const state = EditorState.fromJSON(
 static isEditorState(value): value is EditorState;
 ```
 
-Defined in: [state/src/editor-state/EditorState.ts:320](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/editor-state/EditorState.ts#L320)
+Defined in: [state/src/editor-state/EditorState.ts:320](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/editor-state/EditorState.ts#L320)
 
 #### Parameters
 

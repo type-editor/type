@@ -10,7 +10,7 @@
 function findCellPos(doc, pos): ResolvedPos;
 ```
 
-Defined in: [tables/src/utils/query.ts:187](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/query.ts#L187)
+Defined in: [tables/src/utils/query.ts:187](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/query.ts#L187)
 
 Finds the resolved position of a table cell at or near the given document position.
 

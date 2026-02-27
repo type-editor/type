@@ -6,7 +6,7 @@
 
 # Class: Branch
 
-Defined in: [state/Branch.ts:106](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L106)
+Defined in: [state/Branch.ts:106](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L106)
 
 Represents a branch in the history tree (either undo or redo history).
 
@@ -22,7 +22,7 @@ where each item can contain a step (an actual change) and/or a position map
 new Branch(items, eventCount): Branch;
 ```
 
-Defined in: [state/Branch.ts:124](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L124)
+Defined in: [state/Branch.ts:124](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L124)
 
 **`Internal`**
 
@@ -43,7 +43,7 @@ Creates a new branch.
 
 | Property                            | Modifier   | Type     | Defined in                                                                                                                                         |
 | ----------------------------------- | ---------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty"></a> `empty` | `readonly` | `Branch` | [state/Branch.ts:108](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L108) |
+| <a id="property-empty"></a> `empty` | `readonly` | `Branch` | [state/Branch.ts:108](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L108) |
 
 ## Accessors
 
@@ -55,7 +55,7 @@ Creates a new branch.
 get eventCount(): number;
 ```
 
-Defined in: [state/Branch.ts:132](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L132)
+Defined in: [state/Branch.ts:132](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L132)
 
 Gets the number of events in this branch.
 
@@ -71,7 +71,7 @@ Gets the number of events in this branch.
 addMaps(maps): Branch;
 ```
 
-Defined in: [state/Branch.ts:269](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L269)
+Defined in: [state/Branch.ts:269](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L269)
 
 Adds position maps to the branch without associated steps.
 
@@ -102,7 +102,7 @@ addTransform(
    preserveItems): Branch;
 ```
 
-Defined in: [state/Branch.ts:218](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L218)
+Defined in: [state/Branch.ts:218](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L218)
 
 Creates a new branch with the given transform added to the history.
 
@@ -132,7 +132,7 @@ A new branch with the transform added
 popEvent(state, preserveItems): HistoryEventState;
 ```
 
-Defined in: [state/Branch.ts:146](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L146)
+Defined in: [state/Branch.ts:146](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L146)
 
 Pops the latest event off the branch's history and applies it to a document transform.
 
@@ -160,7 +160,7 @@ The history event state with remaining branch, transform, and selection, or null
 rebased(rebasedTransform, rebasedCount): Branch;
 ```
 
-Defined in: [state/Branch.ts:288](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/state/Branch.ts#L288)
+Defined in: [state/Branch.ts:288](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/state/Branch.ts#L288)
 
 Adjusts the branch when remote changes are rebased in collaborative editing.
 

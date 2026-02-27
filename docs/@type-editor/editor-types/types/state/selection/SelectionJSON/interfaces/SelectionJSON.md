@@ -6,7 +6,7 @@
 
 # Interface: SelectionJSON
 
-Defined in: [packages/editor-types/src/types/state/selection/SelectionJSON.ts:9](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L9)
+Defined in: [packages/editor-types/src/types/state/selection/SelectionJSON.ts:9](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L9)
 
 JSON representation of a selection for serialization.
 Different selection types may use different properties:
@@ -19,7 +19,7 @@ Different selection types may use different properties:
 
 | Property                               | Type     | Description                                            | Defined in                                                                                                                                                                                                                    |
 | -------------------------------------- | -------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-anchor"></a> `anchor?` | `number` | The anchor position (used by text and node selections) | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L13) |
-| <a id="property-head"></a> `head?`     | `number` | The head position (used by text selections)            | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L15) |
-| <a id="property-pos"></a> `pos?`       | `number` | Alternative position property (legacy support)         | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L17) |
-| <a id="property-type"></a> `type`      | `string` | The type of selection (text, node, or all)             | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L11) |
+| <a id="property-anchor"></a> `anchor?` | `number` | The anchor position (used by text and node selections) | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L13) |
+| <a id="property-head"></a> `head?`     | `number` | The head position (used by text selections)            | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L15) |
+| <a id="property-pos"></a> `pos?`       | `number` | Alternative position property (legacy support)         | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L17) |
+| <a id="property-type"></a> `type`      | `string` | The type of selection (text, node, or all)             | [packages/editor-types/src/types/state/selection/SelectionJSON.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/selection/SelectionJSON.ts#L11) |

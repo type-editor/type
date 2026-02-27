@@ -10,7 +10,7 @@
 function pointsAtCell($pos): boolean;
 ```
 
-Defined in: [tables/src/utils/points-at-cell.ts:20](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/points-at-cell.ts#L20)
+Defined in: [tables/src/utils/points-at-cell.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/points-at-cell.ts#L20)
 
 Checks if the given position points directly at a cell.
 

@@ -10,7 +10,7 @@
 function isRightArrowKey(key, inputState): boolean;
 ```
 
-Defined in: [input-handler/keyboard/keys/is-right-arrow-key.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/input-handler/keyboard/keys/is-right-arrow-key.ts#L13)
+Defined in: [input-handler/keyboard/keys/is-right-arrow-key.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/input-handler/keyboard/keys/is-right-arrow-key.ts#L13)
 
 Checks if the key event represents a right arrow action.
 

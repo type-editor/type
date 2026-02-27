@@ -6,7 +6,7 @@
 
 # Class: RegExpQuery
 
-Defined in: [search-query/RegExpQuery.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/RegExpQuery.ts#L14)
+Defined in: [search-query/RegExpQuery.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/RegExpQuery.ts#L14)
 
 Query implementation for regular expression searches.
 Handles pattern matching with capture groups.
@@ -27,7 +27,7 @@ Handles pattern matching with capture groups.
 new RegExpQuery(query): RegExpQuery;
 ```
 
-Defined in: [search-query/RegExpQuery.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/RegExpQuery.ts#L25)
+Defined in: [search-query/RegExpQuery.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/RegExpQuery.ts#L25)
 
 Creates a new regular expression query implementation.
 
@@ -56,7 +56,7 @@ findNext(
    to): SearchResult;
 ```
 
-Defined in: [search-query/RegExpQuery.ts:39](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/RegExpQuery.ts#L39)
+Defined in: [search-query/RegExpQuery.ts:39](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/RegExpQuery.ts#L39)
 
 Finds the next occurrence matching the regular expression in the document.
 
@@ -89,7 +89,7 @@ findPrev(
    to): SearchResult;
 ```
 
-Defined in: [search-query/RegExpQuery.ts:76](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/RegExpQuery.ts#L76)
+Defined in: [search-query/RegExpQuery.ts:76](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/RegExpQuery.ts#L76)
 
 Finds the previous occurrence matching the regular expression in the document.
 Since regex doesn't support backward search, this iterates forward to find the last match.
@@ -125,7 +125,7 @@ protected scanTextblocks<T>(
    nodeStart?): T;
 ```
 
-Defined in: [search-query/AbstractQueryImpl.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/AbstractQueryImpl.ts#L29)
+Defined in: [search-query/AbstractQueryImpl.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/AbstractQueryImpl.ts#L29)
 
 Scans through text blocks in a document tree, calling a callback for each text block
 that intersects with the given range.
@@ -166,7 +166,7 @@ The first non-null result from the callback, or null if none found
 protected textContent(node): string;
 ```
 
-Defined in: [search-query/AbstractQueryImpl.ts:90](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/AbstractQueryImpl.ts#L90)
+Defined in: [search-query/AbstractQueryImpl.ts:90](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/AbstractQueryImpl.ts#L90)
 
 Extracts the text content from a node, with caching for performance.
 

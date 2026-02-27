@@ -6,7 +6,7 @@
 
 # Class: DOMObserver
 
-Defined in: [dom-observer/DOMObserver.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L19)
+Defined in: [dom-observer/DOMObserver.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L19)
 
 Observes DOM changes and selection changes in a ProseMirror editor view.
 This class bridges between native browser events and ProseMirror's state management,
@@ -24,7 +24,7 @@ ensuring that external DOM modifications are properly synchronized with the edit
 new DOMObserver(view, handleDOMChange): DOMObserver;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:53](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L53)
+Defined in: [dom-observer/DOMObserver.ts:53](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L53)
 
 Creates a new DOM observer.
 
@@ -49,7 +49,7 @@ Creates a new DOM observer.
 get currentSelection(): SelectionState;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:92](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L92)
+Defined in: [dom-observer/DOMObserver.ts:92](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L92)
 
 Gets the current cached selection state.
 
@@ -75,7 +75,7 @@ PmDOMObserver.currentSelection;
 get flushingSoon(): number;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:76](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L76)
+Defined in: [dom-observer/DOMObserver.ts:76](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L76)
 
 Gets the timeout ID for pending flush operation.
 
@@ -101,7 +101,7 @@ PmDOMObserver.flushingSoon;
 get lastChangedTextNode(): Text;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:84](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L84)
+Defined in: [dom-observer/DOMObserver.ts:84](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L84)
 
 Gets the last text node that was modified.
 
@@ -127,7 +127,7 @@ PmDOMObserver.lastChangedTextNode;
 get requiresGeckoHackNode(): boolean;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:96](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L96)
+Defined in: [dom-observer/DOMObserver.ts:96](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L96)
 
 ##### Returns
 
@@ -147,7 +147,7 @@ PmDOMObserver.requiresGeckoHackNode;
 connectSelection(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:203](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L203)
+Defined in: [dom-observer/DOMObserver.ts:203](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L203)
 
 Starts listening to selection change events.
 
@@ -169,7 +169,7 @@ PmDOMObserver.connectSelection;
 disconnectSelection(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:211](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L211)
+Defined in: [dom-observer/DOMObserver.ts:211](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L211)
 
 Stops listening to selection change events.
 
@@ -191,7 +191,7 @@ PmDOMObserver.disconnectSelection;
 flush(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:256](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L256)
+Defined in: [dom-observer/DOMObserver.ts:256](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L256)
 
 Processes all pending mutations and synchronizes the editor state.
 This is the main entry point for DOM change handling.
@@ -214,7 +214,7 @@ PmDOMObserver.flush;
 flushSoon(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:104](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L104)
+Defined in: [dom-observer/DOMObserver.ts:104](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L104)
 
 Schedules a flush operation to process pending mutations after a short delay.
 This helps batch multiple rapid changes together for better performance.
@@ -237,7 +237,7 @@ PmDOMObserver.flushSoon;
 forceFlush(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:118](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L118)
+Defined in: [dom-observer/DOMObserver.ts:118](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L118)
 
 Cancels any pending flush and immediately processes all mutations.
 
@@ -259,7 +259,7 @@ PmDOMObserver.forceFlush;
 pendingRecords(): MutationRecord[];
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:244](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L244)
+Defined in: [dom-observer/DOMObserver.ts:244](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L244)
 
 Retrieves all pending mutation records and returns the current queue.
 
@@ -283,7 +283,7 @@ PmDOMObserver.pendingRecords;
 setCurSelection(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:236](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L236)
+Defined in: [dom-observer/DOMObserver.ts:236](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L236)
 
 Updates the cached current selection from the DOM.
 
@@ -305,7 +305,7 @@ PmDOMObserver.setCurSelection;
 start(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:130](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L130)
+Defined in: [dom-observer/DOMObserver.ts:130](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L130)
 
 Starts observing DOM and selection changes.
 This should be called when the editor becomes active.
@@ -328,7 +328,7 @@ PmDOMObserver.start;
 stop(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:165](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L165)
+Defined in: [dom-observer/DOMObserver.ts:165](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L165)
 
 Stops observing DOM and selection changes.
 Any pending mutations are flushed asynchronously.
@@ -351,7 +351,7 @@ PmDOMObserver.stop;
 suppressSelectionUpdates(): void;
 ```
 
-Defined in: [dom-observer/DOMObserver.ts:220](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/view/src/dom-observer/DOMObserver.ts#L220)
+Defined in: [dom-observer/DOMObserver.ts:220](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/view/src/dom-observer/DOMObserver.ts#L220)
 
 Temporarily suppresses selection updates for 50ms.
 This is useful when programmatically changing the selection.

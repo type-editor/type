@@ -10,6 +10,6 @@
 type AutoLinkTriggerKey = "Enter" | "Space";
 ```
 
-Defined in: [auto-link.ts:24](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/auto-link.ts#L24)
+Defined in: [auto-link.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/auto-link.ts#L24)
 
 Type definition for the trigger key that activates auto-linking.

@@ -6,7 +6,7 @@
 
 # Class: NullQuery
 
-Defined in: [search-query/NullQuery.ts:4](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/NullQuery.ts#L4)
+Defined in: [search-query/NullQuery.ts:4](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/NullQuery.ts#L4)
 
 Internal interface for query implementation strategies.
 Different implementations handle string search vs. regex search.
@@ -35,7 +35,7 @@ new NullQuery(): NullQuery;
 findNext(): null;
 ```
 
-Defined in: [search-query/NullQuery.ts:6](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/NullQuery.ts#L6)
+Defined in: [search-query/NullQuery.ts:6](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/NullQuery.ts#L6)
 
 Finds the next occurrence of the query in the document.
 
@@ -57,7 +57,7 @@ The search result if found, or `null` if no match exists
 findPrev(): null;
 ```
 
-Defined in: [search-query/NullQuery.ts:10](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/search-query/NullQuery.ts#L10)
+Defined in: [search-query/NullQuery.ts:10](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/NullQuery.ts#L10)
 
 Finds the previous occurrence of the query in the document.
 

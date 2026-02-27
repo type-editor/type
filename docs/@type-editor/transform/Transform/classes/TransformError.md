@@ -6,7 +6,7 @@
 
 # Class: TransformError
 
-Defined in: [packages/transform/src/Transform.ts:39](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L39)
+Defined in: [packages/transform/src/Transform.ts:39](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/Transform.ts#L39)
 
 Error thrown when a transformation step fails.
 
@@ -22,7 +22,7 @@ Error thrown when a transformation step fails.
 new TransformError(message): TransformError;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:45](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L45)
+Defined in: [packages/transform/src/Transform.ts:45](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/Transform.ts#L45)
 
 Creates a new TransformError.
 

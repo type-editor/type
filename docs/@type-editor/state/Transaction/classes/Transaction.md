@@ -6,7 +6,7 @@
 
 # Class: Transaction
 
-Defined in: [state/src/Transaction.ts:40](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L40)
+Defined in: [state/src/Transaction.ts:40](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L40)
 
 An editor state transaction, which can be applied to a state to
 create an updated state. Use
@@ -45,7 +45,7 @@ input, and a `'uiEvent'` property of that may be `'paste'`,
 new Transaction(state): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:70](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L70)
+Defined in: [state/src/Transaction.ts:70](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L70)
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Transform.docs;
 get isGeneric(): boolean;
 ```
 
-Defined in: [state/src/Transaction.ts:124](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L124)
+Defined in: [state/src/Transaction.ts:124](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L124)
 
 Returns true if this transaction doesn't contain any metadata,
 and can thus safely be extended.
@@ -244,7 +244,7 @@ Transform.mapping;
 get scrolledIntoView(): boolean;
 ```
 
-Defined in: [state/src/Transaction.ts:131](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L131)
+Defined in: [state/src/Transaction.ts:131](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L131)
 
 True when this transaction has had `scrollIntoView` called on it.
 
@@ -268,7 +268,7 @@ PmTransaction.scrolledIntoView;
 get selection(): Selection;
 ```
 
-Defined in: [state/src/Transaction.ts:98](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L98)
+Defined in: [state/src/Transaction.ts:98](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L98)
 
 The transaction's current selection. This defaults to the editor
 selection [mapped](#state.Selection.map) through the steps in the
@@ -295,7 +295,7 @@ PmTransaction.selection;
 get selectionSet(): boolean;
 ```
 
-Defined in: [state/src/Transaction.ts:109](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L109)
+Defined in: [state/src/Transaction.ts:109](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L109)
 
 Whether the selection was explicitly updated by this transaction.
 
@@ -347,7 +347,7 @@ Transform.steps;
 get storedMarks(): readonly Mark[];
 ```
 
-Defined in: [state/src/Transaction.ts:80](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L80)
+Defined in: [state/src/Transaction.ts:80](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L80)
 
 The stored marks set by this transaction, if any.
 
@@ -371,7 +371,7 @@ PmTransaction.storedMarks;
 get storedMarksSet(): boolean;
 ```
 
-Defined in: [state/src/Transaction.ts:116](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L116)
+Defined in: [state/src/Transaction.ts:116](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L116)
 
 Whether the stored marks were explicitly set for this transaction.
 
@@ -395,7 +395,7 @@ PmTransaction.storedMarksSet;
 get time(): number;
 ```
 
-Defined in: [state/src/Transaction.ts:88](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L88)
+Defined in: [state/src/Transaction.ts:88](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L88)
 
 The timestamp associated with this transaction, in the same
 format as `Date.now()`.
@@ -488,7 +488,7 @@ Transform.addNodeMark;
 addStep(step, doc): void;
 ```
 
-Defined in: [state/src/Transaction.ts:186](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L186)
+Defined in: [state/src/Transaction.ts:186](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L186)
 
 #### Parameters
 
@@ -521,7 +521,7 @@ Transform.addStep;
 addStoredMark(mark): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:173](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L173)
+Defined in: [state/src/Transaction.ts:173](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L173)
 
 Add a mark to the set of stored marks.
 
@@ -691,7 +691,7 @@ Transform.deleteRange;
 deleteSelection(): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:238](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L238)
+Defined in: [state/src/Transaction.ts:238](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L238)
 
 Delete the selection.
 
@@ -713,7 +713,7 @@ PmTransaction.deleteSelection;
 ensureMarks(marks): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:163](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L163)
+Defined in: [state/src/Transaction.ts:163](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L163)
 
 Make sure the current stored marks or, if that is null, the marks
 at the selection, match the given set of marks. Does nothing if
@@ -743,7 +743,7 @@ PmTransaction.ensureMarks;
 getMeta(key): any;
 ```
 
-Defined in: [state/src/Transaction.ts:289](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L289)
+Defined in: [state/src/Transaction.ts:289](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L289)
 
 Retrieve a metadata property for a given name or plugin.
 
@@ -771,7 +771,7 @@ PmTransaction.getMeta;
 getUpdated(): number;
 ```
 
-Defined in: [state/src/Transaction.ts:150](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L150)
+Defined in: [state/src/Transaction.ts:150](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L150)
 
 #### Returns
 
@@ -827,7 +827,7 @@ insertText(
    to?): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:247](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L247)
+Defined in: [state/src/Transaction.ts:247](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L247)
 
 Replace the given range, or the selection if no range is given,
 with a text node containing the given string.
@@ -1026,7 +1026,7 @@ Transform.removeNodeMark;
 removeStoredMark(mark): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:181](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L181)
+Defined in: [state/src/Transaction.ts:181](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L181)
 
 Remove a mark or mark type from the set of stored marks.
 
@@ -1165,7 +1165,7 @@ Transform.replaceRangeWith;
 replaceSelection(slice): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:205](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L205)
+Defined in: [state/src/Transaction.ts:205](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L205)
 
 Replace the current selection with the given slice.
 
@@ -1193,7 +1193,7 @@ PmTransaction.replaceSelection;
 replaceSelectionWith(node, inheritMarks?): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:217](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L217)
+Defined in: [state/src/Transaction.ts:217](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L217)
 
 Replace the selection with the given node. When `inheritMarks` is
 true and the content is inline, it inherits the marks from the
@@ -1261,7 +1261,7 @@ Transform.replaceWith;
 scrollIntoView(): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:297](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L297)
+Defined in: [state/src/Transaction.ts:297](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L297)
 
 Indicate that the editor should scroll the selection into view
 when updated to the state produced by this transaction.
@@ -1356,7 +1356,7 @@ Transform.setDocAttribute;
 setMeta(key, value): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:281](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L281)
+Defined in: [state/src/Transaction.ts:281](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L281)
 
 Store a metadata property in this transaction, keyed either by
 name or by plugin.
@@ -1462,7 +1462,7 @@ Transform.setNodeMarkup;
 setSelection(selection): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:139](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L139)
+Defined in: [state/src/Transaction.ts:139](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L139)
 
 Update the transaction's current selection. Will determine the
 selection that the editor gets when the transaction is applied.
@@ -1491,7 +1491,7 @@ PmTransaction.setSelection;
 setStoredMarks(marks): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:305](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L305)
+Defined in: [state/src/Transaction.ts:305](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L305)
 
 Set the current stored marks.
 
@@ -1519,7 +1519,7 @@ PmTransaction.setStoredMarks;
 setTime(time): Transaction;
 ```
 
-Defined in: [state/src/Transaction.ts:196](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L196)
+Defined in: [state/src/Transaction.ts:196](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L196)
 
 Update the timestamp for the transaction.
 
@@ -1547,7 +1547,7 @@ PmTransaction.setTime;
 setUpdated(updated): void;
 ```
 
-Defined in: [state/src/Transaction.ts:154](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/Transaction.ts#L154)
+Defined in: [state/src/Transaction.ts:154](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/Transaction.ts#L154)
 
 #### Parameters
 

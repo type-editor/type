@@ -10,4 +10,4 @@
 const cssClassProsemirrorMenu: "ProseMirror-menu" = "ProseMirror-menu";
 ```
 
-Defined in: [packages/menu/src/css-classes.ts:2](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/css-classes.ts#L2)
+Defined in: [packages/menu/src/css-classes.ts:2](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/css-classes.ts#L2)

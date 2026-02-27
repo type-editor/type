@@ -10,7 +10,7 @@
 function restoreScrollStack(stack, deltaTop): void;
 ```
 
-Defined in: [dom-coords/util/restore-scroll-stack.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-coords-util/src/dom-coords/util/restore-scroll-stack.ts#L11)
+Defined in: [dom-coords/util/restore-scroll-stack.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-coords-util/src/dom-coords/util/restore-scroll-stack.ts#L11)
 
 Restore scroll positions from a stack, with an optional vertical adjustment.
 Only updates scroll positions that have changed to avoid unnecessary reflows.

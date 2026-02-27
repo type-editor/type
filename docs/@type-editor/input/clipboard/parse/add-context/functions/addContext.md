@@ -10,7 +10,7 @@
 function addContext(slice, context): Slice;
 ```
 
-Defined in: [clipboard/parse/add-context.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/clipboard/parse/add-context.ts#L13)
+Defined in: [clipboard/parse/add-context.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/clipboard/parse/add-context.ts#L13)
 
 Re-apply a simple context (list of node-type names and attrs) that was
 removed during serialization. The context string is expected to be

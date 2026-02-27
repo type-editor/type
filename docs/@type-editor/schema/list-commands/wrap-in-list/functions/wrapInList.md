@@ -10,7 +10,7 @@
 function wrapInList(listType, attrs?, unwrapOnly?): Command;
 ```
 
-Defined in: [list-commands/wrap-in-list.ts:115](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/schema/src/list-commands/wrap-in-list.ts#L115)
+Defined in: [list-commands/wrap-in-list.ts:115](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/schema/src/list-commands/wrap-in-list.ts#L115)
 
 Returns a command function that wraps the selection in a list with
 the given type and attributes. If already inside a list of the same type,

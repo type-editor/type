@@ -10,7 +10,7 @@
 function splitCell(state, dispatch?): boolean;
 ```
 
-Defined in: [tables/src/commands/split-cell.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/commands/split-cell.ts#L19)
+Defined in: [tables/src/commands/split-cell.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/commands/split-cell.ts#L19)
 
 Splits a selected cell that has rowspan or colspan greater than one into smaller cells.
 

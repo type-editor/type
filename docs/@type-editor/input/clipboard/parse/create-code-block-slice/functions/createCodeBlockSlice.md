@@ -10,7 +10,7 @@
 function createCodeBlockSlice(view, text): Slice;
 ```
 
-Defined in: [clipboard/parse/create-code-block-slice.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/clipboard/parse/create-code-block-slice.ts#L12)
+Defined in: [clipboard/parse/create-code-block-slice.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/clipboard/parse/create-code-block-slice.ts#L12)
 
 Create a slice from plain text for insertion into code blocks.
 Normalizes line endings to Unix format (\n).

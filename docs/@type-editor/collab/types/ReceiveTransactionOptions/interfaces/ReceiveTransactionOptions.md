@@ -6,7 +6,7 @@
 
 # Interface: ReceiveTransactionOptions
 
-Defined in: [types/ReceiveTransactionOptions.ts:5](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/collab/src/types/ReceiveTransactionOptions.ts#L5)
+Defined in: [types/ReceiveTransactionOptions.ts:5](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/collab/src/types/ReceiveTransactionOptions.ts#L5)
 
 Configuration options for receiving transactions from the central authority.
 
@@ -14,4 +14,4 @@ Configuration options for receiving transactions from the central authority.
 
 | Property                                                           | Type      | Description                                                                                                                                                                                                                                                                                                          | Defined in                                                                                                                                                                            |
 | ------------------------------------------------------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-mapselectionbackward"></a> `mapSelectionBackward?` | `boolean` | When enabled (the default is `false`), if the current selection is a TextSelection, its sides are mapped with a negative bias for this transaction, so that content inserted at the cursor ends up after the cursor. Users usually prefer this, but it isn't done by default for reasons of backwards compatibility. | [types/ReceiveTransactionOptions.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/collab/src/types/ReceiveTransactionOptions.ts#L14) |
+| <a id="property-mapselectionbackward"></a> `mapSelectionBackward?` | `boolean` | When enabled (the default is `false`), if the current selection is a TextSelection, its sides are mapped with a negative bias for this transaction, so that content inserted at the cursor ends up after the cursor. Users usually prefer this, but it isn't done by default for reasons of backwards compatibility. | [types/ReceiveTransactionOptions.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/collab/src/types/ReceiveTransactionOptions.ts#L14) |

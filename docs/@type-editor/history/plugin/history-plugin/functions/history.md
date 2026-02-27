@@ -10,7 +10,7 @@
 function history(config?): Plugin_2;
 ```
 
-Defined in: [plugin/history-plugin.ts:30](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/plugin/history-plugin.ts#L30)
+Defined in: [plugin/history-plugin.ts:30](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/history/src/plugin/history-plugin.ts#L30)
 
 Returns a plugin that enables the undo history for an editor. The
 plugin will track undo and redo stacks, which can be used with the

@@ -6,7 +6,7 @@
 
 # Class: TextNode
 
-Defined in: [packages/model/src/elements/TextNode.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L17)
+Defined in: [packages/model/src/elements/TextNode.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L17)
 
 A text node represents a piece of text in the document. Text nodes
 are leaf nodes that contain only text content and cannot have children.
@@ -32,7 +32,7 @@ new TextNode(
    marks?): TextNode;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L29)
+Defined in: [packages/model/src/elements/TextNode.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L29)
 
 Create a text node. For most use cases, you should use
 Schema's text() method instead of calling this directly.
@@ -62,12 +62,12 @@ If the content is empty (empty text nodes are not allowed).
 
 | Property                                  | Modifier    | Type                                                         | Default value | Description                                            | Inherited from                                                                                  | Defined in                                                                                                                                                          |
 | ----------------------------------------- | ----------- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-_attrs"></a> `_attrs`     | `readonly`  | [`Attrs`](../../../types/schema/Attrs/type-aliases/Attrs.md) | `undefined`   | -                                                      | [`Node`](../../Node/classes/Node.md).[`_attrs`](../../Node/classes/Node.md#property-_attrs)     | [packages/model/src/elements/Node.ts:39](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L39) |
-| <a id="property-_content"></a> `_content` | `readonly`  | [`Fragment`](../../Fragment/classes/Fragment.md)             | `undefined`   | A container holding the node's children.               | [`Node`](../../Node/classes/Node.md).[`_content`](../../Node/classes/Node.md#property-_content) | [packages/model/src/elements/Node.ts:38](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L38) |
-| <a id="property-_marks"></a> `_marks`     | `readonly`  | readonly [`Mark`](../../Mark/classes/Mark.md)[]              | `undefined`   | -                                                      | [`Node`](../../Node/classes/Node.md).[`_marks`](../../Node/classes/Node.md#property-_marks)     | [packages/model/src/elements/Node.ts:40](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L40) |
-| <a id="property-_tag"></a> `_tag`         | `protected` | `Record`&lt;`string`, `number`&gt;                           | `{}`          | -                                                      | [`Node`](../../Node/classes/Node.md).[`_tag`](../../Node/classes/Node.md#property-_tag)         | [packages/model/src/elements/Node.ts:42](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L42) |
-| <a id="property-_text"></a> `_text`       | `readonly`  | `string`                                                     | `undefined`   | For text nodes, this contains the node's text content. | [`Node`](../../Node/classes/Node.md).[`_text`](../../Node/classes/Node.md#property-_text)       | [packages/model/src/elements/Node.ts:46](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L46) |
-| <a id="property-nodetype"></a> `nodeType` | `readonly`  | [`NodeType`](../../../schema/NodeType/classes/NodeType.md)   | `undefined`   | -                                                      | [`Node`](../../Node/classes/Node.md).[`nodeType`](../../Node/classes/Node.md#property-nodetype) | [packages/model/src/elements/Node.ts:41](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L41) |
+| <a id="property-_attrs"></a> `_attrs`     | `readonly`  | [`Attrs`](../../../types/schema/Attrs/type-aliases/Attrs.md) | `undefined`   | -                                                      | [`Node`](../../Node/classes/Node.md).[`_attrs`](../../Node/classes/Node.md#property-_attrs)     | [packages/model/src/elements/Node.ts:39](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L39) |
+| <a id="property-_content"></a> `_content` | `readonly`  | [`Fragment`](../../Fragment/classes/Fragment.md)             | `undefined`   | A container holding the node's children.               | [`Node`](../../Node/classes/Node.md).[`_content`](../../Node/classes/Node.md#property-_content) | [packages/model/src/elements/Node.ts:38](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L38) |
+| <a id="property-_marks"></a> `_marks`     | `readonly`  | readonly [`Mark`](../../Mark/classes/Mark.md)[]              | `undefined`   | -                                                      | [`Node`](../../Node/classes/Node.md).[`_marks`](../../Node/classes/Node.md#property-_marks)     | [packages/model/src/elements/Node.ts:40](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L40) |
+| <a id="property-_tag"></a> `_tag`         | `protected` | `Record`&lt;`string`, `number`&gt;                           | `{}`          | -                                                      | [`Node`](../../Node/classes/Node.md).[`_tag`](../../Node/classes/Node.md#property-_tag)         | [packages/model/src/elements/Node.ts:42](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L42) |
+| <a id="property-_text"></a> `_text`       | `readonly`  | `string`                                                     | `undefined`   | For text nodes, this contains the node's text content. | [`Node`](../../Node/classes/Node.md).[`_text`](../../Node/classes/Node.md#property-_text)       | [packages/model/src/elements/Node.ts:46](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L46) |
+| <a id="property-nodetype"></a> `nodeType` | `readonly`  | [`NodeType`](../../../schema/NodeType/classes/NodeType.md)   | `undefined`   | -                                                      | [`Node`](../../Node/classes/Node.md).[`nodeType`](../../Node/classes/Node.md#property-nodetype) | [packages/model/src/elements/Node.ts:41](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L41) |
 
 ## Accessors
 
@@ -79,7 +79,7 @@ If the content is empty (empty text nodes are not allowed).
 get attrs(): Attrs;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:115](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L115)
+Defined in: [packages/model/src/elements/Node.ts:115](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L115)
 
 An object mapping attribute names to values.
 
@@ -101,7 +101,7 @@ An object mapping attribute names to values.
 get childCount(): number;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:147](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L147)
+Defined in: [packages/model/src/elements/Node.ts:147](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L147)
 
 The number of children that the node has.
 
@@ -123,7 +123,7 @@ The number of children that the node has.
 get children(): readonly Node[];
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:129](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L129)
+Defined in: [packages/model/src/elements/Node.ts:129](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L129)
 
 The array of this node's child nodes.
 
@@ -145,7 +145,7 @@ readonly [`Node`](../../Node/classes/Node.md)[]
 get content(): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:94](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L94)
+Defined in: [packages/model/src/elements/Node.ts:94](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L94)
 
 A fragment containing the node's children.
 
@@ -167,7 +167,7 @@ A fragment containing the node's children.
 get elementType(): ElementType;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:41](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L41)
+Defined in: [packages/model/src/elements/TextNode.ts:41](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L41)
 
 ##### Returns
 
@@ -191,7 +191,7 @@ Defined in: [packages/model/src/elements/TextNode.ts:41](https://github.com/type
 get firstChild(): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:165](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L165)
+Defined in: [packages/model/src/elements/Node.ts:165](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L165)
 
 Returns this node's first child, or `null` if there are no
 children.
@@ -214,7 +214,7 @@ children.
 get inlineContent(): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:195](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L195)
+Defined in: [packages/model/src/elements/Node.ts:195](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L195)
 
 True when this node allows inline content.
 
@@ -236,7 +236,7 @@ True when this node allows inline content.
 get isAtom(): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:228](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L228)
+Defined in: [packages/model/src/elements/Node.ts:228](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L228)
 
 True when this is an atom, i.e. when it does not have directly
 editable content. This is usually the same as `isLeaf`, but can
@@ -262,7 +262,7 @@ an uneditable [node view](#view.NodeView)).
 get isBlock(): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:180](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L180)
+Defined in: [packages/model/src/elements/Node.ts:180](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L180)
 
 True when this is a block (non-inline node)
 
@@ -284,7 +284,7 @@ True when this is a block (non-inline node)
 get isInline(): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:203](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L203)
+Defined in: [packages/model/src/elements/Node.ts:203](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L203)
 
 True when this is an inline node (a text node or a node that can
 appear among text).
@@ -307,7 +307,7 @@ appear among text).
 get isLeaf(): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:217](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L217)
+Defined in: [packages/model/src/elements/Node.ts:217](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L217)
 
 True when this is a leaf node.
 
@@ -329,7 +329,7 @@ True when this is a leaf node.
 get isText(): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:210](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L210)
+Defined in: [packages/model/src/elements/Node.ts:210](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L210)
 
 True when this is a text node.
 
@@ -351,7 +351,7 @@ True when this is a text node.
 get isTextblock(): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:188](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L188)
+Defined in: [packages/model/src/elements/Node.ts:188](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L188)
 
 True when this is a textblock node, a block node with inline
 content.
@@ -374,7 +374,7 @@ content.
 get lastChild(): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:173](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L173)
+Defined in: [packages/model/src/elements/Node.ts:173](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L173)
 
 Returns this node's last child, or `null` if there are no
 children.
@@ -397,7 +397,7 @@ children.
 get marks(): readonly Mark[];
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:122](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L122)
+Defined in: [packages/model/src/elements/Node.ts:122](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L122)
 
 The marks applied to this node.
 
@@ -419,7 +419,7 @@ readonly [`Mark`](../../Mark/classes/Mark.md)[]
 get nodeSize(): number;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:58](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L58)
+Defined in: [packages/model/src/elements/TextNode.ts:58](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L58)
 
 The size of this text node, which equals the length of its text content.
 
@@ -441,7 +441,7 @@ The size of this text node, which equals the length of its text content.
 get tag(): Record<string, number>;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:79](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L79)
+Defined in: [packages/model/src/elements/Node.ts:79](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L79)
 
 ##### Returns
 
@@ -453,7 +453,7 @@ Defined in: [packages/model/src/elements/Node.ts:79](https://github.com/type-edi
 set tag(tag): void;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:83](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L83)
+Defined in: [packages/model/src/elements/Node.ts:83](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L83)
 
 ##### Parameters
 
@@ -479,7 +479,7 @@ Defined in: [packages/model/src/elements/Node.ts:83](https://github.com/type-edi
 get text(): string;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:101](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L101)
+Defined in: [packages/model/src/elements/Node.ts:101](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L101)
 
 For text nodes, this contains the node's text content. For other nodes, returns null.
 
@@ -501,7 +501,7 @@ For text nodes, this contains the node's text content. For other nodes, returns 
 get textContent(): string;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:51](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L51)
+Defined in: [packages/model/src/elements/TextNode.ts:51](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L51)
 
 The text content of this text node. For text nodes, this returns
 the actual text string contained in the node.
@@ -526,7 +526,7 @@ The text content as a string.
 get type(): NodeType;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:108](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L108)
+Defined in: [packages/model/src/elements/Node.ts:108](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L108)
 
 The type of node that this is.
 
@@ -546,7 +546,7 @@ The type of node that this is.
 canAppend(other): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:747](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L747)
+Defined in: [packages/model/src/elements/Node.ts:747](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L747)
 
 Test whether the given node's content could be appended to this
 node. If that node is empty, this will only return true if there
@@ -582,7 +582,7 @@ canReplace(
    end?): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:696](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L696)
+Defined in: [packages/model/src/elements/Node.ts:696](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L696)
 
 Test whether replacing the range between `from` and `to` (by
 child index) with the given replacement fragment (which defaults
@@ -622,7 +622,7 @@ canReplaceWith(
    marks?): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:725](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L725)
+Defined in: [packages/model/src/elements/Node.ts:725](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L725)
 
 Test whether replacing the range `from` to `to` (by index) with
 a node of the given type would leave the node's content valid.
@@ -654,7 +654,7 @@ a node of the given type would leave the node's content valid.
 check(): void;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:761](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L761)
+Defined in: [packages/model/src/elements/Node.ts:761](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L761)
 
 Check whether this node and its descendants conform to the
 schema, and raise an exception when they do not.
@@ -679,7 +679,7 @@ If the node or its descendants don't conform to the schema.
 child(index): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:304](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L304)
+Defined in: [packages/model/src/elements/Node.ts:304](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L304)
 
 Get the child node at the given index. Raises an error when the
 index is out of range.
@@ -716,7 +716,7 @@ childAfter(pos): {
 };
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L581)
+Defined in: [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L581)
 
 Find the (direct) child node after the given offset, if any,
 and return it along with its index and offset relative to this
@@ -742,9 +742,9 @@ An object containing the node, its index, and its offset.
 
 | Name     | Type                                 | Defined in                                                                                                                                                            |
 | -------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `index`  | `number`                             | [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L581) |
-| `node`   | [`Node`](../../Node/classes/Node.md) | [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L581) |
-| `offset` | `number`                             | [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L581) |
+| `index`  | `number`                             | [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L581) |
+| `node`   | [`Node`](../../Node/classes/Node.md) | [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L581) |
+| `offset` | `number`                             | [packages/model/src/elements/Node.ts:581](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L581) |
 
 #### Inherited from
 
@@ -762,7 +762,7 @@ childBefore(pos): {
 };
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L594)
+Defined in: [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L594)
 
 Find the (direct) child node before the given offset, if any,
 and return it along with its index and offset relative to this
@@ -788,9 +788,9 @@ An object containing the node, its index, and its offset.
 
 | Name     | Type                                 | Defined in                                                                                                                                                            |
 | -------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `index`  | `number`                             | [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L594) |
-| `node`   | [`Node`](../../Node/classes/Node.md) | [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L594) |
-| `offset` | `number`                             | [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L594) |
+| `index`  | `number`                             | [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L594) |
+| `node`   | [`Node`](../../Node/classes/Node.md) | [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L594) |
+| `offset` | `number`                             | [packages/model/src/elements/Node.ts:594](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L594) |
 
 #### Inherited from
 
@@ -804,7 +804,7 @@ An object containing the node, its index, and its offset.
 contentMatchAt(index): ContentMatch;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:674](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L674)
+Defined in: [packages/model/src/elements/Node.ts:674](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L674)
 
 Get the content match in this node at the given index.
 
@@ -836,7 +836,7 @@ If the node has invalid content.
 copy(content?): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:471](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L471)
+Defined in: [packages/model/src/elements/Node.ts:471](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L471)
 
 Create a new node with the same markup as this node, containing
 the given content (or empty, if no content is given).
@@ -865,7 +865,7 @@ A new node with the same markup but different content, or this node if content i
 cut(from?, to?): TextNode;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:144](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L144)
+Defined in: [packages/model/src/elements/TextNode.ts:144](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L144)
 
 Create a copy of this text node containing only the text between
 the given positions.
@@ -895,7 +895,7 @@ A new text node with the specified text range, or this node if the range is unch
 descendants(callbackFunc): void;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:366](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L366)
+Defined in: [packages/model/src/elements/Node.ts:366](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L366)
 
 Call the given callback for every descendant node. Doesn't
 descend into a node when the callback returns `false`.
@@ -922,7 +922,7 @@ descend into a node when the callback returns `false`.
 eq(other): boolean;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:161](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L161)
+Defined in: [packages/model/src/elements/TextNode.ts:161](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L161)
 
 Test whether this text node is equal to another node.
 
@@ -950,7 +950,7 @@ Test whether this text node is equal to another node.
 forEach(callbackFunc): void;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:325](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L325)
+Defined in: [packages/model/src/elements/Node.ts:325](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L325)
 
 Call `f` for every child node, passing the node, it's offset
 into this parent node, and its index.
@@ -980,7 +980,7 @@ hasMarkup(
    marks?): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:424](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L424)
+Defined in: [packages/model/src/elements/Node.ts:424](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L424)
 
 Check whether this node's markup correspond to the given type,
 attributes, and marks.
@@ -1011,7 +1011,7 @@ attributes, and marks.
 mark(marks): TextNode;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:119](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L119)
+Defined in: [packages/model/src/elements/TextNode.ts:119](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L119)
 
 Create a copy of this text node with the given marks applied.
 
@@ -1039,7 +1039,7 @@ A new text node with the specified marks, or this node if marks are unchanged.
 maybeChild(index): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:314](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L314)
+Defined in: [packages/model/src/elements/Node.ts:314](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L314)
 
 Get the child node at the given index, if it exists.
 
@@ -1067,7 +1067,7 @@ The child node at the specified index, or null if the index is out of range.
 nodeAt(pos?): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:553](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L553)
+Defined in: [packages/model/src/elements/Node.ts:553](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L553)
 
 Find the node directly after the given position.
 
@@ -1099,7 +1099,7 @@ nodesBetween(
    startPos?): void;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:348](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L348)
+Defined in: [packages/model/src/elements/Node.ts:348](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L348)
 
 Invoke a callback for all descendant nodes recursively overlapping
 the given two positions that are relative to start of this
@@ -1139,7 +1139,7 @@ rangeHasMark(
    type): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:638](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L638)
+Defined in: [packages/model/src/elements/Node.ts:638](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L638)
 
 Test whether a given mark or mark type occurs in this document
 between the two given positions.
@@ -1173,7 +1173,7 @@ replace(
    slice): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:543](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L543)
+Defined in: [packages/model/src/elements/Node.ts:543](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L543)
 
 Replace the part of the document between the given positions with
 the given slice. The slice must 'fit', meaning its open sides
@@ -1212,7 +1212,7 @@ If the slice doesn't fit in the specified location.
 resolve(pos): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:615](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L615)
+Defined in: [packages/model/src/elements/Node.ts:615](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L615)
 
 Resolve the given position in the document, returning an
 [object](#model.ResolvedPos) with information about its context.
@@ -1241,7 +1241,7 @@ A ResolvedPos object with information about the position's context.
 resolveNoCache(pos): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:625](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L625)
+Defined in: [packages/model/src/elements/Node.ts:625](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L625)
 
 Resolve the given position without using the cache.
 
@@ -1269,7 +1269,7 @@ A ResolvedPos object with information about the position's context.
 sameMarkup(other): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:411](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L411)
+Defined in: [packages/model/src/elements/Node.ts:411](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L411)
 
 Compare the markup (type, attributes, and marks) of this node to
 those of another. Returns `true` if both have the same markup.
@@ -1301,7 +1301,7 @@ slice(
    includeParents?): Slice;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:514](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L514)
+Defined in: [packages/model/src/elements/Node.ts:514](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L514)
 
 Cut out the part of the document between the given positions, and
 return it as a `Slice` object.
@@ -1332,7 +1332,7 @@ A Slice object representing the content between the positions.
 textBetween(from, to): string;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:109](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L109)
+Defined in: [packages/model/src/elements/TextNode.ts:109](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L109)
 
 Get the text content between the given positions within this text node.
 
@@ -1361,7 +1361,7 @@ The text content between the positions.
 toJSON(): TextNodeJSON;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:170](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L170)
+Defined in: [packages/model/src/elements/TextNode.ts:170](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L170)
 
 Return a JSON-serializable representation of this text node.
 
@@ -1383,7 +1383,7 @@ A JSON representation of this text node.
 toString(): string;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:95](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L95)
+Defined in: [packages/model/src/elements/TextNode.ts:95](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L95)
 
 Return a string representation of this text node for debugging purposes.
 
@@ -1405,7 +1405,7 @@ A debug string representation of this node.
 withText(text): TextNode;
 ```
 
-Defined in: [packages/model/src/elements/TextNode.ts:129](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/TextNode.ts#L129)
+Defined in: [packages/model/src/elements/TextNode.ts:129](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/TextNode.ts#L129)
 
 Create a copy of this text node with different text content.
 
@@ -1429,7 +1429,7 @@ A new text node with the specified text, or this node if text is unchanged.
 protected wrapMarks(marks, content): string;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:832](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L832)
+Defined in: [packages/model/src/elements/Node.ts:832](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L832)
 
 #### Parameters
 
@@ -1454,7 +1454,7 @@ Defined in: [packages/model/src/elements/Node.ts:832](https://github.com/type-ed
 static fromJSON(schema, json): Node;
 ```
 
-Defined in: [packages/model/src/elements/Node.ts:257](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Node.ts#L257)
+Defined in: [packages/model/src/elements/Node.ts:257](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Node.ts#L257)
 
 Deserialize a node from its JSON representation.
 

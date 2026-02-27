@@ -6,7 +6,7 @@
 
 # Class: ResizeState
 
-Defined in: [tables/src/columnresizing/ResizeState.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/columnresizing/ResizeState.ts#L13)
+Defined in: [tables/src/columnresizing/ResizeState.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/columnresizing/ResizeState.ts#L13)
 
 Represents the current state of column resizing within the editor.
 This class is immutable - all state changes return a new instance.
@@ -19,7 +19,7 @@ This class is immutable - all state changes return a new instance.
 new ResizeState(activeHandle, dragging?): ResizeState;
 ```
 
-Defined in: [tables/src/columnresizing/ResizeState.ts:27](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/columnresizing/ResizeState.ts#L27)
+Defined in: [tables/src/columnresizing/ResizeState.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/columnresizing/ResizeState.ts#L27)
 
 Creates a new ResizeState instance.
 
@@ -44,7 +44,7 @@ Creates a new ResizeState instance.
 get activeHandle(): number;
 ```
 
-Defined in: [tables/src/columnresizing/ResizeState.ts:36](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/columnresizing/ResizeState.ts#L36)
+Defined in: [tables/src/columnresizing/ResizeState.ts:36](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/columnresizing/ResizeState.ts#L36)
 
 The document position of the currently active resize handle.
 Returns -1 if no handle is active.
@@ -63,7 +63,7 @@ Returns -1 if no handle is active.
 get dragging(): Dragging;
 ```
 
-Defined in: [tables/src/columnresizing/ResizeState.ts:43](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/columnresizing/ResizeState.ts#L43)
+Defined in: [tables/src/columnresizing/ResizeState.ts:43](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/columnresizing/ResizeState.ts#L43)
 
 The current drag state, or `undefined` if no drag is in progress.
 
@@ -79,7 +79,7 @@ The current drag state, or `undefined` if no drag is in progress.
 apply(transaction): ResizeState;
 ```
 
-Defined in: [tables/src/columnresizing/ResizeState.ts:56](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/columnresizing/ResizeState.ts#L56)
+Defined in: [tables/src/columnresizing/ResizeState.ts:56](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/columnresizing/ResizeState.ts#L56)
 
 Applies a transaction to produce a new state. Handles three cases:
 

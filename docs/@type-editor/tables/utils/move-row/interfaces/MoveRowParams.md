@@ -6,7 +6,7 @@
 
 # Interface: MoveRowParams
 
-Defined in: [tables/src/utils/move-row.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/move-row.ts#L14)
+Defined in: [tables/src/utils/move-row.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/move-row.ts#L14)
 
 Parameters for moving a row within a table.
 
@@ -14,8 +14,8 @@ Parameters for moving a row within a table.
 
 | Property                                        | Type            | Description                                                                   | Defined in                                                                                                                                                     |
 | ----------------------------------------------- | --------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-originindex"></a> `originIndex` | `number`        | The zero-based index of the row to move.                                      | [tables/src/utils/move-row.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/move-row.ts#L23) |
-| <a id="property-pos"></a> `pos`                 | `number`        | A document position within the table. Used to locate the table node.          | [tables/src/utils/move-row.ts:38](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/move-row.ts#L38) |
-| <a id="property-select"></a> `select`           | `boolean`       | Whether to select the moved row after the operation completes.                | [tables/src/utils/move-row.ts:33](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/move-row.ts#L33) |
-| <a id="property-targetindex"></a> `targetIndex` | `number`        | The zero-based index of the target position where the row should be moved to. | [tables/src/utils/move-row.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/move-row.ts#L28) |
-| <a id="property-transaction"></a> `transaction` | `PmTransaction` | The transaction to apply the row move operation to.                           | [tables/src/utils/move-row.ts:18](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/move-row.ts#L18) |
+| <a id="property-originindex"></a> `originIndex` | `number`        | The zero-based index of the row to move.                                      | [tables/src/utils/move-row.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/move-row.ts#L23) |
+| <a id="property-pos"></a> `pos`                 | `number`        | A document position within the table. Used to locate the table node.          | [tables/src/utils/move-row.ts:38](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/move-row.ts#L38) |
+| <a id="property-select"></a> `select`           | `boolean`       | Whether to select the moved row after the operation completes.                | [tables/src/utils/move-row.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/move-row.ts#L33) |
+| <a id="property-targetindex"></a> `targetIndex` | `number`        | The zero-based index of the target position where the row should be moved to. | [tables/src/utils/move-row.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/move-row.ts#L28) |
+| <a id="property-transaction"></a> `transaction` | `PmTransaction` | The transaction to apply the row move operation to.                           | [tables/src/utils/move-row.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/move-row.ts#L18) |

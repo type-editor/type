@@ -6,20 +6,20 @@
 
 # Interface: PmEditorState
 
-Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:9](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L9)
+Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:9](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L9)
 
 ## Properties
 
 | Property                                                    | Modifier   | Type                                                                                  | Defined in                                                                                                                                                                                                                          |
 | ----------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-doc"></a> `doc`                             | `readonly` | `Node_2`                                                                              | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L11) |
-| <a id="property-plugins"></a> `plugins`                     | `readonly` | readonly [`PmPlugin`](../../../plugin/PmPlugin/interfaces/PmPlugin.md)&lt;`any`&gt;[] | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L16) |
-| <a id="property-schema"></a> `schema`                       | `readonly` | `Schema`                                                                              | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L15) |
-| <a id="property-scrolltoselection"></a> `scrollToSelection` | `readonly` | `number`                                                                              | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L13) |
-| <a id="property-selection"></a> `selection`                 | `readonly` | [`PmSelection`](../../../selection/PmSelection/interfaces/PmSelection.md)             | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L12) |
-| <a id="property-storedmarks"></a> `storedMarks`             | `readonly` | readonly `Mark`[]                                                                     | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L14) |
-| <a id="property-tr"></a> `tr`                               | `readonly` | [`PmTransaction`](../../../PmTransaction/interfaces/PmTransaction.md)                 | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:18](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L18) |
-| <a id="property-transaction"></a> `transaction`             | `readonly` | [`PmTransaction`](../../../PmTransaction/interfaces/PmTransaction.md)                 | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L17) |
+| <a id="property-doc"></a> `doc`                             | `readonly` | `Node_2`                                                                              | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L11) |
+| <a id="property-plugins"></a> `plugins`                     | `readonly` | readonly [`PmPlugin`](../../../plugin/PmPlugin/interfaces/PmPlugin.md)&lt;`any`&gt;[] | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L16) |
+| <a id="property-schema"></a> `schema`                       | `readonly` | `Schema`                                                                              | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L15) |
+| <a id="property-scrolltoselection"></a> `scrollToSelection` | `readonly` | `number`                                                                              | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L13) |
+| <a id="property-selection"></a> `selection`                 | `readonly` | [`PmSelection`](../../../selection/PmSelection/interfaces/PmSelection.md)             | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L12) |
+| <a id="property-storedmarks"></a> `storedMarks`             | `readonly` | readonly `Mark`[]                                                                     | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L14) |
+| <a id="property-tr"></a> `tr`                               | `readonly` | [`PmTransaction`](../../../PmTransaction/interfaces/PmTransaction.md)                 | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L18) |
+| <a id="property-transaction"></a> `transaction`             | `readonly` | [`PmTransaction`](../../../PmTransaction/interfaces/PmTransaction.md)                 | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L17) |
 
 ## Methods
 
@@ -29,7 +29,7 @@ Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts
 apply(transaction): PmEditorState;
 ```
 
-Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:43](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L43)
+Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:43](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L43)
 
 Apply the given transaction to produce a new state.
 This is a convenience method that calls applyTransaction and returns only the state.
@@ -57,7 +57,7 @@ applyTransaction(rootTransaction): {
 };
 ```
 
-Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:57](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L57)
+Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:57](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L57)
 
 Verbose variant of [`apply`](#state.EditorState.apply) that
 returns the precise transactions that were applied (which might
@@ -86,8 +86,8 @@ An object containing the new state and array of all applied transactions
 
 | Name           | Type                                                                             | Defined in                                                                                                                                                                                                                          |
 | -------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `state`        | `PmEditorState`                                                                  | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:58](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L58) |
-| `transactions` | readonly [`PmTransaction`](../../../PmTransaction/interfaces/PmTransaction.md)[] | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:59](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L59) |
+| `state`        | `PmEditorState`                                                                  | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:58](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L58) |
+| `transactions` | readonly [`PmTransaction`](../../../PmTransaction/interfaces/PmTransaction.md)[] | [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L59) |
 
 ---
 
@@ -97,7 +97,7 @@ An object containing the new state and array of all applied transactions
 getFieldPluginValue(key): unknown;
 ```
 
-Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:34](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L34)
+Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:34](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L34)
 
 Get the value of a plugin field.
 
@@ -121,7 +121,7 @@ The value of the field, or undefined if not found
 getPlugin(key): PmPlugin<any>;
 ```
 
-Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:26](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L26)
+Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L26)
 
 Get a plugin by its key.
 
@@ -145,7 +145,7 @@ The plugin instance, or undefined if not found
 reconfigure(config): PmEditorState;
 ```
 
-Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:75](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L75)
+Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:75](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L75)
 
 Create a new state based on this one, but with an adjusted set
 of active plugins. State fields that exist in both sets of
@@ -176,7 +176,7 @@ A new editor state with the reconfigured plugins
 toJSON(pluginFields?): StateJSON;
 ```
 
-Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:93](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L93)
+Defined in: [packages/editor-types/src/types/state/editor-state/PmEditorState.ts:93](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/editor-state/PmEditorState.ts#L93)
 
 Serialize this state to JSON. If you want to serialize the state
 of plugins, pass an object mapping property names to use in the

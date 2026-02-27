@@ -10,7 +10,7 @@
 const replaceAll: Command;
 ```
 
-Defined in: [commands/replace-all.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/commands/replace-all.ts#L19)
+Defined in: [commands/replace-all.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/commands/replace-all.ts#L19)
 
 Replace all instances of the current search query in the document or search range.
 

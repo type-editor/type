@@ -6,7 +6,7 @@
 
 # Class: ElementFactory
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L17)
+Defined in: [packages/model/src/elements/ElementFactory.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L17)
 
 ## Constructors
 
@@ -24,7 +24,7 @@ new ElementFactory(): ElementFactory;
 
 | Property                                      | Modifier   | Type                                            | Defined in                                                                                                                                                                              |
 | --------------------------------------------- | ---------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty_mark"></a> `EMPTY_MARK` | `readonly` | readonly [`Mark`](../../Mark/classes/Mark.md)[] | [packages/model/src/elements/ElementFactory.ts:20](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L20) |
+| <a id="property-empty_mark"></a> `EMPTY_MARK` | `readonly` | readonly [`Mark`](../../Mark/classes/Mark.md)[] | [packages/model/src/elements/ElementFactory.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L20) |
 
 ## Accessors
 
@@ -36,7 +36,7 @@ new ElementFactory(): ElementFactory;
 get static EMPTY_FRAGMENT(): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:26](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L26)
+Defined in: [packages/model/src/elements/ElementFactory.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L26)
 
 ##### Returns
 
@@ -52,7 +52,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:26](https://github.co
 get static EMPTY_SLICE(): Slice;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L22)
+Defined in: [packages/model/src/elements/ElementFactory.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L22)
 
 ##### Returns
 
@@ -66,7 +66,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:22](https://github.co
 static createFragment(content, size?): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:33](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L33)
+Defined in: [packages/model/src/elements/ElementFactory.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L33)
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:33](https://github.co
 static createMark(type, attrs): Mark;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:193](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L193)
+Defined in: [packages/model/src/elements/ElementFactory.ts:193](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L193)
 
 #### Parameters
 
@@ -113,7 +113,7 @@ static createNode(
    text?): Node;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:170](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L170)
+Defined in: [packages/model/src/elements/ElementFactory.ts:170](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L170)
 
 #### Parameters
 
@@ -140,7 +140,7 @@ static createNodeRange(
    depth): NodeRange;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:166](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L166)
+Defined in: [packages/model/src/elements/ElementFactory.ts:166](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L166)
 
 #### Parameters
 
@@ -165,7 +165,7 @@ static createSlice(
    openEnd): Slice;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:150](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L150)
+Defined in: [packages/model/src/elements/ElementFactory.ts:150](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L150)
 
 #### Parameters
 
@@ -191,7 +191,7 @@ static createTextNode(
    marks?): TextNode;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:178](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L178)
+Defined in: [packages/model/src/elements/ElementFactory.ts:178](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L178)
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:178](https://github.c
 static fragmentFromJSON(schema, value?): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:37](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L37)
+Defined in: [packages/model/src/elements/ElementFactory.ts:37](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L37)
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:37](https://github.co
 static from(nodes?): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:68](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L68)
+Defined in: [packages/model/src/elements/ElementFactory.ts:68](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L68)
 
 Creates a fragment from various input types that can be interpreted as a set of nodes.
 
@@ -284,7 +284,7 @@ const frag4 = Fragment.from([node1, node2]); // Fragment with multiple nodes
 static fromArray(array): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:119](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L119)
+Defined in: [packages/model/src/elements/ElementFactory.ts:119](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L119)
 
 Builds a fragment from an array of nodes. Automatically merges adjacent
 text nodes that have the same markup (marks) into single text nodes.
@@ -328,7 +328,7 @@ const fragment2 = Fragment.fromArray([text1, text2, text3]);
 static isMark(markOrMarkType): boolean;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:205](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L205)
+Defined in: [packages/model/src/elements/ElementFactory.ts:205](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L205)
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:205](https://github.c
 static isSlice(node): boolean;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:162](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L162)
+Defined in: [packages/model/src/elements/ElementFactory.ts:162](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L162)
 
 #### Parameters
 
@@ -368,7 +368,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:162](https://github.c
 static markFromJSON(schema, json): Mark;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:209](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L209)
+Defined in: [packages/model/src/elements/ElementFactory.ts:209](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L209)
 
 #### Parameters
 
@@ -389,7 +389,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:209](https://github.c
 static maxOpen(fragment, openIsolating?): Slice;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:154](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L154)
+Defined in: [packages/model/src/elements/ElementFactory.ts:154](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L154)
 
 #### Parameters
 
@@ -410,7 +410,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:154](https://github.c
 static nodeFromJSON(schema, json): Node;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:185](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L185)
+Defined in: [packages/model/src/elements/ElementFactory.ts:185](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L185)
 
 #### Parameters
 
@@ -431,7 +431,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:185](https://github.c
 static sameSet(a, b): boolean;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:201](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L201)
+Defined in: [packages/model/src/elements/ElementFactory.ts:201](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L201)
 
 #### Parameters
 
@@ -452,7 +452,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:201](https://github.c
 static setFrom(marks?): readonly Mark[];
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:197](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L197)
+Defined in: [packages/model/src/elements/ElementFactory.ts:197](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L197)
 
 #### Parameters
 
@@ -472,7 +472,7 @@ readonly [`Mark`](../../Mark/classes/Mark.md)[]
 static sliceFromJSON(schema, json): Slice;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:158](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L158)
+Defined in: [packages/model/src/elements/ElementFactory.ts:158](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L158)
 
 #### Parameters
 
@@ -493,7 +493,7 @@ Defined in: [packages/model/src/elements/ElementFactory.ts:158](https://github.c
 static textNodeFromJSON(schema, json): Node;
 ```
 
-Defined in: [packages/model/src/elements/ElementFactory.ts:189](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementFactory.ts#L189)
+Defined in: [packages/model/src/elements/ElementFactory.ts:189](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/ElementFactory.ts#L189)
 
 #### Parameters
 

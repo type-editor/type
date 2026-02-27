@@ -6,7 +6,7 @@
 
 # Class: MarkdownSerializer
 
-Defined in: [to-markdown/MarkdownSerializer.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L12)
+Defined in: [to-markdown/MarkdownSerializer.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L12)
 
 A specification for serializing a ProseMirror document as
 Markdown/CommonMark text.
@@ -22,7 +22,7 @@ new MarkdownSerializer(
    options?): MarkdownSerializer;
 ```
 
-Defined in: [to-markdown/MarkdownSerializer.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L28)
+Defined in: [to-markdown/MarkdownSerializer.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L28)
 
 Construct a serializer with the given configuration. The `nodes`
 object should map node names in a given schema to functions that
@@ -44,7 +44,7 @@ take a serializer state and such a node, and serialize the node.
 
 | Property                              | Modifier   | Type                                                                                                                   | Defined in                                                                                                                                                                            |
 | ------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-_nodes"></a> `_nodes` | `readonly` | `Record`&lt;`string`, [`NodeSerializerFunc`](../../../types/NodeSerializerFunc/type-aliases/NodeSerializerFunc.md)&gt; | [to-markdown/MarkdownSerializer.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L14) |
+| <a id="property-_nodes"></a> `_nodes` | `readonly` | `Record`&lt;`string`, [`NodeSerializerFunc`](../../../types/NodeSerializerFunc/type-aliases/NodeSerializerFunc.md)&gt; | [to-markdown/MarkdownSerializer.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L14) |
 
 ## Accessors
 
@@ -56,7 +56,7 @@ take a serializer state and such a node, and serialize the node.
 get marks(): Record<string, MarkSerializerSpec>;
 ```
 
-Defined in: [to-markdown/MarkdownSerializer.ts:41](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L41)
+Defined in: [to-markdown/MarkdownSerializer.ts:41](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L41)
 
 ##### Returns
 
@@ -72,7 +72,7 @@ Defined in: [to-markdown/MarkdownSerializer.ts:41](https://github.com/type-edito
 get nodes(): Record<string, NodeSerializerFunc>;
 ```
 
-Defined in: [to-markdown/MarkdownSerializer.ts:37](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L37)
+Defined in: [to-markdown/MarkdownSerializer.ts:37](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L37)
 
 ##### Returns
 
@@ -88,7 +88,7 @@ Defined in: [to-markdown/MarkdownSerializer.ts:37](https://github.com/type-edito
 get options(): MarkdownSerializerOptions;
 ```
 
-Defined in: [to-markdown/MarkdownSerializer.ts:45](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L45)
+Defined in: [to-markdown/MarkdownSerializer.ts:45](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L45)
 
 ##### Returns
 
@@ -102,7 +102,7 @@ Defined in: [to-markdown/MarkdownSerializer.ts:45](https://github.com/type-edito
 serialize(content, tightLists?): string;
 ```
 
-Defined in: [to-markdown/MarkdownSerializer.ts:57](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L57)
+Defined in: [to-markdown/MarkdownSerializer.ts:57](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/markdown/src/to-markdown/MarkdownSerializer.ts#L57)
 
 Serialize the content of the given node to
 [CommonMark](http://commonmark.org/).

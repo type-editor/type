@@ -10,7 +10,7 @@
 function safariDownArrowBug(view): boolean;
 ```
 
-Defined in: [input-handler/keyboard/browser-hacks/safari-down-arrow-bug.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/input-handler/keyboard/browser-hacks/safari-down-arrow-bug.ts#L16)
+Defined in: [input-handler/keyboard/browser-hacks/safari-down-arrow-bug.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/input-handler/keyboard/browser-hacks/safari-down-arrow-bug.ts#L16)
 
 Workaround for Safari down arrow bug.
 

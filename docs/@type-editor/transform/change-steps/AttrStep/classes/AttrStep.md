@@ -6,7 +6,7 @@
 
 # Class: AttrStep
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:24](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L24)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L24)
 
 An attribute step represents an update to a specific attribute
 of a node at a given position in the document.
@@ -37,7 +37,7 @@ new AttrStep(
    value): AttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:40](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L40)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:40](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L40)
 
 Construct an attribute step.
 
@@ -65,7 +65,7 @@ Construct an attribute step.
 apply(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:82](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L82)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:82](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L82)
 
 Apply this step to a document, modifying the attribute of the node at the stored position.
 
@@ -97,7 +97,7 @@ A StepResult indicating success (with the modified document) or failure (with er
 getMap(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:108](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L108)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:108](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L108)
 
 Get the step map for this step.
 
@@ -122,7 +122,7 @@ An empty StepMap indicating no position changes occurred.
 invert(doc): AttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:122](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L122)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:122](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L122)
 
 Create an inverted version of this step that undoes the attribute change.
 
@@ -157,7 +157,7 @@ When there is no node at the stored position.
 map(mapping): AttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:139](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L139)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:139](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L139)
 
 Map this step through a mappable object (such as another step or step map).
 
@@ -191,7 +191,7 @@ protected mapFragment(
    parent): Fragment;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L144)
+Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L144)
 
 Recursively map over inline nodes in a fragment, applying a callback function.
 
@@ -225,7 +225,7 @@ A new fragment with transformed nodes, preserving the structure.
 merge(_other): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L117)
+Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L117)
 
 Try to merge this step with another one, to be applied directly
 after it. Returns the merged step when possible, null if the
@@ -255,7 +255,7 @@ The merged step, or null if the steps can't be merged.
 toJSON(): AttrStepJson;
 ```
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:151](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L151)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:151](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L151)
 
 Serialize this step to JSON for storage or transmission.
 
@@ -279,7 +279,7 @@ The JSON representation of this step including stepType, pos, attr, and value.
 static fromJSON(_schema, json): AttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/AttrStep.ts:59](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AttrStep.ts#L59)
+Defined in: [packages/transform/src/change-steps/AttrStep.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/AttrStep.ts#L59)
 
 Deserialize an attribute step from its JSON representation.
 
@@ -316,7 +316,7 @@ When the JSON is invalid, position is negative, or attribute name is empty.
 static registerStep(jsonId, stepClass): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L61)
+Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L61)
 
 To be able to serialize steps to JSON, each step needs a string
 ID to attach to its JSON representation. Use this method to

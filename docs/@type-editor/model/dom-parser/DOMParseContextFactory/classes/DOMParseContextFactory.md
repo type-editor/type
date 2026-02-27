@@ -6,7 +6,7 @@
 
 # Class: DOMParseContextFactory
 
-Defined in: [packages/model/src/dom-parser/DOMParseContextFactory.ts:7](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMParseContextFactory.ts#L7)
+Defined in: [packages/model/src/dom-parser/DOMParseContextFactory.ts:7](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParseContextFactory.ts#L7)
 
 ## Constructors
 
@@ -31,7 +31,7 @@ static createParseContext(
    isOpen): DOMParseContext;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMParseContextFactory.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMParseContextFactory.ts#L17)
+Defined in: [packages/model/src/dom-parser/DOMParseContextFactory.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMParseContextFactory.ts#L17)
 
 Creates a new parse context instance
 

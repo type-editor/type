@@ -10,7 +10,7 @@
 const joinBackward: Command;
 ```
 
-Defined in: [join-backward.ts:37](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/join-backward.ts#L37)
+Defined in: [join-backward.ts:37](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/join-backward.ts#L37)
 
 Joins or merges the current block with the one before it when the cursor is at the start
 of a textblock.

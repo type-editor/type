@@ -10,7 +10,7 @@
 function joinable(beforeNode, afterNode): boolean;
 ```
 
-Defined in: [packages/transform/src/change-helper/util.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-helper/util.ts#L12)
+Defined in: [packages/transform/src/change-helper/util.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-helper/util.ts#L12)
 
 Check if two nodes can be joined together.
 Nodes are joinable if both exist, the first is not a leaf,

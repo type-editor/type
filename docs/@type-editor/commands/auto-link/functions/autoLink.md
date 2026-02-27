@@ -10,7 +10,7 @@
 function autoLink(keyType, linkMarkType?, codeNodeType?): Command;
 ```
 
-Defined in: [auto-link.ts:56](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/auto-link.ts#L56)
+Defined in: [auto-link.ts:56](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/auto-link.ts#L56)
 
 Automatically converts URLs to clickable links when Enter or Space is pressed.
 

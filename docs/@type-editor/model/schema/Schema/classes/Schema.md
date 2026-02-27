@@ -6,7 +6,7 @@
 
 # Class: Schema&lt;Nodes, Marks&gt;
 
-Defined in: [packages/model/src/schema/Schema.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L28)
+Defined in: [packages/model/src/schema/Schema.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L28)
 
 A document schema. Holds [node](#model.NodeType) and [mark
 type](#model.MarkType) objects for the nodes and marks that may
@@ -31,7 +31,7 @@ marks in this schema.
 new Schema<Nodes, Marks>(spec): Schema<Nodes, Marks>;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:90](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L90)
+Defined in: [packages/model/src/schema/Schema.ts:90](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L90)
 
 Constructs a schema from a schema specification.
 Compiles node and mark types, validates the schema structure, and initializes
@@ -62,7 +62,7 @@ multiple linebreak nodes, invalid linebreak node configuration)
 get cached(): Record<string, any>;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:165](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L165)
+Defined in: [packages/model/src/schema/Schema.ts:165](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L165)
 
 An object for storing cached values computed from the schema.
 Modules can use this to cache expensive computations. Use unique
@@ -82,7 +82,7 @@ property names to avoid conflicts.
 get linebreakReplacement(): NodeType;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:148](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L148)
+Defined in: [packages/model/src/schema/Schema.ts:148](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L148)
 
 The linebreak replacement node type, if one is defined in this schema.
 This node type is used to replace newline characters in pasted content.
@@ -101,7 +101,7 @@ This node type is used to replace newline characters in pasted content.
 get markFromJSON(): (json) => Mark;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:183](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L183)
+Defined in: [packages/model/src/schema/Schema.ts:183](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L183)
 
 Deserialize a mark from its JSON representation. This method is
 bound.
@@ -132,7 +132,7 @@ bound.
 get marks(): Readonly<Record<Marks, MarkType>> & Readonly<Record<string, MarkType>>;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:140](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L140)
+Defined in: [packages/model/src/schema/Schema.ts:140](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L140)
 
 An object mapping mark names to MarkType instances.
 Contains all mark types defined in this schema.
@@ -151,7 +151,7 @@ Contains all mark types defined in this schema.
 get nodeFromJSON(): (json) => Node;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:175](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L175)
+Defined in: [packages/model/src/schema/Schema.ts:175](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L175)
 
 Deserialize a node from its JSON representation. This method is
 bound.
@@ -184,7 +184,7 @@ NodeJSON as array for backwards compatibility
 get nodes(): Readonly<Record<Nodes, NodeType>> & Readonly<Record<string, NodeType>>;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:132](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L132)
+Defined in: [packages/model/src/schema/Schema.ts:132](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L132)
 
 An object mapping node names to NodeType instances.
 Contains all node types defined in this schema.
@@ -203,7 +203,7 @@ Contains all node types defined in this schema.
 get spec(): BasicSchemaSpec<NodeSpec, MarkSpec>;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:124](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L124)
+Defined in: [packages/model/src/schema/Schema.ts:124](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L124)
 
 The schema specification this schema is based on, with nodes and marks
 converted to OrderedMap instances for consistent ordering.
@@ -222,7 +222,7 @@ converted to OrderedMap instances for consistent ordering.
 get topNodeType(): NodeType;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:156](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L156)
+Defined in: [packages/model/src/schema/Schema.ts:156](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L156)
 
 The top-level node type for this schema (defaults to 'doc').
 This is the root node type that contains the document content.
@@ -239,7 +239,7 @@ This is the root node type that contains the document content.
 mark(type, attrs?): Mark;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:236](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L236)
+Defined in: [packages/model/src/schema/Schema.ts:236](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L236)
 
 Create a mark with the given type and attributes.
 
@@ -272,7 +272,7 @@ node(
    marks?): Node;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:200](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L200)
+Defined in: [packages/model/src/schema/Schema.ts:200](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L200)
 
 Create a node in this schema. The `type` may be a string or a
 `NodeType` instance. Attributes will be extended with defaults,
@@ -306,7 +306,7 @@ If the type is invalid or from a different schema
 nodeType(name): NodeType;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:254](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L254)
+Defined in: [packages/model/src/schema/Schema.ts:254](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L254)
 
 Retrieves a node type by name.
 
@@ -334,7 +334,7 @@ If the node type is not found in this schema
 text(text, marks?): Node;
 ```
 
-Defined in: [packages/model/src/schema/Schema.ts:223](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/Schema.ts#L223)
+Defined in: [packages/model/src/schema/Schema.ts:223](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/Schema.ts#L223)
 
 Create a text node in this schema. Empty text nodes are not
 allowed.

@@ -10,7 +10,7 @@
 function contextMenuHandler(view): boolean;
 ```
 
-Defined in: [input-handler/context-menu/context-menu-handler.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/input-handler/context-menu/context-menu-handler.ts#L8)
+Defined in: [input-handler/context-menu/context-menu-handler.ts:8](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/input-handler/context-menu/context-menu-handler.ts#L8)
 
 Handles contextmenu events, ensuring DOM is flushed before showing menu.
 

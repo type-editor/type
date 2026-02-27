@@ -6,7 +6,7 @@
 
 # Enumeration: SelectionTypeEnum
 
-Defined in: [state/src/selection/SelectionTypeEnum.ts:6](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/SelectionTypeEnum.ts#L6)
+Defined in: [state/src/selection/SelectionTypeEnum.ts:6](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/SelectionTypeEnum.ts#L6)
 
 Enumeration of selection types supported by the editor.
 Each type represents a different way of selecting content in the document.
@@ -15,8 +15,8 @@ Each type represents a different way of selecting content in the document.
 
 | Enumeration Member                              | Value      | Description                                                       | Defined in                                                                                                                                                                             |
 | ----------------------------------------------- | ---------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="enumeration-member-all"></a> `ALL`       | `"all"`    | A selection spanning the entire document                          | [state/src/selection/SelectionTypeEnum.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/SelectionTypeEnum.ts#L15) |
-| <a id="enumeration-member-base"></a> `BASE`     | `"base"`   | -                                                                 | [state/src/selection/SelectionTypeEnum.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/SelectionTypeEnum.ts#L17) |
-| <a id="enumeration-member-custom"></a> `CUSTOM` | `"custom"` | -                                                                 | [state/src/selection/SelectionTypeEnum.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/SelectionTypeEnum.ts#L19) |
-| <a id="enumeration-member-node"></a> `NODE`     | `"node"`   | A selection of a single block-level node                          | [state/src/selection/SelectionTypeEnum.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/SelectionTypeEnum.ts#L12) |
-| <a id="enumeration-member-text"></a> `TEXT`     | `"text"`   | A text selection with anchor and head positions in inline content | [state/src/selection/SelectionTypeEnum.ts:9](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/SelectionTypeEnum.ts#L9)   |
+| <a id="enumeration-member-all"></a> `ALL`       | `"all"`    | A selection spanning the entire document                          | [state/src/selection/SelectionTypeEnum.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/SelectionTypeEnum.ts#L15) |
+| <a id="enumeration-member-base"></a> `BASE`     | `"base"`   | -                                                                 | [state/src/selection/SelectionTypeEnum.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/SelectionTypeEnum.ts#L17) |
+| <a id="enumeration-member-custom"></a> `CUSTOM` | `"custom"` | -                                                                 | [state/src/selection/SelectionTypeEnum.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/SelectionTypeEnum.ts#L19) |
+| <a id="enumeration-member-node"></a> `NODE`     | `"node"`   | A selection of a single block-level node                          | [state/src/selection/SelectionTypeEnum.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/SelectionTypeEnum.ts#L12) |
+| <a id="enumeration-member-text"></a> `TEXT`     | `"text"`   | A text selection with anchor and head positions in inline content | [state/src/selection/SelectionTypeEnum.ts:9](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/SelectionTypeEnum.ts#L9)   |

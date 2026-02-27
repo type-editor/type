@@ -6,7 +6,7 @@
 
 # Interface: PmStep
 
-Defined in: [packages/editor-types/src/types/transform/PmStep.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/PmStep.ts#L8)
+Defined in: [packages/editor-types/src/types/transform/PmStep.ts:8](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/PmStep.ts#L8)
 
 ## Methods
 
@@ -16,7 +16,7 @@ Defined in: [packages/editor-types/src/types/transform/PmStep.ts:8](https://gith
 apply(doc): PmStepResult;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStep.ts:10](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/PmStep.ts#L10)
+Defined in: [packages/editor-types/src/types/transform/PmStep.ts:10](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/PmStep.ts#L10)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [packages/editor-types/src/types/transform/PmStep.ts:10](https://git
 getMap(): Mappable;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStep.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/PmStep.ts#L19)
+Defined in: [packages/editor-types/src/types/transform/PmStep.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/PmStep.ts#L19)
 
 Get the step map that represents the changes made by this step,
 and which can be used to transform between positions in the old
@@ -56,7 +56,7 @@ A StepMap describing the position changes, or StepMap.empty if no changes.
 invert(doc): PmStep;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStep.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/PmStep.ts#L21)
+Defined in: [packages/editor-types/src/types/transform/PmStep.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/PmStep.ts#L21)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [packages/editor-types/src/types/transform/PmStep.ts:21](https://git
 map(mapping): PmStep;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStep.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/PmStep.ts#L23)
+Defined in: [packages/editor-types/src/types/transform/PmStep.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/PmStep.ts#L23)
 
 #### Parameters
 
@@ -96,7 +96,7 @@ Defined in: [packages/editor-types/src/types/transform/PmStep.ts:23](https://git
 merge(_other): PmStep;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStep.ts:33](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/PmStep.ts#L33)
+Defined in: [packages/editor-types/src/types/transform/PmStep.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/PmStep.ts#L33)
 
 Try to merge this step with another one, to be applied directly
 after it. Returns the merged step when possible, null if the
@@ -122,7 +122,7 @@ The merged step, or null if the steps can't be merged.
 toJSON(): StepJSON;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStep.ts:35](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/transform/PmStep.ts#L35)
+Defined in: [packages/editor-types/src/types/transform/PmStep.ts:35](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/transform/PmStep.ts#L35)
 
 #### Returns
 

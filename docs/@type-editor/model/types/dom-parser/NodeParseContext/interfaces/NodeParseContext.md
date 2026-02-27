@@ -6,7 +6,7 @@
 
 # Interface: NodeParseContext
 
-Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L13)
+Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L13)
 
 Represents a node being built during parsing.
 
@@ -19,11 +19,11 @@ including its type, attributes, content, marks, and content matching state.
 
 | Property                                | Modifier   | Type                                                                              | Defined in                                                                                                                                                                                                  |
 | --------------------------------------- | ---------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-content"></a> `content` | `readonly` | [`Node`](../../../../elements/Node/classes/Node.md)[]                             | [packages/model/src/types/dom-parser/NodeParseContext.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L16) |
-| <a id="property-match"></a> `match`     | `public`   | [`ContentMatch`](../../../content-parser/ContentMatch/interfaces/ContentMatch.md) | [packages/model/src/types/dom-parser/NodeParseContext.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L15) |
-| <a id="property-options"></a> `options` | `public`   | `number`                                                                          | [packages/model/src/types/dom-parser/NodeParseContext.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L19) |
-| <a id="property-solid"></a> `solid`     | `readonly` | `boolean`                                                                         | [packages/model/src/types/dom-parser/NodeParseContext.ts:18](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L18) |
-| <a id="property-type"></a> `type`       | `readonly` | [`NodeType`](../../../../schema/NodeType/classes/NodeType.md)                     | [packages/model/src/types/dom-parser/NodeParseContext.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L17) |
+| <a id="property-content"></a> `content` | `readonly` | [`Node`](../../../../elements/Node/classes/Node.md)[]                             | [packages/model/src/types/dom-parser/NodeParseContext.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L16) |
+| <a id="property-match"></a> `match`     | `public`   | [`ContentMatch`](../../../content-parser/ContentMatch/interfaces/ContentMatch.md) | [packages/model/src/types/dom-parser/NodeParseContext.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L15) |
+| <a id="property-options"></a> `options` | `public`   | `number`                                                                          | [packages/model/src/types/dom-parser/NodeParseContext.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L19) |
+| <a id="property-solid"></a> `solid`     | `readonly` | `boolean`                                                                         | [packages/model/src/types/dom-parser/NodeParseContext.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L18) |
+| <a id="property-type"></a> `type`       | `readonly` | [`NodeType`](../../../../schema/NodeType/classes/NodeType.md)                     | [packages/model/src/types/dom-parser/NodeParseContext.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L17) |
 
 ## Methods
 
@@ -33,7 +33,7 @@ including its type, attributes, content, marks, and content matching state.
 findWrapping(node): readonly NodeType[];
 ```
 
-Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:33](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L33)
+Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L33)
 
 Finds a sequence of wrapper node types needed to make the given node fit in this context.
 
@@ -67,7 +67,7 @@ finish(openEnd):
   | Node;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:47](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L47)
+Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:47](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L47)
 
 Finishes building this node context and returns the resulting node or fragment.
 
@@ -100,7 +100,7 @@ This method:
 inlineContext(node): boolean;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:61](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/NodeParseContext.ts#L61)
+Defined in: [packages/model/src/types/dom-parser/NodeParseContext.ts:61](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/dom-parser/NodeParseContext.ts#L61)
 
 Determines whether this context represents inline content.
 

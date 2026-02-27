@@ -6,7 +6,7 @@
 
 # Class: TextBookmark
 
-Defined in: [state/src/selection/bookmarks/TextBookmark.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/bookmarks/TextBookmark.ts#L11)
+Defined in: [state/src/selection/bookmarks/TextBookmark.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/bookmarks/TextBookmark.ts#L11)
 
 Bookmark implementation for text selections.
 Stores anchor and head positions as simple numbers that can be
@@ -24,7 +24,7 @@ mapped through document changes.
 new TextBookmark(anchor, head): TextBookmark;
 ```
 
-Defined in: [state/src/selection/bookmarks/TextBookmark.ts:31](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/bookmarks/TextBookmark.ts#L31)
+Defined in: [state/src/selection/bookmarks/TextBookmark.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/bookmarks/TextBookmark.ts#L31)
 
 Create a text selection bookmark.
 
@@ -47,7 +47,7 @@ Create a text selection bookmark.
 map(mapping): TextBookmark;
 ```
 
-Defined in: [state/src/selection/bookmarks/TextBookmark.ts:43](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/bookmarks/TextBookmark.ts#L43)
+Defined in: [state/src/selection/bookmarks/TextBookmark.ts:43](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/bookmarks/TextBookmark.ts#L43)
 
 Map this bookmark through document changes.
 Both anchor and head positions are mapped to their new locations.
@@ -78,7 +78,7 @@ SelectionBookmark.map;
 resolve(doc): PmSelection;
 ```
 
-Defined in: [state/src/selection/bookmarks/TextBookmark.ts:55](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/selection/bookmarks/TextBookmark.ts#L55)
+Defined in: [state/src/selection/bookmarks/TextBookmark.ts:55](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/selection/bookmarks/TextBookmark.ts#L55)
 
 Resolve this bookmark to a text selection.
 Uses `textSelectionBetween` to ensure the resolved positions are

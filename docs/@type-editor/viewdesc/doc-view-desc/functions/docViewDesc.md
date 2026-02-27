@@ -10,7 +10,7 @@
 function docViewDesc(doc, outerDeco, innerDeco, dom, view): NodeViewDesc;
 ```
 
-Defined in: [doc-view-desc.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/doc-view-desc.ts#L19)
+Defined in: [doc-view-desc.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/doc-view-desc.ts#L19)
 
 Create a view desc for the top-level document node, to be exported
 and used by the view class.

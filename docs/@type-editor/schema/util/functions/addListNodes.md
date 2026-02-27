@@ -10,7 +10,7 @@
 function addListNodes(nodes, itemContent, listGroup?): OrderedMap<NodeSpec>;
 ```
 
-Defined in: [util.ts:33](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/schema/src/util.ts#L33)
+Defined in: [util.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/schema/src/util.ts#L33)
 
 Convenience function for adding list-related node types to a map
 specifying the nodes for a schema. Adds

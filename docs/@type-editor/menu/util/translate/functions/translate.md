@@ -10,7 +10,7 @@
 function translate(view, text): string;
 ```
 
-Defined in: [packages/menu/src/util/translate.ts:10](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/util/translate.ts#L10)
+Defined in: [packages/menu/src/util/translate.ts:10](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/util/translate.ts#L10)
 
 Translates a text string using the view's translation function if available.
 

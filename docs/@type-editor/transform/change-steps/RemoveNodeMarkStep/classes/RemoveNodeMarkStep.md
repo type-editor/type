@@ -6,7 +6,7 @@
 
 # Class: RemoveNodeMarkStep
 
-Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L22)
+Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L22)
 
 A step that removes a mark from a specific node (not its content, but the node itself).
 
@@ -33,7 +33,7 @@ const step = new RemoveNodeMarkStep(10, schema.marks.highlight.create());
 new RemoveNodeMarkStep(pos, mark): RemoveNodeMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:33](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L33)
+Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L33)
 
 Create a mark-removing step.
 
@@ -60,7 +60,7 @@ Create a mark-removing step.
 apply(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:72](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L72)
+Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:72](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L72)
 
 Apply this step to a document, removing the mark from the node at the stored position.
 
@@ -91,7 +91,7 @@ A StepResult indicating success (with the modified document) or failure (with er
 getMap(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L86)
+Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L86)
 
 Get the step map that represents the changes made by this step,
 and which can be used to transform between positions in the old
@@ -115,7 +115,7 @@ A StepMap describing the position changes, or StepMap.empty if no changes.
 invert(doc): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:101](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L101)
+Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:101](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L101)
 
 Create an inverted version of this step that adds the mark back.
 
@@ -152,7 +152,7 @@ When there is no node at the stored position.
 map(mapping): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:120](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L120)
+Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:120](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L120)
 
 Map this step through a mappable object, adjusting the position.
 
@@ -186,7 +186,7 @@ protected mapFragment(
    parent): Fragment;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L144)
+Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L144)
 
 Recursively map over inline nodes in a fragment, applying a callback function.
 
@@ -220,7 +220,7 @@ A new fragment with transformed nodes, preserving the structure.
 merge(_other): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L117)
+Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L117)
 
 Try to merge this step with another one, to be applied directly
 after it. Returns the merged step when possible, null if the
@@ -250,7 +250,7 @@ The merged step, or null if the steps can't be merged.
 toJSON(): StepJSON;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:132](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L132)
+Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:132](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L132)
 
 Serialize this step to JSON for storage or transmission.
 
@@ -274,7 +274,7 @@ The JSON representation of this step including stepType, pos, and mark propertie
 static fromJSON(schema, json): RemoveNodeMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:50](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L50)
+Defined in: [packages/transform/src/change-steps/RemoveNodeMarkStep.ts:50](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveNodeMarkStep.ts#L50)
 
 Deserialize a RemoveNodeMarkStep from its JSON representation.
 
@@ -310,7 +310,7 @@ When the JSON is invalid, position is negative, or mark is missing.
 static registerStep(jsonId, stepClass): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L61)
+Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L61)
 
 To be able to serialize steps to JSON, each step needs a string
 ID to attach to its JSON representation. Use this method to

@@ -6,7 +6,7 @@
 
 # Class: DOMSerializer
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:18](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L18)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L18)
 
 A DOM serializer knows how to convert ProseMirror nodes and
 marks of various types to DOM nodes.
@@ -19,7 +19,7 @@ marks of various types to DOM nodes.
 new DOMSerializer(nodes, marks): DOMSerializer;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:38](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L38)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:38](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L38)
 
 Create a serializer. `nodes` should map node names to functions
 that take a node and return a description of the corresponding
@@ -50,7 +50,7 @@ should not be serialized.
 get marks(): Record<string, (mark, inline) => DOMOutputSpec>;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:48](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L48)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:48](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L48)
 
 ##### Returns
 
@@ -66,7 +66,7 @@ Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:48](https://github.c
 get nodes(): Record<string, (node) => DOMOutputSpec>;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:44](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L44)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:44](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L44)
 
 ##### Returns
 
@@ -83,7 +83,7 @@ serializeFragment(
    target?): HTMLElement | DocumentFragment;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:300](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L300)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:300](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L300)
 
 Serialize the content of this selfPos to a DOM selfPos. When
 not in the browser, the `document` option, containing a DOM
@@ -111,7 +111,7 @@ nodes.
 serializeNode(node, options?): Node;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:360](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L360)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:360](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L360)
 
 Serialize this node to a DOM node. This can be useful when you
 need to serialize a part of a document, as opposed to the whole
@@ -139,7 +139,7 @@ its [content](#model.Node.content).
 static fromSchema(schema): DOMSerializer;
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:78](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L78)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:78](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L78)
 
 Build a serializer using the [`toDOM`](#model.NodeSpec.toDOM)
 properties in a schema's node and mark specs.
@@ -168,7 +168,7 @@ static renderSpec(
 };
 ```
 
-Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:60](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L60)
+Defined in: [packages/model/src/dom-parser/DOMSerializer.ts:60](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L60)
 
 Render an [output spec](#model.DOMOutputSpec) to a DOM node. If
 the spec has a hole (zero) in it, `contentDOM` will point at the
@@ -193,5 +193,5 @@ node with the hole.
 
 | Name          | Type          | Defined in                                                                                                                                                                                |
 | ------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `contentDOM?` | `HTMLElement` | [packages/model/src/dom-parser/DOMSerializer.ts:62](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L62) |
-| `dom`         | `Node`        | [packages/model/src/dom-parser/DOMSerializer.ts:61](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/DOMSerializer.ts#L61) |
+| `contentDOM?` | `HTMLElement` | [packages/model/src/dom-parser/DOMSerializer.ts:62](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L62) |
+| `dom`         | `Node`        | [packages/model/src/dom-parser/DOMSerializer.ts:61](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/dom-parser/DOMSerializer.ts#L61) |

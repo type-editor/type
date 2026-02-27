@@ -10,7 +10,7 @@
 type Command = (state, dispatch?, view?) => boolean;
 ```
 
-Defined in: [state/src/types/Command.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/state/src/types/Command.ts#L17)
+Defined in: [state/src/types/Command.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/state/src/types/Command.ts#L17)
 
 ## Parameters
 

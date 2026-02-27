@@ -10,7 +10,7 @@
 function hasWordBoundary(text, textStart, fromPos, toPos, contextEnd): boolean;
 ```
 
-Defined in: [simplify-changes/has-word-boundary.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/changeset/src/simplify-changes/has-word-boundary.ts#L17)
+Defined in: [simplify-changes/has-word-boundary.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/changeset/src/simplify-changes/has-word-boundary.ts#L17)
 
 Checks if there's a word boundary between two changes.
 

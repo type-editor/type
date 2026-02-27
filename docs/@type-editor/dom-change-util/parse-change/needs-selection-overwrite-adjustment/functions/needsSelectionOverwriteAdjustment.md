@@ -10,7 +10,7 @@
 function needsSelectionOverwriteAdjustment(view, change): boolean;
 ```
 
-Defined in: [parse-change/needs-selection-overwrite-adjustment.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/parse-change/needs-selection-overwrite-adjustment.ts#L29)
+Defined in: [parse-change/needs-selection-overwrite-adjustment.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-change-util/src/dom-change/parse-change/needs-selection-overwrite-adjustment.ts#L29)
 
 Checks if the change needs adjustment to handle typing over selection edge cases.
 

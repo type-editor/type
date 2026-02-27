@@ -10,7 +10,7 @@
 function setSelectionOrigin(view, origin): void;
 ```
 
-Defined in: [input-handler/util/set-selection-origin.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/input-handler/util/set-selection-origin.ts#L8)
+Defined in: [input-handler/util/set-selection-origin.ts:8](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/input-handler/util/set-selection-origin.ts#L8)
 
 Records the origin of a selection change for tracking purposes.
 

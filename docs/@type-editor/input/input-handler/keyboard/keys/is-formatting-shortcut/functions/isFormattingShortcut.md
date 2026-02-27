@@ -10,7 +10,7 @@
 function isFormattingShortcut(key, inputState): boolean;
 ```
 
-Defined in: [input-handler/keyboard/keys/is-formatting-shortcut.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/input-handler/keyboard/keys/is-formatting-shortcut.ts#L11)
+Defined in: [input-handler/keyboard/keys/is-formatting-shortcut.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/input-handler/keyboard/keys/is-formatting-shortcut.ts#L11)
 
 Checks if the key combination is a formatting shortcut (Bold, Italic, Undo, Redo).
 

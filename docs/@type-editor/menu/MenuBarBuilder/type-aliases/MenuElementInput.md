@@ -15,7 +15,7 @@ type MenuElementInput =
   | undefined;
 ```
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/MenuBarBuilder.ts#L17)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/MenuBarBuilder.ts#L17)
 
 Accepted input types for a single menu element entry in a group or dropdown.
 Arrays of `MenuElement` are flattened, while falsy values (`null`, `undefined`) are ignored.

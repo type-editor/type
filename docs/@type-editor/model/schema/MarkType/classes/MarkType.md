@@ -6,7 +6,7 @@
 
 # Class: MarkType
 
-Defined in: [packages/model/src/schema/MarkType.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L19)
+Defined in: [packages/model/src/schema/MarkType.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L19)
 
 Marks
 
@@ -31,7 +31,7 @@ new MarkType(
    spec): MarkType;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:38](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L38)
+Defined in: [packages/model/src/schema/MarkType.ts:38](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L38)
 
 Creates a new MarkType instance.
 
@@ -56,9 +56,9 @@ Creates a new MarkType instance.
 
 | Property                                                            | Modifier    | Type                                                                          | Default value | Inherited from                                                                                                | Defined in                                                                                                                                                              |
 | ------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-attrs"></a> `attrs`                                 | `readonly`  | `Record`&lt;`string`, [`Attribute`](../../Attribute/classes/Attribute.md)&gt; | `undefined`   | [`TypeBase`](../../TypeBase/classes/TypeBase.md).[`attrs`](../../TypeBase/classes/TypeBase.md#property-attrs) | [packages/model/src/schema/TypeBase.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L16) |
-| <a id="property-excludedtypes"></a> `excludedTypes`                 | `protected` | readonly `MarkType`[]                                                         | `undefined`   | -                                                                                                             | [packages/model/src/schema/MarkType.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L23) |
-| <a id="property-elements_id_attr_name"></a> `ELEMENTS_ID_ATTR_NAME` | `readonly`  | `"id"`                                                                        | `'id'`        | -                                                                                                             | [packages/model/src/schema/MarkType.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L21) |
+| <a id="property-attrs"></a> `attrs`                                 | `readonly`  | `Record`&lt;`string`, [`Attribute`](../../Attribute/classes/Attribute.md)&gt; | `undefined`   | [`TypeBase`](../../TypeBase/classes/TypeBase.md).[`attrs`](../../TypeBase/classes/TypeBase.md#property-attrs) | [packages/model/src/schema/TypeBase.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/TypeBase.ts#L16) |
+| <a id="property-excludedtypes"></a> `excludedTypes`                 | `protected` | readonly `MarkType`[]                                                         | `undefined`   | -                                                                                                             | [packages/model/src/schema/MarkType.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L23) |
+| <a id="property-elements_id_attr_name"></a> `ELEMENTS_ID_ATTR_NAME` | `readonly`  | `"id"`                                                                        | `'id'`        | -                                                                                                             | [packages/model/src/schema/MarkType.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L21) |
 
 ## Accessors
 
@@ -70,7 +70,7 @@ Creates a new MarkType instance.
 get attributeSpecs(): Record<string, Attribute>;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:99](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L99)
+Defined in: [packages/model/src/schema/MarkType.ts:99](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L99)
 
 The attribute specifications for this mark type.
 Contains metadata about each attribute including validation and comparison behavior.
@@ -89,7 +89,7 @@ Contains metadata about each attribute including validation and comparison behav
 get excluded(): readonly MarkType[];
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:54](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L54)
+Defined in: [packages/model/src/schema/MarkType.ts:54](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L54)
 
 The array of mark types that are excluded by this mark type.
 By default, marks exclude themselves, preventing multiple instances of the same mark.
@@ -104,7 +104,7 @@ readonly `MarkType`[]
 set excluded(value): void;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:62](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L62)
+Defined in: [packages/model/src/schema/MarkType.ts:62](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L62)
 
 Sets the array of mark types excluded by this mark.
 
@@ -128,7 +128,7 @@ Sets the array of mark types excluded by this mark.
 get name(): string;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:69](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L69)
+Defined in: [packages/model/src/schema/MarkType.ts:69](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L69)
 
 The name of this mark type.
 
@@ -146,7 +146,7 @@ The name of this mark type.
 get rank(): number;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:91](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L91)
+Defined in: [packages/model/src/schema/MarkType.ts:91](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L91)
 
 The numeric rank of this mark type, used for ordering marks.
 Lower rank numbers appear first when marks are sorted.
@@ -165,7 +165,7 @@ Lower rank numbers appear first when marks are sorted.
 get schema(): Schema;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:76](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L76)
+Defined in: [packages/model/src/schema/MarkType.ts:76](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L76)
 
 The schema that this mark type is part of.
 
@@ -183,7 +183,7 @@ The schema that this mark type is part of.
 get spec(): MarkSpec;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:83](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L83)
+Defined in: [packages/model/src/schema/MarkType.ts:83](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L83)
 
 The spec that this mark type is based on.
 
@@ -199,7 +199,7 @@ The spec that this mark type is based on.
 protected checkAttributes(values, type): void;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:36](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L36)
+Defined in: [packages/model/src/schema/TypeBase.ts:36](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/TypeBase.ts#L36)
 
 Validates attribute values against the type's attribute specifications.
 Throws a RangeError if any attribute is unsupported or fails validation.
@@ -231,7 +231,7 @@ If an unsupported attribute is found or validation fails
 checkAttrs(attrs): void;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:181](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L181)
+Defined in: [packages/model/src/schema/MarkType.ts:181](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L181)
 
 Validates attributes for this mark type.
 
@@ -257,7 +257,7 @@ If any attribute is invalid
 protected computeAttributes(providedAttrs): Attrs;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:86](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L86)
+Defined in: [packages/model/src/schema/TypeBase.ts:86](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/TypeBase.ts#L86)
 
 Computes a complete set of attributes by merging provided values with defaults.
 Ensures all required attributes are present and applies defaults where needed.
@@ -290,7 +290,7 @@ If a required attribute (one without a default) is missing
 create(attrs?): Mark;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:128](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L128)
+Defined in: [packages/model/src/schema/MarkType.ts:128](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L128)
 
 Creates a mark of this type with the specified attributes.
 Attributes are merged with defaults. Returns a cached instance if possible.
@@ -315,7 +315,7 @@ A Mark instance
 protected createDefaultAttrs(): Readonly<Record<string, any>>;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:63](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L63)
+Defined in: [packages/model/src/schema/TypeBase.ts:63](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/TypeBase.ts#L63)
 
 Creates a reusable default attributes object for types where all attributes
 have default values. This optimization allows sharing the same object across
@@ -340,7 +340,7 @@ lacks a default value (indicating required attributes exist)
 excludes(other): boolean;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:192](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L192)
+Defined in: [packages/model/src/schema/MarkType.ts:192](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L192)
 
 Checks whether the given mark type is excluded by this one.
 Based on the excludes specification in the mark's schema spec.
@@ -365,7 +365,7 @@ True if the other mark type is excluded by this one
 protected initAttrs(typeName, attrs?): Record<string, Attribute>;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:120](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L120)
+Defined in: [packages/model/src/schema/TypeBase.ts:120](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/TypeBase.ts#L120)
 
 Initializes attribute descriptors from the provided specification.
 Creates Attribute objects that encapsulate validation and default values.
@@ -395,7 +395,7 @@ A record mapping attribute names to Attribute descriptors
 isInSet(set): Mark;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:167](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L167)
+Defined in: [packages/model/src/schema/MarkType.ts:167](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L167)
 
 Searches for a mark of this type in the given set.
 
@@ -419,7 +419,7 @@ The first mark of this type found, or undefined if none exists
 removeFromSet(set): readonly Mark[];
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:142](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L142)
+Defined in: [packages/model/src/schema/MarkType.ts:142](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L142)
 
 Removes all marks of this type from the given set.
 Returns a new array without marks of this type, or the original if none found.
@@ -444,7 +444,7 @@ A new array without marks of this type
 static compile(marks, schema): Record<string, MarkType>;
 ```
 
-Defined in: [packages/model/src/schema/MarkType.ts:111](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/MarkType.ts#L111)
+Defined in: [packages/model/src/schema/MarkType.ts:111](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/schema/MarkType.ts#L111)
 
 Compiles a set of mark specifications into MarkType instances.
 Assigns sequential rank numbers to maintain mark ordering.

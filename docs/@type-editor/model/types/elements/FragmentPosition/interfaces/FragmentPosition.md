@@ -6,7 +6,7 @@
 
 # Interface: FragmentPosition
 
-Defined in: [packages/model/src/types/elements/FragmentPosition.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/elements/FragmentPosition.ts#L22)
+Defined in: [packages/model/src/types/elements/FragmentPosition.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/elements/FragmentPosition.ts#L22)
 
 Represents a position within a fragment using child index and offset.
 
@@ -31,5 +31,5 @@ const diffIndex: DiffIndex = {
 
 | Property                              | Type     | Description                                                                                                                                     | Defined in                                                                                                                                                                                              |
 | ------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-index"></a> `index`   | `number` | The index of the child node within the fragment. This is a zero-based index into the fragment's children array.                                 | [packages/model/src/types/elements/FragmentPosition.ts:27](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/elements/FragmentPosition.ts#L27) |
-| <a id="property-offset"></a> `offset` | `number` | The offset within the child node at the specified index. This represents the absolute position where the child node starts within the fragment. | [packages/model/src/types/elements/FragmentPosition.ts:34](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/elements/FragmentPosition.ts#L34) |
+| <a id="property-index"></a> `index`   | `number` | The index of the child node within the fragment. This is a zero-based index into the fragment's children array.                                 | [packages/model/src/types/elements/FragmentPosition.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/elements/FragmentPosition.ts#L27) |
+| <a id="property-offset"></a> `offset` | `number` | The offset within the child node at the specified index. This represents the absolute position where the child node starts within the fragment. | [packages/model/src/types/elements/FragmentPosition.ts:34](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/types/elements/FragmentPosition.ts#L34) |

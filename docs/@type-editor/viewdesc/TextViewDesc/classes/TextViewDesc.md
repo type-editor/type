@@ -6,7 +6,7 @@
 
 # Class: TextViewDesc
 
-Defined in: [TextViewDesc.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L15)
+Defined in: [TextViewDesc.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L15)
 
 View description for text nodes. Text nodes are leaf nodes that contain
 only text content and no children. They can be wrapped by mark decorations
@@ -30,7 +30,7 @@ new TextViewDesc(
    nodeDOM): TextViewDesc;
 ```
 
-Defined in: [TextViewDesc.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L29)
+Defined in: [TextViewDesc.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L29)
 
 Creates a new TextViewDesc.
 
@@ -57,15 +57,15 @@ Creates a new TextViewDesc.
 
 | Property                                        | Modifier    | Type                                                                    | Default value              | Inherited from                                                                                                                                | Defined in                                                                                                                                                  |
 | ----------------------------------------------- | ----------- | ----------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-_children"></a> `_children`     | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)[]                      | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_children`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_children)     | [ViewDesc.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L28)         |
-| <a id="property-_contentdom"></a> `_contentDOM` | `readonly`  | `HTMLElement`                                                           | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_contentDOM`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_contentdom) | [ViewDesc.ts:24](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L24)         |
-| <a id="property-_dirty"></a> `_dirty`           | `protected` | [`ViewDirtyState`](../../ViewDirtyState/enumerations/ViewDirtyState.md) | `ViewDirtyState.NOT_DIRTY` | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_dirty`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_dirty)           | [ViewDesc.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L25)         |
-| <a id="property-_dom"></a> `_dom`               | `protected` | `Node`                                                                  | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_dom`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_dom)               | [ViewDesc.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L29)         |
-| <a id="property-_innerdeco"></a> `_innerDeco`   | `protected` | `DecorationSource`                                                      | `null`                     | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_innerDeco`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_innerdeco)   | [NodeViewDesc.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L22) |
-| <a id="property-_node"></a> `_node`             | `protected` | `Node_2`                                                                | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_node`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_node)             | [ViewDesc.ts:26](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L26)         |
-| <a id="property-_nodedom"></a> `_nodeDOM`       | `readonly`  | `Node`                                                                  | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_nodeDOM`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_nodedom)       | [NodeViewDesc.ts:20](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L20) |
-| <a id="property-_outerdeco"></a> `_outerDeco`   | `protected` | readonly `PmDecoration`[]                                               | `null`                     | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_outerDeco`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_outerdeco)   | [NodeViewDesc.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L21) |
-| <a id="property-_parent"></a> `_parent`         | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)                        | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_parent`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_parent)         | [ViewDesc.ts:27](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L27)         |
+| <a id="property-_children"></a> `_children`     | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)[]                      | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_children`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_children)     | [ViewDesc.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L28)         |
+| <a id="property-_contentdom"></a> `_contentDOM` | `readonly`  | `HTMLElement`                                                           | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_contentDOM`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_contentdom) | [ViewDesc.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L24)         |
+| <a id="property-_dirty"></a> `_dirty`           | `protected` | [`ViewDirtyState`](../../ViewDirtyState/enumerations/ViewDirtyState.md) | `ViewDirtyState.NOT_DIRTY` | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_dirty`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_dirty)           | [ViewDesc.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L25)         |
+| <a id="property-_dom"></a> `_dom`               | `protected` | `Node`                                                                  | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_dom`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_dom)               | [ViewDesc.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L29)         |
+| <a id="property-_innerdeco"></a> `_innerDeco`   | `protected` | `DecorationSource`                                                      | `null`                     | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_innerDeco`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_innerdeco)   | [NodeViewDesc.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L22) |
+| <a id="property-_node"></a> `_node`             | `protected` | `Node_2`                                                                | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_node`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_node)             | [ViewDesc.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L26)         |
+| <a id="property-_nodedom"></a> `_nodeDOM`       | `readonly`  | `Node`                                                                  | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_nodeDOM`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_nodedom)       | [NodeViewDesc.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L20) |
+| <a id="property-_outerdeco"></a> `_outerDeco`   | `protected` | readonly `PmDecoration`[]                                               | `null`                     | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_outerDeco`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_outerdeco)   | [NodeViewDesc.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L21) |
+| <a id="property-_parent"></a> `_parent`         | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)                        | `undefined`                | [`NodeViewDesc`](../../NodeViewDesc/classes/NodeViewDesc.md).[`_parent`](../../NodeViewDesc/classes/NodeViewDesc.md#property-_parent)         | [ViewDesc.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L27)         |
 
 ## Accessors
 
@@ -77,7 +77,7 @@ Creates a new TextViewDesc.
 get border(): number;
 ```
 
-Defined in: [NodeViewDesc.ts:77](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L77)
+Defined in: [NodeViewDesc.ts:77](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L77)
 
 For block nodes, this represents the space taken up by their
 start/end tokens.
@@ -100,7 +100,7 @@ start/end tokens.
 get children(): ViewDesc[];
 ```
 
-Defined in: [ViewDesc.ts:88](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L88)
+Defined in: [ViewDesc.ts:88](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L88)
 
 The child view descriptions of this view.
 
@@ -114,7 +114,7 @@ The child view descriptions of this view.
 set children(children): void;
 ```
 
-Defined in: [ViewDesc.ts:92](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L92)
+Defined in: [ViewDesc.ts:92](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L92)
 
 ##### Parameters
 
@@ -140,7 +140,7 @@ Defined in: [ViewDesc.ts:92](https://github.com/type-editor/type/blob/1440286448
 get contentDOM(): HTMLElement;
 ```
 
-Defined in: [ViewDesc.ts:106](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L106)
+Defined in: [ViewDesc.ts:106](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L106)
 
 The DOM node that contains child content, if any.
 
@@ -162,7 +162,7 @@ The DOM node that contains child content, if any.
 get contentLost(): boolean;
 ```
 
-Defined in: [ViewDesc.ts:134](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L134)
+Defined in: [ViewDesc.ts:134](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L134)
 
 Checks if the content DOM has been detached from the main DOM.
 
@@ -184,7 +184,7 @@ Checks if the content DOM has been detached from the main DOM.
 get dirty(): ViewDirtyState;
 ```
 
-Defined in: [ViewDesc.ts:59](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L59)
+Defined in: [ViewDesc.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L59)
 
 The dirty state of this description. Can be NOT_DIRTY, CHILD_DIRTY, CONTENT_DIRTY, or NODE_DIRTY.
 
@@ -198,7 +198,7 @@ The dirty state of this description. Can be NOT_DIRTY, CHILD_DIRTY, CONTENT_DIRT
 set dirty(dirty): void;
 ```
 
-Defined in: [ViewDesc.ts:63](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L63)
+Defined in: [ViewDesc.ts:63](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L63)
 
 ##### Parameters
 
@@ -224,7 +224,7 @@ Defined in: [ViewDesc.ts:63](https://github.com/type-editor/type/blob/1440286448
 get dom(): Node;
 ```
 
-Defined in: [ViewDesc.ts:99](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L99)
+Defined in: [ViewDesc.ts:99](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L99)
 
 The DOM node this description represents.
 
@@ -246,7 +246,7 @@ The DOM node this description represents.
 get domAtom(): boolean;
 ```
 
-Defined in: [TextViewDesc.ts:38](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L38)
+Defined in: [TextViewDesc.ts:38](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L38)
 
 Whether this description represents an atomic node that should be treated as a single unit.
 
@@ -268,7 +268,7 @@ Whether this description represents an atomic node that should be treated as a s
 get ignoreForCoords(): boolean;
 ```
 
-Defined in: [ViewDesc.ts:120](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L120)
+Defined in: [ViewDesc.ts:120](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L120)
 
 Whether this view should be ignored when determining coordinates.
 
@@ -290,7 +290,7 @@ Whether this view should be ignored when determining coordinates.
 get ignoreForSelection(): boolean;
 ```
 
-Defined in: [ViewDesc.ts:127](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L127)
+Defined in: [ViewDesc.ts:127](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L127)
 
 Whether this view should be ignored for selection purposes.
 
@@ -312,7 +312,7 @@ Whether this view should be ignored for selection purposes.
 get innerDeco(): DecorationSource;
 ```
 
-Defined in: [NodeViewDesc.ts:61](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L61)
+Defined in: [NodeViewDesc.ts:61](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L61)
 
 The decoration source for decorations inside this node.
 Provides access to decorations that should be applied to child content.
@@ -335,7 +335,7 @@ Provides access to decorations that should be applied to child content.
 get node(): Node_2;
 ```
 
-Defined in: [ViewDesc.ts:70](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L70)
+Defined in: [ViewDesc.ts:70](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L70)
 
 The ProseMirror node this description represents, if any.
 
@@ -357,7 +357,7 @@ The ProseMirror node this description represents, if any.
 get nodeDOM(): Node;
 ```
 
-Defined in: [NodeViewDesc.ts:69](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L69)
+Defined in: [NodeViewDesc.ts:69](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L69)
 
 The DOM node that directly represents this ProseMirror node.
 May differ from `dom` if outer decorations wrap it.
@@ -380,7 +380,7 @@ May differ from `dom` if outer decorations wrap it.
 get outerDeco(): readonly PmDecoration[];
 ```
 
-Defined in: [NodeViewDesc.ts:53](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L53)
+Defined in: [NodeViewDesc.ts:53](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L53)
 
 The decorations that wrap this node from the outside.
 These might add attributes, classes, or wrapper elements around the node.
@@ -403,7 +403,7 @@ readonly `PmDecoration`[]
 get parent(): ViewDesc;
 ```
 
-Defined in: [ViewDesc.ts:77](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L77)
+Defined in: [ViewDesc.ts:77](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L77)
 
 The parent view description in the tree.
 
@@ -417,7 +417,7 @@ The parent view description in the tree.
 set parent(parent): void;
 ```
 
-Defined in: [ViewDesc.ts:81](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L81)
+Defined in: [ViewDesc.ts:81](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L81)
 
 ##### Parameters
 
@@ -443,7 +443,7 @@ Defined in: [ViewDesc.ts:81](https://github.com/type-editor/type/blob/1440286448
 get posAfter(): number;
 ```
 
-Defined in: [ViewDesc.ts:155](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L155)
+Defined in: [ViewDesc.ts:155](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L155)
 
 The document position just after this view.
 
@@ -465,7 +465,7 @@ The document position just after this view.
 get posAtEnd(): number;
 ```
 
-Defined in: [ViewDesc.ts:162](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L162)
+Defined in: [ViewDesc.ts:162](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L162)
 
 The document position at the end of this view's content.
 
@@ -487,7 +487,7 @@ The document position at the end of this view's content.
 get posAtStart(): number;
 ```
 
-Defined in: [ViewDesc.ts:148](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L148)
+Defined in: [ViewDesc.ts:148](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L148)
 
 The document position at the start of this view's content.
 
@@ -509,7 +509,7 @@ The document position at the start of this view's content.
 get posBefore(): number;
 ```
 
-Defined in: [ViewDesc.ts:141](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L141)
+Defined in: [ViewDesc.ts:141](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L141)
 
 The document position just before this view.
 
@@ -531,7 +531,7 @@ The document position just before this view.
 get side(): number;
 ```
 
-Defined in: [ViewDesc.ts:185](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L185)
+Defined in: [ViewDesc.ts:185](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L185)
 
 Gets the side value which determines positioning behavior of the view.
 
@@ -557,7 +557,7 @@ Gets the side value which determines positioning behavior of the view.
 get size(): number;
 ```
 
-Defined in: [NodeViewDesc.ts:73](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L73)
+Defined in: [NodeViewDesc.ts:73](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L73)
 
 The size of the content represented by this desc.
 
@@ -577,7 +577,7 @@ The size of the content represented by this desc.
 descAt(pos): ViewDesc;
 ```
 
-Defined in: [ViewDesc.ts:371](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L371)
+Defined in: [ViewDesc.ts:371](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L371)
 
 Find the desc for the node after the given pos, if any. (When a
 parent node overrode rendering, there might not be one.)
@@ -606,7 +606,7 @@ The view description at that position, or undefined
 deselectNode(): void;
 ```
 
-Defined in: [NodeViewDesc.ts:499](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L499)
+Defined in: [NodeViewDesc.ts:499](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L499)
 
 Remove selected node marking from this node.
 
@@ -626,7 +626,7 @@ Remove selected node marking from this node.
 destroy(): void;
 ```
 
-Defined in: [ViewDesc.ts:265](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L265)
+Defined in: [ViewDesc.ts:265](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L265)
 
 Destroys this view description and all its children, cleaning up references.
 
@@ -648,7 +648,7 @@ This method ensures proper cleanup even if exceptions occur during child destruc
 domAfterPos(pos): Node;
 ```
 
-Defined in: [ViewDesc.ts:468](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L468)
+Defined in: [ViewDesc.ts:468](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L468)
 
 Gets the DOM node immediately after a given document position.
 
@@ -683,7 +683,7 @@ domFromPos(pos): {
 };
 ```
 
-Defined in: [TextViewDesc.ts:114](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L114)
+Defined in: [TextViewDesc.ts:114](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L114)
 
 Converts a document position to a DOM position within the text node.
 
@@ -706,8 +706,8 @@ The text DOM node and offset
 
 | Name     | Type     | Defined in                                                                                                                                                    |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `node`   | `Node`   | [TextViewDesc.ts:114](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L114) |
-| `offset` | `number` | [TextViewDesc.ts:114](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L114) |
+| `node`   | `Node`   | [TextViewDesc.ts:114](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L114) |
+| `offset` | `number` | [TextViewDesc.ts:114](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L114) |
 
 #### Overrides
 
@@ -721,7 +721,7 @@ The text DOM node and offset
 emptyChildAt(side): boolean;
 ```
 
-Defined in: [ViewDesc.ts:452](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L452)
+Defined in: [ViewDesc.ts:452](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L452)
 
 Checks if there's an empty child at the start or end of this view.
 
@@ -749,7 +749,7 @@ True if there's an empty child at the specified side
 getDesc(dom): ViewDesc;
 ```
 
-Defined in: [ViewDesc.ts:333](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L333)
+Defined in: [ViewDesc.ts:333](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L333)
 
 Gets a view description from a DOM node if it's a descendant of this description.
 
@@ -777,7 +777,7 @@ The view description if it's a descendant, undefined otherwise
 getType(): ViewDescType;
 ```
 
-Defined in: [TextViewDesc.ts:175](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L175)
+Defined in: [TextViewDesc.ts:175](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L175)
 
 #### Returns
 
@@ -795,7 +795,7 @@ Defined in: [TextViewDesc.ts:175](https://github.com/type-editor/type/blob/14402
 ignoreMutation(mutation): boolean;
 ```
 
-Defined in: [TextViewDesc.ts:139](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L139)
+Defined in: [TextViewDesc.ts:139](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L139)
 
 Text nodes only care about character data and selection changes.
 
@@ -823,7 +823,7 @@ True if mutation should be ignored
 inParent(): boolean;
 ```
 
-Defined in: [TextViewDesc.ts:99](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L99)
+Defined in: [TextViewDesc.ts:99](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L99)
 
 Checks if this text node is still in its parent's content DOM.
 
@@ -841,7 +841,7 @@ True if the text node is properly attached
 isText(text): boolean;
 ```
 
-Defined in: [TextViewDesc.ts:171](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L171)
+Defined in: [TextViewDesc.ts:171](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L171)
 
 Checks if this view represents text with a specific content.
 
@@ -872,7 +872,7 @@ localPosFromDOM(
    bias): number;
 ```
 
-Defined in: [TextViewDesc.ts:126](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L126)
+Defined in: [TextViewDesc.ts:126](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L126)
 
 Converts a DOM position to a document position within the text node.
 
@@ -902,7 +902,7 @@ The document position
 markDirty(from, to): void;
 ```
 
-Defined in: [TextViewDesc.ts:163](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L163)
+Defined in: [TextViewDesc.ts:163](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L163)
 
 Marks a range as dirty. If the entire text or boundaries are affected,
 marks for full node recreation.
@@ -930,7 +930,7 @@ marks for full node recreation.
 markParentsDirty(): void;
 ```
 
-Defined in: [ViewDesc.ts:557](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L557)
+Defined in: [ViewDesc.ts:557](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L557)
 
 Marks this description and its parents as dirty, propagating the dirty state up the tree.
 Sets the dirty level to CONTENT_DIRTY for the immediate parent and CHILD_DIRTY for ancestors.
@@ -951,7 +951,7 @@ Sets the dirty level to CONTENT_DIRTY for the immediate parent and CHILD_DIRTY f
 matchesHack(_nodeName): boolean;
 ```
 
-Defined in: [ViewDesc.ts:236](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L236)
+Defined in: [ViewDesc.ts:236](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L236)
 
 Checks if this description matches a hack node with a specific name.
 
@@ -979,7 +979,7 @@ True if this is a hack node with the given name
 matchesMark(_mark): boolean;
 ```
 
-Defined in: [ViewDesc.ts:214](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L214)
+Defined in: [ViewDesc.ts:214](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L214)
 
 Checks if this description matches a given mark.
 
@@ -1010,7 +1010,7 @@ matchesNode(
    innerDeco): boolean;
 ```
 
-Defined in: [NodeViewDesc.ts:434](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L434)
+Defined in: [NodeViewDesc.ts:434](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L434)
 
 Checks if this description matches a given node with decorations.
 
@@ -1040,7 +1040,7 @@ True if this description represents the given node with matching decorations
 matchesWidget(_widget): boolean;
 ```
 
-Defined in: [ViewDesc.ts:199](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L199)
+Defined in: [ViewDesc.ts:199](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L199)
 
 Checks if this description matches a given widget decoration.
 
@@ -1077,7 +1077,7 @@ parseRange(
 };
 ```
 
-Defined in: [ViewDesc.ts:435](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L435)
+Defined in: [ViewDesc.ts:435](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L435)
 
 Finds a DOM range in a single parent for a given changed range.
 
@@ -1109,11 +1109,11 @@ Object containing the DOM node and offsets for the range
 
 | Name         | Type     | Defined in                                                                                                                                            |
 | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `from`       | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `fromOffset` | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `node`       | `Node`   | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `to`         | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `toOffset`   | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `from`       | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `fromOffset` | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `node`       | `Node`   | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `to`         | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `toOffset`   | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
 
 #### Inherited from
 
@@ -1129,7 +1129,7 @@ parseRule(): {
 };
 ```
 
-Defined in: [TextViewDesc.ts:47](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L47)
+Defined in: [TextViewDesc.ts:47](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L47)
 
 Returns a parse rule that skips any decoration wrappers around the text node.
 
@@ -1145,7 +1145,7 @@ Parse rule with skip set to the first non-decoration parent
 
 | Name   | Type                      | Defined in                                                                                                                                                  |
 | ------ | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `skip` | `boolean` \| `ParentNode` | [TextViewDesc.ts:47](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L47) |
+| `skip` | `boolean` \| `ParentNode` | [TextViewDesc.ts:47](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L47) |
 
 #### Overrides
 
@@ -1159,7 +1159,7 @@ Parse rule with skip set to the first non-decoration parent
 posBeforeChild(child): number;
 ```
 
-Defined in: [ViewDesc.ts:293](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L293)
+Defined in: [ViewDesc.ts:293](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L293)
 
 Calculates the document position just before a given child view.
 
@@ -1190,7 +1190,7 @@ posFromDOM(
    bias): number;
 ```
 
-Defined in: [ViewDesc.ts:354](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L354)
+Defined in: [ViewDesc.ts:354](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L354)
 
 Converts a DOM position to a document position.
 
@@ -1220,7 +1220,7 @@ The document position, or -1 if not found
 selectNode(): void;
 ```
 
-Defined in: [NodeViewDesc.ts:487](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L487)
+Defined in: [NodeViewDesc.ts:487](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L487)
 
 Mark this node as being the selected node.
 
@@ -1240,7 +1240,7 @@ Mark this node as being the selected node.
 protected setDomNode(dom): void;
 ```
 
-Defined in: [ViewDesc.ts:575](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L575)
+Defined in: [ViewDesc.ts:575](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L575)
 
 Sets the DOM node for this description and establishes the bidirectional link.
 
@@ -1270,7 +1270,7 @@ setSelection(
    force?): void;
 ```
 
-Defined in: [ViewDesc.ts:492](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L492)
+Defined in: [ViewDesc.ts:492](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L492)
 
 Sets a selection within this view description or delegates to a child.
 
@@ -1307,7 +1307,7 @@ Strategy:
 slice(from, to): TextViewDesc;
 ```
 
-Defined in: [TextViewDesc.ts:150](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L150)
+Defined in: [TextViewDesc.ts:150](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L150)
 
 Creates a sliced copy of this text node.
 
@@ -1332,7 +1332,7 @@ A new TextViewDesc with sliced content
 stopEvent(_event): boolean;
 ```
 
-Defined in: [ViewDesc.ts:256](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDesc.ts#L256)
+Defined in: [ViewDesc.ts:256](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L256)
 
 Used by the editor's event handler to ignore events that come
 from certain descs.
@@ -1365,7 +1365,7 @@ update(
    view): boolean;
 ```
 
-Defined in: [TextViewDesc.ts:68](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/TextViewDesc.ts#L68)
+Defined in: [TextViewDesc.ts:68](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/TextViewDesc.ts#L68)
 
 Updates this text node with new content and decorations.
 
@@ -1395,7 +1395,7 @@ updateInner(
    innerDeco): void;
 ```
 
-Defined in: [NodeViewDesc.ts:450](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L450)
+Defined in: [NodeViewDesc.ts:450](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L450)
 
 Updates the internal state of this node view with new node and decorations.
 
@@ -1423,7 +1423,7 @@ Updates the internal state of this node view with new node and decorations.
 updateOuterDeco(outerDeco): void;
 ```
 
-Defined in: [NodeViewDesc.ts:463](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L463)
+Defined in: [NodeViewDesc.ts:463](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L463)
 
 Updates the outer decorations on this node, patching the DOM as needed.
 
@@ -1452,7 +1452,7 @@ static applyOuterDeco(
    node): Node;
 ```
 
-Defined in: [NodeViewDesc.ts:93](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L93)
+Defined in: [NodeViewDesc.ts:93](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/NodeViewDesc.ts#L93)
 
 Apply outer decorations to a DOM node.
 

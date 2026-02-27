@@ -10,7 +10,7 @@
 function createDOMFromPlainText(_view, text, _$context): HTMLDivElement;
 ```
 
-Defined in: [clipboard/parse/create-dom-from-plain-text.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/clipboard/parse/create-dom-from-plain-text.ts#L21)
+Defined in: [clipboard/parse/create-dom-from-plain-text.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/clipboard/parse/create-dom-from-plain-text.ts#L21)
 
 Create a DOM structure from plain text, splitting on line breaks
 and creating paragraph elements. Applies current marks from context.

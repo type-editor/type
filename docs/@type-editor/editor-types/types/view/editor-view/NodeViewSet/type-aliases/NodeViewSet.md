@@ -10,4 +10,4 @@
 type NodeViewSet = Record<string, NodeViewConstructor | MarkViewConstructor>;
 ```
 
-Defined in: [packages/editor-types/src/types/view/editor-view/NodeViewSet.ts:4](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/editor-view/NodeViewSet.ts#L4)
+Defined in: [packages/editor-types/src/types/view/editor-view/NodeViewSet.ts:4](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/editor-view/NodeViewSet.ts#L4)

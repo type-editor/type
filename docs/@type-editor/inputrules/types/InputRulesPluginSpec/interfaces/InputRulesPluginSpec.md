@@ -6,7 +6,7 @@
 
 # Interface: InputRulesPluginSpec
 
-Defined in: [types/InputRulesPluginSpec.ts:5](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/inputrules/src/types/InputRulesPluginSpec.ts#L5)
+Defined in: [types/InputRulesPluginSpec.ts:5](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/inputrules/src/types/InputRulesPluginSpec.ts#L5)
 
 Plugin specification interface for identifying input rule plugins.
 
@@ -14,4 +14,4 @@ Plugin specification interface for identifying input rule plugins.
 
 | Property                                          | Type      | Defined in                                                                                                                                                                    |
 | ------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-isinputrules"></a> `isInputRules` | `boolean` | [types/InputRulesPluginSpec.ts:6](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/inputrules/src/types/InputRulesPluginSpec.ts#L6) |
+| <a id="property-isinputrules"></a> `isInputRules` | `boolean` | [types/InputRulesPluginSpec.ts:6](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/inputrules/src/types/InputRulesPluginSpec.ts#L6) |

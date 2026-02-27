@@ -10,7 +10,7 @@
 function inOrNearComposition(view, event): boolean;
 ```
 
-Defined in: [input-handler/keyboard/util/in-or-near-composition.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/input-handler/keyboard/util/in-or-near-composition.ts#L15)
+Defined in: [input-handler/keyboard/util/in-or-near-composition.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/input-handler/keyboard/util/in-or-near-composition.ts#L15)
 
 Determines if the editor is currently in or near a composition event.
 This is critical for handling IME (Input Method Editor) input correctly,

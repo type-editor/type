@@ -6,7 +6,7 @@
 
 # Class: DecorationGroup
 
-Defined in: [decoration/DecorationGroup.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L22)
+Defined in: [decoration/DecorationGroup.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L22)
 
 **`Internal`**
 
@@ -36,7 +36,7 @@ for better performance when mapping through changes.
 new DecorationGroup(members): DecorationGroup;
 ```
 
-Defined in: [decoration/DecorationGroup.ts:32](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L32)
+Defined in: [decoration/DecorationGroup.ts:32](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L32)
 
 Creates a new decoration group from multiple decoration sets.
 
@@ -58,7 +58,7 @@ Creates a new decoration group from multiple decoration sets.
 
 | Property                                                                                | Modifier   | Type                              | Default value | Description                                                        | Inherited from                                                                                                                                                                                                                                    | Defined in                                                                                                                                                                                        |
 | --------------------------------------------------------------------------------------- | ---------- | --------------------------------- | ------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [`AbstractDecorationSource`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationSource.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/AbstractDecorationSource.ts#L14) |
+| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [`AbstractDecorationSource`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationSource.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/AbstractDecorationSource.ts#L14) |
 
 ## Methods
 
@@ -68,7 +68,7 @@ Creates a new decoration group from multiple decoration sets.
 eq(other): boolean;
 ```
 
-Defined in: [decoration/DecorationGroup.ts:89](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L89)
+Defined in: [decoration/DecorationGroup.ts:89](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L89)
 
 Check if this decoration group is equal to another.
 
@@ -100,7 +100,7 @@ forChild(offset, child):
   | DecorationSource;
 ```
 
-Defined in: [decoration/DecorationGroup.ts:60](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L60)
+Defined in: [decoration/DecorationGroup.ts:60](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L60)
 
 Get decorations relevant for a child node from all sets in the group.
 
@@ -132,7 +132,7 @@ DecorationSource.forChild;
 forEachSet(callbackFunc): void;
 ```
 
-Defined in: [decoration/DecorationGroup.ts:197](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L197)
+Defined in: [decoration/DecorationGroup.ts:197](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L197)
 
 Iterate over all decoration sets in this group, calling the callback
 for each one.
@@ -161,7 +161,7 @@ DecorationSource.forEachSet;
 locals(node): readonly PmDecoration[];
 ```
 
-Defined in: [decoration/DecorationGroup.ts:108](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L108)
+Defined in: [decoration/DecorationGroup.ts:108](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L108)
 
 Get all local decorations from all sets in the group, with overlaps removed.
 
@@ -191,7 +191,7 @@ DecorationSource.locals;
 map(mapping, doc): DecorationSource;
 ```
 
-Defined in: [decoration/DecorationGroup.ts:44](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L44)
+Defined in: [decoration/DecorationGroup.ts:44](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L44)
 
 Map all decoration sets in this group through document changes.
 
@@ -222,7 +222,7 @@ DecorationSource.map;
 protected removeOverlap(spans): PmDecoration[];
 ```
 
-Defined in: [decoration/AbstractDecorationSource.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/AbstractDecorationSource.ts#L25)
+Defined in: [decoration/AbstractDecorationSource.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/AbstractDecorationSource.ts#L25)
 
 Scan a sorted array of decorations for partially overlapping spans,
 and split those so that only fully overlapping spans are left (to
@@ -253,7 +253,7 @@ A new array with overlaps removed, or the original if no overlaps exist
 static from(members): DecorationSource;
 ```
 
-Defined in: [decoration/DecorationGroup.ts:159](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/DecorationGroup.ts#L159)
+Defined in: [decoration/DecorationGroup.ts:159](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/DecorationGroup.ts#L159)
 
 Create a group for the given array of decoration sources, or return
 a single set when possible. This factory method handles flattening
@@ -285,7 +285,7 @@ A decoration source (may be empty set, single set, or flattened group)
 protected static sortDecorations(spans): PmDecoration[];
 ```
 
-Defined in: [decoration/AbstractDecorationSource.ts:96](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/AbstractDecorationSource.ts#L96)
+Defined in: [decoration/AbstractDecorationSource.ts:96](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/decoration/src/decoration/AbstractDecorationSource.ts#L96)
 
 Comparator function used to sort decorations by position.
 Decorations with lower start positions come first, and within

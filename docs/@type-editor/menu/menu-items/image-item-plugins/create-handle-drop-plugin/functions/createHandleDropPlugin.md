@@ -10,7 +10,7 @@
 function createHandleDropPlugin(editorView): Plugin_2;
 ```
 
-Defined in: [packages/menu/src/menu-items/image-item-plugins/create-handle-drop-plugin.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/image-item-plugins/create-handle-drop-plugin.ts#L15)
+Defined in: [packages/menu/src/menu-items/image-item-plugins/create-handle-drop-plugin.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menu-items/image-item-plugins/create-handle-drop-plugin.ts#L15)
 
 Creates a plugin to handle the start of drop operations for images,
 tracking metadata needed for subsequent processing.

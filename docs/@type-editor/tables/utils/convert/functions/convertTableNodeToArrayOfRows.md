@@ -10,7 +10,7 @@
 function convertTableNodeToArrayOfRows(tableNode): TableCellMatrix;
 ```
 
-Defined in: [tables/src/utils/convert.ts:43](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/convert.ts#L43)
+Defined in: [tables/src/utils/convert.ts:43](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/convert.ts#L43)
 
 Transforms a table node into a matrix of rows and columns, respecting merged cells.
 

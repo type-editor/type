@@ -6,7 +6,7 @@
 
 # Class: Slice
 
-Defined in: [packages/model/src/elements/Slice.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L16)
+Defined in: [packages/model/src/elements/Slice.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L16)
 
 A slice represents a piece cut out of a larger document. It
 stores not only a fragment, but also the depth up to which nodes on
@@ -27,7 +27,7 @@ new Slice(
    openEnd): Slice;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:59](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L59)
+Defined in: [packages/model/src/elements/Slice.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L59)
 
 Create a slice. When specifying a non-zero open depth, you must
 make sure that there are nodes of at least that depth at the
@@ -66,7 +66,7 @@ If openStart or openEnd are negative.
 get content(): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:102](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L102)
+Defined in: [packages/model/src/elements/Slice.ts:102](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L102)
 
 The fragment containing the slice's content.
 
@@ -84,7 +84,7 @@ The fragment containing the slice's content.
 get elementType(): ElementType;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:68](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L68)
+Defined in: [packages/model/src/elements/Slice.ts:68](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L68)
 
 ##### Returns
 
@@ -104,7 +104,7 @@ Defined in: [packages/model/src/elements/Slice.ts:68](https://github.com/type-ed
 get openEnd(): number;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:118](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L118)
+Defined in: [packages/model/src/elements/Slice.ts:118](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L118)
 
 The open depth at the end of the slice.
 Indicates how many parent nodes are open (cut through) at the end.
@@ -123,7 +123,7 @@ Indicates how many parent nodes are open (cut through) at the end.
 get openStart(): number;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:110](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L110)
+Defined in: [packages/model/src/elements/Slice.ts:110](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L110)
 
 The open depth at the start of the slice.
 Indicates how many parent nodes are open (cut through) at the beginning.
@@ -142,7 +142,7 @@ Indicates how many parent nodes are open (cut through) at the beginning.
 get size(): number;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:129](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L129)
+Defined in: [packages/model/src/elements/Slice.ts:129](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L129)
 
 The size this slice would add when inserted into a document.
 This is calculated as the content size minus the open depths on both sides,
@@ -164,7 +164,7 @@ The effective size of the slice for insertion purposes.
 get static empty(): Slice;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:92](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L92)
+Defined in: [packages/model/src/elements/Slice.ts:92](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L92)
 
 Returns the singleton empty slice instance.
 An empty slice has no content and zero open depths on both sides.
@@ -183,7 +183,7 @@ A shared empty Slice instance.
 eq(other): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:232](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L232)
+Defined in: [packages/model/src/elements/Slice.ts:232](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L232)
 
 Tests whether this slice is equal to another slice.
 Two slices are equal if they have the same content, openStart, and openEnd values.
@@ -208,7 +208,7 @@ True if the slices are equal, false otherwise.
 insertAt(pos, fragment): Slice;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:198](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L198)
+Defined in: [packages/model/src/elements/Slice.ts:198](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L198)
 
 Insert a fragment at a specific position within this slice.
 
@@ -237,7 +237,7 @@ If the position is invalid (negative).
 removeBetween(from, to): Slice;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:214](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L214)
+Defined in: [packages/model/src/elements/Slice.ts:214](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L214)
 
 Remove content between two positions in this slice.
 
@@ -266,7 +266,7 @@ If the range is invalid or not flat (spans multiple depth levels).
 toJSON(): SliceJSON;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:252](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L252)
+Defined in: [packages/model/src/elements/Slice.ts:252](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L252)
 
 Convert a slice to a JSON-serializable representation.
 
@@ -284,7 +284,7 @@ A JSON representation of the slice, or null if the slice is empty.
 toString(): string;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:243](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L243)
+Defined in: [packages/model/src/elements/Slice.ts:243](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L243)
 
 Return a string representation of the slice for debugging purposes.
 
@@ -302,7 +302,7 @@ A string representation showing the content and open depths.
 static fromJSON(schema, json): Slice;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:140](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L140)
+Defined in: [packages/model/src/elements/Slice.ts:140](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L140)
 
 Deserialize a slice from its JSON representation.
 
@@ -327,7 +327,7 @@ A new Slice instance or the empty slice if json is null/undefined.
 static maxOpen(fragment, openIsolating?): Slice;
 ```
 
-Defined in: [packages/model/src/elements/Slice.ts:164](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/Slice.ts#L164)
+Defined in: [packages/model/src/elements/Slice.ts:164](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/model/src/elements/Slice.ts#L164)
 
 Create a slice from a fragment by taking the maximum possible
 open value on both sides of the fragment. This traverses down

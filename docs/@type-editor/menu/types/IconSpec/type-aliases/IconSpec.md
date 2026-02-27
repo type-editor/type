@@ -22,7 +22,7 @@ type IconSpec =
     };
 ```
 
-Defined in: [packages/menu/src/types/IconSpec.ts:11](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/types/IconSpec.ts#L11)
+Defined in: [packages/menu/src/types/IconSpec.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/types/IconSpec.ts#L11)
 
 Specifies an icon. May be either an SVG icon, in which case its
 `path` property should be an [SVG path

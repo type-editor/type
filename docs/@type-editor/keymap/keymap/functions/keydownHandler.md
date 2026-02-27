@@ -10,7 +10,7 @@
 function keydownHandler(bindings): (view, event) => boolean;
 ```
 
-Defined in: [keymap.ts:72](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/keymap/src/keymap.ts#L72)
+Defined in: [keymap.ts:72](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/keymap/src/keymap.ts#L72)
 
 Creates a keydown handler function from a set of key bindings.
 

@@ -10,7 +10,7 @@
 const replaceCurrent: Command;
 ```
 
-Defined in: [commands/replace-current.ts:10](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/commands/replace-current.ts#L10)
+Defined in: [commands/replace-current.ts:10](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/commands/replace-current.ts#L10)
 
 Replace the currently selected instance of the search query, if
 any. Don't move to the next match.

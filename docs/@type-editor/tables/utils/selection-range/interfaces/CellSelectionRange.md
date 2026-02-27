@@ -6,7 +6,7 @@
 
 # Interface: CellSelectionRange
 
-Defined in: [tables/src/utils/selection-range.ts:13](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/selection-range.ts#L13)
+Defined in: [tables/src/utils/selection-range.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/selection-range.ts#L13)
 
 Represents a rectangular selection range within a table.
 
@@ -17,6 +17,6 @@ along with the indexes of all columns or rows included in the selection.
 
 | Property                                | Type          | Description                                                                                                                                              | Defined in                                                                                                                                                                   |
 | --------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-anchor"></a> `$anchor`  | `ResolvedPos` | The resolved position of the selection anchor (where the selection started).                                                                             | [tables/src/utils/selection-range.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/selection-range.ts#L17) |
-| <a id="property-head"></a> `$head`      | `ResolvedPos` | The resolved position of the selection head (where the selection ended).                                                                                 | [tables/src/utils/selection-range.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/selection-range.ts#L22) |
-| <a id="property-indexes"></a> `indexes` | `number`[]    | An array of column or row indexes included in the selection. For column selections, these are column indexes; for row selections, these are row indexes. | [tables/src/utils/selection-range.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/selection-range.ts#L28) |
+| <a id="property-anchor"></a> `$anchor`  | `ResolvedPos` | The resolved position of the selection anchor (where the selection started).                                                                             | [tables/src/utils/selection-range.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/selection-range.ts#L17) |
+| <a id="property-head"></a> `$head`      | `ResolvedPos` | The resolved position of the selection head (where the selection ended).                                                                                 | [tables/src/utils/selection-range.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/selection-range.ts#L22) |
+| <a id="property-indexes"></a> `indexes` | `number`[]    | An array of column or row indexes included in the selection. For column selections, these are column indexes; for row selections, these are row indexes. | [tables/src/utils/selection-range.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/utils/selection-range.ts#L28) |

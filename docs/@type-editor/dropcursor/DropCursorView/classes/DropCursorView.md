@@ -6,7 +6,7 @@
 
 # Class: DropCursorView
 
-Defined in: [DropCursorView.ts:31](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/DropCursorView.ts#L31)
+Defined in: [DropCursorView.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dropcursor/src/DropCursorView.ts#L31)
 
 View implementation for the drop cursor plugin.
 Manages the visual drop cursor element and handles drag-and-drop events.
@@ -19,7 +19,7 @@ Manages the visual drop cursor element and handles drag-and-drop events.
 new DropCursorView(editorView, options): DropCursorView;
 ```
 
-Defined in: [DropCursorView.ts:66](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/DropCursorView.ts#L66)
+Defined in: [DropCursorView.ts:66](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dropcursor/src/DropCursorView.ts#L66)
 
 Creates a new drop cursor view.
 
@@ -38,7 +38,7 @@ Creates a new drop cursor view.
 
 | Property                                      | Modifier   | Type           | Description                          | Defined in                                                                                                                                              |
 | --------------------------------------------- | ---------- | -------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-editorview"></a> `editorView` | `readonly` | `PmEditorView` | The ProseMirror editor view instance | [DropCursorView.ts:66](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/DropCursorView.ts#L66) |
+| <a id="property-editorview"></a> `editorView` | `readonly` | `PmEditorView` | The ProseMirror editor view instance | [DropCursorView.ts:66](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dropcursor/src/DropCursorView.ts#L66) |
 
 ## Methods
 
@@ -48,7 +48,7 @@ Creates a new drop cursor view.
 destroy(): void;
 ```
 
-Defined in: [DropCursorView.ts:79](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/DropCursorView.ts#L79)
+Defined in: [DropCursorView.ts:79](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dropcursor/src/DropCursorView.ts#L79)
 
 Cleans up the drop cursor view by removing event listeners and DOM elements.
 Called automatically when the plugin is destroyed.
@@ -65,7 +65,7 @@ Called automatically when the plugin is destroyed.
 update(editorView, prevState): void;
 ```
 
-Defined in: [DropCursorView.ts:94](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/DropCursorView.ts#L94)
+Defined in: [DropCursorView.ts:94](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dropcursor/src/DropCursorView.ts#L94)
 
 Updates the drop cursor when the editor state changes.
 Removes the cursor if its position becomes invalid, or updates its visual position.

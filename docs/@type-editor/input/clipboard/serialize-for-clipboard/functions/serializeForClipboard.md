@@ -10,7 +10,7 @@
 function serializeForClipboard(view, slice): SerializedClipboard;
 ```
 
-Defined in: [clipboard/serialize-for-clipboard.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/clipboard/serialize-for-clipboard.ts#L21)
+Defined in: [clipboard/serialize-for-clipboard.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/clipboard/serialize-for-clipboard.ts#L21)
 
 Serialize a slice for placing on the clipboard.
 Produces a DOM fragmen, t, a plain-text representation, and the (possibly

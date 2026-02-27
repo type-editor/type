@@ -17,7 +17,7 @@ type SplitNodeFunction = (
 } | null;
 ```
 
-Defined in: [split-block.ts:138](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/split-block.ts#L138)
+Defined in: [split-block.ts:138](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/split-block.ts#L138)
 
 Function type for customizing the node type of newly split blocks.
 

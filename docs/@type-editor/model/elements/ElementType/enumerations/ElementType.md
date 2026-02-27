@@ -6,15 +6,15 @@
 
 # Enumeration: ElementType
 
-Defined in: [packages/model/src/elements/ElementType.ts:2](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ElementType.ts#L2)
+Defined in: [packages/model/src/elements/ElementType.ts:2](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementType.ts#L2)
 
 ## Enumeration Members
 
 | Enumeration Member                                        | Value | Defined in                                                                                                                                                                      |
 | --------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="enumeration-member-fragment"></a> `Fragment`       | `3`   | [packages/model/src/elements/ElementType.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ElementType.ts#L5) |
-| <a id="enumeration-member-mark"></a> `Mark`               | `5`   | [packages/model/src/elements/ElementType.ts:7](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ElementType.ts#L7) |
-| <a id="enumeration-member-node"></a> `Node`               | `1`   | [packages/model/src/elements/ElementType.ts:3](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ElementType.ts#L3) |
-| <a id="enumeration-member-resolvedpos"></a> `ResolvedPos` | `6`   | [packages/model/src/elements/ElementType.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ElementType.ts#L8) |
-| <a id="enumeration-member-slice"></a> `Slice`             | `4`   | [packages/model/src/elements/ElementType.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ElementType.ts#L6) |
-| <a id="enumeration-member-textnode"></a> `TextNode`       | `2`   | [packages/model/src/elements/ElementType.ts:4](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ElementType.ts#L4) |
+| <a id="enumeration-member-fragment"></a> `Fragment`       | `3`   | [packages/model/src/elements/ElementType.ts:5](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementType.ts#L5) |
+| <a id="enumeration-member-mark"></a> `Mark`               | `5`   | [packages/model/src/elements/ElementType.ts:7](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementType.ts#L7) |
+| <a id="enumeration-member-node"></a> `Node`               | `1`   | [packages/model/src/elements/ElementType.ts:3](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementType.ts#L3) |
+| <a id="enumeration-member-resolvedpos"></a> `ResolvedPos` | `6`   | [packages/model/src/elements/ElementType.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementType.ts#L8) |
+| <a id="enumeration-member-slice"></a> `Slice`             | `4`   | [packages/model/src/elements/ElementType.ts:6](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementType.ts#L6) |
+| <a id="enumeration-member-textnode"></a> `TextNode`       | `2`   | [packages/model/src/elements/ElementType.ts:4](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ElementType.ts#L4) |

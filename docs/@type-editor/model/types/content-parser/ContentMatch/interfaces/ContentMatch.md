@@ -6,17 +6,17 @@
 
 # Interface: ContentMatch
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:37](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L37)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:37](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L37)
 
 ## Properties
 
 | Property                                            | Modifier   | Type                                                          | Defined in                                                                                                                                                                                                  |
 | --------------------------------------------------- | ---------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-defaulttype"></a> `defaultType`     | `readonly` | [`NodeType`](../../../../schema/NodeType/classes/NodeType.md) | [packages/model/src/types/content-parser/ContentMatch.ts:42](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L42) |
-| <a id="property-edgecount"></a> `edgeCount`         | `readonly` | `number`                                                      | [packages/model/src/types/content-parser/ContentMatch.ts:43](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L43) |
-| <a id="property-inlinecontent"></a> `inlineContent` | `readonly` | `boolean`                                                     | [packages/model/src/types/content-parser/ContentMatch.ts:41](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L41) |
-| <a id="property-next"></a> `next`                   | `readonly` | [`MatchEdge`](MatchEdge.md)[]                                 | [packages/model/src/types/content-parser/ContentMatch.ts:39](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L39) |
-| <a id="property-validend"></a> `validEnd`           | `readonly` | `boolean`                                                     | [packages/model/src/types/content-parser/ContentMatch.ts:40](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L40) |
+| <a id="property-defaulttype"></a> `defaultType`     | `readonly` | [`NodeType`](../../../../schema/NodeType/classes/NodeType.md) | [packages/model/src/types/content-parser/ContentMatch.ts:42](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L42) |
+| <a id="property-edgecount"></a> `edgeCount`         | `readonly` | `number`                                                      | [packages/model/src/types/content-parser/ContentMatch.ts:43](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L43) |
+| <a id="property-inlinecontent"></a> `inlineContent` | `readonly` | `boolean`                                                     | [packages/model/src/types/content-parser/ContentMatch.ts:41](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L41) |
+| <a id="property-next"></a> `next`                   | `readonly` | [`MatchEdge`](MatchEdge.md)[]                                 | [packages/model/src/types/content-parser/ContentMatch.ts:39](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L39) |
+| <a id="property-validend"></a> `validEnd`           | `readonly` | `boolean`                                                     | [packages/model/src/types/content-parser/ContentMatch.ts:40](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L40) |
 
 ## Methods
 
@@ -26,7 +26,7 @@ Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:37](https:/
 compatible(other): boolean;
 ```
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:134](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L134)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:134](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L134)
 
 Check whether this match state is compatible with another match state.
 Two match states are compatible if they have at least one node type in common
@@ -69,7 +69,7 @@ if (match1.compatible(match2)) {
 edge(number): MatchEdge;
 ```
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:243](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L243)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:243](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L243)
 
 Get the _n_'th outgoing edge from this node in the finite
 automaton that describes the content expression.
@@ -115,7 +115,7 @@ fillBefore(
    startIndex?): Fragment;
 ```
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:181](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L181)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:181](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L181)
 
 Try to match the given fragment, and if that fails, see if it can
 be made to match by inserting nodes in front of it. When
@@ -174,7 +174,7 @@ if (toEnd && contentMatch.matchFragment(toEnd.append(fragment))?.validEnd) {
 findWrapping(target): readonly NodeType[];
 ```
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:219](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L219)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:219](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L219)
 
 Find a set of wrapping node types that would allow a node of the
 given type to appear at this position. The result may be empty
@@ -234,7 +234,7 @@ matchFragment(
    end?): ContentMatch;
 ```
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:106](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L106)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:106](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L106)
 
 Try to match a fragment. Returns the resulting match state when successful.
 
@@ -284,7 +284,7 @@ const partial = contentMatch.matchFragment(fragment, 1, 2);
 matchType(type): ContentMatch;
 ```
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:71](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L71)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:71](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L71)
 
 Match a node type, returning the next match state after that node if successful.
 
@@ -328,7 +328,7 @@ if (afterPara) {
 toString(): string;
 ```
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:269](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/content-parser/ContentMatch.ts#L269)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:269](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/content-parser/ContentMatch.ts#L269)
 
 Generate a string representation of this content match and all reachable states.
 Useful for debugging and visualizing the finite automaton structure.

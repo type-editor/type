@@ -10,7 +10,7 @@
 const domtoimage: DomToImage;
 ```
 
-Defined in: [packages/menu/src/menu-items/file-upload/DOMToImage.ts:1609](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/file-upload/DOMToImage.ts#L1609)
+Defined in: [packages/menu/src/menu-items/file-upload/DOMToImage.ts:1609](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/file-upload/DOMToImage.ts#L1609)
 
 Main export: DOM to Image conversion library
 

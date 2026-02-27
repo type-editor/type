@@ -14,7 +14,7 @@ function shouldAdjustChangeStartToSelection(
 ): boolean;
 ```
 
-Defined in: [parse-change/should-adjust-change-start-to-selection.ts:28](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/parse-change/should-adjust-change-start-to-selection.ts#L28)
+Defined in: [parse-change/should-adjust-change-start-to-selection.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/parse-change/should-adjust-change-start-to-selection.ts#L28)
 
 Checks if change start should be adjusted to selection start.
 

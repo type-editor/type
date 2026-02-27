@@ -10,7 +10,7 @@
 function isInNodeType(state, nodeType, attrs?): boolean;
 ```
 
-Defined in: [is-in-node-type.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/util/src/is-in-node-type.ts#L8)
+Defined in: [is-in-node-type.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/util/src/is-in-node-type.ts#L8)
 
 ## Parameters
 

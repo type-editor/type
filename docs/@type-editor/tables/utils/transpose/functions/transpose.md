@@ -10,7 +10,7 @@
 function transpose<T>(array): T[][];
 ```
 
-Defined in: [tables/src/utils/transpose.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/transpose.ts#L25)
+Defined in: [tables/src/utils/transpose.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/transpose.ts#L25)
 
 Transposes a 2D array by flipping columns to rows.
 

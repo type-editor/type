@@ -6,7 +6,7 @@
 
 # Interface: Rect
 
-Defined in: [types/Rect.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dropcursor/src/types/Rect.ts#L5)
+Defined in: [types/Rect.ts:5](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/types/Rect.ts#L5)
 
 Represents a position rectangle with coordinates.
 
@@ -14,7 +14,7 @@ Represents a position rectangle with coordinates.
 
 | Property                              | Type     | Defined in                                                                                                                                    |
 | ------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-bottom"></a> `bottom` | `number` | [types/Rect.ts:9](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dropcursor/src/types/Rect.ts#L9) |
-| <a id="property-left"></a> `left`     | `number` | [types/Rect.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dropcursor/src/types/Rect.ts#L6) |
-| <a id="property-right"></a> `right`   | `number` | [types/Rect.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dropcursor/src/types/Rect.ts#L8) |
-| <a id="property-top"></a> `top`       | `number` | [types/Rect.ts:7](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dropcursor/src/types/Rect.ts#L7) |
+| <a id="property-bottom"></a> `bottom` | `number` | [types/Rect.ts:9](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/types/Rect.ts#L9) |
+| <a id="property-left"></a> `left`     | `number` | [types/Rect.ts:6](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/types/Rect.ts#L6) |
+| <a id="property-right"></a> `right`   | `number` | [types/Rect.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/types/Rect.ts#L8) |
+| <a id="property-top"></a> `top`       | `number` | [types/Rect.ts:7](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dropcursor/src/types/Rect.ts#L7) |

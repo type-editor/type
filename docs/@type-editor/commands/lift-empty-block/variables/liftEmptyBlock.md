@@ -10,7 +10,7 @@
 const liftEmptyBlock: Command;
 ```
 
-Defined in: [lift-empty-block.ts:53](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/lift-empty-block.ts#L53)
+Defined in: [lift-empty-block.ts:53](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/lift-empty-block.ts#L53)
 
 Lifts an empty textblock out of its parent structure.
 

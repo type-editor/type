@@ -6,7 +6,7 @@
 
 # Class: DocumentParseContext
 
-Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:46](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/dom-parser/context/DocumentParseContext.ts#L46)
+Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:46](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/context/DocumentParseContext.ts#L46)
 
 Manages the state and operations for parsing DOM content into ProseMirror nodes.
 
@@ -31,7 +31,7 @@ new DocumentParseContext(
    isOpen): DocumentParseContext;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:104](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/dom-parser/context/DocumentParseContext.ts#L104)
+Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:104](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/context/DocumentParseContext.ts#L104)
 
 Creates a new parse context for converting DOM to ProseMirror nodes.
 
@@ -62,7 +62,7 @@ based on the provided options and whether parsing is open-ended.
 get currentPos(): number;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:138](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/dom-parser/context/DocumentParseContext.ts#L138)
+Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:138](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/context/DocumentParseContext.ts#L138)
 
 Calculates the current document position based on content added so far.
 
@@ -101,7 +101,7 @@ and is used for tracking DOM position mappings.
 get top(): NodeParseContext;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:123](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/dom-parser/context/DocumentParseContext.ts#L123)
+Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:123](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/context/DocumentParseContext.ts#L123)
 
 Gets the currently active node context at the top of the stack.
 
@@ -133,7 +133,7 @@ addAll(
    endIndex?): void;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:165](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/dom-parser/context/DocumentParseContext.ts#L165)
+Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:165](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/context/DocumentParseContext.ts#L165)
 
 Parses and adds all child nodes from a DOM element to the current context.
 
@@ -169,7 +169,7 @@ finish():
   | Node;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:195](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/dom-parser/context/DocumentParseContext.ts#L195)
+Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:195](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/context/DocumentParseContext.ts#L195)
 
 Completes the parsing process and returns the final result.
 
@@ -201,7 +201,7 @@ This method:
 matchesContext(context): boolean;
 ```
 
-Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:220](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/dom-parser/context/DocumentParseContext.ts#L220)
+Defined in: [packages/model/src/dom-parser/context/DocumentParseContext.ts:220](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/dom-parser/context/DocumentParseContext.ts#L220)
 
 Determines whether the given context string matches this context.
 

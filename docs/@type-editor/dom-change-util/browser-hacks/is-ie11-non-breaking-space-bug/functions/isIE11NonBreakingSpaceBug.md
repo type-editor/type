@@ -10,7 +10,7 @@
 function isIE11NonBreakingSpaceBug(change, parse): boolean;
 ```
 
-Defined in: [browser-hacks/is-ie11-non-breaking-space-bug.ts:30](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/browser-hacks/is-ie11-non-breaking-space-bug.ts#L30)
+Defined in: [browser-hacks/is-ie11-non-breaking-space-bug.ts:30](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/browser-hacks/is-ie11-non-breaking-space-bug.ts#L30)
 
 Checks if this is the IE11 non-breaking space bug.
 

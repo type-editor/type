@@ -10,7 +10,7 @@
 function createHandlePastePlugin(): Plugin_2;
 ```
 
-Defined in: [packages/menu/src/menu-items/image-item-plugins/create-handle-paste-plugin.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/image-item-plugins/create-handle-paste-plugin.ts#L14)
+Defined in: [packages/menu/src/menu-items/image-item-plugins/create-handle-paste-plugin.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/image-item-plugins/create-handle-paste-plugin.ts#L14)
 
 Creates a plugin to handle paste events for images with special handling
 for the textaround attribute.

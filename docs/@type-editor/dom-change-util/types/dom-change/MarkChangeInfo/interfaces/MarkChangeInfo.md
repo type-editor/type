@@ -6,7 +6,7 @@
 
 # Interface: MarkChangeInfo
 
-Defined in: [types/dom-change/MarkChangeInfo.ts:20](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/types/dom-change/MarkChangeInfo.ts#L20)
+Defined in: [types/dom-change/MarkChangeInfo.ts:20](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/types/dom-change/MarkChangeInfo.ts#L20)
 
 Represents a mark change operation (adding or removing a mark).
 
@@ -30,5 +30,5 @@ const markChange: MarkChangeInfo = {
 
 | Property                          | Type                  | Description                                                                                                                 | Defined in                                                                                                                                                                                                |
 | --------------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-mark"></a> `mark` | `Mark`                | The mark that was added to or removed from the content. This is a ProseMirror Mark instance.                                | [types/dom-change/MarkChangeInfo.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/types/dom-change/MarkChangeInfo.ts#L25) |
-| <a id="property-type"></a> `type` | `"add"` \| `"remove"` | Type of mark change operation. - 'add': The mark was added to the content - 'remove': The mark was removed from the content | [types/dom-change/MarkChangeInfo.ts:32](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/types/dom-change/MarkChangeInfo.ts#L32) |
+| <a id="property-mark"></a> `mark` | `Mark`                | The mark that was added to or removed from the content. This is a ProseMirror Mark instance.                                | [types/dom-change/MarkChangeInfo.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/types/dom-change/MarkChangeInfo.ts#L25) |
+| <a id="property-type"></a> `type` | `"add"` \| `"remove"` | Type of mark change operation. - 'add': The mark was added to the content - 'remove': The mark was removed from the content | [types/dom-change/MarkChangeInfo.ts:32](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/types/dom-change/MarkChangeInfo.ts#L32) |

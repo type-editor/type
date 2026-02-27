@@ -10,7 +10,7 @@
 type AttrsObject = Record<string, string | number | boolean | null | undefined>;
 ```
 
-Defined in: [packages/model/src/types/schema/AttrsObject.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/schema/AttrsObject.ts#L5)
+Defined in: [packages/model/src/types/schema/AttrsObject.ts:5](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/schema/AttrsObject.ts#L5)
 
 A mutable object holding the attributes of a node or mark. Unlike `Attrs`,
 this type allows modification of attribute values.

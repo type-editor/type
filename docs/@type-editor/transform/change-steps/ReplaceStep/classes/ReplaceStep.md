@@ -6,7 +6,7 @@
 
 # Class: ReplaceStep
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L15)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L15)
 
 Replace a part of the document with a slice of new content.
 
@@ -26,7 +26,7 @@ new ReplaceStep(
    structure?): ReplaceStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:36](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L36)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:36](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L36)
 
 The given `slice` should fit the 'gap' between `from` and
 `to`—the depths must line up, and the surrounding nodes must be
@@ -63,7 +63,7 @@ overwriting something they weren't supposed to).
 get from(): number;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:50](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L50)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:50](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L50)
 
 The start position of the replaced range.
 
@@ -81,7 +81,7 @@ The start position of the replaced range.
 get slice(): Slice;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:64](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L64)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:64](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L64)
 
 The slice to insert.
 
@@ -99,7 +99,7 @@ The slice to insert.
 get to(): number;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:57](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L57)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:57](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L57)
 
 The end position of the replaced range.
 
@@ -115,7 +115,7 @@ The end position of the replaced range.
 apply(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:93](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L93)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:93](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L93)
 
 Apply this step to the given document, returning a result object.
 
@@ -146,7 +146,7 @@ protected contentBetween(
    to): boolean;
 ```
 
-Defined in: [packages/transform/src/change-steps/AbstractReplaceStep.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/AbstractReplaceStep.ts#L22)
+Defined in: [packages/transform/src/change-steps/AbstractReplaceStep.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/AbstractReplaceStep.ts#L22)
 
 Check if there is content between two positions in the document
 that would interfere with a structure-preserving replace operation.
@@ -177,7 +177,7 @@ True if there is interfering content, false otherwise.
 getMap(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:106](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L106)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:106](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L106)
 
 Get the step map that represents the changes made by this step.
 
@@ -199,7 +199,7 @@ A step map describing the position changes.
 invert(doc): ReplaceStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:116](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L116)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:116](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L116)
 
 Create an inverted version of this step that undoes the replacement.
 
@@ -227,7 +227,7 @@ A new step that undoes this step.
 map(mapping): ReplaceStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:126](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L126)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:126](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L126)
 
 Map this step through a mappable object, adjusting its positions.
 
@@ -258,7 +258,7 @@ protected mapFragment(
    parent): Fragment;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L144)
+Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L144)
 
 Recursively map over inline nodes in a fragment, applying a callback function.
 
@@ -292,7 +292,7 @@ A new fragment with transformed nodes, preserving the structure.
 merge(other): ReplaceStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:143](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L143)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:143](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L143)
 
 Try to merge this step with another step. Returns the merged step if possible.
 
@@ -320,7 +320,7 @@ A merged step if the steps can be merged, or null otherwise.
 toJSON(): ReplaceStepJSON;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:179](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L179)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:179](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L179)
 
 Create a JSON-serializable representation of this step.
 
@@ -342,7 +342,7 @@ The JSON representation of this step.
 static fromJSON(schema, json): ReplaceStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:75](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/ReplaceStep.ts#L75)
+Defined in: [packages/transform/src/change-steps/ReplaceStep.ts:75](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/ReplaceStep.ts#L75)
 
 Deserialize a replace step from its JSON representation.
 
@@ -371,7 +371,7 @@ A new ReplaceStep instance.
 static registerStep(jsonId, stepClass): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L61)
+Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L61)
 
 To be able to serialize steps to JSON, each step needs a string
 ID to attach to its JSON representation. Use this method to

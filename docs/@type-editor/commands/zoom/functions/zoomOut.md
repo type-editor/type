@@ -10,7 +10,7 @@
 function zoomOut(_state, _dispatch, view): boolean;
 ```
 
-Defined in: [zoom.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/zoom.ts#L23)
+Defined in: [zoom.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/zoom.ts#L23)
 
 Command to zoom out the editor view by 10%, down to a minimum of 10%.
 

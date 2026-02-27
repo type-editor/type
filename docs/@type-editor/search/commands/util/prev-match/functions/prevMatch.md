@@ -10,7 +10,7 @@
 function prevMatch(search, state, wrap, curFrom, curTo): SearchResult;
 ```
 
-Defined in: [commands/util/prev-match.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/commands/util/prev-match.ts#L19)
+Defined in: [commands/util/prev-match.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/search/src/commands/util/prev-match.ts#L19)
 
 Finds the previous match before the current position, optionally wrapping around
 to the end of the search range.

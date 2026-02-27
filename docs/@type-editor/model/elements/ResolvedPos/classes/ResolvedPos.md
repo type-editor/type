@@ -6,7 +6,7 @@
 
 # Class: ResolvedPos
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L22)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L22)
 
 You can [_resolve_](#model.Node.resolve) a position to get more
 information about it. Objects of this class represent such a
@@ -33,7 +33,7 @@ new ResolvedPos(
    parentOffset): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:80](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L80)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:80](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L80)
 
 Create a resolved position. Generally, you should use the static `resolve()` or
 `resolveCached()` methods instead of calling this constructor directly.
@@ -60,7 +60,7 @@ Create a resolved position. Generally, you should use the static `resolve()` or
 get depth(): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:93](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L93)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:93](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L93)
 
 The number of levels the parent node is from the root.
 0 means the position points directly into the root node.
@@ -79,7 +79,7 @@ The number of levels the parent node is from the root.
 get doc(): Node;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:123](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L123)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:123](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L123)
 
 The root node in which the position was resolved.
 
@@ -97,7 +97,7 @@ The root node in which the position was resolved.
 get nodeAfter(): Node;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:141](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L141)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:141](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L141)
 
 Get the node directly after the position, if any. If the position
 points into a text node, only the part of that node after the
@@ -117,7 +117,7 @@ position is returned.
 get nodeBefore(): Node;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:159](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L159)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:159](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L159)
 
 Get the node directly before the position, if any. If the
 position points into a text node, only the part of that node
@@ -137,7 +137,7 @@ before the position is returned.
 get parent(): Node;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:116](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L116)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:116](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L116)
 
 The parent node that the position points into. Note that even if
 a position points into a text node, that node is not considered
@@ -157,7 +157,7 @@ the parent—text nodes are ‘flat’ in this model, and have no content.
 get parentOffset(): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:107](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L107)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:107](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L107)
 
 The offset of this position into its parent node.
 
@@ -175,7 +175,7 @@ The offset of this position into its parent node.
 get pos(): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:100](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L100)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:100](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L100)
 
 The absolute position in the document that was resolved.
 
@@ -193,7 +193,7 @@ The absolute position in the document that was resolved.
 get textOffset(): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:132](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L132)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:132](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L132)
 
 When this position points into a text node, this returns the
 distance between the start of the text node and the position.
@@ -211,7 +211,7 @@ Will be zero for positions that point between nodes.
 after(depth?): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:333](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L333)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:333](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L333)
 
 The (absolute) position directly after the wrapping node at the
 given level, or the original position when `depth` is `this.depth + 1`.
@@ -240,7 +240,7 @@ If depth is 0 (no position after root node).
 before(depth?): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:314](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L314)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:314](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L314)
 
 The (absolute) position directly before the wrapping node at the
 given level, or, when `depth` is `this.depth + 1`, the original
@@ -270,7 +270,7 @@ If depth is 0 (no position before root node).
 blockRange(other?, pred?): NodeRange;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:472](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L472)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:472](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L472)
 
 Returns a range based on the place where this position and the
 given position diverge around block content. If both point into
@@ -301,7 +301,7 @@ A NodeRange spanning the block content, or null if no valid range can be found.
 end(depth?): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:299](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L299)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:299](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L299)
 
 The (absolute) position at the end of the node at the given
 level.
@@ -326,7 +326,7 @@ The absolute position at the end of the node at the specified depth.
 index(depth?): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:259](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L259)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:259](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L259)
 
 The index into the ancestor at the given level. If this points
 at the 3rd node in the 2nd paragraph on the top level, for
@@ -352,7 +352,7 @@ The child index at the specified depth level.
 indexAfter(depth?): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:271](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L271)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:271](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L271)
 
 The index pointing after this position into the ancestor at the
 given level.
@@ -377,7 +377,7 @@ The child index after this position at the specified depth.
 marks(): readonly Mark[];
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:379](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L379)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:379](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L379)
 
 Get the marks at this position, factoring in the surrounding
 marks' [`inclusive`](#model.MarkSpec.inclusive) property. If the
@@ -404,7 +404,7 @@ appear in the adjacent node.
 marksAcross($end): readonly Mark[];
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:425](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L425)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:425](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L425)
 
 Get the marks after the current position, if any, except those
 that are non-inclusive and not present at position `$end`. This
@@ -433,7 +433,7 @@ An array of marks to preserve, or null if preservation doesn't apply.
 max(other): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:510](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L510)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:510](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L510)
 
 Return the greater of this and the given position.
 
@@ -457,7 +457,7 @@ The resolved position with the greater absolute position value.
 min(other): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:520](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L520)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:520](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L520)
 
 Return the smaller of this and the given position.
 
@@ -481,7 +481,7 @@ The resolved position with the smaller absolute position value.
 node(depth?): Node;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:246](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L246)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:246](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L246)
 
 The ancestor node at the given level. `p.node(p.depth)` is the
 same as `p.parent`.
@@ -506,7 +506,7 @@ The node at the specified depth level.
 posAtIndex(index, depth?): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:355](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L355)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:355](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L355)
 
 Get the position at the given index in the parent node at the
 given depth (which defaults to `this.depth`).
@@ -536,7 +536,7 @@ Complexity: Time: O(index) - needs to iterate through preceding children.
 sameParent(other): boolean;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:500](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L500)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:500](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L500)
 
 Query whether the given position shares the same parent node.
 
@@ -560,7 +560,7 @@ True if both positions share the same parent node, false otherwise.
 sharedDepth(pos): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:450](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L450)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:450](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L450)
 
 The depth up to which this position and the given (non-resolved)
 position share the same parent nodes.
@@ -585,7 +585,7 @@ The depth level where both positions share the same parent, or 0 if only the roo
 start(depth?): number;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:285](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L285)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:285](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L285)
 
 The (absolute) position at the start of the node at the given
 level.
@@ -610,7 +610,7 @@ The absolute position at the start of the node at the specified depth.
 toString(): string;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:532](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L532)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:532](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L532)
 
 Return a string representation of this position for debugging purposes.
 Format: "nodetype_index/nodetype_index:offset"
@@ -635,7 +635,7 @@ Returns something like "doc_0/paragraph_1:5" for a position 5 chars into the sec
 static resolve(doc, pos): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:178](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L178)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:178](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L178)
 
 Resolve a position in a document into a ResolvedPos object.
 This method traverses the document tree from the root to find all ancestor nodes
@@ -666,7 +666,7 @@ If the position is out of range.
 static resolveCached(doc, pos): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/ResolvedPos.ts:217](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/ResolvedPos.ts#L217)
+Defined in: [packages/model/src/elements/ResolvedPos.ts:217](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/elements/ResolvedPos.ts#L217)
 
 Resolve a position with caching. This method maintains a per-document cache
 of recently resolved positions using a circular buffer with Map-based O(1) lookups.

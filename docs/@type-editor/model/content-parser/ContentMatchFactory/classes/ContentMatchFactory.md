@@ -6,7 +6,7 @@
 
 # Class: ContentMatchFactory
 
-Defined in: [packages/model/src/content-parser/ContentMatchFactory.ts:4](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/content-parser/ContentMatchFactory.ts#L4)
+Defined in: [packages/model/src/content-parser/ContentMatchFactory.ts:4](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/content-parser/ContentMatchFactory.ts#L4)
 
 ## Constructors
 
@@ -30,7 +30,7 @@ new ContentMatchFactory(): ContentMatchFactory;
 get static EMPTY_CONTENT_MATCH(): ContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/ContentMatchFactory.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/content-parser/ContentMatchFactory.ts#L8)
+Defined in: [packages/model/src/content-parser/ContentMatchFactory.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/content-parser/ContentMatchFactory.ts#L8)
 
 ##### Returns
 

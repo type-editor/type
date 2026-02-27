@@ -10,7 +10,7 @@
 function splitCellWithType(getCellType): Command;
 ```
 
-Defined in: [tables/src/commands/split-cell-with-type.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/commands/split-cell-with-type.ts#L23)
+Defined in: [tables/src/commands/split-cell-with-type.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/commands/split-cell-with-type.ts#L23)
 
 Splits a selected cell into smaller cells with custom cell type determination.
 

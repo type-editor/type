@@ -10,7 +10,7 @@
 function joinPoint(doc, pos, dir?): number;
 ```
 
-Defined in: [packages/transform/src/change-helper/join-point.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-helper/join-point.ts#L15)
+Defined in: [packages/transform/src/change-helper/join-point.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-helper/join-point.ts#L15)
 
 Find an ancestor of the given position that can be joined to the
 block before (or after if `dir` is positive). Returns the joinable

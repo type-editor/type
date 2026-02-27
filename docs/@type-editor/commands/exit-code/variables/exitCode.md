@@ -10,7 +10,7 @@
 const exitCode: Command;
 ```
 
-Defined in: [exit-code.ts:36](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/exit-code.ts#L36)
+Defined in: [exit-code.ts:36](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/exit-code.ts#L36)
 
 Creates a default block after a code block and moves the cursor there.
 

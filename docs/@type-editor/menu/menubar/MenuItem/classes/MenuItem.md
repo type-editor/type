@@ -6,7 +6,7 @@
 
 # Class: MenuItem
 
-Defined in: [packages/menu/src/menubar/MenuItem.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuItem.ts#L15)
+Defined in: [packages/menu/src/menubar/MenuItem.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menubar/MenuItem.ts#L15)
 
 An icon or label that, when clicked, executes a command.
 
@@ -22,7 +22,7 @@ An icon or label that, when clicked, executes a command.
 new MenuItem(spec): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menubar/MenuItem.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuItem.ts#L23)
+Defined in: [packages/menu/src/menubar/MenuItem.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menubar/MenuItem.ts#L23)
 
 Create a menu item.
 
@@ -46,7 +46,7 @@ Create a menu item.
 get spec(): MenuItemSpec;
 ```
 
-Defined in: [packages/menu/src/menubar/MenuItem.ts:27](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuItem.ts#L27)
+Defined in: [packages/menu/src/menubar/MenuItem.ts:27](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menubar/MenuItem.ts#L27)
 
 ##### Returns
 
@@ -67,7 +67,7 @@ render(
 };
 ```
 
-Defined in: [packages/menu/src/menubar/MenuItem.ts:42](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuItem.ts#L42)
+Defined in: [packages/menu/src/menubar/MenuItem.ts:42](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menubar/MenuItem.ts#L42)
 
 Renders the menu element according to its [display
 spec](#menu.MenuItemSpec.display), and adds an event handler which
@@ -95,8 +95,8 @@ An object containing the DOM element and an update function
 
 | Name       | Type                   | Defined in                                                                                                                                                              |
 | ---------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`      | `HTMLElement`          | [packages/menu/src/menubar/MenuItem.ts:54](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuItem.ts#L54) |
-| `update()` | (`state`) => `boolean` | [packages/menu/src/menubar/MenuItem.ts:54](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuItem.ts#L54) |
+| `dom`      | `HTMLElement`          | [packages/menu/src/menubar/MenuItem.ts:54](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menubar/MenuItem.ts#L54) |
+| `update()` | (`state`) => `boolean` | [packages/menu/src/menubar/MenuItem.ts:54](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menubar/MenuItem.ts#L54) |
 
 #### Implementation of
 

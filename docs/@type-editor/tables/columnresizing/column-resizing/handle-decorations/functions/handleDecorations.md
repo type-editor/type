@@ -10,7 +10,7 @@
 function handleDecorations(state, cell): DecorationSet;
 ```
 
-Defined in: [tables/src/columnresizing/column-resizing/handle-decorations.ts:20](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/columnresizing/column-resizing/handle-decorations.ts#L20)
+Defined in: [tables/src/columnresizing/column-resizing/handle-decorations.ts:20](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/columnresizing/column-resizing/handle-decorations.ts#L20)
 
 Creates decorations for the column resize handle at the specified cell position.
 This includes a widget decoration for the resize handle itself and optionally

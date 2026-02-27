@@ -10,7 +10,7 @@
 const schema: Schema;
 ```
 
-Defined in: [schema-basic.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/schema/src/schema-basic.ts#L19)
+Defined in: [schema-basic.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/schema/src/schema-basic.ts#L19)
 
 This schema roughly corresponds to the document schema used by
 [CommonMark](http://commonmark.org/), minus the list elements,

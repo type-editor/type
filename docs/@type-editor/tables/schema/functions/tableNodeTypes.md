@@ -10,7 +10,7 @@
 function tableNodeTypes(schema): Record<TableRole, NodeType>;
 ```
 
-Defined in: [tables/src/schema.ts:389](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/schema.ts#L389)
+Defined in: [tables/src/schema.ts:389](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/schema.ts#L389)
 
 Retrieves the table-related node types from a schema.
 

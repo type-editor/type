@@ -14,7 +14,7 @@ const PLUGIN_KEYS: {
 };
 ```
 
-Defined in: [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L5)
+Defined in: [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:5](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L5)
 
 Plugin keys for image handling
 
@@ -22,6 +22,6 @@ Plugin keys for image handling
 
 | Name                                                | Type                        | Default value               | Defined in                                                                                                                                                                                                            |
 | --------------------------------------------------- | --------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-drop_finished"></a> `DROP_FINISHED` | `"handleImageDropFinished"` | `'handleImageDropFinished'` | [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L8) |
-| <a id="property-drop_start"></a> `DROP_START`       | `"handleImageDropStart"`    | `'handleImageDropStart'`    | [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:7](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L7) |
-| <a id="property-paste"></a> `PASTE`                 | `"handleImagePaste"`        | `'handleImagePaste'`        | [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L6) |
+| <a id="property-drop_finished"></a> `DROP_FINISHED` | `"handleImageDropFinished"` | `'handleImageDropFinished'` | [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L8) |
+| <a id="property-drop_start"></a> `DROP_START`       | `"handleImageDropStart"`    | `'handleImageDropStart'`    | [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:7](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L7) |
+| <a id="property-paste"></a> `PASTE`                 | `"handleImagePaste"`        | `'handleImagePaste'`        | [packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts:6](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/image-item-plugins/PluginKeys.ts#L6) |

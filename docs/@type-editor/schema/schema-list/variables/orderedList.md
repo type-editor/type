@@ -10,7 +10,7 @@
 const orderedList: NodeSpec;
 ```
 
-Defined in: [schema-list.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/schema/src/schema-list.ts#L10)
+Defined in: [schema-list.ts:10](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/schema/src/schema-list.ts#L10)
 
 An ordered list [node spec](#model.NodeSpec). Has a single
 attribute, `order`, which determines the number at which the list

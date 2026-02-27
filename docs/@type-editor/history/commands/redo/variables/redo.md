@@ -10,7 +10,7 @@
 const redo: Command;
 ```
 
-Defined in: [commands/redo.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/commands/redo.ts#L22)
+Defined in: [commands/redo.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/history/src/commands/redo.ts#L22)
 
 A command function that redoes the last undone change, if any.
 

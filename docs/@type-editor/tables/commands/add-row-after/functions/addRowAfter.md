@@ -10,7 +10,7 @@
 function addRowAfter(state, dispatch?): boolean;
 ```
 
-Defined in: [tables/src/commands/add-row-after.ts:17](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/commands/add-row-after.ts#L17)
+Defined in: [tables/src/commands/add-row-after.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/commands/add-row-after.ts#L17)
 
 Command to add a table row after the selection.
 

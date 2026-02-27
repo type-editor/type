@@ -6,7 +6,7 @@
 
 # Abstract Class: Step
 
-Defined in: [packages/transform/src/change-steps/Step.ts:23](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L23)
+Defined in: [packages/transform/src/change-steps/Step.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L23)
 
 A step object represents an atomic change. It generally applies
 only to the document it was created for, since the positions
@@ -52,7 +52,7 @@ new Step(): Step;
 abstract apply(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:77](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L77)
+Defined in: [packages/transform/src/change-steps/Step.ts:77](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L77)
 
 Applies this step to the given document, returning a result
 object that either indicates failure, if the step can not be
@@ -85,7 +85,7 @@ PmStep.apply;
 getMap(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L86)
+Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L86)
 
 Get the step map that represents the changes made by this step,
 and which can be used to transform between positions in the old
@@ -111,7 +111,7 @@ PmStep.getMap;
 abstract invert(doc): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:97](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L97)
+Defined in: [packages/transform/src/change-steps/Step.ts:97](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L97)
 
 Create an inverted version of this step. Needs the document as it
 was before the step as argument.
@@ -142,7 +142,7 @@ PmStep.invert;
 abstract map(mapping): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:107](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L107)
+Defined in: [packages/transform/src/change-steps/Step.ts:107](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L107)
 
 Map this step through a mappable thing, returning either a
 version of that step with its positions adjusted, or `null` if
@@ -177,7 +177,7 @@ protected mapFragment(
    parent): Fragment;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L144)
+Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L144)
 
 Recursively map over inline nodes in a fragment, applying a callback function.
 
@@ -207,7 +207,7 @@ A new fragment with transformed nodes, preserving the structure.
 merge(_other): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L117)
+Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L117)
 
 Try to merge this step with another one, to be applied directly
 after it. Returns the merged step when possible, null if the
@@ -239,7 +239,7 @@ PmStep.merge;
 abstract toJSON(): StepJSON;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:129](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L129)
+Defined in: [packages/transform/src/change-steps/Step.ts:129](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L129)
 
 Create a JSON-serializable representation of this step. When
 defining this for a custom subclass, make sure the result object
@@ -266,7 +266,7 @@ PmStep.toJSON;
 static fromJSON(schema, json): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:36](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L36)
+Defined in: [packages/transform/src/change-steps/Step.ts:36](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L36)
 
 Deserialize a step from its JSON representation. Will call
 through to the step class' own implementation of this method.
@@ -296,7 +296,7 @@ If the JSON is invalid or the step type is not registered.
 static registerStep(jsonId, stepClass): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-steps/Step.ts#L61)
+Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L61)
 
 To be able to serialize steps to JSON, each step needs a string
 ID to attach to its JSON representation. Use this method to

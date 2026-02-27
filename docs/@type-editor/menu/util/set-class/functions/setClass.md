@@ -10,7 +10,7 @@
 function setClass(dom, cls, on): void;
 ```
 
-Defined in: [packages/menu/src/util/set-class.ts:9](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/util/set-class.ts#L9)
+Defined in: [packages/menu/src/util/set-class.ts:9](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/util/set-class.ts#L9)
 
 Conditionally adds or removes a CSS class from an element.
 

@@ -6,7 +6,7 @@
 
 # Class: Decoration
 
-Defined in: [decoration/Decoration.ts:45](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L45)
+Defined in: [decoration/Decoration.ts:45](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L45)
 
 Decoration objects can be provided to the view through the
 [`decorations` prop](#view.EditorProps.decorations). They come in
@@ -51,7 +51,7 @@ new Decoration(
    type): Decoration;
 ```
 
-Defined in: [decoration/Decoration.ts:61](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L61)
+Defined in: [decoration/Decoration.ts:61](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L61)
 
 Creates a new decoration instance.
 
@@ -77,7 +77,7 @@ Creates a new decoration instance.
 get from(): number;
 ```
 
-Defined in: [decoration/Decoration.ts:72](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L72)
+Defined in: [decoration/Decoration.ts:72](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L72)
 
 Get the start position of this decoration.
 
@@ -103,7 +103,7 @@ PmDecoration.from;
 get inline(): boolean;
 ```
 
-Defined in: [decoration/Decoration.ts:111](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L111)
+Defined in: [decoration/Decoration.ts:111](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L111)
 
 Check if this is an inline decoration.
 
@@ -129,7 +129,7 @@ PmDecoration.inline;
 get spec(): DecorationSpec;
 ```
 
-Defined in: [decoration/Decoration.ts:102](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L102)
+Defined in: [decoration/Decoration.ts:102](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L102)
 
 The spec provided when creating this decoration. Can be useful
 if you've stored extra information in that object.
@@ -156,7 +156,7 @@ PmDecoration.spec;
 get to(): number;
 ```
 
-Defined in: [decoration/Decoration.ts:83](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L83)
+Defined in: [decoration/Decoration.ts:83](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L83)
 
 Get the end position of this decoration.
 
@@ -184,7 +184,7 @@ PmDecoration.to;
 get type(): DecorationType;
 ```
 
-Defined in: [decoration/Decoration.ts:92](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L92)
+Defined in: [decoration/Decoration.ts:92](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L92)
 
 Get the type of this decoration.
 
@@ -210,7 +210,7 @@ PmDecoration.type;
 get widget(): boolean;
 ```
 
-Defined in: [decoration/Decoration.ts:120](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L120)
+Defined in: [decoration/Decoration.ts:120](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L120)
 
 Check if this is a widget decoration.
 
@@ -234,7 +234,7 @@ PmDecoration.widget;
 copy(from, to): Decoration;
 ```
 
-Defined in: [decoration/Decoration.ts:256](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L256)
+Defined in: [decoration/Decoration.ts:256](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L256)
 
 Create a copy of this decoration with new positions.
 
@@ -265,7 +265,7 @@ PmDecoration.copy;
 eq(other, offset?): boolean;
 ```
 
-Defined in: [decoration/Decoration.ts:267](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L267)
+Defined in: [decoration/Decoration.ts:267](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L267)
 
 Check if this decoration is equal to another decoration.
 
@@ -299,7 +299,7 @@ map(
    oldOffset): Decoration;
 ```
 
-Defined in: [decoration/Decoration.ts:279](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L279)
+Defined in: [decoration/Decoration.ts:279](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L279)
 
 Map this decoration through a document change.
 
@@ -335,7 +335,7 @@ static inline(
    spec?): Decoration;
 ```
 
-Defined in: [decoration/Decoration.ts:204](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L204)
+Defined in: [decoration/Decoration.ts:204](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L204)
 
 Creates an inline decoration, which adds the given attributes to
 each inline node between `from` and `to`.
@@ -391,7 +391,7 @@ static node(
    spec?): Decoration;
 ```
 
-Defined in: [decoration/Decoration.ts:245](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L245)
+Defined in: [decoration/Decoration.ts:245](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L245)
 
 Creates a node decoration. `from` and `to` should point precisely
 before and after a node in the document. That node, and only that
@@ -448,7 +448,7 @@ static widget(
    spec?): Decoration;
 ```
 
-Defined in: [decoration/Decoration.ts:162](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/Decoration.ts#L162)
+Defined in: [decoration/Decoration.ts:162](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/Decoration.ts#L162)
 
 Creates a widget decoration, which is a DOM node that's shown in
 the document at the given position. It is recommended that you

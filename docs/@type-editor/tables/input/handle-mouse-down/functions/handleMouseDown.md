@@ -10,7 +10,7 @@
 function handleMouseDown(view, startEvent): void;
 ```
 
-Defined in: [tables/src/input/handle-mouse-down.ts:40](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/input/handle-mouse-down.ts#L40)
+Defined in: [tables/src/input/handle-mouse-down.ts:40](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/input/handle-mouse-down.ts#L40)
 
 Handles mouse down events for table cell selection.
 

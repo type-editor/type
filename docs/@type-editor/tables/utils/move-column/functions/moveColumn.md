@@ -10,7 +10,7 @@
 function moveColumn(moveColParams): boolean;
 ```
 
-Defined in: [tables/src/utils/move-column.ts:59](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/utils/move-column.ts#L59)
+Defined in: [tables/src/utils/move-column.ts:59](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/move-column.ts#L59)
 
 Moves a column from the origin index to the target index within a table.
 

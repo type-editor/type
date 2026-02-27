@@ -10,7 +10,7 @@
 function arrow(axis, dir): Command;
 ```
 
-Defined in: [tables/src/input/arrow.ts:30](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/input/arrow.ts#L30)
+Defined in: [tables/src/input/arrow.ts:30](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/input/arrow.ts#L30)
 
 Creates a command for arrow key navigation within tables.
 

@@ -6,7 +6,7 @@
 
 # Class: Fragment
 
-Defined in: [packages/model/src/elements/Fragment.ts:43](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L43)
+Defined in: [packages/model/src/elements/Fragment.ts:43](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L43)
 
 A fragment represents a node's collection of child nodes.
 
@@ -52,7 +52,7 @@ fragment.forEach((node, offset, index) => {
 new Fragment(content, size?): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:86](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L86)
+Defined in: [packages/model/src/elements/Fragment.ts:86](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L86)
 
 Creates a new Fragment instance.
 
@@ -77,7 +77,7 @@ Creates a new Fragment instance.
 get childCount(): number;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:178](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L178)
+Defined in: [packages/model/src/elements/Fragment.ts:178](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L178)
 
 The number of child nodes in this fragment.
 
@@ -110,7 +110,7 @@ The number of immediate child nodes in this fragment.
 get content(): readonly Node[];
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:107](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L107)
+Defined in: [packages/model/src/elements/Fragment.ts:107](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L107)
 
 Returns the readonly array of child nodes in this fragment.
 
@@ -130,7 +130,7 @@ A readonly array containing all child nodes
 get elementType(): ElementType;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:98](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L98)
+Defined in: [packages/model/src/elements/Fragment.ts:98](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L98)
 
 ##### Returns
 
@@ -150,7 +150,7 @@ Defined in: [packages/model/src/elements/Fragment.ts:98](https://github.com/type
 get firstChild(): Node;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:137](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L137)
+Defined in: [packages/model/src/elements/Fragment.ts:137](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L137)
 
 The first child of the fragment, or `null` if it is empty.
 
@@ -182,7 +182,7 @@ The first child node, or null if the fragment has no children.
 get lastChild(): Node;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:157](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L157)
+Defined in: [packages/model/src/elements/Fragment.ts:157](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L157)
 
 The last child of the fragment, or `null` if it is empty.
 
@@ -214,7 +214,7 @@ The last child node, or null if the fragment has no children.
 get size(): number;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:117](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L117)
+Defined in: [packages/model/src/elements/Fragment.ts:117](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L117)
 
 Returns the total size of this fragment.
 The size is the sum of the sizes of all child nodes.
@@ -235,7 +235,7 @@ The total size of the fragment
 get static empty(): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:91](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L91)
+Defined in: [packages/model/src/elements/Fragment.ts:91](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L91)
 
 ##### Returns
 
@@ -249,7 +249,7 @@ Defined in: [packages/model/src/elements/Fragment.ts:91](https://github.com/type
 addToEnd(node): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:952](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L952)
+Defined in: [packages/model/src/elements/Fragment.ts:952](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L952)
 
 Creates a new fragment by appending the given node to the end of this fragment.
 
@@ -284,7 +284,7 @@ const newFrag = fragment.addToEnd(footerNode);
 addToStart(node): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:932](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L932)
+Defined in: [packages/model/src/elements/Fragment.ts:932](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L932)
 
 Creates a new fragment by prepending the given node to the beginning of this fragment.
 
@@ -319,7 +319,7 @@ const newFrag = fragment.addToStart(headerNode);
 append(other): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:495](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L495)
+Defined in: [packages/model/src/elements/Fragment.ts:495](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L495)
 
 Creates a new fragment containing the combined content of this fragment and another.
 If the last node of this fragment and the first node of the other fragment are
@@ -358,7 +358,7 @@ const combined = frag1.append(frag2);
 child(index): Node;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:694](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L694)
+Defined in: [packages/model/src/elements/Fragment.ts:694](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L694)
 
 Retrieves the child node at the given index.
 
@@ -396,7 +396,7 @@ const lastChild = fragment.child(fragment.childCount - 1);
 cut(from, to?): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:540](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L540)
+Defined in: [packages/model/src/elements/Fragment.ts:540](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L540)
 
 Extracts a sub-fragment between the given positions, creating a new fragment
 containing only the content within the specified range. Nodes that are partially
@@ -438,7 +438,7 @@ const tailFrag = fragment.cut(10);
 cutByIndex(from, to): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:591](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L591)
+Defined in: [packages/model/src/elements/Fragment.ts:591](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L591)
 
 Creates a sub-fragment by extracting child nodes between the given indices.
 Unlike `cut()`, this operates on child node indices rather than positions.
@@ -479,7 +479,7 @@ const middle = fragment.cutByIndex(1, fragment.childCount - 1);
 descendants(callbackFunc): void;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:977](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L977)
+Defined in: [packages/model/src/elements/Fragment.ts:977](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L977)
 
 Invokes the given callback for every descendant node in the entire fragment.
 This is equivalent to calling `nodesBetween(0, this.size, callback)`.
@@ -513,7 +513,7 @@ fragment.descendants((node, pos) => {
 eq(other): boolean;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:664](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L664)
+Defined in: [packages/model/src/elements/Fragment.ts:664](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L664)
 
 Compares this fragment to another fragment for equality.
 Two fragments are equal if they have the same number of children
@@ -554,7 +554,7 @@ findDiffEnd(
    otherPos?): DiffPosition;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:805](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L805)
+Defined in: [packages/model/src/elements/Fragment.ts:805](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L805)
 
 Finds the first position, searching from the end, at which this fragment and
 another fragment differ. Since the position may not be the same in both fragments,
@@ -598,7 +598,7 @@ if (diff) {
 findDiffStart(other, pos?): number;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:776](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L776)
+Defined in: [packages/model/src/elements/Fragment.ts:776](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L776)
 
 Finds the first position at which this fragment and another fragment differ.
 Searches from the beginning of both fragments.
@@ -638,7 +638,7 @@ if (pos !== null) {
 findIndex(pos): FragmentPosition;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:837](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L837)
+Defined in: [packages/model/src/elements/Fragment.ts:837](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L837)
 
 **`Internal`**
 
@@ -683,7 +683,7 @@ const result = fragment.findIndex(8);
 forEach(callbackFunc): void;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:746](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L746)
+Defined in: [packages/model/src/elements/Fragment.ts:746](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L746)
 
 Iterates over every child node in the fragment, invoking a callback for each.
 
@@ -717,7 +717,7 @@ fragment.forEach((node, offset, index) => {
 maybeChild(index): Node;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:723](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L723)
+Defined in: [packages/model/src/elements/Fragment.ts:723](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L723)
 
 Retrieves the child node at the given index, returning null if it doesn't exist.
 This is a safe alternative to `child()` that doesn't throw errors.
@@ -762,7 +762,7 @@ nodesBetween(
    parent?): void;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:392](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L392)
+Defined in: [packages/model/src/elements/Fragment.ts:392](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L392)
 
 Invokes a callback for all descendant nodes between the given two positions
 (relative to start of this fragment). Traversal stops descending into a node
@@ -813,7 +813,7 @@ fragment.nodesBetween(0, fragment.size, (node, pos) => {
 replaceChild(index, node): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:630](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L630)
+Defined in: [packages/model/src/elements/Fragment.ts:630](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L630)
 
 Creates a new fragment with the child node at the given index replaced by a new node.
 If the current node is identical to the new node, returns this fragment unchanged.
@@ -862,7 +862,7 @@ textBetween(
    leafText?): string;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:451](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L451)
+Defined in: [packages/model/src/elements/Fragment.ts:451](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L451)
 
 Extracts the text content between the given positions.
 
@@ -907,7 +907,7 @@ const text2 = fragment.textBetween(0, fragment.size, "\n", (node) => {
 toJSON(): NodeJSON[];
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:912](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L912)
+Defined in: [packages/model/src/elements/Fragment.ts:912](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L912)
 
 Creates a JSON-serializable representation of this fragment.
 
@@ -937,7 +937,7 @@ const restored = Fragment.fromJSON(schema, json);
 toString(): string;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:879](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L879)
+Defined in: [packages/model/src/elements/Fragment.ts:879](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L879)
 
 Returns a debugging string representation of this fragment.
 The output format is `<node1, node2, ...>` where each node's toString() is called.
@@ -967,7 +967,7 @@ console.log(fragment.toString());
 static from(nodes?): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:240](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L240)
+Defined in: [packages/model/src/elements/Fragment.ts:240](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L240)
 
 Creates a fragment from various input types that can be interpreted as a set of nodes.
 
@@ -1016,7 +1016,7 @@ const frag4 = Fragment.from([node1, node2]); // Fragment with multiple nodes
 static fromArray(array): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:304](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L304)
+Defined in: [packages/model/src/elements/Fragment.ts:304](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L304)
 
 Builds a fragment from an array of nodes. Automatically merges adjacent
 text nodes that have the same markup (marks) into single text nodes.
@@ -1060,7 +1060,7 @@ const fragment2 = Fragment.fromArray([text1, text2, text3]);
 static fromJSON(schema, value?): Fragment;
 ```
 
-Defined in: [packages/model/src/elements/Fragment.ts:203](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/Fragment.ts#L203)
+Defined in: [packages/model/src/elements/Fragment.ts:203](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/Fragment.ts#L203)
 
 Deserializes a fragment from its JSON representation.
 

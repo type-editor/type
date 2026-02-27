@@ -6,7 +6,7 @@
 
 # Interface: DecorationType
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:11](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationType.ts#L11)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:11](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationType.ts#L11)
 
 Interface representing the different types of decorations that can be applied to the editor.
 Each decoration type defines how it is mapped, validated, compared, and destroyed.
@@ -15,7 +15,7 @@ Each decoration type defines how it is mapped, validated, compared, and destroye
 
 | Property                          | Type                                                                    | Description                                                                 | Defined in                                                                                                                                                                                                                      |
 | --------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-spec"></a> `spec` | [`DecorationSpec`](../../DecorationSpec/type-aliases/DecorationSpec.md) | The specification object containing configuration for this decoration type. | [packages/editor-types/src/types/view/decoration/DecorationType.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationType.ts#L14) |
+| <a id="property-spec"></a> `spec` | [`DecorationSpec`](../../DecorationSpec/type-aliases/DecorationSpec.md) | The specification object containing configuration for this decoration type. | [packages/editor-types/src/types/view/decoration/DecorationType.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationType.ts#L14) |
 
 ## Methods
 
@@ -25,7 +25,7 @@ Each decoration type defines how it is mapped, validated, compared, and destroye
 destroy(dom): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:45](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationType.ts#L45)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:45](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationType.ts#L45)
 
 Performs cleanup when the decoration is removed.
 
@@ -47,7 +47,7 @@ Performs cleanup when the decoration is removed.
 eq(other): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:39](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationType.ts#L39)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:39](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationType.ts#L39)
 
 Checks if this decoration type is equal to another.
 
@@ -75,7 +75,7 @@ map(
    oldOffset): PmDecoration;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:24](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationType.ts#L24)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationType.ts#L24)
 
 Maps this decoration type through a change in the document.
 
@@ -102,7 +102,7 @@ The mapped decoration, or null if it should be removed.
 valid(node, span): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:32](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationType.ts#L32)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationType.ts:32](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationType.ts#L32)
 
 Validates that this decoration is still valid for the given node.
 

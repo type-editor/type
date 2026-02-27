@@ -6,7 +6,7 @@
 
 # Class: Change&lt;Data&gt;
 
-Defined in: [Change.ts:34](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L34)
+Defined in: [Change.ts:34](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L34)
 
 Represents a change between two document versions with metadata.
 
@@ -37,7 +37,7 @@ new Change<Data>(
    inserted): Change<Data>;
 ```
 
-Defined in: [Change.ts:55](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L55)
+Defined in: [Change.ts:55](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L55)
 
 Creates a new Change representing a document modification.
 
@@ -66,7 +66,7 @@ Creates a new Change representing a document modification.
 get deleted(): readonly Span<Data>[];
 ```
 
-Defined in: [Change.ts:90](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L90)
+Defined in: [Change.ts:90](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L90)
 
 The spans of deleted content with associated metadata.
 
@@ -84,7 +84,7 @@ readonly [`Span`](../../Span/classes/Span.md)&lt;`Data`&gt;[]
 get fromA(): number;
 ```
 
-Defined in: [Change.ts:70](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L70)
+Defined in: [Change.ts:70](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L70)
 
 The start position in the old document (A coordinates).
 
@@ -102,7 +102,7 @@ The start position in the old document (A coordinates).
 get fromB(): number;
 ```
 
-Defined in: [Change.ts:80](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L80)
+Defined in: [Change.ts:80](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L80)
 
 The start position in the new document (B coordinates).
 
@@ -120,7 +120,7 @@ The start position in the new document (B coordinates).
 get inserted(): readonly Span<Data>[];
 ```
 
-Defined in: [Change.ts:95](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L95)
+Defined in: [Change.ts:95](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L95)
 
 The spans of inserted content with associated metadata.
 
@@ -138,7 +138,7 @@ readonly [`Span`](../../Span/classes/Span.md)&lt;`Data`&gt;[]
 get lenA(): number;
 ```
 
-Defined in: [Change.ts:100](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L100)
+Defined in: [Change.ts:100](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L100)
 
 The length of the deleted range in the old document.
 
@@ -156,7 +156,7 @@ The length of the deleted range in the old document.
 get lenB(): number;
 ```
 
-Defined in: [Change.ts:105](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L105)
+Defined in: [Change.ts:105](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L105)
 
 The length of the inserted range in the new document.
 
@@ -174,7 +174,7 @@ The length of the inserted range in the new document.
 get toA(): number;
 ```
 
-Defined in: [Change.ts:75](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L75)
+Defined in: [Change.ts:75](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L75)
 
 The end position in the old document (A coordinates).
 
@@ -192,7 +192,7 @@ The end position in the old document (A coordinates).
 get toB(): number;
 ```
 
-Defined in: [Change.ts:85](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L85)
+Defined in: [Change.ts:85](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L85)
 
 The end position in the new document (B coordinates).
 
@@ -212,7 +212,7 @@ slice(
    endB): Change<Data>;
 ```
 
-Defined in: [Change.ts:424](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L424)
+Defined in: [Change.ts:424](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L424)
 
 Creates a sub-change by slicing ranges from both coordinate systems.
 
@@ -243,7 +243,7 @@ A new Change representing the specified slice, or this if unchanged.
 toJSON(): ChangeJSON<Data>;
 ```
 
-Defined in: [Change.ts:453](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L453)
+Defined in: [Change.ts:453](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L453)
 
 Serializes this Change to a JSON-compatible representation.
 
@@ -264,7 +264,7 @@ A JSON representation of this change.
 static fromJSON<Data>(json): Change<Data>;
 ```
 
-Defined in: [Change.ts:202](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L202)
+Defined in: [Change.ts:202](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L202)
 
 Deserializes a Change from its JSON representation.
 
@@ -297,7 +297,7 @@ static merge<Data>(
    combine): readonly Change<Data>[];
 ```
 
-Defined in: [Change.ts:126](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Change.ts#L126)
+Defined in: [Change.ts:126](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Change.ts#L126)
 
 Merges two changesets into a single changeset.
 

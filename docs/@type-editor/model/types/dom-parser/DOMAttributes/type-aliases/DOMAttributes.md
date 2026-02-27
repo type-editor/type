@@ -13,6 +13,6 @@ type DOMAttributes = Record<
 >;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/DOMAttributes.ts:4](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/types/dom-parser/DOMAttributes.ts#L4)
+Defined in: [packages/model/src/types/dom-parser/DOMAttributes.ts:4](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/dom-parser/DOMAttributes.ts#L4)
 
 Attributes object for DOM elements

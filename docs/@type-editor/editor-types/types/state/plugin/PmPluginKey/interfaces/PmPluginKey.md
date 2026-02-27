@@ -6,7 +6,7 @@
 
 # Interface: PmPluginKey&lt;PluginState&gt;
 
-Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:5](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L5)
+Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L5)
 
 ## Type Parameters
 
@@ -18,7 +18,7 @@ Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:5](http
 
 | Property                        | Modifier   | Type     | Defined in                                                                                                                                                                                                        |
 | ------------------------------- | ---------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-key"></a> `key` | `readonly` | `string` | [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:6](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L6) |
+| <a id="property-key"></a> `key` | `readonly` | `string` | [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L6) |
 
 ## Methods
 
@@ -28,7 +28,7 @@ Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:5](http
 get(state): PmPlugin<PluginState>;
 ```
 
-Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:12](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L12)
+Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L12)
 
 Get the active plugin with this key, if any, from an editor
 state.
@@ -51,7 +51,7 @@ state.
 getState(state): PluginState;
 ```
 
-Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:17](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L17)
+Defined in: [packages/editor-types/src/types/state/plugin/PmPluginKey.ts:17](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/state/plugin/PmPluginKey.ts#L17)
 
 Get the plugin's state from an editor state.
 

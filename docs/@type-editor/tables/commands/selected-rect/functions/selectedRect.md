@@ -10,7 +10,7 @@
 function selectedRect(state): TableRect;
 ```
 
-Defined in: [tables/src/commands/selected-rect.ts:21](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/commands/selected-rect.ts#L21)
+Defined in: [tables/src/commands/selected-rect.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/commands/selected-rect.ts#L21)
 
 Gets the selected rectangular region in a table.
 

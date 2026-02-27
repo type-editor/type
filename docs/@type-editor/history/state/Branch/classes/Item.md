@@ -6,7 +6,7 @@
 
 # Class: Item
 
-Defined in: [state/Branch.ts:25](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/Branch.ts#L25)
+Defined in: [state/Branch.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/Branch.ts#L25)
 
 Represents a single item in the history branch.
 
@@ -25,7 +25,7 @@ new Item(
    mirrorOffset?): Item;
 ```
 
-Defined in: [state/Branch.ts:42](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/Branch.ts#L42)
+Defined in: [state/Branch.ts:42](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/Branch.ts#L42)
 
 Creates a new history item.
 
@@ -52,7 +52,7 @@ Creates a new history item.
 get map(): StepMap;
 ```
 
-Defined in: [state/Branch.ts:55](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/Branch.ts#L55)
+Defined in: [state/Branch.ts:55](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/Branch.ts#L55)
 
 Gets the position map for this item.
 
@@ -70,7 +70,7 @@ Gets the position map for this item.
 get mirrorOffset(): number;
 ```
 
-Defined in: [state/Branch.ts:76](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/Branch.ts#L76)
+Defined in: [state/Branch.ts:76](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/Branch.ts#L76)
 
 Gets the mirror offset for this item, if any.
 
@@ -88,7 +88,7 @@ Gets the mirror offset for this item, if any.
 get selection(): SelectionBookmark;
 ```
 
-Defined in: [state/Branch.ts:69](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/Branch.ts#L69)
+Defined in: [state/Branch.ts:69](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/Branch.ts#L69)
 
 Gets the selection bookmark for this item, if any.
 
@@ -106,7 +106,7 @@ Gets the selection bookmark for this item, if any.
 get step(): PmStep;
 ```
 
-Defined in: [state/Branch.ts:62](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/Branch.ts#L62)
+Defined in: [state/Branch.ts:62](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/Branch.ts#L62)
 
 Gets the step (change) for this item, if any.
 
@@ -122,7 +122,7 @@ Gets the step (change) for this item, if any.
 merge(other): Item;
 ```
 
-Defined in: [state/Branch.ts:89](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/Branch.ts#L89)
+Defined in: [state/Branch.ts:89](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/Branch.ts#L89)
 
 Attempts to merge this item with another item.
 

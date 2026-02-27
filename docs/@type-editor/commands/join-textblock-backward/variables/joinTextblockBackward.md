@@ -10,7 +10,7 @@
 const joinTextblockBackward: Command;
 ```
 
-Defined in: [join-textblock-backward.ts:39](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/commands/src/join-textblock-backward.ts#L39)
+Defined in: [join-textblock-backward.ts:39](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/join-textblock-backward.ts#L39)
 
 Joins the current textblock with the textblock before it.
 

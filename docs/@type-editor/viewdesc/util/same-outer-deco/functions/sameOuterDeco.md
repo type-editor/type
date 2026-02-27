@@ -10,7 +10,7 @@
 function sameOuterDeco(a, b): boolean;
 ```
 
-Defined in: [util/same-outer-deco.ts:11](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/util/same-outer-deco.ts#L11)
+Defined in: [util/same-outer-deco.ts:11](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/util/same-outer-deco.ts#L11)
 
 Check if two arrays of outer decorations are the same.
 

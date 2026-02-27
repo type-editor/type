@@ -10,7 +10,7 @@
 function textNodeAfter(node, offset): Text;
 ```
 
-Defined in: [text-nodes-after.ts:22](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-util/src/dom/text-nodes-after.ts#L22)
+Defined in: [text-nodes-after.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-util/src/dom/text-nodes-after.ts#L22)
 
 Finds the text node after a given position in the DOM tree.
 

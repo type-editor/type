@@ -10,7 +10,7 @@
 function replaceRangeWith(transform, from, to, node): void;
 ```
 
-Defined in: [packages/transform/src/replace/replace-range-with.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/replace/replace-range-with.ts#L14)
+Defined in: [packages/transform/src/replace/replace-range-with.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/replace/replace-range-with.ts#L14)
 
 Replace a range with a single node.
 

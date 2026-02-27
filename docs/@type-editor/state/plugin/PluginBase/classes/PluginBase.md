@@ -6,7 +6,7 @@
 
 # Abstract Class: PluginBase
 
-Defined in: [state/src/plugin/PluginBase.ts:2](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/plugin/PluginBase.ts#L2)
+Defined in: [state/src/plugin/PluginBase.ts:2](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/plugin/PluginBase.ts#L2)
 
 ## Extended by
 
@@ -33,7 +33,7 @@ new PluginBase(): PluginBase;
 protected createKey(name): string;
 ```
 
-Defined in: [state/src/plugin/PluginBase.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/plugin/PluginBase.ts#L10)
+Defined in: [state/src/plugin/PluginBase.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/plugin/PluginBase.ts#L10)
 
 Creates a unique key by appending a counter to the given name.
 Each call with the same name increments the counter.

@@ -10,7 +10,7 @@
 function cellAround($pos): ResolvedPos;
 ```
 
-Defined in: [tables/src/utils/cell-around.ts:22](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/utils/cell-around.ts#L22)
+Defined in: [tables/src/utils/cell-around.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/cell-around.ts#L22)
 
 Finds the resolved position of the cell containing the given position.
 

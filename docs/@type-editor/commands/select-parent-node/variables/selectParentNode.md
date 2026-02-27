@@ -10,7 +10,7 @@
 const selectParentNode: Command;
 ```
 
-Defined in: [select-parent-node.ts:48](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/commands/src/select-parent-node.ts#L48)
+Defined in: [select-parent-node.ts:48](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/select-parent-node.ts#L48)
 
 Selects the parent node that wraps the current selection.
 

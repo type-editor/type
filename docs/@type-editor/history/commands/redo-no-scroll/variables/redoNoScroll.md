@@ -10,7 +10,7 @@
 const redoNoScroll: Command;
 ```
 
-Defined in: [commands/redo-no-scroll.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/commands/redo-no-scroll.ts#L14)
+Defined in: [commands/redo-no-scroll.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/commands/redo-no-scroll.ts#L14)
 
 A command function that redoes the last undone change without scrolling
 the selection into view.

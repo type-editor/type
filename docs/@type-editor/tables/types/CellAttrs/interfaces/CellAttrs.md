@@ -6,7 +6,7 @@
 
 # Interface: CellAttrs
 
-Defined in: [tables/src/types/CellAttrs.ts:6](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/types/CellAttrs.ts#L6)
+Defined in: [tables/src/types/CellAttrs.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/types/CellAttrs.ts#L6)
 
 Represents the attributes of a table cell node.
 
@@ -16,6 +16,6 @@ These attributes control cell spanning behavior and column widths.
 
 | Property                                  | Type       | Description                                           | Defined in                                                                                                                                                       |
 | ----------------------------------------- | ---------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-colspan"></a> `colspan`   | `number`   | Number of columns this cell spans. Default is 1.      | [tables/src/types/CellAttrs.ts:8](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/types/CellAttrs.ts#L8)   |
-| <a id="property-colwidth"></a> `colwidth` | `number`[] | Array of column widths in pixels, or null if not set. | [tables/src/types/CellAttrs.ts:12](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/types/CellAttrs.ts#L12) |
-| <a id="property-rowspan"></a> `rowspan`   | `number`   | Number of rows this cell spans. Default is 1.         | [tables/src/types/CellAttrs.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/types/CellAttrs.ts#L10) |
+| <a id="property-colspan"></a> `colspan`   | `number`   | Number of columns this cell spans. Default is 1.      | [tables/src/types/CellAttrs.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/types/CellAttrs.ts#L8)   |
+| <a id="property-colwidth"></a> `colwidth` | `number`[] | Array of column widths in pixels, or null if not set. | [tables/src/types/CellAttrs.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/types/CellAttrs.ts#L12) |
+| <a id="property-rowspan"></a> `rowspan`   | `number`   | Number of rows this cell spans. Default is 1.         | [tables/src/types/CellAttrs.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/types/CellAttrs.ts#L10) |

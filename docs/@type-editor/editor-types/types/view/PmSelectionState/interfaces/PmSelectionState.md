@@ -6,15 +6,15 @@
 
 # Interface: PmSelectionState
 
-Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:4](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmSelectionState.ts#L4)
+Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:4](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmSelectionState.ts#L4)
 
 ## Properties
 
 | Property                                          | Modifier   | Type     | Defined in                                                                                                                                                                                                  |
 | ------------------------------------------------- | ---------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-anchornode"></a> `anchorNode`     | `readonly` | `Node`   | [packages/editor-types/src/types/view/PmSelectionState.ts:5](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmSelectionState.ts#L5) |
-| <a id="property-anchoroffset"></a> `anchorOffset` | `readonly` | `number` | [packages/editor-types/src/types/view/PmSelectionState.ts:6](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmSelectionState.ts#L6) |
-| <a id="property-focusnode"></a> `focusNode`       | `readonly` | `Node`   | [packages/editor-types/src/types/view/PmSelectionState.ts:7](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmSelectionState.ts#L7) |
+| <a id="property-anchornode"></a> `anchorNode`     | `readonly` | `Node`   | [packages/editor-types/src/types/view/PmSelectionState.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmSelectionState.ts#L5) |
+| <a id="property-anchoroffset"></a> `anchorOffset` | `readonly` | `number` | [packages/editor-types/src/types/view/PmSelectionState.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmSelectionState.ts#L6) |
+| <a id="property-focusnode"></a> `focusNode`       | `readonly` | `Node`   | [packages/editor-types/src/types/view/PmSelectionState.ts:7](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmSelectionState.ts#L7) |
 
 ## Methods
 
@@ -24,7 +24,7 @@ Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:4](https:/
 clear(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:18](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmSelectionState.ts#L18)
+Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:18](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmSelectionState.ts#L18)
 
 Clears the selection state by resetting all nodes to null.
 
@@ -40,7 +40,7 @@ Clears the selection state by resetting all nodes to null.
 eq(sel): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:25](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmSelectionState.ts#L25)
+Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmSelectionState.ts#L25)
 
 Checks if the given selection range equals this selection state.
 
@@ -64,7 +64,7 @@ true if both selections are identical
 set(sel): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:13](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmSelectionState.ts#L13)
+Defined in: [packages/editor-types/src/types/view/PmSelectionState.ts:13](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmSelectionState.ts#L13)
 
 Updates the selection state with new values.
 

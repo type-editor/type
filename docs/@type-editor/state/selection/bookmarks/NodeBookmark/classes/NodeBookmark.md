@@ -6,7 +6,7 @@
 
 # Class: NodeBookmark
 
-Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:13](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/bookmarks/NodeBookmark.ts#L13)
+Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:13](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/bookmarks/NodeBookmark.ts#L13)
 
 Bookmark implementation for node selections.
 Stores the anchor position (before the selected node) and handles
@@ -24,7 +24,7 @@ the case where the node is deleted by falling back to a text selection.
 new NodeBookmark(anchor): NodeBookmark;
 ```
 
-Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:26](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/bookmarks/NodeBookmark.ts#L26)
+Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:26](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/bookmarks/NodeBookmark.ts#L26)
 
 Create a node selection bookmark.
 
@@ -46,7 +46,7 @@ Create a node selection bookmark.
 map(mapping): SelectionBookmark;
 ```
 
-Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:38](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/bookmarks/NodeBookmark.ts#L38)
+Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:38](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/bookmarks/NodeBookmark.ts#L38)
 
 Map this bookmark through document changes.
 If the node at the anchor position was deleted, this returns a
@@ -78,7 +78,7 @@ SelectionBookmark.map;
 resolve(doc): PmSelection;
 ```
 
-Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:51](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/bookmarks/NodeBookmark.ts#L51)
+Defined in: [state/src/selection/bookmarks/NodeBookmark.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/bookmarks/NodeBookmark.ts#L51)
 
 Resolve this bookmark to a node selection if possible.
 If there's no selectable node at the mapped position, falls back

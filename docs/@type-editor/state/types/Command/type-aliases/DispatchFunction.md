@@ -10,7 +10,7 @@
 type DispatchFunction = (transaction) => void;
 ```
 
-Defined in: [state/src/types/Command.ts:16](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/types/Command.ts#L16)
+Defined in: [state/src/types/Command.ts:16](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/types/Command.ts#L16)
 
 Commands are functions that take a state and a an optional
 transaction dispatch function and...

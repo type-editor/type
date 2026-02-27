@@ -10,7 +10,7 @@
 function imageItem(title?, imgType?, figureType?, codeBlockNodeType?): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/image-item.ts:92](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/image-item.ts#L92)
+Defined in: [packages/menu/src/menu-items/image-item.ts:92](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/image-item.ts#L92)
 
 Creates a menu item for inserting and editing images in the editor.
 

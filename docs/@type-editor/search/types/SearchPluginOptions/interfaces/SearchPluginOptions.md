@@ -6,7 +6,7 @@
 
 # Interface: SearchPluginOptions
 
-Defined in: [types/SearchPluginOptions.ts:7](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/types/SearchPluginOptions.ts#L7)
+Defined in: [types/SearchPluginOptions.ts:7](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/types/SearchPluginOptions.ts#L7)
 
 Configuration options for the search plugin.
 
@@ -14,5 +14,5 @@ Configuration options for the search plugin.
 
 | Property                                           | Type                                                               | Description                                                                             | Defined in                                                                                                                                                                |
 | -------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-initialquery"></a> `initialQuery?` | [`SearchQuery`](../../../SearchQuery/classes/SearchQuery.md)       | The initial search query to use when the plugin is created. Defaults to an empty query. | [types/SearchPluginOptions.ts:12](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/types/SearchPluginOptions.ts#L12) |
-| <a id="property-initialrange"></a> `initialRange?` | [`DocumentRange`](../../DocumentRange/interfaces/DocumentRange.md) | Optional range to limit the initial search scope.                                       | [types/SearchPluginOptions.ts:16](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/types/SearchPluginOptions.ts#L16) |
+| <a id="property-initialquery"></a> `initialQuery?` | [`SearchQuery`](../../../SearchQuery/classes/SearchQuery.md)       | The initial search query to use when the plugin is created. Defaults to an empty query. | [types/SearchPluginOptions.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/types/SearchPluginOptions.ts#L12) |
+| <a id="property-initialrange"></a> `initialRange?` | [`DocumentRange`](../../DocumentRange/interfaces/DocumentRange.md) | Optional range to limit the initial search scope.                                       | [types/SearchPluginOptions.ts:16](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/types/SearchPluginOptions.ts#L16) |

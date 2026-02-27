@@ -10,7 +10,7 @@
 function replaceRange(transform, from, to, slice): TransformDocument;
 ```
 
-Defined in: [packages/transform/src/replace/replace-range.ts:24](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/replace/replace-range.ts#L24)
+Defined in: [packages/transform/src/replace/replace-range.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/replace/replace-range.ts#L24)
 
 Replace a range in a transform with a slice, trying to find the best way to fit it.
 

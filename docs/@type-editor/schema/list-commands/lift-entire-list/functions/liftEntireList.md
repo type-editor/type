@@ -10,7 +10,7 @@
 function liftEntireList(state, dispatch, enclosingList): boolean;
 ```
 
-Defined in: [list-commands/lift-entire-list.ts:24](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/schema/src/list-commands/lift-entire-list.ts#L24)
+Defined in: [list-commands/lift-entire-list.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/schema/src/list-commands/lift-entire-list.ts#L24)
 
 Lifts an entire list out, unwrapping all list items.
 

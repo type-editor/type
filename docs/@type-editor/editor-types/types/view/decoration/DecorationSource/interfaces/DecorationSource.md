@@ -6,7 +6,7 @@
 
 # Interface: DecorationSource
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L14)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L14)
 
 An object that can [provide](#view.EditorProps.decorations)
 decorations. Implemented by [`DecorationSet`](#view.DecorationSet),
@@ -19,7 +19,7 @@ in the editor.
 
 | Property                        | Type                                      | Description                                                         | Defined in                                                                                                                                                                                                                          |
 | ------------------------------- | ----------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-map"></a> `map` | (`mapping`, `node`) => `DecorationSource` | Map the set of decorations in response to a change in the document. | [packages/editor-types/src/types/view/decoration/DecorationSource.ts:21](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L21) |
+| <a id="property-map"></a> `map` | (`mapping`, `node`) => `DecorationSource` | Map the set of decorations in response to a change in the document. | [packages/editor-types/src/types/view/decoration/DecorationSource.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L21) |
 
 ## Methods
 
@@ -29,7 +29,7 @@ in the editor.
 eq(other): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:45](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L45)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:45](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L45)
 
 **`Internal`**
 
@@ -55,7 +55,7 @@ True if equal.
 forChild(offset, child): DecorationSource;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:37](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L37)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:37](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L37)
 
 Extract a DecorationSource containing decorations for the given child node at the given offset.
 
@@ -80,7 +80,7 @@ DecorationSource for the child.
 forEachSet(callbackFunc): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:51](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L51)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L51)
 
 Call the given function for each decoration set in the group.
 
@@ -102,7 +102,7 @@ Call the given function for each decoration set in the group.
 locals(node): readonly PmDecoration[];
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:29](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L29)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationSource.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/decoration/DecorationSource.ts#L29)
 
 **`Internal`**
 

@@ -6,7 +6,7 @@
 
 # Class: WidgetType
 
-Defined in: [decoration/WidgetType.ts:18](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L18)
+Defined in: [decoration/WidgetType.ts:18](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L18)
 
 Widget decoration type that represents a DOM node inserted at a specific
 position in the document. Widgets appear at a single position and don't
@@ -33,7 +33,7 @@ position without affecting the document model.
 new WidgetType(toDOM, spec?): WidgetType;
 ```
 
-Defined in: [decoration/WidgetType.ts:33](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L33)
+Defined in: [decoration/WidgetType.ts:33](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L33)
 
 Creates a new widget decoration type.
 
@@ -56,7 +56,7 @@ Creates a new widget decoration type.
 
 | Property                                                                                | Modifier   | Type                              | Default value | Description                                                        | Inherited from                                                                                                                                                                                                                          | Defined in                                                                                                                                                                                    |
 | --------------------------------------------------------------------------------------- | ---------- | --------------------------------- | ------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [`AbstractDecorationType`](../../AbstractDecorationType/classes/AbstractDecorationType.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationType/classes/AbstractDecorationType.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
+| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [`AbstractDecorationType`](../../AbstractDecorationType/classes/AbstractDecorationType.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationType/classes/AbstractDecorationType.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
 
 ## Accessors
 
@@ -68,7 +68,7 @@ Creates a new widget decoration type.
 get side(): number;
 ```
 
-Defined in: [decoration/WidgetType.ts:62](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L62)
+Defined in: [decoration/WidgetType.ts:62](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L62)
 
 Get the side value that determines whether the widget appears
 before (-1) or after (1) the position, or at the position (0).
@@ -92,7 +92,7 @@ The side value: -1 (before), 0 (at), or 1 (after)
 get spec(): DecorationWidgetOptions;
 ```
 
-Defined in: [decoration/WidgetType.ts:49](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L49)
+Defined in: [decoration/WidgetType.ts:49](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L49)
 
 Get the specification object for this widget decoration.
 
@@ -118,7 +118,7 @@ DecorationType.spec;
 get toDOM(): WidgetConstructor;
 ```
 
-Defined in: [decoration/WidgetType.ts:40](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L40)
+Defined in: [decoration/WidgetType.ts:40](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L40)
 
 ##### Returns
 
@@ -132,7 +132,7 @@ Defined in: [decoration/WidgetType.ts:40](https://github.com/type-editor/type/bl
 protected compareObjs(a, b): boolean;
 ```
 
-Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
+Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
 
 Deep comparison of two objects to check if they have the same properties
 and values. This is used to determine if two decoration specs are equal.
@@ -162,7 +162,7 @@ True if objects are equal, false otherwise
 destroy(node): void;
 ```
 
-Defined in: [decoration/WidgetType.ts:129](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L129)
+Defined in: [decoration/WidgetType.ts:129](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L129)
 
 Clean up this widget decoration when it's removed from the document.
 Calls the optional destroy callback if specified.
@@ -191,7 +191,7 @@ DecorationType.destroy;
 eq(other): boolean;
 ```
 
-Defined in: [decoration/WidgetType.ts:101](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L101)
+Defined in: [decoration/WidgetType.ts:101](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L101)
 
 Check if this widget type is equal to another decoration type.
 
@@ -225,7 +225,7 @@ map(
    oldOffset): PmDecoration;
 ```
 
-Defined in: [decoration/WidgetType.ts:75](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L75)
+Defined in: [decoration/WidgetType.ts:75](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L75)
 
 Map this decoration through a document change.
 
@@ -258,7 +258,7 @@ DecorationType.map;
 valid(): boolean;
 ```
 
-Defined in: [decoration/WidgetType.ts:91](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/WidgetType.ts#L91)
+Defined in: [decoration/WidgetType.ts:91](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/WidgetType.ts#L91)
 
 Check if this widget decoration is valid. Widgets are always valid.
 

@@ -10,7 +10,7 @@
 function fillChange(changes, fromB, toB): Change;
 ```
 
-Defined in: [simplify-changes/fill-change.ts:17](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/simplify-changes/fill-change.ts#L17)
+Defined in: [simplify-changes/fill-change.ts:17](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/simplify-changes/fill-change.ts#L17)
 
 Creates a merged change that spans from fromB to toB, filling gaps between changes.
 

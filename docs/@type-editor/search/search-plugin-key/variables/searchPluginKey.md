@@ -10,6 +10,6 @@
 const searchPluginKey: PluginKey<SearchState>;
 ```
 
-Defined in: [search-plugin-key.ts:8](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/search-plugin-key.ts#L8)
+Defined in: [search-plugin-key.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/search-plugin-key.ts#L8)
 
 Plugin key for the search plugin state.

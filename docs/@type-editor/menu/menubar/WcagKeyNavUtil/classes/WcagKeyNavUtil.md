@@ -6,7 +6,7 @@
 
 # Class: WcagKeyNavUtil
 
-Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:2](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/WcagKeyNavUtil.ts#L2)
+Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:2](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/WcagKeyNavUtil.ts#L2)
 
 ## Constructors
 
@@ -19,7 +19,7 @@ new WcagKeyNavUtil(
    isHorizontal?): WcagKeyNavUtil;
 ```
 
-Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:25](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/WcagKeyNavUtil.ts#L25)
+Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/WcagKeyNavUtil.ts#L25)
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:25](https://github.com/
 
 | Property                                                                            | Modifier   | Type | Default value | Defined in                                                                                                                                                                        |
 | ----------------------------------------------------------------------------------- | ---------- | ---- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-synthetic_event_button_number"></a> `SYNTHETIC_EVENT_BUTTON_NUMBER` | `readonly` | `42` | `42`          | [packages/menu/src/menubar/WcagKeyNavUtil.ts:6](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/WcagKeyNavUtil.ts#L6) |
+| <a id="property-synthetic_event_button_number"></a> `SYNTHETIC_EVENT_BUTTON_NUMBER` | `readonly` | `42` | `42`          | [packages/menu/src/menubar/WcagKeyNavUtil.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/WcagKeyNavUtil.ts#L6) |
 
 ## Methods
 
@@ -47,7 +47,7 @@ Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:25](https://github.com/
 activateFirstItem(): void;
 ```
 
-Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:137](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/WcagKeyNavUtil.ts#L137)
+Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:137](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/WcagKeyNavUtil.ts#L137)
 
 #### Returns
 
@@ -61,7 +61,7 @@ Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:137](https://github.com
 addArrowKeyNavigation(): void;
 ```
 
-Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:34](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/WcagKeyNavUtil.ts#L34)
+Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:34](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/WcagKeyNavUtil.ts#L34)
 
 #### Returns
 
@@ -75,7 +75,7 @@ Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:34](https://github.com/
 destroy(): void;
 ```
 
-Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:145](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/WcagKeyNavUtil.ts#L145)
+Defined in: [packages/menu/src/menubar/WcagKeyNavUtil.ts:145](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/WcagKeyNavUtil.ts#L145)
 
 Clean up event listeners to prevent memory leaks.
 Should be called when the navigation is no longer needed.

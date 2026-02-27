@@ -10,7 +10,7 @@
 function insertPoint(doc, pos, nodeType): number;
 ```
 
-Defined in: [packages/transform/src/change-helper/insert-point.ts:15](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-helper/insert-point.ts#L15)
+Defined in: [packages/transform/src/change-helper/insert-point.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-helper/insert-point.ts#L15)
 
 Try to find a point where a node of the given type can be inserted
 near `pos`, by searching up the node hierarchy when `pos` itself

@@ -10,7 +10,7 @@
 function addColumn(transaction, tableRect, col): PmTransaction;
 ```
 
-Defined in: [tables/src/commands/add-column.ts:25](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/commands/add-column.ts#L25)
+Defined in: [tables/src/commands/add-column.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/commands/add-column.ts#L25)
 
 Adds a column at the given position in a table.
 

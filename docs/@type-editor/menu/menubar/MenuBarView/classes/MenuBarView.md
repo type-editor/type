@@ -6,7 +6,7 @@
 
 # Class: MenuBarView
 
-Defined in: [packages/menu/src/menubar/MenuBarView.ts:19](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/MenuBarView.ts#L19)
+Defined in: [packages/menu/src/menubar/MenuBarView.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuBarView.ts#L19)
 
 View class that manages the menu bar display and behavior.
 
@@ -22,7 +22,7 @@ automatically adjusts its position and visibility.
 new MenuBarView(editorView, options): MenuBarView;
 ```
 
-Defined in: [packages/menu/src/menubar/MenuBarView.ts:79](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/MenuBarView.ts#L79)
+Defined in: [packages/menu/src/menubar/MenuBarView.ts:79](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuBarView.ts#L79)
 
 Creates a new MenuBarView instance.
 
@@ -48,7 +48,7 @@ optionally configures floating behavior with scroll listeners.
 destroy(): void;
 ```
 
-Defined in: [packages/menu/src/menubar/MenuBarView.ts:448](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/MenuBarView.ts#L448)
+Defined in: [packages/menu/src/menubar/MenuBarView.ts:448](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuBarView.ts#L448)
 
 Cleans up the menu bar view when the plugin is destroyed.
 
@@ -68,7 +68,7 @@ Also removes all event listeners to prevent memory leaks.
 update(): void;
 ```
 
-Defined in: [packages/menu/src/menubar/MenuBarView.ts:141](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/MenuBarView.ts#L141)
+Defined in: [packages/menu/src/menubar/MenuBarView.ts:141](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/MenuBarView.ts#L141)
 
 Updates the menu bar content and layout.
 

@@ -6,17 +6,17 @@
 
 # Enumeration: ViewDescType
 
-Defined in: [ViewDescType.ts:2](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L2)
+Defined in: [ViewDescType.ts:2](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L2)
 
 ## Enumeration Members
 
 | Enumeration Member                                            | Value | Defined in                                                                                                                                                  |
 | ------------------------------------------------------------- | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="enumeration-member-composition"></a> `COMPOSITION`     | `3`   | [ViewDescType.ts:6](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L6)   |
-| <a id="enumeration-member-custom"></a> `CUSTOM`               | `6`   | [ViewDescType.ts:9](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L9)   |
-| <a id="enumeration-member-mark"></a> `MARK`                   | `2`   | [ViewDescType.ts:5](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L5)   |
-| <a id="enumeration-member-node"></a> `NODE`                   | `1`   | [ViewDescType.ts:4](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L4)   |
-| <a id="enumeration-member-text"></a> `TEXT`                   | `4`   | [ViewDescType.ts:7](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L7)   |
-| <a id="enumeration-member-trailing_hack"></a> `TRAILING_HACK` | `7`   | [ViewDescType.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L10) |
-| <a id="enumeration-member-view"></a> `VIEW`                   | `0`   | [ViewDescType.ts:3](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L3)   |
-| <a id="enumeration-member-widget"></a> `WIDGET`               | `5`   | [ViewDescType.ts:8](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/viewdesc/src/view-desc/ViewDescType.ts#L8)   |
+| <a id="enumeration-member-composition"></a> `COMPOSITION`     | `3`   | [ViewDescType.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L6)   |
+| <a id="enumeration-member-custom"></a> `CUSTOM`               | `6`   | [ViewDescType.ts:9](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L9)   |
+| <a id="enumeration-member-mark"></a> `MARK`                   | `2`   | [ViewDescType.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L5)   |
+| <a id="enumeration-member-node"></a> `NODE`                   | `1`   | [ViewDescType.ts:4](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L4)   |
+| <a id="enumeration-member-text"></a> `TEXT`                   | `4`   | [ViewDescType.ts:7](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L7)   |
+| <a id="enumeration-member-trailing_hack"></a> `TRAILING_HACK` | `7`   | [ViewDescType.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L10) |
+| <a id="enumeration-member-view"></a> `VIEW`                   | `0`   | [ViewDescType.ts:3](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L3)   |
+| <a id="enumeration-member-widget"></a> `WIDGET`               | `5`   | [ViewDescType.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescType.ts#L8)   |

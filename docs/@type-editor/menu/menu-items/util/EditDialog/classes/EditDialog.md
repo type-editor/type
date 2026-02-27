@@ -6,7 +6,7 @@
 
 # Class: EditDialog
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:58](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/EditDialog.ts#L58)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:58](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/EditDialog.ts#L58)
 
 A utility class for creating and managing modal dialogs in the editor.
 Provides a fluent API for building dialog content with rows and custom HTML.
@@ -44,7 +44,7 @@ new EditDialog(): EditDialog;
 add(content): EditDialog;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:163](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/EditDialog.ts#L163)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:163](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/EditDialog.ts#L163)
 
 Adds custom HTML content to the current dialog page.
 Can be chained for fluent API usage.
@@ -74,7 +74,7 @@ addListener(
    listener): void;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:90](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/EditDialog.ts#L90)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:90](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/EditDialog.ts#L90)
 
 Adds an event listener to a DOM element and tracks it for cleanup.
 Supports element IDs, direct element references, or the string 'window'.
@@ -106,7 +106,7 @@ If domElement is null or undefined
 addPage(label): EditDialog;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:194](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/EditDialog.ts#L194)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:194](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/EditDialog.ts#L194)
 
 Adds a new page to the dialog with a tab button.
 Each page can contain different content and is accessible via tab navigation.
@@ -132,7 +132,7 @@ The current EditDialog instance for chaining
 addRow(content): EditDialog;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:178](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/EditDialog.ts#L178)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:178](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/EditDialog.ts#L178)
 
 Adds a content row to the dialog with proper wrapper elements.
 Can be chained for fluent API usage.
@@ -159,7 +159,7 @@ The current EditDialog instance for chaining
 close(editorView): void;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:140](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/EditDialog.ts#L140)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:140](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/EditDialog.ts#L140)
 
 Closes the dialog and cleans up all event listeners.
 Returns focus to the editor view.
@@ -185,7 +185,7 @@ open(
    height): void;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:120](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/EditDialog.ts#L120)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:120](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/EditDialog.ts#L120)
 
 Opens the dialog in the editor view.
 Creates the dialog element, positions it, and displays it as a modal (if supported).

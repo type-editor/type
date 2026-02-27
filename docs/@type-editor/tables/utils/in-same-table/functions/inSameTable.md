@@ -10,7 +10,7 @@
 function inSameTable($cellA, $cellB): boolean;
 ```
 
-Defined in: [tables/src/utils/in-same-table.ts:22](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/utils/in-same-table.ts#L22)
+Defined in: [tables/src/utils/in-same-table.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/in-same-table.ts#L22)
 
 Checks if two cell positions are within the same table.
 

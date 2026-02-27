@@ -10,7 +10,7 @@
 function sendableSteps(state): SendableSteps;
 ```
 
-Defined in: [sendable-steps.ts:23](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/collab/src/sendable-steps.ts#L23)
+Defined in: [sendable-steps.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/collab/src/sendable-steps.ts#L23)
 
 Provides data describing the editor's unconfirmed steps, which need
 to be sent to the central authority. Returns null when there is

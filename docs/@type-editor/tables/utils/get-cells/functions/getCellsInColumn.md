@@ -10,7 +10,7 @@
 function getCellsInColumn(columnIndex, selection): FindNodeResult[];
 ```
 
-Defined in: [tables/src/utils/get-cells.ts:61](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/utils/get-cells.ts#L61)
+Defined in: [tables/src/utils/get-cells.ts:61](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/get-cells.ts#L61)
 
 Returns an array of cells in a column at the specified column index.
 

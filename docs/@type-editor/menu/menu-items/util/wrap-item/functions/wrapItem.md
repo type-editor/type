@@ -10,7 +10,7 @@
 function wrapItem(nodeType, options): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/wrap-item.ts:19](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/wrap-item.ts#L19)
+Defined in: [packages/menu/src/menu-items/util/wrap-item.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/wrap-item.ts#L19)
 
 Build a menu item for wrapping the selection in a given node type.
 Adds `run` and `select` properties to the ones present in

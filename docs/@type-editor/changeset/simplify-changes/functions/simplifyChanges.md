@@ -10,7 +10,7 @@
 function simplifyChanges(changes, doc): Change<any>[];
 ```
 
-Defined in: [simplify-changes.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/simplify-changes.ts#L25)
+Defined in: [simplify-changes.ts:25](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/changeset/src/simplify-changes.ts#L25)
 
 Simplifies a set of changes for presentation.
 

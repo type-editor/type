@@ -10,7 +10,7 @@
 function removeColumn(transaction, tableRect, col): void;
 ```
 
-Defined in: [tables/src/commands/remove-column.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/commands/remove-column.ts#L21)
+Defined in: [tables/src/commands/remove-column.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/commands/remove-column.ts#L21)
 
 Removes a column at the specified position from a table.
 

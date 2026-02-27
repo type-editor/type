@@ -10,7 +10,7 @@
 function getVersion(state): number;
 ```
 
-Defined in: [get-version.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/collab/src/get-version.ts#L15)
+Defined in: [get-version.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/collab/src/get-version.ts#L15)
 
 Gets the version up to which the collab plugin has synced with the
 central authority.

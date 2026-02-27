@@ -6,7 +6,7 @@
 
 # Class: StepMap
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L23)
+Defined in: [packages/transform/src/change-map/StepMap.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L23)
 
 A map describing the deletions and insertions made by a step, which
 can be used to find the correspondence between positions in the
@@ -36,7 +36,7 @@ integers precisely.
 new StepMap(ranges, inverted?): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:52](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L52)
+Defined in: [packages/transform/src/change-map/StepMap.ts:52](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L52)
 
 Create a position map. The modifications to the document are
 represented as an array of numbers, in which each group of three
@@ -61,7 +61,7 @@ If the ranges array length is not a multiple of 3.
 
 | Property                            | Modifier | Type      | Description                                | Defined in                                                                                                                                                                            |
 | ----------------------------------- | -------- | --------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty"></a> `empty` | `static` | `StepMap` | A StepMap that contains no changed ranges. | [packages/transform/src/change-map/StepMap.ts:28](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L28) |
+| <a id="property-empty"></a> `empty` | `static` | `StepMap` | A StepMap that contains no changed ranges. | [packages/transform/src/change-map/StepMap.ts:28](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L28) |
 
 ## Methods
 
@@ -71,7 +71,7 @@ If the ranges array length is not a multiple of 3.
 forEach(callbackFunc): void;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:171](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L171)
+Defined in: [packages/transform/src/change-map/StepMap.ts:171](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L171)
 
 Calls the given function on each of the changed ranges included in
 this map.
@@ -100,7 +100,7 @@ PmStepMap.forEach;
 invert(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:195](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L195)
+Defined in: [packages/transform/src/change-map/StepMap.ts:195](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L195)
 
 Create an inverted version of this map. The result can be used to
 map positions in the post-step document to the pre-step document.
@@ -125,7 +125,7 @@ PmStepMap.invert;
 map(pos, assoc?): number;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:131](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L131)
+Defined in: [packages/transform/src/change-map/StepMap.ts:131](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L131)
 
 Map a position through this step map.
 
@@ -156,7 +156,7 @@ PmStepMap.map;
 mapResult(pos, assoc?): MapResult;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:119](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L119)
+Defined in: [packages/transform/src/change-map/StepMap.ts:119](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L119)
 
 Map a position through this step map, returning a MapResult object
 with additional information about the mapping, including whether
@@ -189,7 +189,7 @@ PmStepMap.mapResult;
 recover(value): number;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:89](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L89)
+Defined in: [packages/transform/src/change-map/StepMap.ts:89](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L89)
 
 Recover a position that was deleted by this step map, using a recovery value
 obtained from a previous mapping. Returns the pre-deletion position
@@ -225,7 +225,7 @@ PmStepMap.recover;
 toString(): string;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:205](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L205)
+Defined in: [packages/transform/src/change-map/StepMap.ts:205](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L205)
 
 Returns a string representation of this step map.
 Inverted maps are prefixed with a minus sign.
@@ -250,7 +250,7 @@ PmStepMap.toString;
 touches(pos, recover): boolean;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:143](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L143)
+Defined in: [packages/transform/src/change-map/StepMap.ts:143](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L143)
 
 Test whether the given position touches the range with the
 given recover value.
@@ -282,7 +282,7 @@ PmStepMap.touches;
 static offset(offset): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-map/StepMap.ts:76](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/StepMap.ts#L76)
+Defined in: [packages/transform/src/change-map/StepMap.ts:76](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-map/StepMap.ts#L76)
 
 Create a map that moves all positions by offset `n` (which may be
 negative). This can be useful when applying steps meant for a

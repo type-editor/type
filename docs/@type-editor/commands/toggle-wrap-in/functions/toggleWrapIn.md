@@ -10,7 +10,7 @@
 function toggleWrapIn(nodeType, attrs?, allowUnwrap?): Command;
 ```
 
-Defined in: [toggle-wrap-in.ts:20](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/toggle-wrap-in.ts#L20)
+Defined in: [toggle-wrap-in.ts:20](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/toggle-wrap-in.ts#L20)
 
 Creates a command that toggles wrapping of the selected content in the given node type.
 

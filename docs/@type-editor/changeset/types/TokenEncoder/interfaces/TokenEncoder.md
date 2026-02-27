@@ -6,7 +6,7 @@
 
 # Interface: TokenEncoder&lt;T&gt;
 
-Defined in: [types/TokenEncoder.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/types/TokenEncoder.ts#L14)
+Defined in: [types/TokenEncoder.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/changeset/src/types/TokenEncoder.ts#L14)
 
 A token encoder can be passed when creating a `ChangeSet` in order
 to influence the way the library runs its diffing algorithm. The
@@ -31,7 +31,7 @@ performance.
 compareTokens(a, b): boolean;
 ```
 
-Defined in: [types/TokenEncoder.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/types/TokenEncoder.ts#L51)
+Defined in: [types/TokenEncoder.ts:51](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/changeset/src/types/TokenEncoder.ts#L51)
 
 Compare the given tokens. Should return true when they count as
 equal.
@@ -57,7 +57,7 @@ True if the tokens are equal, false otherwise.
 encodeCharacter(char, marks): T;
 ```
 
-Defined in: [types/TokenEncoder.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/types/TokenEncoder.ts#L23)
+Defined in: [types/TokenEncoder.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/changeset/src/types/TokenEncoder.ts#L23)
 
 Encode a given character, with the given marks applied.
 
@@ -82,7 +82,7 @@ The encoded representation of the character.
 encodeNodeEnd(node): T;
 ```
 
-Defined in: [types/TokenEncoder.ts:41](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/types/TokenEncoder.ts#L41)
+Defined in: [types/TokenEncoder.ts:41](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/changeset/src/types/TokenEncoder.ts#L41)
 
 Encode the end token for the given node. It is valid to encode
 every end token in the same way.
@@ -107,7 +107,7 @@ The encoded representation of the node end.
 encodeNodeStart(node): T;
 ```
 
-Defined in: [types/TokenEncoder.ts:32](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/types/TokenEncoder.ts#L32)
+Defined in: [types/TokenEncoder.ts:32](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/changeset/src/types/TokenEncoder.ts#L32)
 
 Encode the start of a node or, if this is a leaf node, the
 entire node.

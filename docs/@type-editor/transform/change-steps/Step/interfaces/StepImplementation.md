@@ -6,7 +6,7 @@
 
 # Interface: StepImplementation
 
-Defined in: [packages/transform/src/change-steps/Step.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L8)
+Defined in: [packages/transform/src/change-steps/Step.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L8)
 
 ## Methods
 
@@ -16,7 +16,7 @@ Defined in: [packages/transform/src/change-steps/Step.ts:8](https://github.com/t
 fromJSON(schema, json): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:9](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-steps/Step.ts#L9)
+Defined in: [packages/transform/src/change-steps/Step.ts:9](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-steps/Step.ts#L9)
 
 #### Parameters
 

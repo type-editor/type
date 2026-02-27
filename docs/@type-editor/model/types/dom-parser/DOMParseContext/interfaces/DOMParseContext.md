@@ -6,7 +6,7 @@
 
 # Interface: DOMParseContext
 
-Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/dom-parser/DOMParseContext.ts#L14)
+Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/DOMParseContext.ts#L14)
 
 Interface for parsing context that manages the state during DOM to ProseMirror conversion.
 
@@ -19,8 +19,8 @@ of DOM nodes into ProseMirror nodes while respecting schema constraints and pars
 
 | Property                                      | Modifier   | Type                                                                        | Description                                                                                                                                                                       | Defined in                                                                                                                                                                                                |
 | --------------------------------------------- | ---------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-currentpos"></a> `currentPos` | `readonly` | `number`                                                                    | The current position in the document being constructed. **Remarks** This position is calculated based on the content added so far and is used for tracking DOM position mappings. | [packages/model/src/types/dom-parser/DOMParseContext.ts:31](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/dom-parser/DOMParseContext.ts#L31) |
-| <a id="property-top"></a> `top`               | `readonly` | [`NodeParseContext`](../../NodeParseContext/interfaces/NodeParseContext.md) | The currently active node context at the top of the context stack. **Remarks** This represents the node being currently built during parsing.                                     | [packages/model/src/types/dom-parser/DOMParseContext.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/dom-parser/DOMParseContext.ts#L22) |
+| <a id="property-currentpos"></a> `currentPos` | `readonly` | `number`                                                                    | The current position in the document being constructed. **Remarks** This position is calculated based on the content added so far and is used for tracking DOM position mappings. | [packages/model/src/types/dom-parser/DOMParseContext.ts:31](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/DOMParseContext.ts#L31) |
+| <a id="property-top"></a> `top`               | `readonly` | [`NodeParseContext`](../../NodeParseContext/interfaces/NodeParseContext.md) | The currently active node context at the top of the context stack. **Remarks** This represents the node being currently built during parsing.                                     | [packages/model/src/types/dom-parser/DOMParseContext.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/DOMParseContext.ts#L22) |
 
 ## Methods
 
@@ -34,7 +34,7 @@ addAll(
    endIndex?): void;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:45](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/dom-parser/DOMParseContext.ts#L45)
+Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:45](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/DOMParseContext.ts#L45)
 
 Parses and adds all child nodes from a DOM element to the current context.
 
@@ -66,7 +66,7 @@ finish():
   | Node;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:59](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/dom-parser/DOMParseContext.ts#L59)
+Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:59](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/DOMParseContext.ts#L59)
 
 Completes the parsing process and returns the final result.
 
@@ -90,7 +90,7 @@ and content filling according to schema requirements.
 matchesContext(context): boolean;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:72](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/types/dom-parser/DOMParseContext.ts#L72)
+Defined in: [packages/model/src/types/dom-parser/DOMParseContext.ts:72](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/types/dom-parser/DOMParseContext.ts#L72)
 
 Checks whether a context string matches the current parsing context.
 

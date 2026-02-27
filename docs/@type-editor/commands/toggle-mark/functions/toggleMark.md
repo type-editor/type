@@ -10,7 +10,7 @@
 function toggleMark(markType, attrs?, options?): Command;
 ```
 
-Defined in: [toggle-mark.ts:77](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/toggle-mark.ts#L77)
+Defined in: [toggle-mark.ts:77](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/toggle-mark.ts#L77)
 
 Creates a command that toggles a mark on the current selection.
 

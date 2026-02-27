@@ -6,7 +6,7 @@
 
 # Abstract Class: TypeBase
 
-Defined in: [packages/model/src/schema/TypeBase.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/TypeBase.ts#L14)
+Defined in: [packages/model/src/schema/TypeBase.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L14)
 
 Abstract base class for type objects (NodeType and MarkType).
 Provides common functionality for attribute management and validation.
@@ -24,7 +24,7 @@ Provides common functionality for attribute management and validation.
 protected new TypeBase(name, spec): TypeBase;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/TypeBase.ts#L24)
+Defined in: [packages/model/src/schema/TypeBase.ts:24](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L24)
 
 Creates a new TypeBase instance.
 
@@ -43,7 +43,7 @@ Creates a new TypeBase instance.
 
 | Property                            | Modifier   | Type                                                                          | Defined in                                                                                                                                                              |
 | ----------------------------------- | ---------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-attrs"></a> `attrs` | `readonly` | `Record`&lt;`string`, [`Attribute`](../../Attribute/classes/Attribute.md)&gt; | [packages/model/src/schema/TypeBase.ts:16](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/TypeBase.ts#L16) |
+| <a id="property-attrs"></a> `attrs` | `readonly` | `Record`&lt;`string`, [`Attribute`](../../Attribute/classes/Attribute.md)&gt; | [packages/model/src/schema/TypeBase.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L16) |
 
 ## Methods
 
@@ -53,7 +53,7 @@ Creates a new TypeBase instance.
 protected checkAttributes(values, type): void;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:36](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/TypeBase.ts#L36)
+Defined in: [packages/model/src/schema/TypeBase.ts:36](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L36)
 
 Validates attribute values against the type's attribute specifications.
 Throws a RangeError if any attribute is unsupported or fails validation.
@@ -81,7 +81,7 @@ If an unsupported attribute is found or validation fails
 protected computeAttributes(providedAttrs): Attrs;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:86](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/TypeBase.ts#L86)
+Defined in: [packages/model/src/schema/TypeBase.ts:86](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L86)
 
 Computes a complete set of attributes by merging provided values with defaults.
 Ensures all required attributes are present and applies defaults where needed.
@@ -110,7 +110,7 @@ If a required attribute (one without a default) is missing
 protected createDefaultAttrs(): Readonly<Record<string, any>>;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:63](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/TypeBase.ts#L63)
+Defined in: [packages/model/src/schema/TypeBase.ts:63](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L63)
 
 Creates a reusable default attributes object for types where all attributes
 have default values. This optimization allows sharing the same object across
@@ -131,7 +131,7 @@ lacks a default value (indicating required attributes exist)
 protected initAttrs(typeName, attrs?): Record<string, Attribute>;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:120](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/TypeBase.ts#L120)
+Defined in: [packages/model/src/schema/TypeBase.ts:120](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/schema/TypeBase.ts#L120)
 
 Initializes attribute descriptors from the provided specification.
 Creates Attribute objects that encapsulate validation and default values.

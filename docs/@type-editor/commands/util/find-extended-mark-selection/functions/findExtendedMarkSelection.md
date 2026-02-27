@@ -15,7 +15,7 @@ function findExtendedMarkSelection(
 ): ExtendedSelectionResult;
 ```
 
-Defined in: [util/find-extended-mark-selection.ts:38](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/util/find-extended-mark-selection.ts#L38)
+Defined in: [util/find-extended-mark-selection.ts:38](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/util/find-extended-mark-selection.ts#L38)
 
 Attempts to find an extended selection for an empty selection.
 

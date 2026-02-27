@@ -10,7 +10,7 @@
 function beforeInputHandler(view, event): boolean;
 ```
 
-Defined in: [input-handler/before-input/before-input-handler.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/before-input/before-input-handler.ts#L14)
+Defined in: [input-handler/before-input/before-input-handler.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/input/src/input-handler/before-input/before-input-handler.ts#L14)
 
 Handles beforeinput events. Currently only used for a Chrome Android
 workaround where backspace sometimes fails after uneditable nodes.

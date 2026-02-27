@@ -10,7 +10,7 @@
 const selectNodeBackward: Command;
 ```
 
-Defined in: [select-node-backward.ts:42](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/select-node-backward.ts#L42)
+Defined in: [select-node-backward.ts:42](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/commands/src/select-node-backward.ts#L42)
 
 Selects the node before the cursor when at the start of a textblock.
 

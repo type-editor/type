@@ -10,7 +10,7 @@
 function resolveSelection(view, doc, parsedSel): PmSelection;
 ```
 
-Defined in: [parse-change/resolve-selection.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/parse-change/resolve-selection.ts#L24)
+Defined in: [parse-change/resolve-selection.ts:24](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/parse-change/resolve-selection.ts#L24)
 
 Resolves a selection from parsed anchor/head positions.
 

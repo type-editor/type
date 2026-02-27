@@ -10,7 +10,7 @@
 function setNodeMarkup(transform, pos, type, attrs, marks): void;
 ```
 
-Defined in: [packages/transform/src/block-changes/set-node-markup.ts:16](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/block-changes/set-node-markup.ts#L16)
+Defined in: [packages/transform/src/block-changes/set-node-markup.ts:16](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/block-changes/set-node-markup.ts#L16)
 
 Change the type, attributes, and/or marks of the node at a given position.
 When `type` isn't given, the existing node type is preserved.

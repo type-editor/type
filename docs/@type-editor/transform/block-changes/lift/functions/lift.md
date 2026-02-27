@@ -10,7 +10,7 @@
 function lift(transform, range, target): void;
 ```
 
-Defined in: [packages/transform/src/block-changes/lift.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/block-changes/lift.ts#L14)
+Defined in: [packages/transform/src/block-changes/lift.ts:14](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/block-changes/lift.ts#L14)
 
 Lift the content in the given range out of its parent nodes.
 Attempts to move the content to a shallower depth level.

@@ -6,7 +6,7 @@
 
 # Class: Transform
 
-Defined in: [packages/transform/src/Transform.ts:59](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L59)
+Defined in: [packages/transform/src/Transform.ts:59](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L59)
 
 Abstraction to build up and track an array of
 [steps](#transform.Step) representing a document transformation.
@@ -26,7 +26,7 @@ that they can be chained.
 new Transform(doc): Transform;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:75](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L75)
+Defined in: [packages/transform/src/Transform.ts:75](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L75)
 
 Creates a new Transform instance.
 
@@ -44,7 +44,7 @@ Creates a new Transform instance.
 
 | Property                          | Modifier    | Type     | Description           | Defined in                                                                                                                                                          |
 | --------------------------------- | ----------- | -------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-_doc"></a> `_doc` | `protected` | `Node_2` | The current document. | [packages/transform/src/Transform.ts:69](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L69) |
+| <a id="property-_doc"></a> `_doc` | `protected` | `Node_2` | The current document. | [packages/transform/src/Transform.ts:69](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L69) |
 
 ## Accessors
 
@@ -56,7 +56,7 @@ Creates a new Transform instance.
 get before(): Node_2;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:110](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L110)
+Defined in: [packages/transform/src/Transform.ts:110](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L110)
 
 The starting document.
 
@@ -80,7 +80,7 @@ TransformDocument.before;
 get doc(): Node_2;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:82](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L82)
+Defined in: [packages/transform/src/Transform.ts:82](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L82)
 
 The current document (the result of applying all steps).
 
@@ -104,7 +104,7 @@ TransformDocument.doc;
 get docChanged(): boolean;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:117](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L117)
+Defined in: [packages/transform/src/Transform.ts:117](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L117)
 
 True when the document has been changed (when there are any steps).
 
@@ -128,7 +128,7 @@ TransformDocument.docChanged;
 get docs(): readonly Node_2[];
 ```
 
-Defined in: [packages/transform/src/Transform.ts:96](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L96)
+Defined in: [packages/transform/src/Transform.ts:96](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L96)
 
 The documents before each of the steps.
 
@@ -152,7 +152,7 @@ TransformDocument.docs;
 get mapping(): Mapping;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:103](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L103)
+Defined in: [packages/transform/src/Transform.ts:103](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L103)
 
 A mapping with the maps for each of the steps in this transform.
 
@@ -176,7 +176,7 @@ TransformDocument.mapping;
 get steps(): readonly Step[];
 ```
 
-Defined in: [packages/transform/src/Transform.ts:89](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L89)
+Defined in: [packages/transform/src/Transform.ts:89](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L89)
 
 The steps in this transform.
 
@@ -201,7 +201,7 @@ addMark(
    mark): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:477](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L477)
+Defined in: [packages/transform/src/Transform.ts:477](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L477)
 
 Add the given mark to the inline content between `from` and `to`.
 
@@ -233,7 +233,7 @@ TransformDocument.addMark;
 addNodeMark(position, mark): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:408](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L408)
+Defined in: [packages/transform/src/Transform.ts:408](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L408)
 
 Add a mark to the node at position `pos`.
 
@@ -268,7 +268,7 @@ TransformDocument.addNodeMark;
 addStep(step, doc): void;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:182](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L182)
+Defined in: [packages/transform/src/Transform.ts:182](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L182)
 
 Add a step to the transform without applying it (assumes it has already been applied).
 Updates the internal state to track the step and its resulting document.
@@ -301,7 +301,7 @@ changedRange(): {
 };
 ```
 
-Defined in: [packages/transform/src/Transform.ts:156](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L156)
+Defined in: [packages/transform/src/Transform.ts:156](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L156)
 
 Return a single range, in post-transform document positions,
 that covers all content changed by this transform. Returns null
@@ -319,8 +319,8 @@ that add/remove marks without replacing the underlying content.
 
 | Name   | Type     | Defined in                                                                                                                                                            |
 | ------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `from` | `number` | [packages/transform/src/Transform.ts:156](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L156) |
-| `to`   | `number` | [packages/transform/src/Transform.ts:156](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L156) |
+| `from` | `number` | [packages/transform/src/Transform.ts:156](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L156) |
+| `to`   | `number` | [packages/transform/src/Transform.ts:156](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L156) |
 
 ---
 
@@ -333,7 +333,7 @@ clearIncompatible(
    match?): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:509](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L509)
+Defined in: [packages/transform/src/Transform.ts:509](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L509)
 
 Removes all marks and nodes from the content of the node at
 `position` that don't match the given new parent node type. Accepts
@@ -368,7 +368,7 @@ TransformDocument.clearIncompatible;
 delete(from, to): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:228](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L228)
+Defined in: [packages/transform/src/Transform.ts:228](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L228)
 
 Delete the content between the given positions.
 
@@ -399,7 +399,7 @@ TransformDocument.delete;
 deleteRange(from, to): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:296](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L296)
+Defined in: [packages/transform/src/Transform.ts:296](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L296)
 
 Delete the given range, expanding it to cover fully covered
 parent nodes until a valid replace is found.
@@ -431,7 +431,7 @@ TransformDocument.deleteRange;
 insert(pos, content): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:238](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L238)
+Defined in: [packages/transform/src/Transform.ts:238](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L238)
 
 Insert the given content at the given position.
 
@@ -462,7 +462,7 @@ TransformDocument.insert;
 join(pos, depth?): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:323](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L323)
+Defined in: [packages/transform/src/Transform.ts:323](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L323)
 
 Join the blocks around the given position. If depth is 2, their
 last and first siblings are also joined, and so on.
@@ -494,7 +494,7 @@ TransformDocument.join;
 lift(range, target): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:311](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L311)
+Defined in: [packages/transform/src/Transform.ts:311](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L311)
 
 Split the content in the given range off from its parent, if there
 is sibling content before or after it, and move it up the tree to
@@ -529,7 +529,7 @@ TransformDocument.lift;
 maybeStep(step): StepResult;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:142](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L142)
+Defined in: [packages/transform/src/Transform.ts:142](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L142)
 
 Try to apply a step in this transformation, ignoring it if it
 fails. Returns the step result.
@@ -563,7 +563,7 @@ removeMark(
    mark?): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:492](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L492)
+Defined in: [packages/transform/src/Transform.ts:492](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L492)
 
 Remove marks from inline nodes between `from` and `to`. When
 `mark` is a single mark, remove precisely that mark. When it is
@@ -598,7 +598,7 @@ TransformDocument.removeMark;
 removeNodeMark(position, mark): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:425](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L425)
+Defined in: [packages/transform/src/Transform.ts:425](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L425)
 
 Remove a mark (or all marks of the given type) from the node at
 position `pos`.
@@ -637,7 +637,7 @@ replace(
    slice?): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:198](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L198)
+Defined in: [packages/transform/src/Transform.ts:198](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L198)
 
 Replace the part of the document between `from` and `to` with the
 given `slice`. No-op replacements (empty slice over empty range) are
@@ -674,7 +674,7 @@ replaceRange(
    slice): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:266](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L266)
+Defined in: [packages/transform/src/Transform.ts:266](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L266)
 
 Replace a range of the document with a given slice, using
 `from`, `to`, and the slice's
@@ -725,7 +725,7 @@ replaceRangeWith(
    node): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:284](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L284)
+Defined in: [packages/transform/src/Transform.ts:284](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L284)
 
 Replace the given range with a node, but use `from` and `to` as
 hints, rather than precise positions. When from and to are the same
@@ -766,7 +766,7 @@ replaceWith(
    content): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:216](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L216)
+Defined in: [packages/transform/src/Transform.ts:216](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L216)
 
 Replace the given range with the given content, which may be a
 fragment, node, or array of nodes.
@@ -803,7 +803,7 @@ setBlockType(
    attrs?): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:351](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L351)
+Defined in: [packages/transform/src/Transform.ts:351](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L351)
 
 Set the type of all textblocks (partly) between `from` and `to` to
 the given node type with the given attributes.
@@ -837,7 +837,7 @@ TransformDocument.setBlockType;
 setDocAttribute(attr, value): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:396](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L396)
+Defined in: [packages/transform/src/Transform.ts:396](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L396)
 
 Set a single attribute on the document to a new value.
 
@@ -871,7 +871,7 @@ setNodeAttribute(
    value): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:385](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L385)
+Defined in: [packages/transform/src/Transform.ts:385](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L385)
 
 Set a single attribute on a given node to a new value.
 The `pos` addresses the document content. Use `setDocAttribute`
@@ -909,7 +909,7 @@ setNodeMarkup(
    marks?): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:368](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L368)
+Defined in: [packages/transform/src/Transform.ts:368](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L368)
 
 Change the type, attributes, and/or marks of the node at `pos`.
 When `type` isn't given, the existing node type is preserved.
@@ -946,7 +946,7 @@ split(
    typesAfter?): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:463](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L463)
+Defined in: [packages/transform/src/Transform.ts:463](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L463)
 
 Split the node at the given position, and optionally, if `depth` is
 greater than one, any number of nodes above that. By default, the
@@ -982,7 +982,7 @@ TransformDocument.split;
 step(step): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:128](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L128)
+Defined in: [packages/transform/src/Transform.ts:128](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L128)
 
 Apply a new step in this transform, saving the result. Throws an
 error when the step fails.
@@ -1017,7 +1017,7 @@ TransformDocument.step;
 wrap(range, wrappers): this;
 ```
 
-Defined in: [packages/transform/src/Transform.ts:336](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/Transform.ts#L336)
+Defined in: [packages/transform/src/Transform.ts:336](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/Transform.ts#L336)
 
 Wrap the given [range](#model.NodeRange) in the given set of wrappers.
 The wrappers are assumed to be valid in this position, and should

@@ -18,7 +18,7 @@ function findWrapping(
 }[];
 ```
 
-Defined in: [packages/transform/src/change-helper/find-wrapping.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-helper/find-wrapping.ts#L15)
+Defined in: [packages/transform/src/change-helper/find-wrapping.ts:15](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/change-helper/find-wrapping.ts#L15)
 
 Try to find a valid way to wrap the content in the given range in a
 node of the given type. May introduce extra nodes around and inside

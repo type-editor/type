@@ -6,7 +6,7 @@
 
 # Class: ViewDescFactory
 
-Defined in: [ViewDescFactory.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L21)
+Defined in: [ViewDescFactory.ts:21](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L21)
 
 ## Constructors
 
@@ -32,7 +32,7 @@ static createCompositionViewDesc(
    text): CompositionViewDesc;
 ```
 
-Defined in: [ViewDescFactory.ts:142](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L142)
+Defined in: [ViewDescFactory.ts:142](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L142)
 
 Creates a new CompositionViewDesc.
 
@@ -61,7 +61,7 @@ static createMarkViewDesc(
    view): MarkViewDesc;
 ```
 
-Defined in: [ViewDescFactory.ts:81](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L81)
+Defined in: [ViewDescFactory.ts:81](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L81)
 
 Creates a mark view description, using custom mark views if available.
 
@@ -94,7 +94,7 @@ static createNodeViewDesc(
    pos): NodeViewDesc;
 ```
 
-Defined in: [ViewDescFactory.ts:43](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L43)
+Defined in: [ViewDescFactory.ts:43](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L43)
 
 Creates a node view description with optional custom view support.
 
@@ -137,7 +137,7 @@ static createTrailingHackViewDesc(
    contentDOM): TrailingHackViewDesc;
 ```
 
-Defined in: [ViewDescFactory.ts:111](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L111)
+Defined in: [ViewDescFactory.ts:111](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L111)
 
 Creates a new TrailingHackViewDesc.
 
@@ -166,7 +166,7 @@ static createWidgetViewDesc(
    pos): WidgetViewDesc;
 ```
 
-Defined in: [ViewDescFactory.ts:127](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L127)
+Defined in: [ViewDescFactory.ts:127](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/viewdesc/src/view-desc/ViewDescFactory.ts#L127)
 
 Creates a new WidgetViewDesc.
 

@@ -10,7 +10,7 @@
 function nextCell($pos, axis, dir): ResolvedPos;
 ```
 
-Defined in: [tables/src/utils/next-cell.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/next-cell.ts#L23)
+Defined in: [tables/src/utils/next-cell.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/tables/src/utils/next-cell.ts#L23)
 
 Finds the next cell in a given direction along an axis.
 

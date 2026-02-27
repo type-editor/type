@@ -6,7 +6,7 @@
 
 # Class: ReplaceError
 
-Defined in: [packages/model/src/replace.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/replace.ts#L29)
+Defined in: [packages/model/src/replace.ts:29](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/replace.ts#L29)
 
 Error type raised by [`Node.replace`](#model.Node.replace) when
 given an invalid replacement.

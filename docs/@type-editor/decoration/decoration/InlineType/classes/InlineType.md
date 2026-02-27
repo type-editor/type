@@ -6,7 +6,7 @@
 
 # Class: InlineType
 
-Defined in: [decoration/InlineType.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L19)
+Defined in: [decoration/InlineType.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L19)
 
 Inline decoration type that applies styling or attributes to a range
 of content without changing the document structure.
@@ -32,7 +32,7 @@ changes, or marking spelling errors. They render as inline elements (like
 new InlineType(attrs, spec?): InlineType;
 ```
 
-Defined in: [decoration/InlineType.ts:31](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L31)
+Defined in: [decoration/InlineType.ts:31](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L31)
 
 Creates a new inline decoration type.
 
@@ -55,8 +55,8 @@ Creates a new inline decoration type.
 
 | Property                                                                                | Modifier   | Type                              | Default value | Description                                                         | Inherited from                                                                                                                                                                                                                          | Defined in                                                                                                                                                                                    |
 | --------------------------------------------------------------------------------------- | ---------- | --------------------------------- | ------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-side"></a> `side`                                                       | `readonly` | `0`                               | `0`           | Inline decorations have no side preference since they span a range. | -                                                                                                                                                                                                                                       | [decoration/InlineType.ts:58](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L58)                         |
-| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations  | [`AbstractDecorationType`](../../AbstractDecorationType/classes/AbstractDecorationType.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationType/classes/AbstractDecorationType.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
+| <a id="property-side"></a> `side`                                                       | `readonly` | `0`                               | `0`           | Inline decorations have no side preference since they span a range. | -                                                                                                                                                                                                                                       | [decoration/InlineType.ts:58](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L58)                         |
+| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations  | [`AbstractDecorationType`](../../AbstractDecorationType/classes/AbstractDecorationType.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationType/classes/AbstractDecorationType.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
 
 ## Accessors
 
@@ -68,7 +68,7 @@ Creates a new inline decoration type.
 get attrs(): DecorationAttrs;
 ```
 
-Defined in: [decoration/InlineType.ts:40](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L40)
+Defined in: [decoration/InlineType.ts:40](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L40)
 
 The attributes to apply to the decorated range (class, style, data-\*, etc.)
 
@@ -86,7 +86,7 @@ The attributes to apply to the decorated range (class, style, data-\*, etc.)
 get spec(): InlineDecorationOptions;
 ```
 
-Defined in: [decoration/InlineType.ts:49](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L49)
+Defined in: [decoration/InlineType.ts:49](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L49)
 
 Get the specification object for this inline decoration.
 
@@ -110,7 +110,7 @@ DecorationType.spec;
 protected compareObjs(a, b): boolean;
 ```
 
-Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
+Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
 
 Deep comparison of two objects to check if they have the same properties
 and values. This is used to determine if two decoration specs are equal.
@@ -140,7 +140,7 @@ True if objects are equal, false otherwise
 destroy(): void;
 ```
 
-Defined in: [decoration/InlineType.ts:123](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L123)
+Defined in: [decoration/InlineType.ts:123](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L123)
 
 Clean up this decoration. Inline decorations have no cleanup needed.
 
@@ -162,7 +162,7 @@ DecorationType.destroy;
 eq(other): boolean;
 ```
 
-Defined in: [decoration/InlineType.ts:103](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L103)
+Defined in: [decoration/InlineType.ts:103](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L103)
 
 Check if this inline type is equal to another decoration type.
 
@@ -196,7 +196,7 @@ map(
    oldOffset): PmDecoration;
 ```
 
-Defined in: [decoration/InlineType.ts:69](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L69)
+Defined in: [decoration/InlineType.ts:69](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L69)
 
 Map this decoration through a document change.
 
@@ -229,7 +229,7 @@ DecorationType.map;
 valid(_, span): boolean;
 ```
 
-Defined in: [decoration/InlineType.ts:93](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L93)
+Defined in: [decoration/InlineType.ts:93](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L93)
 
 Check if this inline decoration is valid for the given node and span.
 
@@ -260,7 +260,7 @@ DecorationType.valid;
 static is(span): boolean;
 ```
 
-Defined in: [decoration/InlineType.ts:116](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/InlineType.ts#L116)
+Defined in: [decoration/InlineType.ts:116](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/decoration/src/decoration/InlineType.ts#L116)
 
 Check if a decoration is an inline decoration.
 

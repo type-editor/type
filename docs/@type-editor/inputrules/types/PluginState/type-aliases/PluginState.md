@@ -15,7 +15,7 @@ type PluginState = {
 } | null;
 ```
 
-Defined in: [types/PluginState.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/inputrules/src/types/PluginState.ts#L8)
+Defined in: [types/PluginState.ts:8](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/inputrules/src/types/PluginState.ts#L8)
 
 Internal state stored in the input rules plugin to track the last applied rule
 for undo functionality.

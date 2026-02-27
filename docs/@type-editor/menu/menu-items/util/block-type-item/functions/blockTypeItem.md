@@ -10,7 +10,7 @@
 function blockTypeItem(nodeType, options): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/block-type-item.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/block-type-item.ts#L19)
+Defined in: [packages/menu/src/menu-items/util/block-type-item.ts:19](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/menu/src/menu-items/util/block-type-item.ts#L19)
 
 Build a menu item for changing the type of the textblock around the
 selection to the given type. Provides `run`, `active`, and `select`

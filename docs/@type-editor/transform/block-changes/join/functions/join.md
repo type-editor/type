@@ -10,7 +10,7 @@
 function join(transform, pos, depth): TransformDocument;
 ```
 
-Defined in: [packages/transform/src/block-changes/join.ts:17](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/block-changes/join.ts#L17)
+Defined in: [packages/transform/src/block-changes/join.ts:17](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/transform/src/block-changes/join.ts#L17)
 
 Join two blocks at the given position and depth.
 

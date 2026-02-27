@@ -6,7 +6,7 @@
 
 # Class: ContentParser
 
-Defined in: [packages/model/src/content-parser/ContentParser.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/content-parser/ContentParser.ts#L23)
+Defined in: [packages/model/src/content-parser/ContentParser.ts:23](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/content-parser/ContentParser.ts#L23)
 
 Parser for ProseMirror content expressions.
 
@@ -40,7 +40,7 @@ new ContentParser(): ContentParser;
 parse(string, nodeTypes): ContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/ContentParser.ts:52](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/content-parser/ContentParser.ts#L52)
+Defined in: [packages/model/src/content-parser/ContentParser.ts:52](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/content-parser/ContentParser.ts#L52)
 
 Parses a content expression string into a ContentMatch automaton.
 
@@ -69,7 +69,7 @@ If the content expression is invalid
 static parse(string, nodeTypes): ContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/ContentParser.ts:39](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/content-parser/ContentParser.ts#L39)
+Defined in: [packages/model/src/content-parser/ContentParser.ts:39](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/model/src/content-parser/ContentParser.ts#L39)
 
 Parses a content expression string into a ContentMatch automaton.
 

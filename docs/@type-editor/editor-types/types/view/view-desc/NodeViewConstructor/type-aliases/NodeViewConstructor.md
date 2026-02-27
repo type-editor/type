@@ -16,7 +16,7 @@ type NodeViewConstructor = (
 ) => NodeView;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/NodeViewConstructor.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/view-desc/NodeViewConstructor.ts#L12)
+Defined in: [packages/editor-types/src/types/view/view-desc/NodeViewConstructor.ts:12](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/editor-types/src/types/view/view-desc/NodeViewConstructor.ts#L12)
 
 The type of function [provided](#view.EditorProps.nodeViews) to
 create [node views](#view.NodeView).

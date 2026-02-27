@@ -10,7 +10,7 @@
 function shouldHandleMobileEnterKey(view, addedNodes, change): boolean;
 ```
 
-Defined in: [browser-hacks/should-handle-mobile-enter-key.ts:40](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/browser-hacks/should-handle-mobile-enter-key.ts#L40)
+Defined in: [browser-hacks/should-handle-mobile-enter-key.ts:40](https://github.com/type-editor/type/blob/1440286448396eb7a2fecaed8442b6ac57cafd0e/packages/dom-change-util/src/dom-change/browser-hacks/should-handle-mobile-enter-key.ts#L40)
 
 Checks if a mobile Enter key should be handled instead of processing the DOM change.
 

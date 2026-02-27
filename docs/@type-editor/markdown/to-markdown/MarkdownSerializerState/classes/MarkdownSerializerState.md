@@ -6,7 +6,7 @@
 
 # Class: MarkdownSerializerState
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:13](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L13)
+Defined in: [to-markdown/MarkdownSerializerState.ts:13](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L13)
 
 This is an object used to track state and expose
 methods related to markdown serialization. Instances are passed to
@@ -23,7 +23,7 @@ new MarkdownSerializerState(
    options): MarkdownSerializerState;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:40](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L40)
+Defined in: [to-markdown/MarkdownSerializerState.ts:40](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L40)
 
 Create a new serializer state for tracking the markdown serialization process.
 
@@ -49,7 +49,7 @@ Create a new serializer state for tracking the markdown serialization process.
 get closed(): Node_2;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:66](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L66)
+Defined in: [to-markdown/MarkdownSerializerState.ts:66](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L66)
 
 ##### Returns
 
@@ -65,7 +65,7 @@ Defined in: [to-markdown/MarkdownSerializerState.ts:66](https://github.com/type-
 get inAutolink(): boolean;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:70](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L70)
+Defined in: [to-markdown/MarkdownSerializerState.ts:70](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L70)
 
 ##### Returns
 
@@ -77,7 +77,7 @@ Defined in: [to-markdown/MarkdownSerializerState.ts:70](https://github.com/type-
 set inAutolink(inAutolink): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:74](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L74)
+Defined in: [to-markdown/MarkdownSerializerState.ts:74](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L74)
 
 ##### Parameters
 
@@ -99,7 +99,7 @@ Defined in: [to-markdown/MarkdownSerializerState.ts:74](https://github.com/type-
 get out(): string;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:58](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L58)
+Defined in: [to-markdown/MarkdownSerializerState.ts:58](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L58)
 
 ##### Returns
 
@@ -111,7 +111,7 @@ Defined in: [to-markdown/MarkdownSerializerState.ts:58](https://github.com/type-
 set out(out): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:62](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L62)
+Defined in: [to-markdown/MarkdownSerializerState.ts:62](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L62)
 
 ##### Parameters
 
@@ -131,7 +131,7 @@ Defined in: [to-markdown/MarkdownSerializerState.ts:62](https://github.com/type-
 atBlank(): boolean;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:132](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L132)
+Defined in: [to-markdown/MarkdownSerializerState.ts:132](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L132)
 
 Check if the output is currently at a blank position (empty or ends with newline).
 
@@ -149,7 +149,7 @@ True if the output is empty or ends with a newline
 closeBlock(node): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:168](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L168)
+Defined in: [to-markdown/MarkdownSerializerState.ts:168](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L168)
 
 Close the block for the given node.
 
@@ -171,7 +171,7 @@ Close the block for the given node.
 ensureNewLine(): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:139](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L139)
+Defined in: [to-markdown/MarkdownSerializerState.ts:139](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L139)
 
 Ensure the current content ends with a newline.
 
@@ -187,7 +187,7 @@ Ensure the current content ends with a newline.
 esc(str, startOfLine?): string;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:422](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L422)
+Defined in: [to-markdown/MarkdownSerializerState.ts:422](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L422)
 
 Escape the given string so that it can safely appear in Markdown
 content. If `startOfLine` is true, also escape characters that
@@ -214,7 +214,7 @@ The escaped string
 flushClose(size?): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:83](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L83)
+Defined in: [to-markdown/MarkdownSerializerState.ts:83](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L83)
 
 Flush a closed block, adding blank lines as needed.
 
@@ -239,7 +239,7 @@ getEnclosingWhitespace(text): {
 };
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:502](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L502)
+Defined in: [to-markdown/MarkdownSerializerState.ts:502](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L502)
 
 Get leading and trailing whitespace from a string. Values of
 leading or trailing property of the return object will be undefined
@@ -264,8 +264,8 @@ An object containing the leading and trailing whitespace (if any)
 
 | Name        | Type     | Defined in                                                                                                                                                                                        |
 | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `leading?`  | `string` | [to-markdown/MarkdownSerializerState.ts:502](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L502) |
-| `trailing?` | `string` | [to-markdown/MarkdownSerializerState.ts:502](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L502) |
+| `leading?`  | `string` | [to-markdown/MarkdownSerializerState.ts:502](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L502) |
+| `trailing?` | `string` | [to-markdown/MarkdownSerializerState.ts:502](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L502) |
 
 ---
 
@@ -279,7 +279,7 @@ markString(
    index): string;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:485](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L485)
+Defined in: [to-markdown/MarkdownSerializerState.ts:485](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L485)
 
 Get the markdown string for a given opening or closing mark.
 
@@ -306,7 +306,7 @@ The markdown string for the mark
 quote(str): string;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:455](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L455)
+Defined in: [to-markdown/MarkdownSerializerState.ts:455](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L455)
 
 Wrap a string with appropriate quote characters.
 Chooses double quotes, single quotes, or parentheses based on the content.
@@ -331,7 +331,7 @@ The quoted string
 renderContent(parent): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:202](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L202)
+Defined in: [to-markdown/MarkdownSerializerState.ts:202](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L202)
 
 Render the contents of `parent` as block nodes.
 
@@ -353,7 +353,7 @@ Render the contents of `parent` as block nodes.
 renderInline(parent, fromBlockStart?): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:214](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L214)
+Defined in: [to-markdown/MarkdownSerializerState.ts:214](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L214)
 
 Render the contents of `parent` as inline content.
 
@@ -379,7 +379,7 @@ renderList(
    firstDelim): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:388](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L388)
+Defined in: [to-markdown/MarkdownSerializerState.ts:388](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L388)
 
 Render a node's content as a list. `delim` should be the extra
 indentation added to all lines except the first in an item,
@@ -406,7 +406,7 @@ delimiter for the first line of the item.
 repeat(str, n): string;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:472](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L472)
+Defined in: [to-markdown/MarkdownSerializerState.ts:472](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L472)
 
 Repeat the given string `n` times.
 
@@ -431,7 +431,7 @@ The repeated string
 text(text, escape?): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:179](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L179)
+Defined in: [to-markdown/MarkdownSerializerState.ts:179](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L179)
 
 Add the given text to the document. When escape is not `false`,
 it will be escaped.
@@ -459,7 +459,7 @@ wrapBlock(
    callbackFunc): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:115](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L115)
+Defined in: [to-markdown/MarkdownSerializerState.ts:115](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L115)
 
 Render a block, prefixing each line with `delim`, and the first
 line in `firstDelim`. `node` should be the node that is closed at
@@ -487,7 +487,7 @@ content of the block.
 write(content?): void;
 ```
 
-Defined in: [to-markdown/MarkdownSerializerState.ts:152](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L152)
+Defined in: [to-markdown/MarkdownSerializerState.ts:152](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/markdown/src/to-markdown/MarkdownSerializerState.ts#L152)
 
 Prepare the state for writing output (closing closed paragraphs,
 adding delimiters, and so on), and then optionally add content

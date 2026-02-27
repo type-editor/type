@@ -15,7 +15,7 @@ function moveRowInArrayOfRows<T>(
 ): T[];
 ```
 
-Defined in: [tables/src/utils/move-row-in-array-of-rows.ts:42](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/utils/move-row-in-array-of-rows.ts#L42)
+Defined in: [tables/src/utils/move-row-in-array-of-rows.ts:42](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/move-row-in-array-of-rows.ts#L42)
 
 Moves one or more consecutive elements from the origin position to a target position
 within an array of rows. Supports both single and multi-row operations.

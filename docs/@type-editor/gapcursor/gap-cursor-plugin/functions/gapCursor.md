@@ -10,7 +10,7 @@
 function gapCursor(): Plugin_2;
 ```
 
-Defined in: [gapcursor/src/gap-cursor-plugin.ts:36](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/gap-cursor-plugin.ts#L36)
+Defined in: [gapcursor/src/gap-cursor-plugin.ts:36](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/gap-cursor-plugin.ts#L36)
 
 Creates a gap cursor plugin for the editor.
 

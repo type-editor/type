@@ -6,7 +6,7 @@
 
 # Class: FieldDesc&lt;T&gt;
 
-Defined in: [state/src/editor-state/FieldDesc.ts:25](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/editor-state/FieldDesc.ts#L25)
+Defined in: [state/src/editor-state/FieldDesc.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/editor-state/FieldDesc.ts#L25)
 
 **`Internal`**
 
@@ -36,7 +36,7 @@ new FieldDesc<T>(
    self?): FieldDesc<T>;
 ```
 
-Defined in: [state/src/editor-state/FieldDesc.ts:59](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/editor-state/FieldDesc.ts#L59)
+Defined in: [state/src/editor-state/FieldDesc.ts:59](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/editor-state/FieldDesc.ts#L59)
 
 Creates a new field descriptor. This class acts as a wrapper around a given StateField
 to allow calling the init and apply functions with a given context.
@@ -71,7 +71,7 @@ If the stateField is null/undefined or missing required init/apply functions
 get name(): string;
 ```
 
-Defined in: [state/src/editor-state/FieldDesc.ts:76](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/editor-state/FieldDesc.ts#L76)
+Defined in: [state/src/editor-state/FieldDesc.ts:76](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/editor-state/FieldDesc.ts#L76)
 
 Gets the unique name/identifier of this field.
 
@@ -93,7 +93,7 @@ apply(
    newState): T;
 ```
 
-Defined in: [state/src/editor-state/FieldDesc.ts:114](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/editor-state/FieldDesc.ts#L114)
+Defined in: [state/src/editor-state/FieldDesc.ts:114](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/editor-state/FieldDesc.ts#L114)
 
 Computes the new field value when a transaction is applied to the editor state.
 
@@ -124,7 +124,7 @@ The new value for this state field after applying the transaction
 init(config, instance): T;
 ```
 
-Defined in: [state/src/editor-state/FieldDesc.ts:94](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/editor-state/FieldDesc.ts#L94)
+Defined in: [state/src/editor-state/FieldDesc.ts:94](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/editor-state/FieldDesc.ts#L94)
 
 Initializes the field value when creating a new editor state.
 

@@ -6,7 +6,7 @@
 
 # Class: SearchState
 
-Defined in: [SearchState.ts:11](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/SearchState.ts#L11)
+Defined in: [SearchState.ts:11](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/SearchState.ts#L11)
 
 Internal state for the search plugin, maintaining the current search query,
 optional search range, and decoration set for highlighting matches.
@@ -22,7 +22,7 @@ new SearchState(
    deco): SearchState;
 ```
 
-Defined in: [SearchState.ts:23](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/SearchState.ts#L23)
+Defined in: [SearchState.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/SearchState.ts#L23)
 
 Creates a new SearchState instance.
 
@@ -48,7 +48,7 @@ Creates a new SearchState instance.
 get deco(): DecorationSet;
 ```
 
-Defined in: [SearchState.ts:46](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/SearchState.ts#L46)
+Defined in: [SearchState.ts:46](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/SearchState.ts#L46)
 
 Gets the decoration set for highlighting matches.
 
@@ -66,7 +66,7 @@ Gets the decoration set for highlighting matches.
 get query(): SearchQuery;
 ```
 
-Defined in: [SearchState.ts:32](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/SearchState.ts#L32)
+Defined in: [SearchState.ts:32](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/SearchState.ts#L32)
 
 Gets the current search query.
 
@@ -84,7 +84,7 @@ Gets the current search query.
 get range(): DocumentRange;
 ```
 
-Defined in: [SearchState.ts:39](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/SearchState.ts#L39)
+Defined in: [SearchState.ts:39](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/SearchState.ts#L39)
 
 Gets the current search range, if any.
 

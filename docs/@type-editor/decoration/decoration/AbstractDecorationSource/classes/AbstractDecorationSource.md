@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractDecorationSource
 
-Defined in: [decoration/AbstractDecorationSource.ts:11](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationSource.ts#L11)
+Defined in: [decoration/AbstractDecorationSource.ts:11](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationSource.ts#L11)
 
 Base class for decoration sources that provides common functionality
 for handling overlapping decorations and sorting.
@@ -36,7 +36,7 @@ new AbstractDecorationSource(): AbstractDecorationSource;
 
 | Property                                                                                | Modifier   | Type                              | Default value | Description                                                        | Defined in                                                                                                                                                                                        |
 | --------------------------------------------------------------------------------------- | ---------- | --------------------------------- | ------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [decoration/AbstractDecorationSource.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationSource.ts#L14) |
+| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [decoration/AbstractDecorationSource.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationSource.ts#L14) |
 
 ## Methods
 
@@ -46,7 +46,7 @@ new AbstractDecorationSource(): AbstractDecorationSource;
 protected removeOverlap(spans): PmDecoration[];
 ```
 
-Defined in: [decoration/AbstractDecorationSource.ts:25](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationSource.ts#L25)
+Defined in: [decoration/AbstractDecorationSource.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationSource.ts#L25)
 
 Scan a sorted array of decorations for partially overlapping spans,
 and split those so that only fully overlapping spans are left (to
@@ -73,7 +73,7 @@ A new array with overlaps removed, or the original if no overlaps exist
 protected static sortDecorations(spans): PmDecoration[];
 ```
 
-Defined in: [decoration/AbstractDecorationSource.ts:96](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationSource.ts#L96)
+Defined in: [decoration/AbstractDecorationSource.ts:96](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationSource.ts#L96)
 
 Comparator function used to sort decorations by position.
 Decorations with lower start positions come first, and within

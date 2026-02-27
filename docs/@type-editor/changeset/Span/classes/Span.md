@@ -6,7 +6,7 @@
 
 # Class: Span&lt;Data&gt;
 
-Defined in: [Span.ts:12](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Span.ts#L12)
+Defined in: [Span.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Span.ts#L12)
 
 Stores metadata for a part of a change.
 
@@ -27,7 +27,7 @@ Spans are immutable and can be sliced, joined, or cut to create new spans.
 new Span<Data>(length, data): Span<Data>;
 ```
 
-Defined in: [Span.ts:26](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Span.ts#L26)
+Defined in: [Span.ts:26](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Span.ts#L26)
 
 Creates a new Span with the specified length and associated data.
 
@@ -46,7 +46,7 @@ Creates a new Span with the specified length and associated data.
 
 | Property                          | Modifier   | Type                           | Default value | Description                                        | Defined in                                                                                                                         |
 | --------------------------------- | ---------- | ------------------------------ | ------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-none"></a> `none` | `readonly` | readonly `Span`&lt;`any`&gt;[] | `[]`          | An empty span array constant to avoid allocations. | [Span.ts:15](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Span.ts#L15) |
+| <a id="property-none"></a> `none` | `readonly` | readonly `Span`&lt;`any`&gt;[] | `[]`          | An empty span array constant to avoid allocations. | [Span.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Span.ts#L15) |
 
 ## Accessors
 
@@ -58,7 +58,7 @@ Creates a new Span with the specified length and associated data.
 get data(): Data;
 ```
 
-Defined in: [Span.ts:37](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Span.ts#L37)
+Defined in: [Span.ts:37](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Span.ts#L37)
 
 Returns the metadata associated with this span.
 
@@ -76,7 +76,7 @@ Returns the metadata associated with this span.
 get length(): number;
 ```
 
-Defined in: [Span.ts:32](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Span.ts#L32)
+Defined in: [Span.ts:32](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Span.ts#L32)
 
 Returns the length of this span.
 
@@ -95,7 +95,7 @@ static join<Data>(
    combine): readonly Span<Data>[];
 ```
 
-Defined in: [Span.ts:120](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Span.ts#L120)
+Defined in: [Span.ts:120](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Span.ts#L120)
 
 Joins two span arrays, potentially combining adjacent spans at the boundary.
 
@@ -134,7 +134,7 @@ static slice<Data>(
    to): readonly Span<Data>[];
 ```
 
-Defined in: [Span.ts:65](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/Span.ts#L65)
+Defined in: [Span.ts:65](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/Span.ts#L65)
 
 Slices a range from an array of spans.
 

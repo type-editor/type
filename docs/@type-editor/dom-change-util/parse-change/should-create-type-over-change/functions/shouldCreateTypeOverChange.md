@@ -10,7 +10,7 @@
 function shouldCreateTypeOverChange(typeOver, selection, view, parse): boolean;
 ```
 
-Defined in: [parse-change/should-create-type-over-change.ts:29](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/parse-change/should-create-type-over-change.ts#L29)
+Defined in: [parse-change/should-create-type-over-change.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/parse-change/should-create-type-over-change.ts#L29)
 
 Checks if a change should be created for typing over a selection.
 

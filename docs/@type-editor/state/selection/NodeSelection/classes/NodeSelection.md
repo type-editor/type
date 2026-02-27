@@ -6,7 +6,7 @@
 
 # Class: NodeSelection
 
-Defined in: [state/src/selection/NodeSelection.ts:19](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L19)
+Defined in: [state/src/selection/NodeSelection.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L19)
 
 A node selection is a selection that points at a single node. All
 nodes marked [selectable](#model.NodeSpec.selectable) can be the
@@ -34,7 +34,7 @@ that cannot be part of a text selection.
 new NodeSelection($pos): NodeSelection;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:51](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L51)
+Defined in: [state/src/selection/NodeSelection.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L51)
 
 Create a node selection. Does not verify the validity of its
 argument - it's the caller's responsibility to ensure that the
@@ -62,10 +62,10 @@ If there is no node after the given position
 
 | Property                                                | Modifier    | Type                          | Default value | Description                                                                                                                      | Inherited from                                                                                                                         | Defined in                                                                                                                                                               |
 | ------------------------------------------------------- | ----------- | ----------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-anchorpos"></a> `anchorPos`             | `readonly`  | `ResolvedPos`                 | `undefined`   | The resolved position of the selection's anchor (the immobile end).                                                              | [`Selection`](../../Selection/classes/Selection.md).[`anchorPos`](../../Selection/classes/Selection.md#property-anchorpos)             | [state/src/selection/Selection.ts:92](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L92)   |
-| <a id="property-headpos"></a> `headPos`                 | `readonly`  | `ResolvedPos`                 | `undefined`   | The resolved position of the selection's head (the mobile end).                                                                  | [`Selection`](../../Selection/classes/Selection.md).[`headPos`](../../Selection/classes/Selection.md#property-headpos)                 | [state/src/selection/Selection.ts:98](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L98)   |
-| <a id="property-isvisible"></a> `isVisible`             | `protected` | `boolean`                     | `true`        | Controls whether the selection should be visible in the browser. Some selection types (like node selections) may be invisible.   | [`Selection`](../../Selection/classes/Selection.md).[`isVisible`](../../Selection/classes/Selection.md#property-isvisible)             | [state/src/selection/Selection.ts:105](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L105) |
-| <a id="property-selectionranges"></a> `selectionRanges` | `readonly`  | readonly `PmSelectionRange`[] | `undefined`   | The array of selection ranges covered by this selection. Most selections have a single range, but some may span multiple ranges. | [`Selection`](../../Selection/classes/Selection.md).[`selectionRanges`](../../Selection/classes/Selection.md#property-selectionranges) | [state/src/selection/Selection.ts:86](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L86)   |
+| <a id="property-anchorpos"></a> `anchorPos`             | `readonly`  | `ResolvedPos`                 | `undefined`   | The resolved position of the selection's anchor (the immobile end).                                                              | [`Selection`](../../Selection/classes/Selection.md).[`anchorPos`](../../Selection/classes/Selection.md#property-anchorpos)             | [state/src/selection/Selection.ts:92](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L92)   |
+| <a id="property-headpos"></a> `headPos`                 | `readonly`  | `ResolvedPos`                 | `undefined`   | The resolved position of the selection's head (the mobile end).                                                                  | [`Selection`](../../Selection/classes/Selection.md).[`headPos`](../../Selection/classes/Selection.md#property-headpos)                 | [state/src/selection/Selection.ts:98](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L98)   |
+| <a id="property-isvisible"></a> `isVisible`             | `protected` | `boolean`                     | `true`        | Controls whether the selection should be visible in the browser. Some selection types (like node selections) may be invisible.   | [`Selection`](../../Selection/classes/Selection.md).[`isVisible`](../../Selection/classes/Selection.md#property-isvisible)             | [state/src/selection/Selection.ts:105](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L105) |
+| <a id="property-selectionranges"></a> `selectionRanges` | `readonly`  | readonly `PmSelectionRange`[] | `undefined`   | The array of selection ranges covered by this selection. Most selections have a single range, but some may span multiple ranges. | [`Selection`](../../Selection/classes/Selection.md).[`selectionRanges`](../../Selection/classes/Selection.md#property-selectionranges) | [state/src/selection/Selection.ts:86](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L86)   |
 
 ## Accessors
 
@@ -77,7 +77,7 @@ If there is no node after the given position
 get $anchor(): ResolvedPos;
 ```
 
-Defined in: [state/src/selection/Selection.ts:167](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L167)
+Defined in: [state/src/selection/Selection.ts:167](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L167)
 
 The resolved anchor position of the selection.
 The anchor is the immobile end of the selection - it stays in place
@@ -109,7 +109,7 @@ PmSelection.$anchor;
 get $cursor(): ResolvedPos;
 ```
 
-Defined in: [state/src/selection/Selection.ts:138](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L138)
+Defined in: [state/src/selection/Selection.ts:138](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L138)
 
 The cursor position if this is an empty text selection, null otherwise
 
@@ -137,7 +137,7 @@ PmSelection.$cursor;
 get $from(): ResolvedPos;
 ```
 
-Defined in: [state/src/selection/Selection.ts:234](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L234)
+Defined in: [state/src/selection/Selection.ts:234](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L234)
 
 The resolved lower bound of the selection's main range.
 This provides access to the document structure at the start of the selection,
@@ -173,7 +173,7 @@ PmSelection.$from;
 get $head(): ResolvedPos;
 ```
 
-Defined in: [state/src/selection/Selection.ts:178](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L178)
+Defined in: [state/src/selection/Selection.ts:178](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L178)
 
 The resolved head position of the selection.
 The head is the mobile end of the selection - it moves when
@@ -205,7 +205,7 @@ PmSelection.$head;
 get $to(): ResolvedPos;
 ```
 
-Defined in: [state/src/selection/Selection.ts:249](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L249)
+Defined in: [state/src/selection/Selection.ts:249](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L249)
 
 The resolved upper bound of the selection's main range.
 This provides access to the document structure at the end of the selection,
@@ -241,7 +241,7 @@ PmSelection.$to;
 get anchor(): number;
 ```
 
-Defined in: [state/src/selection/Selection.ts:189](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L189)
+Defined in: [state/src/selection/Selection.ts:189](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L189)
 
 The selection's anchor, as an unresolved position.
 This is the integer position in the document where the anchor is located.
@@ -273,7 +273,7 @@ PmSelection.anchor;
 get empty(): boolean;
 ```
 
-Defined in: [state/src/selection/Selection.ts:263](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L263)
+Defined in: [state/src/selection/Selection.ts:263](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L263)
 
 Indicates whether the selection contains any content.
 A selection is empty when all its ranges have identical from and to positions,
@@ -305,7 +305,7 @@ PmSelection.empty;
 get from(): number;
 ```
 
-Defined in: [state/src/selection/Selection.ts:211](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L211)
+Defined in: [state/src/selection/Selection.ts:211](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L211)
 
 The lower bound of the selection's main range.
 This is always the smaller position value, regardless of which end is
@@ -337,7 +337,7 @@ PmSelection.from;
 get head(): number;
 ```
 
-Defined in: [state/src/selection/Selection.ts:200](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L200)
+Defined in: [state/src/selection/Selection.ts:200](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L200)
 
 The selection's head, as an unresolved position.
 This is the integer position in the document where the head is located.
@@ -369,7 +369,7 @@ PmSelection.head;
 get node(): Node_2;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:78](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L78)
+Defined in: [state/src/selection/NodeSelection.ts:78](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L78)
 
 The selected node.
 Provides direct access to the node object that is currently selected.
@@ -400,7 +400,7 @@ PmSelection.node;
 get ranges(): readonly SelectionRange[];
 ```
 
-Defined in: [state/src/selection/Selection.ts:156](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L156)
+Defined in: [state/src/selection/Selection.ts:156](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L156)
 
 The ranges covered by the selection.
 For most selections, this will be a single range. Multiple ranges
@@ -432,7 +432,7 @@ PmSelection.ranges;
 get to(): number;
 ```
 
-Defined in: [state/src/selection/Selection.ts:222](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L222)
+Defined in: [state/src/selection/Selection.ts:222](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L222)
 
 The upper bound of the selection's main range.
 This is always the larger position value, regardless of which end is
@@ -464,7 +464,7 @@ PmSelection.to;
 get type(): string;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:68](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L68)
+Defined in: [state/src/selection/NodeSelection.ts:68](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L68)
 
 The type identifier for this selection.
 
@@ -494,7 +494,7 @@ PmSelection.type;
 get visible(): boolean;
 ```
 
-Defined in: [state/src/selection/Selection.ts:274](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L274)
+Defined in: [state/src/selection/Selection.ts:274](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L274)
 
 Controls whether the selection should be visible to the user in the browser.
 Most selections are visible (highlighted), but some selection types like
@@ -512,7 +512,7 @@ True if the selection should be visible, false otherwise
 set visible(isVisible): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:283](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L283)
+Defined in: [state/src/selection/Selection.ts:283](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L283)
 
 Sets whether the selection should be visible to the user in the browser.
 
@@ -544,7 +544,7 @@ PmSelection.visible;
 content(): Slice;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:104](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L104)
+Defined in: [state/src/selection/NodeSelection.ts:104](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L104)
 
 Get the content of this selection as a slice.
 For node selections, this returns the selected node wrapped in a slice
@@ -574,7 +574,7 @@ PmSelection.content;
 eq(other): boolean;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:116](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L116)
+Defined in: [state/src/selection/NodeSelection.ts:116](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L116)
 
 Test whether this selection is equal to another selection.
 Node selections are equal if they select the same position
@@ -610,7 +610,7 @@ PmSelection.eq;
 getBookmark(): NodeBookmark;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:136](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L136)
+Defined in: [state/src/selection/NodeSelection.ts:136](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L136)
 
 Create a bookmark for this selection.
 The bookmark can be used to restore this selection after document changes,
@@ -640,7 +640,7 @@ PmSelection.getBookmark;
 isAllSelection(): boolean;
 ```
 
-Defined in: [state/src/selection/Selection.ts:590](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L590)
+Defined in: [state/src/selection/Selection.ts:590](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L590)
 
 Check if this is an all selection.
 
@@ -668,7 +668,7 @@ PmSelection.isAllSelection;
 isNodeSelection(): boolean;
 ```
 
-Defined in: [state/src/selection/Selection.ts:581](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L581)
+Defined in: [state/src/selection/Selection.ts:581](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L581)
 
 Check if this is a node selection.
 
@@ -696,7 +696,7 @@ PmSelection.isNodeSelection;
 isTextSelection(): boolean;
 ```
 
-Defined in: [state/src/selection/Selection.ts:572](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L572)
+Defined in: [state/src/selection/Selection.ts:572](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L572)
 
 Check if this is a text selection.
 
@@ -724,7 +724,7 @@ PmSelection.isTextSelection;
 map(doc, mapping): Selection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:640](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L640)
+Defined in: [state/src/selection/Selection.ts:640](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L640)
 
 Map this selection through a mappable transformation.
 This updates the selection to reflect changes made to the document,
@@ -765,7 +765,7 @@ PmSelection.map;
 replace(transaction, content?): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:672](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L672)
+Defined in: [state/src/selection/Selection.ts:672](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L672)
 
 Replace the selection with a slice or, if no slice is given,
 delete the selection. Will append to the given transaction.
@@ -799,7 +799,7 @@ PmSelection.replace;
 replaceWith(transaction, node): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:754](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L754)
+Defined in: [state/src/selection/Selection.ts:754](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L754)
 
 Replace the selection with the given node, appending the changes
 to the given transaction.
@@ -837,7 +837,7 @@ PmSelection.replaceWith;
 toJSON(): SelectionJSON;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:125](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L125)
+Defined in: [state/src/selection/NodeSelection.ts:125](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L125)
 
 Convert this selection to a JSON-serializable representation.
 
@@ -865,7 +865,7 @@ PmSelection.toJSON;
 static atEnd(doc): Selection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:335](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L335)
+Defined in: [state/src/selection/Selection.ts:335](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L335)
 
 Find the cursor or leaf node selection closest to the end of the
 given document. Will return an AllSelection if no valid position
@@ -897,7 +897,7 @@ A selection at the end of the document
 static atStart(doc): Selection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:320](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L320)
+Defined in: [state/src/selection/Selection.ts:320](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L320)
 
 Find the cursor or leaf node selection closest to the start of
 the given document. Will return an AllSelection if no valid
@@ -933,7 +933,7 @@ static between(
    bias?): Selection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:412](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L412)
+Defined in: [state/src/selection/Selection.ts:412](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L412)
 
 #### Parameters
 
@@ -972,7 +972,7 @@ Optional integer position (required if first arg is a Node)
 static create(position): NodeSelection;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:146](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L146)
+Defined in: [state/src/selection/NodeSelection.ts:146](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L146)
 
 Create a node selection from a resolved position.
 
@@ -994,7 +994,7 @@ A new EditorSelection wrapping a NodeSelection
 static create(node, position): NodeSelection;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:155](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L155)
+Defined in: [state/src/selection/NodeSelection.ts:155](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L155)
 
 Create a node selection from a document and position offset.
 
@@ -1022,7 +1022,7 @@ static findFrom(
    textOnly?): Selection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:354](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L354)
+Defined in: [state/src/selection/Selection.ts:354](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L354)
 
 Find a valid cursor or leaf node selection starting at the given
 position and searching in the specified direction. When `textOnly`
@@ -1058,7 +1058,7 @@ A valid selection, or null if none found
 static fromJSON(doc, json): NodeSelection;
 ```
 
-Defined in: [state/src/selection/NodeSelection.ts:90](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/NodeSelection.ts#L90)
+Defined in: [state/src/selection/NodeSelection.ts:90](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/NodeSelection.ts#L90)
 
 Deserialize a node selection from its JSON representation.
 
@@ -1091,7 +1091,7 @@ If the JSON does not contain a valid anchor position
 static isNodeSelectable(node): boolean;
 ```
 
-Defined in: [state/src/selection/Selection.ts:384](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L384)
+Defined in: [state/src/selection/Selection.ts:384](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L384)
 
 Determines whether the given node may be selected as a node selection.
 A node is selectable if it's not a text node and its type specification
@@ -1121,7 +1121,7 @@ True if the node can be selected as a node selection, false otherwise
 static jsonID(jsonId, jsonDeserializerClass): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:72](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L72)
+Defined in: [state/src/selection/Selection.ts:72](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L72)
 
 #### Parameters
 
@@ -1146,7 +1146,7 @@ Defined in: [state/src/selection/Selection.ts:72](https://github.com/type-editor
 static near($pos, bias?): Selection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:303](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L303)
+Defined in: [state/src/selection/Selection.ts:303](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L303)
 
 Find a valid cursor or leaf node selection near the given position.
 Searches in the direction specified by `bias` first, then tries the
@@ -1181,7 +1181,7 @@ A valid selection near the given position, or an all-selection
 protected static registerAllSelectionHandler(handler): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:68](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L68)
+Defined in: [state/src/selection/Selection.ts:68](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L68)
 
 #### Parameters
 
@@ -1205,7 +1205,7 @@ Defined in: [state/src/selection/Selection.ts:68](https://github.com/type-editor
 static registerJsonDeserializerClass(jsonId, jsonDeserializerClass): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:76](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L76)
+Defined in: [state/src/selection/Selection.ts:76](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L76)
 
 #### Parameters
 
@@ -1230,7 +1230,7 @@ Defined in: [state/src/selection/Selection.ts:76](https://github.com/type-editor
 protected static registerNodeSelectionHandler(handler): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:63](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L63)
+Defined in: [state/src/selection/Selection.ts:63](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L63)
 
 #### Parameters
 
@@ -1254,7 +1254,7 @@ Defined in: [state/src/selection/Selection.ts:63](https://github.com/type-editor
 protected static registerTextSelectionHandler(handler): void;
 ```
 
-Defined in: [state/src/selection/Selection.ts:58](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L58)
+Defined in: [state/src/selection/Selection.ts:58](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L58)
 
 #### Parameters
 
@@ -1281,7 +1281,7 @@ static textSelectionBetween(
    bias?): Selection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:432](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L432)
+Defined in: [state/src/selection/Selection.ts:432](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L432)
 
 Return a text selection that spans the given positions or, if
 they aren't text positions, find a text selection near them.

@@ -10,7 +10,7 @@
 function resetScrollPos(params): void;
 ```
 
-Defined in: [dom-coords/reset-scroll-pos.ts:15](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-coords-util/src/dom-coords/reset-scroll-pos.ts#L15)
+Defined in: [dom-coords/reset-scroll-pos.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-coords-util/src/dom-coords/reset-scroll-pos.ts#L15)
 
 Reset the scroll position of the editor's parent nodes to what
 it was before, when storeScrollPos was called. This maintains viewport

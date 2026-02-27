@@ -10,7 +10,7 @@
 function handleMouseLeave(view): void;
 ```
 
-Defined in: [tables/src/columnresizing/column-resizing/handle-mouse-leave.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/columnresizing/column-resizing/handle-mouse-leave.ts#L14)
+Defined in: [tables/src/columnresizing/column-resizing/handle-mouse-leave.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/columnresizing/column-resizing/handle-mouse-leave.ts#L14)
 
 Handles mouse leave events to clear the active resize handle when the mouse
 exits the editor area.

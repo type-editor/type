@@ -6,7 +6,7 @@
 
 # Class: DecorationSet
 
-Defined in: [decoration/DecorationSet.ts:37](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L37)
+Defined in: [decoration/DecorationSet.ts:37](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L37)
 
 A collection of [decorations](#view.Decoration), organized in such
 a way that the drawing algorithm can efficiently use and compare
@@ -48,7 +48,7 @@ const found = decoSet.find(10, 20);
 new DecorationSet(local?, children?): DecorationSet;
 ```
 
-Defined in: [decoration/DecorationSet.ts:61](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L61)
+Defined in: [decoration/DecorationSet.ts:61](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L61)
 
 Creates a new decoration set.
 
@@ -71,8 +71,8 @@ Creates a new decoration set.
 
 | Property                                                                                | Modifier   | Type                              | Default value | Description                                                                                    | Inherited from                                                                                                                                                                                                                                    | Defined in                                                                                                                                                                                        |
 | --------------------------------------------------------------------------------------- | ---------- | --------------------------------- | ------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty"></a> `empty`                                                     | `static`   | `DecorationSet`                   | `undefined`   | The empty set of decorations. Use this constant instead of creating new empty decoration sets. | -                                                                                                                                                                                                                                                 | [decoration/DecorationSet.ts:510](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L510)                     |
-| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations                             | [`AbstractDecorationSource`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationSource.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationSource.ts#L14) |
+| <a id="property-empty"></a> `empty`                                                     | `static`   | `DecorationSet`                   | `undefined`   | The empty set of decorations. Use this constant instead of creating new empty decoration sets. | -                                                                                                                                                                                                                                                 | [decoration/DecorationSet.ts:510](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L510)                     |
+| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations                             | [`AbstractDecorationSource`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md).[`EMPTY_DECORATION_WIDGET_OPTIONS`](../../AbstractDecorationSource/classes/AbstractDecorationSource.md#property-empty_decoration_widget_options) | [decoration/AbstractDecorationSource.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationSource.ts#L14) |
 
 ## Accessors
 
@@ -84,7 +84,7 @@ Creates a new decoration set.
 get children(): readonly (number | DecorationSet)[];
 ```
 
-Defined in: [decoration/DecorationSet.ts:90](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L90)
+Defined in: [decoration/DecorationSet.ts:90](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L90)
 
 Get child decoration sets organized as [startPos, endPos, DecorationSet, ...].
 
@@ -110,7 +110,7 @@ Read-only array of child positions and decoration sets
 get local(): readonly PmDecoration[];
 ```
 
-Defined in: [decoration/DecorationSet.ts:76](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L76)
+Defined in: [decoration/DecorationSet.ts:76](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L76)
 
 Get the decorations that apply directly at this node level.
 
@@ -132,7 +132,7 @@ Read-only array of local decorations
 add(doc, decorations): DecorationSet;
 ```
 
-Defined in: [decoration/DecorationSet.ts:233](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L233)
+Defined in: [decoration/DecorationSet.ts:233](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L233)
 
 Add the given array of decorations to the ones in the set,
 producing a new set. Consumes the `decorations` array. Needs
@@ -160,7 +160,7 @@ A new decoration set with the added decorations
 eq(other): boolean;
 ```
 
-Defined in: [decoration/DecorationSet.ts:439](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L439)
+Defined in: [decoration/DecorationSet.ts:439](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L439)
 
 Check if this decoration set is equal to another decoration set.
 
@@ -193,7 +193,7 @@ find(
    predicate?): PmDecoration[];
 ```
 
-Defined in: [decoration/DecorationSet.ts:121](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L121)
+Defined in: [decoration/DecorationSet.ts:121](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L121)
 
 Find all decorations in this set which touch the given range
 (including decorations that start or end directly at the
@@ -226,7 +226,7 @@ forChild(offset, node):
   | DecorationGroup;
 ```
 
-Defined in: [decoration/DecorationSet.ts:388](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L388)
+Defined in: [decoration/DecorationSet.ts:388](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L388)
 
 Get the decorations relevant for a child node.
 
@@ -258,7 +258,7 @@ DecorationSource.forChild;
 forEachSet(callbackFunc): void;
 ```
 
-Defined in: [decoration/DecorationSet.ts:518](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L518)
+Defined in: [decoration/DecorationSet.ts:518](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L518)
 
 Iterate over all decoration sets, calling the callback for each one.
 For a single DecorationSet, this just calls the callback once with itself.
@@ -287,7 +287,7 @@ DecorationSource.forEachSet;
 locals(node): PmDecoration[];
 ```
 
-Defined in: [decoration/DecorationSet.ts:475](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L475)
+Defined in: [decoration/DecorationSet.ts:475](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L475)
 
 Get the local decorations for a node, with overlaps removed.
 
@@ -317,7 +317,7 @@ DecorationSource.locals;
 localsInner(node): readonly PmDecoration[];
 ```
 
-Defined in: [decoration/DecorationSet.ts:486](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L486)
+Defined in: [decoration/DecorationSet.ts:486](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L486)
 
 Get the local decorations for a node, filtering out inline decorations
 if the node contains block content.
@@ -345,7 +345,7 @@ map(
    options?): DecorationSet;
 ```
 
-Defined in: [decoration/DecorationSet.ts:170](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L170)
+Defined in: [decoration/DecorationSet.ts:170](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L170)
 
 Map the set of decorations in response to a change in the
 document.
@@ -384,7 +384,7 @@ mapInner(
    options): DecorationSet;
 ```
 
-Defined in: [decoration/DecorationSet.ts:189](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L189)
+Defined in: [decoration/DecorationSet.ts:189](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L189)
 
 Internal recursive method to map decorations through document changes.
 
@@ -413,7 +413,7 @@ A new mapped decoration set
 remove(decorations): DecorationSet;
 ```
 
-Defined in: [decoration/DecorationSet.ts:299](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L299)
+Defined in: [decoration/DecorationSet.ts:299](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L299)
 
 Create a new set that contains the decorations in this set, minus
 the ones in the given array.
@@ -438,7 +438,7 @@ A new decoration set without the removed decorations, or this if nothing changed
 protected removeOverlap(spans): PmDecoration[];
 ```
 
-Defined in: [decoration/AbstractDecorationSource.ts:25](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationSource.ts#L25)
+Defined in: [decoration/AbstractDecorationSource.ts:25](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationSource.ts#L25)
 
 Scan a sorted array of decorations for partially overlapping spans,
 and split those so that only fully overlapping spans are left (to
@@ -469,7 +469,7 @@ A new array with overlaps removed, or the original if no overlaps exist
 static create(doc, decorations): DecorationSet;
 ```
 
-Defined in: [decoration/DecorationSet.ts:104](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/DecorationSet.ts#L104)
+Defined in: [decoration/DecorationSet.ts:104](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/DecorationSet.ts#L104)
 
 Create a set of decorations, using the structure of the given
 document. This will consume (modify) the `decorations` array, so
@@ -496,7 +496,7 @@ A new decoration set organized by the document structure
 protected static sortDecorations(spans): PmDecoration[];
 ```
 
-Defined in: [decoration/AbstractDecorationSource.ts:96](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/decoration/src/decoration/AbstractDecorationSource.ts#L96)
+Defined in: [decoration/AbstractDecorationSource.ts:96](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/decoration/src/decoration/AbstractDecorationSource.ts#L96)
 
 Comparator function used to sort decorations by position.
 Decorations with lower start positions come first, and within

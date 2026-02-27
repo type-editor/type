@@ -10,6 +10,6 @@
 const listItem: NodeSpec;
 ```
 
-Defined in: [schema-list.ts:109](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/schema/src/schema-list.ts#L109)
+Defined in: [schema-list.ts:109](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/schema/src/schema-list.ts#L109)
 
 A list item (`<li>`) spec.

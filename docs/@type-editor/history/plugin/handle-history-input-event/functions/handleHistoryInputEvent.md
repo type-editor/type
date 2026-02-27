@@ -10,7 +10,7 @@
 function handleHistoryInputEvent(view, event): boolean;
 ```
 
-Defined in: [plugin/handle-history-input-event.ts:15](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/plugin/handle-history-input-event.ts#L15)
+Defined in: [plugin/handle-history-input-event.ts:15](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/plugin/handle-history-input-event.ts#L15)
 
 Handles browser history input events (undo/redo).
 

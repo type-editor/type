@@ -6,7 +6,7 @@
 
 # Class: MouseDown
 
-Defined in: [input-handler/mouse/MouseDown.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L14)
+Defined in: [input-handler/mouse/MouseDown.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L14)
 
 Manages mouse down state and handles mouse-based text selection and dragging.
 Tracks the initial state, sets up drag attributes if needed, and handles
@@ -28,7 +28,7 @@ new MouseDown(
    flushed): MouseDown;
 ```
 
-Defined in: [input-handler/mouse/MouseDown.ts:55](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L55)
+Defined in: [input-handler/mouse/MouseDown.ts:55](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L55)
 
 Creates a new MouseDown handler.
 
@@ -57,7 +57,7 @@ Creates a new MouseDown handler.
 get allowDefault(): boolean;
 ```
 
-Defined in: [input-handler/mouse/MouseDown.ts:135](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L135)
+Defined in: [input-handler/mouse/MouseDown.ts:135](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L135)
 
 Whether to allow default browser selection behavior
 
@@ -81,7 +81,7 @@ PmMouseDown.allowDefault;
 set delayedSelectionSync(sync): void;
 ```
 
-Defined in: [input-handler/mouse/MouseDown.ts:140](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L140)
+Defined in: [input-handler/mouse/MouseDown.ts:140](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L140)
 
 Set whether selection sync should be delayed
 
@@ -116,7 +116,7 @@ get mightDrag(): {
 };
 ```
 
-Defined in: [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L145)
+Defined in: [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L145)
 
 Information about a potential drag operation
 
@@ -133,10 +133,10 @@ Information about a potential drag operation
 
 | Name            | Type      | Defined in                                                                                                                                                                         |
 | --------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addAttr`       | `boolean` | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
-| `node`          | `Node_2`  | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
-| `pos`           | `number`  | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
-| `setUneditable` | `boolean` | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
+| `addAttr`       | `boolean` | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
+| `node`          | `Node_2`  | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
+| `pos`           | `number`  | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
+| `setUneditable` | `boolean` | [input-handler/mouse/MouseDown.ts:145](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L145) |
 
 #### Implementation of
 
@@ -152,7 +152,7 @@ PmMouseDown.mightDrag;
 done(): void;
 ```
 
-Defined in: [input-handler/mouse/MouseDown.ts:212](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L212)
+Defined in: [input-handler/mouse/MouseDown.ts:212](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L212)
 
 Cleans up the mouse down state, removing event listeners and
 restoring DOM attributes that were modified for dragging.
@@ -180,7 +180,7 @@ static runHandlerOnContext(
    event): boolean;
 ```
 
-Defined in: [input-handler/mouse/MouseDown.ts:184](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L184)
+Defined in: [input-handler/mouse/MouseDown.ts:184](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L184)
 
 Runs click handlers (handleClickOn, handleDoubleClickOn, handleTripleClickOn)
 for nodes in the editor tree, traversing from the clicked position up through
@@ -213,7 +213,7 @@ static updateSelection(
    origin): void;
 ```
 
-Defined in: [input-handler/mouse/MouseDown.ts:156](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/input-handler/mouse/MouseDown.ts#L156)
+Defined in: [input-handler/mouse/MouseDown.ts:156](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/input-handler/mouse/MouseDown.ts#L156)
 
 Updates the editor selection, focusing the editor if necessary and
 dispatching a transaction if the selection changed.

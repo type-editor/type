@@ -6,7 +6,7 @@
 
 # Class: Attribute
 
-Defined in: [packages/model/src/schema/Attribute.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/schema/Attribute.ts#L10)
+Defined in: [packages/model/src/schema/Attribute.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/Attribute.ts#L10)
 
 Represents an attribute descriptor for node and mark types.
 Encapsulates attribute metadata including default values and validation logic.
@@ -22,7 +22,7 @@ new Attribute(
    options): Attribute;
 ```
 
-Defined in: [packages/model/src/schema/Attribute.ts:24](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/schema/Attribute.ts#L24)
+Defined in: [packages/model/src/schema/Attribute.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/Attribute.ts#L24)
 
 Creates a new Attribute descriptor.
 
@@ -48,7 +48,7 @@ Creates a new Attribute descriptor.
 get default(): string | number | boolean;
 ```
 
-Defined in: [packages/model/src/schema/Attribute.ts:41](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/schema/Attribute.ts#L41)
+Defined in: [packages/model/src/schema/Attribute.ts:41](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/Attribute.ts#L41)
 
 The default value for this attribute, or undefined if no default exists.
 
@@ -66,7 +66,7 @@ The default value for this attribute, or undefined if no default exists.
 get excludeFromMarkupComparison(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/Attribute.ts:62](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/schema/Attribute.ts#L62)
+Defined in: [packages/model/src/schema/Attribute.ts:62](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/Attribute.ts#L62)
 
 Indicates whether this attribute should be excluded from markup comparison.
 
@@ -84,7 +84,7 @@ Indicates whether this attribute should be excluded from markup comparison.
 get hasDefault(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/Attribute.ts:48](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/schema/Attribute.ts#L48)
+Defined in: [packages/model/src/schema/Attribute.ts:48](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/Attribute.ts#L48)
 
 Indicates whether this attribute has a default value.
 
@@ -102,7 +102,7 @@ Indicates whether this attribute has a default value.
 get isRequired(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/Attribute.ts:34](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/schema/Attribute.ts#L34)
+Defined in: [packages/model/src/schema/Attribute.ts:34](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/Attribute.ts#L34)
 
 Indicates whether this attribute is required (has no default value).
 
@@ -120,7 +120,7 @@ Indicates whether this attribute is required (has no default value).
 get validate(): (value) => void;
 ```
 
-Defined in: [packages/model/src/schema/Attribute.ts:55](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/schema/Attribute.ts#L55)
+Defined in: [packages/model/src/schema/Attribute.ts:55](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/schema/Attribute.ts#L55)
 
 The validation function for this attribute, if any.
 

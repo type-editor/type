@@ -10,7 +10,7 @@
 const undo: Command;
 ```
 
-Defined in: [commands/undo.ts:21](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/commands/undo.ts#L21)
+Defined in: [commands/undo.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/commands/undo.ts#L21)
 
 A command function that undoes the last change, if any.
 

@@ -10,7 +10,7 @@
 const joinListItemBackward: Command;
 ```
 
-Defined in: [join-list-item-backward.ts:47](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/commands/src/join-list-item-backward.ts#L47)
+Defined in: [join-list-item-backward.ts:47](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/join-list-item-backward.ts#L47)
 
 Handles backspace at the start of the first paragraph of a list item when the previous
 sibling list item also ends with a paragraph.

@@ -6,7 +6,7 @@
 
 # Class: GapCursor
 
-Defined in: [gapcursor/src/GapCursor.ts:51](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L51)
+Defined in: [gapcursor/src/GapCursor.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L51)
 
 Represents a gap cursor selection - a cursor positioned between block nodes
 where regular text selection is not possible.
@@ -43,7 +43,7 @@ gap cursors don't represent a range but a single point between nodes.
 new GapCursor($pos): GapCursor;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:61](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L61)
+Defined in: [gapcursor/src/GapCursor.ts:61](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L61)
 
 Creates a new gap cursor at the given position.
 
@@ -418,7 +418,7 @@ Selection.to;
 get type(): string;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:66](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L66)
+Defined in: [gapcursor/src/GapCursor.ts:66](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L66)
 
 ##### Returns
 
@@ -490,7 +490,7 @@ Selection.visible;
 content(): Slice;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:544](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L544)
+Defined in: [gapcursor/src/GapCursor.ts:544](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L544)
 
 Returns the content covered by this selection.
 
@@ -523,7 +523,7 @@ Selection.content;
 eq(other): boolean;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:556](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L556)
+Defined in: [gapcursor/src/GapCursor.ts:556](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L556)
 
 Tests whether this gap cursor is equal to another selection.
 
@@ -561,7 +561,7 @@ Selection.eq;
 getBookmark(): SelectionBookmark;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:580](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L580)
+Defined in: [gapcursor/src/GapCursor.ts:580](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L580)
 
 Creates a bookmark for this gap cursor.
 
@@ -672,7 +672,7 @@ Selection.isTextSelection;
 map(doc, mapping): Selection_2;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:531](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L531)
+Defined in: [gapcursor/src/GapCursor.ts:531](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L531)
 
 Maps this gap cursor through a document transformation.
 
@@ -713,7 +713,7 @@ Selection.map;
 replace(): void;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:595](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L595)
+Defined in: [gapcursor/src/GapCursor.ts:595](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L595)
 
 Replaces the content covered by this selection.
 
@@ -752,7 +752,7 @@ Selection.replace;
 replaceWith(): void;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:610](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L610)
+Defined in: [gapcursor/src/GapCursor.ts:610](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L610)
 
 Replaces the selection with a node.
 
@@ -791,7 +791,7 @@ Selection.replaceWith;
 toJSON(): SelectionJSON;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:568](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L568)
+Defined in: [gapcursor/src/GapCursor.ts:568](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L568)
 
 Serializes this gap cursor to a JSON representation.
 
@@ -941,7 +941,7 @@ static findGapCursorFrom(
    mustMove?): ResolvedPos;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:139](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L139)
+Defined in: [gapcursor/src/GapCursor.ts:139](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L139)
 
 Searches for a valid gap cursor position starting from the given position.
 
@@ -984,7 +984,7 @@ const nextGap = GapCursor.findGapCursorFrom($currentPos, 1, true);
 static fromJSON(doc, json): GapCursor;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:78](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L78)
+Defined in: [gapcursor/src/GapCursor.ts:78](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L78)
 
 Deserializes a gap cursor from its JSON representation.
 
@@ -1235,7 +1235,7 @@ Selection.textSelectionBetween;
 static valid($pos): boolean;
 ```
 
-Defined in: [gapcursor/src/GapCursor.ts:97](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/gapcursor/src/GapCursor.ts#L97)
+Defined in: [gapcursor/src/GapCursor.ts:97](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/gapcursor/src/GapCursor.ts#L97)
 
 Checks whether a gap cursor is valid at the given position.
 

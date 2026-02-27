@@ -6,7 +6,7 @@
 
 # Class: Dropdown
 
-Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:18](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L18)
+Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:18](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L18)
 
 A drop-down menu, displayed as a label with a downwards-pointing
 triangle to the right of it.
@@ -24,7 +24,7 @@ triangle to the right of it.
 new Dropdown(content, options?): Dropdown;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:45](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L45)
+Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:45](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L45)
 
 Create a dropdown wrapping the elements.
 
@@ -43,7 +43,7 @@ Create a dropdown wrapping the elements.
 
 | Property                            | Modifier   | Type                                                                                | Defined in                                                                                                                                                                                |
 | ----------------------------------- | ---------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-items"></a> `items` | `readonly` | readonly [`MenuElement`](../../../../types/MenuElement/interfaces/MenuElement.md)[] | [packages/menu/src/menubar/dropdown/Dropdown.ts:20](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L20) |
+| <a id="property-items"></a> `items` | `readonly` | readonly [`MenuElement`](../../../../types/MenuElement/interfaces/MenuElement.md)[] | [packages/menu/src/menubar/dropdown/Dropdown.ts:20](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L20) |
 
 ## Accessors
 
@@ -55,7 +55,7 @@ Create a dropdown wrapping the elements.
 get content(): readonly MenuElement[];
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:51](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L51)
+Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L51)
 
 ##### Returns
 
@@ -71,7 +71,7 @@ readonly [`MenuElement`](../../../../types/MenuElement/interfaces/MenuElement.md
 get options(): DropdownMenuOptions;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:55](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L55)
+Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:55](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L55)
 
 ##### Returns
 
@@ -85,7 +85,7 @@ Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:55](https://github.c
 destroy(): void;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:152](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L152)
+Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:152](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L152)
 
 Clean up event listeners and references to prevent memory leaks.
 Should be called when the dropdown is no longer needed.
@@ -102,7 +102,7 @@ Should be called when the dropdown is no longer needed.
 notifySubElementIsActive(menuItemSpec): void;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:134](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L134)
+Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:134](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L134)
 
 #### Parameters
 
@@ -129,7 +129,7 @@ render(editorView): {
 };
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:65](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L65)
+Defined in: [packages/menu/src/menubar/dropdown/Dropdown.ts:65](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L65)
 
 Render the dropdown menu and sub-items.
 
@@ -152,8 +152,8 @@ An object containing the DOM element and an update function
 
 | Name       | Type                   | Defined in                                                                                                                                                                                  |
 | ---------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`      | `HTMLElement`          | [packages/menu/src/menubar/dropdown/Dropdown.ts:129](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L129) |
-| `update()` | (`state`) => `boolean` | [packages/menu/src/menubar/dropdown/Dropdown.ts:130](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/Dropdown.ts#L130) |
+| `dom`      | `HTMLElement`          | [packages/menu/src/menubar/dropdown/Dropdown.ts:129](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L129) |
+| `update()` | (`state`) => `boolean` | [packages/menu/src/menubar/dropdown/Dropdown.ts:130](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/Dropdown.ts#L130) |
 
 #### Implementation of
 

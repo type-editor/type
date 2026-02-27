@@ -10,7 +10,7 @@
 function hasTableCellRole(node): boolean;
 ```
 
-Defined in: [tables/src/utils/helper/has-table-cell-role.ts:12](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/utils/helper/has-table-cell-role.ts#L12)
+Defined in: [tables/src/utils/helper/has-table-cell-role.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/helper/has-table-cell-role.ts#L12)
 
 Checks if a node has a table cell role (regular cell or header cell).
 

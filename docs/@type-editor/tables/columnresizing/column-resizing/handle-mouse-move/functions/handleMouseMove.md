@@ -10,7 +10,7 @@
 function handleMouseMove(view, event, handleWidth, lastColumnResizable): void;
 ```
 
-Defined in: [tables/src/columnresizing/column-resizing/handle-mouse-move.ts:21](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/columnresizing/column-resizing/handle-mouse-move.ts#L21)
+Defined in: [tables/src/columnresizing/column-resizing/handle-mouse-move.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/columnresizing/column-resizing/handle-mouse-move.ts#L21)
 
 Handles mouse movement events to detect when the cursor is near a column edge
 and should activate the resize handle.

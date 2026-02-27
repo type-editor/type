@@ -10,7 +10,7 @@
 function buildCommand(redo, scroll): Command;
 ```
 
-Defined in: [commands/util/build-command.ts:26](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/commands/util/build-command.ts#L26)
+Defined in: [commands/util/build-command.ts:26](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/commands/util/build-command.ts#L26)
 
 Builds a command that performs undo or redo operations.
 

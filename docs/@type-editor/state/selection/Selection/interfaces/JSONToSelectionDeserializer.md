@@ -6,7 +6,7 @@
 
 # Interface: JSONToSelectionDeserializer
 
-Defined in: [state/src/selection/Selection.ts:29](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L29)
+Defined in: [state/src/selection/Selection.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L29)
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: [state/src/selection/Selection.ts:29](https://github.com/type-editor
 new JSONToSelectionDeserializer(...args): any;
 ```
 
-Defined in: [state/src/selection/Selection.ts:31](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L31)
+Defined in: [state/src/selection/Selection.ts:31](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L31)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [state/src/selection/Selection.ts:31](https://github.com/type-editor
 fromJSON(doc, json?): PmSelection;
 ```
 
-Defined in: [state/src/selection/Selection.ts:32](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/state/src/selection/Selection.ts#L32)
+Defined in: [state/src/selection/Selection.ts:32](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/state/src/selection/Selection.ts#L32)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ChangeSet&lt;Data&gt;
 
-Defined in: [ChangeSet.ts:53](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L53)
+Defined in: [ChangeSet.ts:53](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L53)
 
 A change set tracks the changes to a document from a given point in the past.
 
@@ -49,7 +49,7 @@ for (const change of updated.changes) {
 new ChangeSet<Data>(config, changes): ChangeSet<Data>;
 ```
 
-Defined in: [ChangeSet.ts:82](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L82)
+Defined in: [ChangeSet.ts:82](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L82)
 
 Creates a new ChangeSet instance.
 
@@ -68,7 +68,7 @@ Creates a new ChangeSet instance.
 
 | Property                                        | Modifier | Type                                                                                                           | Default value | Description                                                                                                    | Defined in                                                                                                                                   |
 | ----------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-computediff"></a> `computeDiff` | `static` | &lt;`T`&gt;(`fragA`, `fragB`, `range`, `encoder`) => [`Change`](../../Change/classes/Change.md)&lt;`any`&gt;[] | `computeDiff` | **`Internal`** Computes a diff between document fragments within a change range. Exposed for testing purposes. | [ChangeSet.ts:61](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L61) |
+| <a id="property-computediff"></a> `computeDiff` | `static` | &lt;`T`&gt;(`fragA`, `fragB`, `range`, `encoder`) => [`Change`](../../Change/classes/Change.md)&lt;`any`&gt;[] | `computeDiff` | **`Internal`** Computes a diff between document fragments within a change range. Exposed for testing purposes. | [ChangeSet.ts:61](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L61) |
 
 ## Accessors
 
@@ -80,7 +80,7 @@ Creates a new ChangeSet instance.
 get changes(): readonly Change<Data>[];
 ```
 
-Defined in: [ChangeSet.ts:93](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L93)
+Defined in: [ChangeSet.ts:93](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L93)
 
 The array of changes tracked from the starting document to the current state.
 
@@ -101,7 +101,7 @@ readonly [`Change`](../../Change/classes/Change.md)&lt;`Data`&gt;[]
 get startDoc(): Node_2;
 ```
 
-Defined in: [ChangeSet.ts:103](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L103)
+Defined in: [ChangeSet.ts:103](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L103)
 
 The starting document of the change set.
 
@@ -123,7 +123,7 @@ addSteps(
    data): ChangeSet<Data>;
 ```
 
-Defined in: [ChangeSet.ts:165](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L165)
+Defined in: [ChangeSet.ts:165](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L165)
 
 Computes a new changeset by adding the given step maps and
 metadata (either as an array, per-map, or as a single value to be
@@ -161,7 +161,7 @@ changedRange(changeSet, maps?): {
 };
 ```
 
-Defined in: [ChangeSet.ts:261](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L261)
+Defined in: [ChangeSet.ts:261](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L261)
 
 Compare two changesets and return the range in which they are
 changed, if any. If the document changed between the maps, pass
@@ -190,8 +190,8 @@ or `null` if the changesets are identical.
 
 | Name   | Type     | Defined in                                                                                                                                     |
 | ------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| `from` | `number` | [ChangeSet.ts:261](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L261) |
-| `to`   | `number` | [ChangeSet.ts:261](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L261) |
+| `from` | `number` | [ChangeSet.ts:261](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L261) |
+| `to`   | `number` | [ChangeSet.ts:261](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L261) |
 
 #### Example
 
@@ -210,7 +210,7 @@ if (range) {
 map<NewData>(callbackFunc): ChangeSet<NewData>;
 ```
 
-Defined in: [ChangeSet.ts:217](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L217)
+Defined in: [ChangeSet.ts:217](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L217)
 
 Map the span's data values in the given set through a function
 and construct a new set with the resulting data.
@@ -255,7 +255,7 @@ static create<Data>(
    changes?): ChangeSet<Data>;
 ```
 
-Defined in: [ChangeSet.ts:140](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/changeset/src/ChangeSet.ts#L140)
+Defined in: [ChangeSet.ts:140](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/changeset/src/ChangeSet.ts#L140)
 
 Creates a changeset with the given base document and configuration.
 

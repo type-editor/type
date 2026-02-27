@@ -6,7 +6,7 @@
 
 # Class: Append&lt;T&gt;
 
-Defined in: [state/create-rope-sequence.ts:407](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L407)
+Defined in: [state/create-rope-sequence.ts:407](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L407)
 
 Internal node in the rope sequence tree structure.
 Combines two child rope sequences (left and right) without copying their elements.
@@ -33,7 +33,7 @@ Combines two child rope sequences (left and right) without copying their element
 new Append<T>(left, right): Append<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:432](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L432)
+Defined in: [state/create-rope-sequence.ts:432](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L432)
 
 Create an internal node combining two rope sequences.
 
@@ -58,8 +58,8 @@ AbstractRopeSequence<T>.constructor
 
 | Property                                              | Modifier   | Type     | Default value | Description                                                                                                                                     | Overrides                                                                                                                                                                              | Inherited from                        | Defined in                                                                                                                                                                     |
 | ----------------------------------------------------- | ---------- | -------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-depth"></a> `depth`                   | `readonly` | `number` | `undefined`   | The depth of this subtree in the overall rope structure.                                                                                        | [`RopeSequence`](../../../types/RopeSequence/interfaces/RopeSequence.md).[`depth`](../../../types/RopeSequence/interfaces/RopeSequence.md#property-depth) `AbstractRopeSequence.depth` | -                                     | [state/create-rope-sequence.ts:412](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L412) |
-| <a id="property-good_leaf_size"></a> `GOOD_LEAF_SIZE` | `readonly` | `200`    | `200`         | The maximum size for a leaf node before it should be split into an internal node. This value balances between memory efficiency and tree depth. | -                                                                                                                                                                                      | `AbstractRopeSequence.GOOD_LEAF_SIZE` | [state/create-rope-sequence.ts:23](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L23)   |
+| <a id="property-depth"></a> `depth`                   | `readonly` | `number` | `undefined`   | The depth of this subtree in the overall rope structure.                                                                                        | [`RopeSequence`](../../../types/RopeSequence/interfaces/RopeSequence.md).[`depth`](../../../types/RopeSequence/interfaces/RopeSequence.md#property-depth) `AbstractRopeSequence.depth` | -                                     | [state/create-rope-sequence.ts:412](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L412) |
+| <a id="property-good_leaf_size"></a> `GOOD_LEAF_SIZE` | `readonly` | `200`    | `200`         | The maximum size for a leaf node before it should be split into an internal node. This value balances between memory efficiency and tree depth. | -                                                                                                                                                                                      | `AbstractRopeSequence.GOOD_LEAF_SIZE` | [state/create-rope-sequence.ts:23](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L23)   |
 
 ## Accessors
 
@@ -71,7 +71,7 @@ AbstractRopeSequence<T>.constructor
 get length(): number;
 ```
 
-Defined in: [state/create-rope-sequence.ts:440](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L440)
+Defined in: [state/create-rope-sequence.ts:440](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L440)
 
 The total number of elements in this rope sequence.
 
@@ -99,7 +99,7 @@ AbstractRopeSequence.length;
 append(other): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:46](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L46)
+Defined in: [state/create-rope-sequence.ts:46](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L46)
 
 Append an array or other rope to this one, returning a new rope.
 
@@ -137,7 +137,7 @@ AbstractRopeSequence.append;
 appendInner(other): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:501](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L501)
+Defined in: [state/create-rope-sequence.ts:501](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L501)
 
 Internal method to create an Append node combining two ropes.
 Can be overridden by subclasses to implement balancing strategies.
@@ -172,7 +172,7 @@ AbstractRopeSequence.appendInner;
 flatten(): T[];
 ```
 
-Defined in: [state/create-rope-sequence.ts:449](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L449)
+Defined in: [state/create-rope-sequence.ts:449](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L449)
 
 Recursively flattens both child ropes and concatenates the results.
 
@@ -203,7 +203,7 @@ forEach(
    to?): void;
 ```
 
-Defined in: [state/create-rope-sequence.ts:152](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L152)
+Defined in: [state/create-rope-sequence.ts:152](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L152)
 
 Call the given function for each element between the given indices.
 
@@ -246,7 +246,7 @@ forEachInner(
    start): boolean;
 ```
 
-Defined in: [state/create-rope-sequence.ts:453](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L453)
+Defined in: [state/create-rope-sequence.ts:453](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L453)
 
 Internal implementation of forward forEach operation.
 
@@ -287,7 +287,7 @@ forEachInvertedInner(
    start): boolean;
 ```
 
-Defined in: [state/create-rope-sequence.ts:469](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L469)
+Defined in: [state/create-rope-sequence.ts:469](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L469)
 
 Internal implementation of reverse forEach operation.
 
@@ -324,7 +324,7 @@ AbstractRopeSequence.forEachInvertedInner;
 protected from(values): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:542](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L542)
+Defined in: [state/create-rope-sequence.ts:542](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L542)
 
 Create a rope sequence from an array or return the rope if already a rope.
 
@@ -354,7 +354,7 @@ AbstractRopeSequence.from;
 get(i): T;
 ```
 
-Defined in: [state/create-rope-sequence.ts:133](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L133)
+Defined in: [state/create-rope-sequence.ts:133](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L133)
 
 Retrieve the element at the given position from this rope.
 
@@ -391,7 +391,7 @@ AbstractRopeSequence.get;
 protected getEmptySequence(): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:538](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L538)
+Defined in: [state/create-rope-sequence.ts:538](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L538)
 
 Get an empty rope sequence of the same type.
 
@@ -415,7 +415,7 @@ AbstractRopeSequence.getEmptySequence;
 protected getInner(elementIndex): T;
 ```
 
-Defined in: [state/create-rope-sequence.ts:514](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L514)
+Defined in: [state/create-rope-sequence.ts:514](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L514)
 
 Retrieves an element by determining which child rope contains it.
 
@@ -445,7 +445,7 @@ AbstractRopeSequence.getInner;
 leafAppend(other): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:485](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L485)
+Defined in: [state/create-rope-sequence.ts:485](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L485)
 
 Try to append another rope to this one at the leaf level.
 
@@ -482,7 +482,7 @@ AbstractRopeSequence.leafAppend;
 leafPrepend(other): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:493](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L493)
+Defined in: [state/create-rope-sequence.ts:493](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L493)
 
 Try to prepend another rope to this one at the leaf level.
 
@@ -522,7 +522,7 @@ map<U>(
    to?): U[];
 ```
 
-Defined in: [state/create-rope-sequence.ts:174](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L174)
+Defined in: [state/create-rope-sequence.ts:174](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L174)
 
 Map the given function over the elements of the rope, producing a flat array.
 
@@ -567,7 +567,7 @@ AbstractRopeSequence.map;
 prepend(other): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:88](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L88)
+Defined in: [state/create-rope-sequence.ts:88](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L88)
 
 Prepend an array or other rope to this one, returning a new rope.
 
@@ -603,7 +603,7 @@ AbstractRopeSequence.prepend;
 slice(from?, to?): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:117](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L117)
+Defined in: [state/create-rope-sequence.ts:117](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L117)
 
 Create a rope representing a sub-sequence of this rope.
 
@@ -641,7 +641,7 @@ AbstractRopeSequence.slice;
 protected sliceInner(from, to): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:524](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/history/src/state/create-rope-sequence.ts#L524)
+Defined in: [state/create-rope-sequence.ts:524](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/history/src/state/create-rope-sequence.ts#L524)
 
 Internal implementation of slice operation.
 Assumes from and to are already validated and within bounds.

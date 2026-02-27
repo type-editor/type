@@ -10,7 +10,7 @@
 const findPrev: Command;
 ```
 
-Defined in: [commands/find-prev.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/search/src/commands/find-prev.ts#L10)
+Defined in: [commands/find-prev.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/search/src/commands/find-prev.ts#L10)
 
 Find the previous instance of the search query and move the
 selection to it.

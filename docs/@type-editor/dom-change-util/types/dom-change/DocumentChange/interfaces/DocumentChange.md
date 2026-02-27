@@ -6,7 +6,7 @@
 
 # Interface: DocumentChange
 
-Defined in: [types/dom-change/DocumentChange.ts:19](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L19)
+Defined in: [types/dom-change/DocumentChange.ts:19](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L19)
 
 Represents a change detected in the document by comparing old and new content.
 
@@ -30,6 +30,6 @@ const change: DocumentChange = {
 
 | Property                            | Type     | Description                                                                            | Defined in                                                                                                                                                                                                |
 | ----------------------------------- | -------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-enda"></a> `endA`   | `number` | End position in the old (previous) document. If endA \> start, content was deleted.    | [types/dom-change/DocumentChange.ts:30](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L30) |
-| <a id="property-endb"></a> `endB`   | `number` | End position in the new (current) document. If endB \> start, content was inserted.    | [types/dom-change/DocumentChange.ts:36](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L36) |
-| <a id="property-start"></a> `start` | `number` | Start position of the change in the document. This is where the changed region begins. | [types/dom-change/DocumentChange.ts:24](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L24) |
+| <a id="property-enda"></a> `endA`   | `number` | End position in the old (previous) document. If endA \> start, content was deleted.    | [types/dom-change/DocumentChange.ts:30](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L30) |
+| <a id="property-endb"></a> `endB`   | `number` | End position in the new (current) document. If endB \> start, content was inserted.    | [types/dom-change/DocumentChange.ts:36](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L36) |
+| <a id="property-start"></a> `start` | `number` | Start position of the change in the document. This is where the changed region begins. | [types/dom-change/DocumentChange.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/types/dom-change/DocumentChange.ts#L24) |

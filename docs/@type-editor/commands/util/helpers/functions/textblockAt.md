@@ -10,7 +10,7 @@
 function textblockAt(node, side, only?): boolean;
 ```
 
-Defined in: [util/helpers.ts:181](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/commands/src/util/helpers.ts#L181)
+Defined in: [util/helpers.ts:181](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/util/helpers.ts#L181)
 
 Checks if a node contains a textblock at its start or end.
 

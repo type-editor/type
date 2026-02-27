@@ -6,7 +6,7 @@
 
 # Class: NodeRange
 
-Defined in: [packages/model/src/elements/NodeRange.ts:9](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L9)
+Defined in: [packages/model/src/elements/NodeRange.ts:9](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L9)
 
 Represents a flat range of content, i.e. one that starts and
 ends in the same node.
@@ -22,7 +22,7 @@ new NodeRange(
    depth): NodeRange;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:42](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L42)
+Defined in: [packages/model/src/elements/NodeRange.ts:42](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L42)
 
 Construct a node range. `$from` and `$to` should point into the
 same node until at least the given `depth`, since a node range
@@ -50,7 +50,7 @@ denotes an adjacent set of nodes in a single parent node.
 get $from(): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:51](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L51)
+Defined in: [packages/model/src/elements/NodeRange.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L51)
 
 A resolved position at the start of the range.
 
@@ -68,7 +68,7 @@ A resolved position at the start of the range.
 get $to(): ResolvedPos;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:58](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L58)
+Defined in: [packages/model/src/elements/NodeRange.ts:58](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L58)
 
 A resolved position at the end of the range.
 
@@ -86,7 +86,7 @@ A resolved position at the end of the range.
 get depth(): number;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:65](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L65)
+Defined in: [packages/model/src/elements/NodeRange.ts:65](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L65)
 
 The depth of the node that this range points into.
 
@@ -104,7 +104,7 @@ The depth of the node that this range points into.
 get end(): number;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:83](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L83)
+Defined in: [packages/model/src/elements/NodeRange.ts:83](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L83)
 
 The position at the end of the range.
 
@@ -124,7 +124,7 @@ The absolute position at the end of this node range.
 get endIndex(): number;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:110](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L110)
+Defined in: [packages/model/src/elements/NodeRange.ts:110](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L110)
 
 The end index of the range in the parent node.
 
@@ -144,7 +144,7 @@ The child index after where this range ends within its parent.
 get parent(): Node;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:92](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L92)
+Defined in: [packages/model/src/elements/NodeRange.ts:92](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L92)
 
 The parent node that the range points into.
 
@@ -164,7 +164,7 @@ The parent node containing this range at the specified depth.
 get start(): number;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:74](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L74)
+Defined in: [packages/model/src/elements/NodeRange.ts:74](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L74)
 
 The position at the start of the range.
 
@@ -184,7 +184,7 @@ The absolute position at the start of this node range.
 get startIndex(): number;
 ```
 
-Defined in: [packages/model/src/elements/NodeRange.ts:101](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/model/src/elements/NodeRange.ts#L101)
+Defined in: [packages/model/src/elements/NodeRange.ts:101](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/model/src/elements/NodeRange.ts#L101)
 
 The start index of the range in the parent node.
 

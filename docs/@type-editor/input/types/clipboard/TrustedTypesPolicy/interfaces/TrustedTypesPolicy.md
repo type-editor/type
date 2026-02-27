@@ -6,7 +6,7 @@
 
 # Interface: TrustedTypesPolicy
 
-Defined in: [types/clipboard/TrustedTypesPolicy.ts:4](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L4)
+Defined in: [types/clipboard/TrustedTypesPolicy.ts:4](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L4)
 
 Interface for Trusted Types API
 
@@ -18,7 +18,7 @@ Interface for Trusted Types API
 createHTML(input): string;
 ```
 
-Defined in: [types/clipboard/TrustedTypesPolicy.ts:5](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L5)
+Defined in: [types/clipboard/TrustedTypesPolicy.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L5)
 
 #### Parameters
 

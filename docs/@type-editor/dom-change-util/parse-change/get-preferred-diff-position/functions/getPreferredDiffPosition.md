@@ -13,7 +13,7 @@ function getPreferredDiffPosition(view): {
 };
 ```
 
-Defined in: [parse-change/get-preferred-diff-position.ts:29](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/parse-change/get-preferred-diff-position.ts#L29)
+Defined in: [parse-change/get-preferred-diff-position.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/parse-change/get-preferred-diff-position.ts#L29)
 
 Determines the preferred position and side for diff calculation.
 
@@ -48,8 +48,8 @@ Object containing: - preferredPos: The document position to anchor the diff from
 
 | Name            | Type                 | Defined in                                                                                                                                                                                                                  |
 | --------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `preferredPos`  | `number`             | [parse-change/get-preferred-diff-position.ts:29](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/parse-change/get-preferred-diff-position.ts#L29) |
-| `preferredSide` | `"start"` \| `"end"` | [parse-change/get-preferred-diff-position.ts:29](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/parse-change/get-preferred-diff-position.ts#L29) |
+| `preferredPos`  | `number`             | [parse-change/get-preferred-diff-position.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/parse-change/get-preferred-diff-position.ts#L29) |
+| `preferredSide` | `"start"` \| `"end"` | [parse-change/get-preferred-diff-position.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/parse-change/get-preferred-diff-position.ts#L29) |
 
 ## See
 

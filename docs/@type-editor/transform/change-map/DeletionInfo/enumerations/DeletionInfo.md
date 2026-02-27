@@ -6,7 +6,7 @@
 
 # Enumeration: DeletionInfo
 
-Defined in: [packages/transform/src/change-map/DeletionInfo.ts:6](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-map/DeletionInfo.ts#L6)
+Defined in: [packages/transform/src/change-map/DeletionInfo.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/DeletionInfo.ts#L6)
 
 Enum representing the type of deletion relative to a position.
 Used internally to track what was deleted during mapping.
@@ -15,7 +15,7 @@ Used internally to track what was deleted during mapping.
 
 | Enumeration Member                              | Value | Description                                            | Defined in                                                                                                                                                                                      |
 | ----------------------------------------------- | ----- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="enumeration-member-across"></a> `ACROSS` | `4`   | Content both before and after the position was deleted | [packages/transform/src/change-map/DeletionInfo.ts:12](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-map/DeletionInfo.ts#L12) |
-| <a id="enumeration-member-after"></a> `AFTER`   | `2`   | Content after the position was deleted                 | [packages/transform/src/change-map/DeletionInfo.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-map/DeletionInfo.ts#L10) |
-| <a id="enumeration-member-before"></a> `BEFORE` | `1`   | Content before the position was deleted                | [packages/transform/src/change-map/DeletionInfo.ts:8](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-map/DeletionInfo.ts#L8)   |
-| <a id="enumeration-member-side"></a> `SIDE`     | `8`   | The position itself is on the deleted side             | [packages/transform/src/change-map/DeletionInfo.ts:14](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/change-map/DeletionInfo.ts#L14) |
+| <a id="enumeration-member-across"></a> `ACROSS` | `4`   | Content both before and after the position was deleted | [packages/transform/src/change-map/DeletionInfo.ts:12](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/DeletionInfo.ts#L12) |
+| <a id="enumeration-member-after"></a> `AFTER`   | `2`   | Content after the position was deleted                 | [packages/transform/src/change-map/DeletionInfo.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/DeletionInfo.ts#L10) |
+| <a id="enumeration-member-before"></a> `BEFORE` | `1`   | Content before the position was deleted                | [packages/transform/src/change-map/DeletionInfo.ts:8](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/DeletionInfo.ts#L8)   |
+| <a id="enumeration-member-side"></a> `SIDE`     | `8`   | The position itself is on the deleted side             | [packages/transform/src/change-map/DeletionInfo.ts:14](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/change-map/DeletionInfo.ts#L14) |

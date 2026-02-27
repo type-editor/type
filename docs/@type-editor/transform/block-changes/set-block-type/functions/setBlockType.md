@@ -10,7 +10,7 @@
 function setBlockType(transform, from, to, type, attrs): void;
 ```
 
-Defined in: [packages/transform/src/block-changes/set-block-type.ts:28](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/transform/src/block-changes/set-block-type.ts#L28)
+Defined in: [packages/transform/src/block-changes/set-block-type.ts:28](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/transform/src/block-changes/set-block-type.ts#L28)
 
 Change the type of all textblocks in a range to a different type.
 

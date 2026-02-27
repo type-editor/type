@@ -6,16 +6,16 @@
 
 # Interface: PmDOMObserver
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:3](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L3)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:3](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L3)
 
 ## Properties
 
 | Property                                                            | Modifier   | Type                                                                        | Defined in                                                                                                                                                                                            |
 | ------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-currentselection"></a> `currentSelection`           | `readonly` | [`PmSelectionState`](../../PmSelectionState/interfaces/PmSelectionState.md) | [packages/editor-types/src/types/view/PmDOMObserver.ts:6](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L6) |
-| <a id="property-flushingsoon"></a> `flushingSoon`                   | `readonly` | `number`                                                                    | [packages/editor-types/src/types/view/PmDOMObserver.ts:4](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L4) |
-| <a id="property-lastchangedtextnode"></a> `lastChangedTextNode`     | `readonly` | `Text`                                                                      | [packages/editor-types/src/types/view/PmDOMObserver.ts:5](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L5) |
-| <a id="property-requiresgeckohacknode"></a> `requiresGeckoHackNode` | `readonly` | `boolean`                                                                   | [packages/editor-types/src/types/view/PmDOMObserver.ts:7](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L7) |
+| <a id="property-currentselection"></a> `currentSelection`           | `readonly` | [`PmSelectionState`](../../PmSelectionState/interfaces/PmSelectionState.md) | [packages/editor-types/src/types/view/PmDOMObserver.ts:6](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L6) |
+| <a id="property-flushingsoon"></a> `flushingSoon`                   | `readonly` | `number`                                                                    | [packages/editor-types/src/types/view/PmDOMObserver.ts:4](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L4) |
+| <a id="property-lastchangedtextnode"></a> `lastChangedTextNode`     | `readonly` | `Text`                                                                      | [packages/editor-types/src/types/view/PmDOMObserver.ts:5](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L5) |
+| <a id="property-requiresgeckohacknode"></a> `requiresGeckoHackNode` | `readonly` | `boolean`                                                                   | [packages/editor-types/src/types/view/PmDOMObserver.ts:7](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L7) |
 
 ## Methods
 
@@ -25,7 +25,7 @@ Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:3](https://gi
 connectSelection(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:35](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L35)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:35](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L35)
 
 Starts listening to selection change events.
 
@@ -41,7 +41,7 @@ Starts listening to selection change events.
 disconnectSelection(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:40](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L40)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:40](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L40)
 
 Stops listening to selection change events.
 
@@ -57,7 +57,7 @@ Stops listening to selection change events.
 flush(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:63](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L63)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:63](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L63)
 
 Processes all pending mutations and synchronizes the editor state.
 This is the main entry point for DOM change handling.
@@ -74,7 +74,7 @@ This is the main entry point for DOM change handling.
 flushSoon(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:13](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L13)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:13](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L13)
 
 Schedules a flush operation to process pending mutations after a short delay.
 This helps batch multiple rapid changes together for better performance.
@@ -91,7 +91,7 @@ This helps batch multiple rapid changes together for better performance.
 forceFlush(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:18](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L18)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:18](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L18)
 
 Cancels any pending flush and immediately processes all mutations.
 
@@ -107,7 +107,7 @@ Cancels any pending flush and immediately processes all mutations.
 pendingRecords(): MutationRecord[];
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:57](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L57)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:57](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L57)
 
 Retrieves all pending mutation records and returns the current queue.
 
@@ -125,7 +125,7 @@ Array of pending mutation records
 setCurSelection(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:51](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L51)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:51](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L51)
 
 Updates the cached current selection from the DOM.
 
@@ -141,7 +141,7 @@ Updates the cached current selection from the DOM.
 start(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:24](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L24)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:24](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L24)
 
 Starts observing DOM and selection changes.
 This should be called when the editor becomes active.
@@ -158,7 +158,7 @@ This should be called when the editor becomes active.
 stop(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:30](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L30)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:30](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L30)
 
 Stops observing DOM and selection changes.
 Any pending mutations are flushed asynchronously.
@@ -175,7 +175,7 @@ Any pending mutations are flushed asynchronously.
 suppressSelectionUpdates(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:46](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/editor-types/src/types/view/PmDOMObserver.ts#L46)
+Defined in: [packages/editor-types/src/types/view/PmDOMObserver.ts:46](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/editor-types/src/types/view/PmDOMObserver.ts#L46)
 
 Temporarily suppresses selection updates for 50ms.
 This is useful when programmatically changing the selection.

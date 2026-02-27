@@ -10,7 +10,7 @@
 function fixTables(state, oldState?): PmTransaction;
 ```
 
-Defined in: [tables/src/fixtables/fix-tables.ts:26](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/fixtables/fix-tables.ts#L26)
+Defined in: [tables/src/fixtables/fix-tables.ts:26](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/fixtables/fix-tables.ts#L26)
 
 Inspects all tables in the given state's document and returns a
 transaction that fixes any structural issues, if necessary.

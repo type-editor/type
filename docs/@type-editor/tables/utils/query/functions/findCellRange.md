@@ -14,7 +14,7 @@ function findCellRange(
 ): [ResolvedPos, ResolvedPos];
 ```
 
-Defined in: [tables/src/utils/query.ts:139](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/utils/query.ts#L139)
+Defined in: [tables/src/utils/query.ts:139](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/utils/query.ts#L139)
 
 Finds the anchor and head cell positions for a table cell selection.
 

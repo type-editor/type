@@ -10,7 +10,7 @@
 function columnResizing(columnResizingOptions?): Plugin_2;
 ```
 
-Defined in: [tables/src/columnresizing/column-resizing.ts:55](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/columnresizing/column-resizing.ts#L55)
+Defined in: [tables/src/columnresizing/column-resizing.ts:55](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/columnresizing/column-resizing.ts#L55)
 
 Creates a plugin that allows users to resize table columns by dragging the edges
 of column cells. The plugin provides visual feedback via decorations and updates

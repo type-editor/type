@@ -10,7 +10,7 @@
 const joinDown: Command;
 ```
 
-Defined in: [join-down.ts:38](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/commands/src/join-down.ts#L38)
+Defined in: [join-down.ts:38](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/join-down.ts#L38)
 
 Joins the selected block with the block below it.
 

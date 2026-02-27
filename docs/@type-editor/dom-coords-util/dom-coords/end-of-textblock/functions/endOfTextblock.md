@@ -10,7 +10,7 @@
 function endOfTextblock(view, state, dir): boolean;
 ```
 
-Defined in: [dom-coords/end-of-textblock.ts:27](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-coords-util/src/dom-coords/end-of-textblock.ts#L27)
+Defined in: [dom-coords/end-of-textblock.ts:27](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-coords-util/src/dom-coords/end-of-textblock.ts#L27)
 
 Determine whether the cursor is at the edge of a text block in the given direction.
 This function is cached for performance - repeated calls with the same state and

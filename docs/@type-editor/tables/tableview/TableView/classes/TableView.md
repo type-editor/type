@@ -6,7 +6,7 @@
 
 # Class: TableView
 
-Defined in: [tables/src/tableview/TableView.ts:21](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/tableview/TableView.ts#L21)
+Defined in: [tables/src/tableview/TableView.ts:21](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/tableview/TableView.ts#L21)
 
 Custom NodeView implementation for rendering table nodes with column resizing support.
 
@@ -34,7 +34,7 @@ const tableView = new TableView(tableNode, 100);
 new TableView(node, defaultCellMinWidth): TableView;
 ```
 
-Defined in: [tables/src/tableview/TableView.ts:64](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/tableview/TableView.ts#L64)
+Defined in: [tables/src/tableview/TableView.ts:64](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/tableview/TableView.ts#L64)
 
 Creates a new TableView instance.
 
@@ -59,7 +59,7 @@ Creates a new TableView instance.
 get contentDOM(): HTMLTableSectionElement;
 ```
 
-Defined in: [tables/src/tableview/TableView.ts:88](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/tableview/TableView.ts#L88)
+Defined in: [tables/src/tableview/TableView.ts:88](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/tableview/TableView.ts#L88)
 
 The DOM element where ProseMirror should render the node's content.
 For tables, this is the tbody element.
@@ -84,7 +84,7 @@ NodeView.contentDOM;
 get dom(): HTMLDivElement;
 ```
 
-Defined in: [tables/src/tableview/TableView.ts:80](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/tableview/TableView.ts#L80)
+Defined in: [tables/src/tableview/TableView.ts:80](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/tableview/TableView.ts#L80)
 
 The outer DOM element for this node view.
 ProseMirror uses this as the root element for the table.
@@ -107,7 +107,7 @@ NodeView.dom;
 ignoreMutation(record): boolean;
 ```
 
-Defined in: [tables/src/tableview/TableView.ts:122](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/tableview/TableView.ts#L122)
+Defined in: [tables/src/tableview/TableView.ts:122](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/tableview/TableView.ts#L122)
 
 Determines whether a DOM mutation should be ignored by ProseMirror.
 
@@ -140,7 +140,7 @@ NodeView.ignoreMutation;
 update(node): boolean;
 ```
 
-Defined in: [tables/src/tableview/TableView.ts:98](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/tableview/TableView.ts#L98)
+Defined in: [tables/src/tableview/TableView.ts:98](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/tableview/TableView.ts#L98)
 
 Updates the view when the underlying node changes.
 

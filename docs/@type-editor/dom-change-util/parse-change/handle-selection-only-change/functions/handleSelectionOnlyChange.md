@@ -10,7 +10,7 @@
 function handleSelectionOnlyChange(view, compositionID): void;
 ```
 
-Defined in: [parse-change/handle-selection-only-change.ts:29](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/dom-change-util/src/dom-change/parse-change/handle-selection-only-change.ts#L29)
+Defined in: [parse-change/handle-selection-only-change.ts:29](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/dom-change-util/src/dom-change/parse-change/handle-selection-only-change.ts#L29)
 
 Handles selection-only changes (when no content has changed).
 

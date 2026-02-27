@@ -10,7 +10,7 @@
 function atBlockEnd(state, view?): ResolvedPos;
 ```
 
-Defined in: [util/helpers.ts:66](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/commands/src/util/helpers.ts#L66)
+Defined in: [util/helpers.ts:66](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/commands/src/util/helpers.ts#L66)
 
 Checks if the cursor is at the end of a textblock.
 

@@ -114,7 +114,7 @@ This folder contains the generated documentation using TypeDoc (Markdown). You c
 ### Documentation
 
 - Modules (HTML): [type-editor.io](https://type-editor.io/0.0.1)
-- Modules (Markdown): [GitHub](./docs/index.md)
+- Modules (Markdown): [GitHub](_media/index.md)
 
 As this is mainly the same code base as the original ProseMirror editor you can find more information here:
 

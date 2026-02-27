@@ -6,7 +6,7 @@
 
 # Class: DropdownSubmenu
 
-Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:16](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L16)
+Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:16](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L16)
 
 Represents a submenu wrapping a group of elements that start
 hidden and expand to the right when hovered over or tapped.
@@ -27,7 +27,7 @@ hidden and expand to the right when hovered over or tapped.
 new DropdownSubmenu(content, options?): DropdownSubmenu;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:26](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L26)
+Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:26](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L26)
 
 Creates a submenu for the given group of menu elements.
 
@@ -50,7 +50,7 @@ Creates a submenu for the given group of menu elements.
 
 | Property                            | Modifier   | Type                                                                                | Inherited from                                                                                                                                                            | Defined in                                                                                                                                                                                                        |
 | ----------------------------------- | ---------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-items"></a> `items` | `readonly` | readonly [`MenuElement`](../../../../types/MenuElement/interfaces/MenuElement.md)[] | [`AbstractDropdownMenu`](../../AbstractDropdownMenu/classes/AbstractDropdownMenu.md).[`items`](../../AbstractDropdownMenu/classes/AbstractDropdownMenu.md#property-items) | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:31](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L31) |
+| <a id="property-items"></a> `items` | `readonly` | readonly [`MenuElement`](../../../../types/MenuElement/interfaces/MenuElement.md)[] | [`AbstractDropdownMenu`](../../AbstractDropdownMenu/classes/AbstractDropdownMenu.md).[`items`](../../AbstractDropdownMenu/classes/AbstractDropdownMenu.md#property-items) | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:31](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L31) |
 
 ## Accessors
 
@@ -62,7 +62,7 @@ Creates a submenu for the given group of menu elements.
 get content(): readonly MenuElement[];
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:32](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L32)
+Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:32](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L32)
 
 ##### Returns
 
@@ -78,7 +78,7 @@ readonly [`MenuElement`](../../../../types/MenuElement/interfaces/MenuElement.md
 get options(): SubMenuOptions;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:36](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L36)
+Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:36](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L36)
 
 ##### Returns
 
@@ -92,7 +92,7 @@ Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:36](https://g
 protected isMenuEvent(wrapper): boolean;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:93](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L93)
+Defined in: [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:93](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L93)
 
 Checks if a recent event originated from within a menu wrapper.
 Events are considered "recent" if they occurred within the last 100ms.
@@ -121,7 +121,7 @@ true if a recent event originated from within the wrapper
 protected markMenuEvent(e): void;
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:105](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L105)
+Defined in: [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:105](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L105)
 
 Marks an event as a menu event by recording its timestamp and target node.
 
@@ -150,7 +150,7 @@ render(view): {
 };
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:46](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L46)
+Defined in: [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:46](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L46)
 
 Renders the submenu.
 
@@ -173,8 +173,8 @@ An object containing the DOM element and an update function
 
 | Name       | Type                   | Default value | Defined in                                                                                                                                                                                                |
 | ---------- | ---------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`      | `HTMLElement`          | `wrap`        | [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:109](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L109) |
-| `update()` | (`state`) => `boolean` | -             | [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:110](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L110) |
+| `dom`      | `HTMLElement`          | `wrap`        | [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:109](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L109) |
+| `update()` | (`state`) => `boolean` | -             | [packages/menu/src/menubar/dropdown/DropdownSubmenu.ts:110](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/DropdownSubmenu.ts#L110) |
 
 #### Implementation of
 
@@ -195,7 +195,7 @@ protected renderDropdownItems(
 };
 ```
 
-Defined in: [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:45](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L45)
+Defined in: [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:45](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L45)
 
 Renders an array of menu elements as dropdown items.
 
@@ -221,9 +221,9 @@ An object containing rendered DOM elements and a combined update function
 
 | Name       | Type                             | Default value  | Defined in                                                                                                                                                                                                        |
 | ---------- | -------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`      | `HTMLElement` \| `HTMLElement`[] | -              | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:80](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L80) |
-| `domList`  | `HTMLElement`[]                  | `subMenuItems` | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:82](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L82) |
-| `update()` | (`state`) => `boolean`           | -              | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:81](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L81) |
+| `dom`      | `HTMLElement` \| `HTMLElement`[] | -              | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:80](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L80) |
+| `domList`  | `HTMLElement`[]                  | `subMenuItems` | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:82](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L82) |
+| `update()` | (`state`) => `boolean`           | -              | [packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts:81](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/dropdown/AbstractDropdownMenu.ts#L81) |
 
 #### Inherited from
 

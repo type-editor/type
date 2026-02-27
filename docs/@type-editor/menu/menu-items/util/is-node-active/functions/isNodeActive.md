@@ -16,7 +16,7 @@ function isNodeActive(
 ): boolean;
 ```
 
-Defined in: [packages/menu/src/menu-items/util/is-node-active.ts:18](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menu-items/util/is-node-active.ts#L18)
+Defined in: [packages/menu/src/menu-items/util/is-node-active.ts:18](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menu-items/util/is-node-active.ts#L18)
 
 Checks if a node of a specific type is active at the current selection.
 

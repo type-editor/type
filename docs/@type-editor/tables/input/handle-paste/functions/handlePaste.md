@@ -10,7 +10,7 @@
 function handlePaste(view, _, slice): boolean;
 ```
 
-Defined in: [tables/src/input/handle-paste.ts:41](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/tables/src/input/handle-paste.ts#L41)
+Defined in: [tables/src/input/handle-paste.ts:41](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/tables/src/input/handle-paste.ts#L41)
 
 Handles paste events within table cells.
 

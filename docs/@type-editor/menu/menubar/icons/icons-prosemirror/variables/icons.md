@@ -10,7 +10,7 @@
 const icons: Record<string, IconSpec>;
 ```
 
-Defined in: [packages/menu/src/menubar/icons/icons-prosemirror.ts:10](https://github.com/type-editor/type/blob/e4864dcc638305a01de9e1948959c6e89a004528/packages/menu/src/menubar/icons/icons-prosemirror.ts#L10)
+Defined in: [packages/menu/src/menubar/icons/icons-prosemirror.ts:10](https://github.com/type-editor/type/blob/a2760cc13c592972408bf3457981c13a24abf3a2/packages/menu/src/menubar/icons/icons-prosemirror.ts#L10)
 
 A set of basic editor-related icons. Contains the properties
 `join`, `lift`, `selectParentNode`, `undo`, `redo`, `strong`, `em`,

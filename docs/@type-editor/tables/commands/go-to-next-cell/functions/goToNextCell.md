@@ -10,7 +10,7 @@
 function goToNextCell(direction): Command;
 ```
 
-Defined in: [tables/src/commands/go-to-next-cell.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/tables/src/commands/go-to-next-cell.ts#L19)
+Defined in: [tables/src/commands/go-to-next-cell.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/commands/go-to-next-cell.ts#L19)
 
 Creates a command for selecting the next or previous cell in a table.
 

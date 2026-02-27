@@ -10,7 +10,7 @@
 function dropCursor(options?): Plugin_2;
 ```
 
-Defined in: [drop-cursor-plugin.ts:35](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dropcursor/src/drop-cursor-plugin.ts#L35)
+Defined in: [drop-cursor-plugin.ts:35](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dropcursor/src/drop-cursor-plugin.ts#L35)
 
 Creates a plugin that displays a visual drop cursor indicator when content is dragged over the editor.
 

@@ -6,7 +6,7 @@
 
 # Class: RemoveMarkStep
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L22)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L22)
 
 A step that removes a mark from all inline content between two positions.
 
@@ -36,7 +36,7 @@ new RemoveMarkStep(
    mark): RemoveMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:34](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L34)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:34](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L34)
 
 Create a mark-removing step.
 
@@ -66,7 +66,7 @@ Create a mark-removing step.
 get from(): number;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:41](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L41)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:41](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L41)
 
 ##### Returns
 
@@ -78,7 +78,7 @@ Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:41](https://g
 set from(from): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:45](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L45)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:45](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L45)
 
 ##### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:45](https://g
 get mark(): Mark;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L59)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:59](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L59)
 
 ##### Returns
 
@@ -112,7 +112,7 @@ Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:59](https://g
 set mark(mark): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:63](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L63)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:63](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L63)
 
 ##### Parameters
 
@@ -134,7 +134,7 @@ Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:63](https://g
 get to(): number;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:49](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L49)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:49](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L49)
 
 ##### Returns
 
@@ -146,7 +146,7 @@ Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:49](https://g
 set to(to): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:53](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L53)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:53](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L53)
 
 ##### Parameters
 
@@ -166,7 +166,7 @@ Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:53](https://g
 apply(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:103](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L103)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:103](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L103)
 
 Apply this step to a document, removing the mark from all inline content in the range.
 
@@ -197,7 +197,7 @@ A StepResult indicating success (with the modified document) or failure (with er
 getMap(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L86)
+Defined in: [packages/transform/src/change-steps/Step.ts:86](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L86)
 
 Get the step map that represents the changes made by this step,
 and which can be used to transform between positions in the old
@@ -221,7 +221,7 @@ A StepMap describing the position changes, or StepMap.empty if no changes.
 invert(): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:124](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L124)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:124](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L124)
 
 Create an inverted version of this step that adds the mark back.
 
@@ -246,7 +246,7 @@ An AddMarkStep that undoes this step by adding the mark back.
 map(mapping): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:138](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L138)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:138](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L138)
 
 Map this step through a mappable object, adjusting positions.
 
@@ -281,7 +281,7 @@ protected mapFragment(
    parent): Fragment;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L144)
+Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L144)
 
 Recursively map over inline nodes in a fragment, applying a callback function.
 
@@ -315,7 +315,7 @@ A new fragment with transformed nodes, preserving the structure.
 merge(other): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:158](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L158)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:158](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L158)
 
 Try to merge this step with another step for optimization.
 
@@ -347,7 +347,7 @@ A merged RemoveMarkStep covering the combined range if compatible, or null if th
 toJSON(): StepJSON;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:177](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L177)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:177](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L177)
 
 Serialize this step to JSON for storage or transmission.
 
@@ -371,7 +371,7 @@ The JSON representation of this step including stepType, mark, from, and to prop
 static fromJSON(schema, json): RemoveMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:78](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/RemoveMarkStep.ts#L78)
+Defined in: [packages/transform/src/change-steps/RemoveMarkStep.ts:78](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/RemoveMarkStep.ts#L78)
 
 Deserialize a RemoveMarkStep from its JSON representation.
 
@@ -407,7 +407,7 @@ When the JSON is invalid, positions are negative, from \> to, or mark is missing
 static registerStep(jsonId, stepClass): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/transform/src/change-steps/Step.ts#L61)
+Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L61)
 
 To be able to serialize steps to JSON, each step needs a string
 ID to attach to its JSON representation. Use this method to

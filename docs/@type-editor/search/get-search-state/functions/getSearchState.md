@@ -10,7 +10,7 @@
 function getSearchState(state): SearchState;
 ```
 
-Defined in: [get-search-state.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/get-search-state.ts#L12)
+Defined in: [get-search-state.ts:12](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/get-search-state.ts#L12)
 
 Get the current active search query and searched range.
 

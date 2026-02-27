@@ -15,7 +15,7 @@ function toggleBlockType(
 ): Command;
 ```
 
-Defined in: [toggle-block-type.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/toggle-block-type.ts#L23)
+Defined in: [toggle-block-type.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/toggle-block-type.ts#L23)
 
 Creates a command that toggles between two block types.
 

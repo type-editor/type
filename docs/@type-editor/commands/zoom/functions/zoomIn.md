@@ -10,7 +10,7 @@
 function zoomIn(_state, _dispatch, view): boolean;
 ```
 
-Defined in: [zoom.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/commands/src/zoom.ts#L12)
+Defined in: [zoom.ts:12](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/zoom.ts#L12)
 
 Command to zoom in the editor view by 10%, up to a maximum of 200%.
 

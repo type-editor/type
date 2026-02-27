@@ -16,7 +16,7 @@ function isAndroidEnterSuggestionQuirk(
 ): boolean;
 ```
 
-Defined in: [browser-hacks/is-android-enter-suggestion-quirk.ts:41](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-change-util/src/dom-change/browser-hacks/is-android-enter-suggestion-quirk.ts#L41)
+Defined in: [browser-hacks/is-android-enter-suggestion-quirk.ts:41](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-change-util/src/dom-change/browser-hacks/is-android-enter-suggestion-quirk.ts#L41)
 
 Checks if the Android virtual keyboard enter-and-pick-suggestion quirk is happening.
 

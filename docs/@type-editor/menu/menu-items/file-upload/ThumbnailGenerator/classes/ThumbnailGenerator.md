@@ -6,7 +6,7 @@
 
 # Class: ThumbnailGenerator
 
-Defined in: [packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts:67](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts#L67)
+Defined in: [packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts:67](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts#L67)
 
 Generates thumbnail images from various file types including PDFs, images, and text files.
 
@@ -34,7 +34,7 @@ if (thumbnail) {
 new ThumbnailGenerator(options?): ThumbnailGenerator;
 ```
 
-Defined in: [packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts:84](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts#L84)
+Defined in: [packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts:84](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts#L84)
 
 Creates a new ThumbnailGenerator instance.
 
@@ -56,7 +56,7 @@ Creates a new ThumbnailGenerator instance.
 generateThumbnail(file): Promise<Thumbnail>;
 ```
 
-Defined in: [packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts:101](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts#L101)
+Defined in: [packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts:101](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menu-items/file-upload/ThumbnailGenerator.ts#L101)
 
 Generates a thumbnail for the given file.
 

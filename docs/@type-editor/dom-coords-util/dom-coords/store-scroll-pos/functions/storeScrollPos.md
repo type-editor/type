@@ -10,7 +10,7 @@
 function storeScrollPos(view): StoredScrollPos;
 ```
 
-Defined in: [dom-coords/store-scroll-pos.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-coords-util/src/dom-coords/store-scroll-pos.ts#L20)
+Defined in: [dom-coords/store-scroll-pos.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-coords-util/src/dom-coords/store-scroll-pos.ts#L20)
 
 Store the scroll position of the editor's parent nodes, along with
 the top position of an element near the top of the editor, which

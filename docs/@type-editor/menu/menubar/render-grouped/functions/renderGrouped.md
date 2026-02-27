@@ -19,7 +19,7 @@ function renderGrouped(
 };
 ```
 
-Defined in: [packages/menu/src/menubar/render-grouped.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menubar/render-grouped.ts#L21)
+Defined in: [packages/menu/src/menubar/render-grouped.ts:21](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menubar/render-grouped.ts#L21)
 
 Render the given, possibly nested, array of menu elements into a
 document fragment, placing separators between them (and ensuring no
@@ -49,6 +49,6 @@ An object containing the document fragment and an update function
 
 | Name        | Type                   | Default value | Defined in                                                                                                                                                                            |
 | ----------- | ---------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dom`       | `DocumentFragment`     | `result`      | [packages/menu/src/menubar/render-grouped.ts:117](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menubar/render-grouped.ts#L117) |
-| `menuItems` | `HTMLElement`[]        | -             | [packages/menu/src/menubar/render-grouped.ts:119](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menubar/render-grouped.ts#L119) |
-| `update()`  | (`state`) => `boolean` | -             | [packages/menu/src/menubar/render-grouped.ts:118](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/menu/src/menubar/render-grouped.ts#L118) |
+| `dom`       | `DocumentFragment`     | `result`      | [packages/menu/src/menubar/render-grouped.ts:117](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menubar/render-grouped.ts#L117) |
+| `menuItems` | `HTMLElement`[]        | -             | [packages/menu/src/menubar/render-grouped.ts:119](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menubar/render-grouped.ts#L119) |
+| `update()`  | (`state`) => `boolean` | -             | [packages/menu/src/menubar/render-grouped.ts:118](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menubar/render-grouped.ts#L118) |

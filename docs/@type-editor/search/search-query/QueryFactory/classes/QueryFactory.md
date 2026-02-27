@@ -6,7 +6,7 @@
 
 # Class: QueryFactory
 
-Defined in: [search-query/QueryFactory.ts:7](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/QueryFactory.ts#L7)
+Defined in: [search-query/QueryFactory.ts:7](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/QueryFactory.ts#L7)
 
 ## Constructors
 
@@ -28,7 +28,7 @@ new QueryFactory(): QueryFactory;
 static createNullQuery(): NullQuery;
 ```
 
-Defined in: [search-query/QueryFactory.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/QueryFactory.ts#L25)
+Defined in: [search-query/QueryFactory.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/QueryFactory.ts#L25)
 
 #### Returns
 
@@ -42,7 +42,7 @@ Defined in: [search-query/QueryFactory.ts:25](https://github.com/type-editor/typ
 static createRegExpQuery(query): RegExpQuery;
 ```
 
-Defined in: [search-query/QueryFactory.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/QueryFactory.ts#L21)
+Defined in: [search-query/QueryFactory.ts:21](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/QueryFactory.ts#L21)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ Defined in: [search-query/QueryFactory.ts:21](https://github.com/type-editor/typ
 static createStringQuery(query): StringQuery;
 ```
 
-Defined in: [search-query/QueryFactory.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/QueryFactory.ts#L17)
+Defined in: [search-query/QueryFactory.ts:17](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/QueryFactory.ts#L17)
 
 #### Parameters
 

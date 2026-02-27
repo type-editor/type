@@ -10,7 +10,7 @@
 type StateFieldApplyFunction<T> = (transaction, value, oldState, newState) => T;
 ```
 
-Defined in: [packages/editor-types/src/types/state/plugin/StateField.ts:7](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/state/plugin/StateField.ts#L7)
+Defined in: [packages/editor-types/src/types/state/plugin/StateField.ts:7](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/state/plugin/StateField.ts#L7)
 
 ## Type Parameters
 

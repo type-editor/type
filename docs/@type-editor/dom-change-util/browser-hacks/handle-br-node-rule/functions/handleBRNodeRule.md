@@ -10,7 +10,7 @@
 function handleBRNodeRule(dom): Omit<TagParseRule, "tag">;
 ```
 
-Defined in: [browser-hacks/handle-br-node-rule.ts:33](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/dom-change-util/src/dom-change/browser-hacks/handle-br-node-rule.ts#L33)
+Defined in: [browser-hacks/handle-br-node-rule.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-change-util/src/dom-change/browser-hacks/handle-br-node-rule.ts#L33)
 
 Handles parsing rules for BR nodes, working around Safari quirks.
 

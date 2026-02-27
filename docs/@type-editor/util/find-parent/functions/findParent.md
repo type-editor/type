@@ -10,7 +10,7 @@
 function findParent(selection, predicate): FindParentResult;
 ```
 
-Defined in: [find-parent.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/util/src/find-parent.ts#L24)
+Defined in: [find-parent.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/util/src/find-parent.ts#L24)
 
 Finds the nearest ancestor node in the document tree that satisfies the given predicate.
 

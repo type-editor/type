@@ -6,7 +6,7 @@
 
 # Class: MarkViewDesc
 
-Defined in: [MarkViewDesc.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L20)
+Defined in: [MarkViewDesc.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L20)
 
 A mark desc represents a mark. May have multiple children,
 depending on how the mark is split. Note that marks are drawn using
@@ -34,7 +34,7 @@ new MarkViewDesc(
    spec): MarkViewDesc;
 ```
 
-Defined in: [MarkViewDesc.ts:34](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L34)
+Defined in: [MarkViewDesc.ts:34](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L34)
 
 Creates a new MarkViewDesc.
 
@@ -60,12 +60,12 @@ Creates a new MarkViewDesc.
 
 | Property                                        | Modifier    | Type                                                                    | Default value              | Inherited from                                                                                                            | Defined in                                                                                                                                          |
 | ----------------------------------------------- | ----------- | ----------------------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-_children"></a> `_children`     | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)[]                      | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_children`](../../ViewDesc/classes/ViewDesc.md#property-_children)     | [ViewDesc.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L28) |
-| <a id="property-_contentdom"></a> `_contentDOM` | `readonly`  | `HTMLElement`                                                           | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_contentDOM`](../../ViewDesc/classes/ViewDesc.md#property-_contentdom) | [ViewDesc.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L24) |
-| <a id="property-_dirty"></a> `_dirty`           | `protected` | [`ViewDirtyState`](../../ViewDirtyState/enumerations/ViewDirtyState.md) | `ViewDirtyState.NOT_DIRTY` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_dirty`](../../ViewDesc/classes/ViewDesc.md#property-_dirty)           | [ViewDesc.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L25) |
-| <a id="property-_dom"></a> `_dom`               | `protected` | `Node`                                                                  | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_dom`](../../ViewDesc/classes/ViewDesc.md#property-_dom)               | [ViewDesc.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L29) |
-| <a id="property-_node"></a> `_node`             | `protected` | `Node_2`                                                                | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_node`](../../ViewDesc/classes/ViewDesc.md#property-_node)             | [ViewDesc.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L26) |
-| <a id="property-_parent"></a> `_parent`         | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)                        | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_parent`](../../ViewDesc/classes/ViewDesc.md#property-_parent)         | [ViewDesc.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L27) |
+| <a id="property-_children"></a> `_children`     | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)[]                      | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_children`](../../ViewDesc/classes/ViewDesc.md#property-_children)     | [ViewDesc.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L28) |
+| <a id="property-_contentdom"></a> `_contentDOM` | `readonly`  | `HTMLElement`                                                           | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_contentDOM`](../../ViewDesc/classes/ViewDesc.md#property-_contentdom) | [ViewDesc.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L24) |
+| <a id="property-_dirty"></a> `_dirty`           | `protected` | [`ViewDirtyState`](../../ViewDirtyState/enumerations/ViewDirtyState.md) | `ViewDirtyState.NOT_DIRTY` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_dirty`](../../ViewDesc/classes/ViewDesc.md#property-_dirty)           | [ViewDesc.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L25) |
+| <a id="property-_dom"></a> `_dom`               | `protected` | `Node`                                                                  | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_dom`](../../ViewDesc/classes/ViewDesc.md#property-_dom)               | [ViewDesc.ts:29](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L29) |
+| <a id="property-_node"></a> `_node`             | `protected` | `Node_2`                                                                | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_node`](../../ViewDesc/classes/ViewDesc.md#property-_node)             | [ViewDesc.ts:26](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L26) |
+| <a id="property-_parent"></a> `_parent`         | `protected` | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md)                        | `undefined`                | [`ViewDesc`](../../ViewDesc/classes/ViewDesc.md).[`_parent`](../../ViewDesc/classes/ViewDesc.md#property-_parent)         | [ViewDesc.ts:27](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L27) |
 
 ## Accessors
 
@@ -77,7 +77,7 @@ Creates a new MarkViewDesc.
 get border(): number;
 ```
 
-Defined in: [ViewDesc.ts:181](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L181)
+Defined in: [ViewDesc.ts:181](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L181)
 
 For block nodes, this represents the space taken up by their
 start/end tokens.
@@ -100,7 +100,7 @@ start/end tokens.
 get children(): ViewDesc[];
 ```
 
-Defined in: [ViewDesc.ts:88](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L88)
+Defined in: [ViewDesc.ts:88](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L88)
 
 The child view descriptions of this view.
 
@@ -114,7 +114,7 @@ The child view descriptions of this view.
 set children(children): void;
 ```
 
-Defined in: [ViewDesc.ts:92](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L92)
+Defined in: [ViewDesc.ts:92](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L92)
 
 ##### Parameters
 
@@ -140,7 +140,7 @@ Defined in: [ViewDesc.ts:92](https://github.com/type-editor/type/blob/8f2401b36a
 get contentDOM(): HTMLElement;
 ```
 
-Defined in: [ViewDesc.ts:106](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L106)
+Defined in: [ViewDesc.ts:106](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L106)
 
 The DOM node that contains child content, if any.
 
@@ -162,7 +162,7 @@ The DOM node that contains child content, if any.
 get contentLost(): boolean;
 ```
 
-Defined in: [ViewDesc.ts:134](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L134)
+Defined in: [ViewDesc.ts:134](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L134)
 
 Checks if the content DOM has been detached from the main DOM.
 
@@ -184,7 +184,7 @@ Checks if the content DOM has been detached from the main DOM.
 get dirty(): ViewDirtyState;
 ```
 
-Defined in: [ViewDesc.ts:59](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L59)
+Defined in: [ViewDesc.ts:59](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L59)
 
 The dirty state of this description. Can be NOT_DIRTY, CHILD_DIRTY, CONTENT_DIRTY, or NODE_DIRTY.
 
@@ -198,7 +198,7 @@ The dirty state of this description. Can be NOT_DIRTY, CHILD_DIRTY, CONTENT_DIRT
 set dirty(dirty): void;
 ```
 
-Defined in: [ViewDesc.ts:63](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L63)
+Defined in: [ViewDesc.ts:63](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L63)
 
 ##### Parameters
 
@@ -224,7 +224,7 @@ Defined in: [ViewDesc.ts:63](https://github.com/type-editor/type/blob/8f2401b36a
 get dom(): Node;
 ```
 
-Defined in: [ViewDesc.ts:99](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L99)
+Defined in: [ViewDesc.ts:99](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L99)
 
 The DOM node this description represents.
 
@@ -246,7 +246,7 @@ The DOM node this description represents.
 get domAtom(): boolean;
 ```
 
-Defined in: [ViewDesc.ts:113](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L113)
+Defined in: [ViewDesc.ts:113](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L113)
 
 Whether this description represents an atomic node that should be treated as a single unit.
 
@@ -268,7 +268,7 @@ Whether this description represents an atomic node that should be treated as a s
 get ignoreForCoords(): boolean;
 ```
 
-Defined in: [ViewDesc.ts:120](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L120)
+Defined in: [ViewDesc.ts:120](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L120)
 
 Whether this view should be ignored when determining coordinates.
 
@@ -290,7 +290,7 @@ Whether this view should be ignored when determining coordinates.
 get ignoreForSelection(): boolean;
 ```
 
-Defined in: [ViewDesc.ts:127](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L127)
+Defined in: [ViewDesc.ts:127](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L127)
 
 Whether this view should be ignored for selection purposes.
 
@@ -312,7 +312,7 @@ Whether this view should be ignored for selection purposes.
 get node(): Node_2;
 ```
 
-Defined in: [ViewDesc.ts:70](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L70)
+Defined in: [ViewDesc.ts:70](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L70)
 
 The ProseMirror node this description represents, if any.
 
@@ -334,7 +334,7 @@ The ProseMirror node this description represents, if any.
 get nodeDOM(): Node;
 ```
 
-Defined in: [AbstractViewDesc.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L22)
+Defined in: [AbstractViewDesc.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L22)
 
 The DOM node that directly represents this ProseMirror node.
 May differ from `dom` if outer decorations wrap it.
@@ -359,7 +359,7 @@ The node DOM element, or null if this view doesn't have a direct node representa
 get parent(): ViewDesc;
 ```
 
-Defined in: [ViewDesc.ts:77](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L77)
+Defined in: [ViewDesc.ts:77](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L77)
 
 The parent view description in the tree.
 
@@ -373,7 +373,7 @@ The parent view description in the tree.
 set parent(parent): void;
 ```
 
-Defined in: [ViewDesc.ts:81](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L81)
+Defined in: [ViewDesc.ts:81](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L81)
 
 ##### Parameters
 
@@ -399,7 +399,7 @@ Defined in: [ViewDesc.ts:81](https://github.com/type-editor/type/blob/8f2401b36a
 get posAfter(): number;
 ```
 
-Defined in: [ViewDesc.ts:155](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L155)
+Defined in: [ViewDesc.ts:155](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L155)
 
 The document position just after this view.
 
@@ -421,7 +421,7 @@ The document position just after this view.
 get posAtEnd(): number;
 ```
 
-Defined in: [ViewDesc.ts:162](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L162)
+Defined in: [ViewDesc.ts:162](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L162)
 
 The document position at the end of this view's content.
 
@@ -443,7 +443,7 @@ The document position at the end of this view's content.
 get posAtStart(): number;
 ```
 
-Defined in: [ViewDesc.ts:148](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L148)
+Defined in: [ViewDesc.ts:148](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L148)
 
 The document position at the start of this view's content.
 
@@ -465,7 +465,7 @@ The document position at the start of this view's content.
 get posBefore(): number;
 ```
 
-Defined in: [ViewDesc.ts:141](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L141)
+Defined in: [ViewDesc.ts:141](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L141)
 
 The document position just before this view.
 
@@ -487,7 +487,7 @@ The document position just before this view.
 get side(): number;
 ```
 
-Defined in: [ViewDesc.ts:185](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L185)
+Defined in: [ViewDesc.ts:185](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L185)
 
 Gets the side value which determines positioning behavior of the view.
 
@@ -513,7 +513,7 @@ Gets the side value which determines positioning behavior of the view.
 get size(): number;
 ```
 
-Defined in: [ViewDesc.ts:169](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L169)
+Defined in: [ViewDesc.ts:169](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L169)
 
 The size of the content represented by this desc.
 
@@ -533,7 +533,7 @@ The size of the content represented by this desc.
 descAt(pos): ViewDesc;
 ```
 
-Defined in: [ViewDesc.ts:371](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L371)
+Defined in: [ViewDesc.ts:371](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L371)
 
 Find the desc for the node after the given pos, if any. (When a
 parent node overrode rendering, there might not be one.)
@@ -562,7 +562,7 @@ The view description at that position, or undefined
 destroy(): void;
 ```
 
-Defined in: [MarkViewDesc.ts:167](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L167)
+Defined in: [MarkViewDesc.ts:167](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L167)
 
 Cleans up this mark view by calling custom destroy handler if defined.
 
@@ -582,7 +582,7 @@ Cleans up this mark view by calling custom destroy handler if defined.
 domAfterPos(pos): Node;
 ```
 
-Defined in: [ViewDesc.ts:468](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L468)
+Defined in: [ViewDesc.ts:468](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L468)
 
 Gets the DOM node immediately after a given document position.
 
@@ -618,7 +618,7 @@ domFromPos(pos, side): {
 };
 ```
 
-Defined in: [ViewDesc.ts:408](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L408)
+Defined in: [ViewDesc.ts:408](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L408)
 
 Converts a document position to a DOM position.
 
@@ -650,9 +650,9 @@ Object containing the DOM node, offset, and optionally an atom marker
 
 | Name     | Type     | Defined in                                                                                                                                            |
 | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `atom?`  | `number` | [ViewDesc.ts:409](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L409) |
-| `node`   | `Node`   | [ViewDesc.ts:409](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L409) |
-| `offset` | `number` | [ViewDesc.ts:409](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L409) |
+| `atom?`  | `number` | [ViewDesc.ts:409](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L409) |
+| `node`   | `Node`   | [ViewDesc.ts:409](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L409) |
+| `offset` | `number` | [ViewDesc.ts:409](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L409) |
 
 #### Inherited from
 
@@ -666,7 +666,7 @@ Object containing the DOM node, offset, and optionally an atom marker
 emptyChildAt(side): boolean;
 ```
 
-Defined in: [ViewDesc.ts:452](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L452)
+Defined in: [ViewDesc.ts:452](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L452)
 
 Checks if there's an empty child at the start or end of this view.
 
@@ -694,7 +694,7 @@ True if there's an empty child at the specified side
 getDesc(dom): ViewDesc;
 ```
 
-Defined in: [ViewDesc.ts:333](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L333)
+Defined in: [ViewDesc.ts:333](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L333)
 
 Gets a view description from a DOM node if it's a descendant of this description.
 
@@ -722,7 +722,7 @@ The view description if it's a descendant, undefined otherwise
 getType(): ViewDescType;
 ```
 
-Defined in: [MarkViewDesc.ts:174](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L174)
+Defined in: [MarkViewDesc.ts:174](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L174)
 
 #### Returns
 
@@ -740,7 +740,7 @@ Defined in: [MarkViewDesc.ts:174](https://github.com/type-editor/type/blob/8f240
 ignoreMutation(mutation): boolean;
 ```
 
-Defined in: [MarkViewDesc.ts:160](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L160)
+Defined in: [MarkViewDesc.ts:160](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L160)
 
 Delegates mutation handling to custom spec if available, otherwise uses default behavior.
 
@@ -768,7 +768,7 @@ True if the mutation should be ignored
 isText(_text): boolean;
 ```
 
-Defined in: [ViewDesc.ts:549](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L549)
+Defined in: [ViewDesc.ts:549](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L549)
 
 Checks if this view represents text with a specific content.
 
@@ -799,7 +799,7 @@ localPosFromDOM(
    bias): number;
 ```
 
-Defined in: [ViewDesc.ts:316](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L316)
+Defined in: [ViewDesc.ts:316](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L316)
 
 Converts a DOM position within this view to a document position.
 
@@ -834,7 +834,7 @@ The document position corresponding to the DOM position
 markDirty(from, to): void;
 ```
 
-Defined in: [MarkViewDesc.ts:106](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L106)
+Defined in: [MarkViewDesc.ts:106](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L106)
 
 Marks a range as dirty and propagates to parent node view.
 Mark views don't maintain their own dirty state - it's moved to the nearest node view.
@@ -862,7 +862,7 @@ Mark views don't maintain their own dirty state - it's moved to the nearest node
 markParentsDirty(): void;
 ```
 
-Defined in: [ViewDesc.ts:557](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L557)
+Defined in: [ViewDesc.ts:557](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L557)
 
 Marks this description and its parents as dirty, propagating the dirty state up the tree.
 Sets the dirty level to CONTENT_DIRTY for the immediate parent and CHILD_DIRTY for ancestors.
@@ -883,7 +883,7 @@ Sets the dirty level to CONTENT_DIRTY for the immediate parent and CHILD_DIRTY f
 matchesHack(_nodeName): boolean;
 ```
 
-Defined in: [ViewDesc.ts:236](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L236)
+Defined in: [ViewDesc.ts:236](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L236)
 
 Checks if this description matches a hack node with a specific name.
 
@@ -911,7 +911,7 @@ True if this is a hack node with the given name
 matchesMark(mark): boolean;
 ```
 
-Defined in: [MarkViewDesc.ts:95](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L95)
+Defined in: [MarkViewDesc.ts:95](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L95)
 
 Checks if this mark view matches a given mark.
 
@@ -942,7 +942,7 @@ matchesNode(
    _innerDeco): boolean;
 ```
 
-Defined in: [ViewDesc.ts:226](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L226)
+Defined in: [ViewDesc.ts:226](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L226)
 
 Checks if this description matches a given node with decorations.
 
@@ -972,7 +972,7 @@ True if this description represents the given node with matching decorations
 matchesWidget(_widget): boolean;
 ```
 
-Defined in: [ViewDesc.ts:199](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L199)
+Defined in: [ViewDesc.ts:199](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L199)
 
 Checks if this description matches a given widget decoration.
 
@@ -1009,7 +1009,7 @@ parseRange(
 };
 ```
 
-Defined in: [ViewDesc.ts:435](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L435)
+Defined in: [ViewDesc.ts:435](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L435)
 
 Finds a DOM range in a single parent for a given changed range.
 
@@ -1041,11 +1041,11 @@ Object containing the DOM node and offsets for the range
 
 | Name         | Type     | Defined in                                                                                                                                            |
 | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `from`       | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `fromOffset` | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `node`       | `Node`   | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `to`         | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
-| `toOffset`   | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `from`       | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `fromOffset` | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `node`       | `Node`   | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `to`         | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
+| `toOffset`   | `number` | [ViewDesc.ts:437](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L437) |
 
 #### Inherited from
 
@@ -1063,7 +1063,7 @@ parseRule(): {
 };
 ```
 
-Defined in: [MarkViewDesc.ts:77](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L77)
+Defined in: [MarkViewDesc.ts:77](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L77)
 
 Returns a parse rule for this mark, or null if it should be reparsed.
 
@@ -1081,9 +1081,9 @@ Parse rule with mark info, or null if dirty or needs reparsing
 
 | Name             | Type                                              | Defined in                                                                                                                                                  |
 | ---------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `attrs`          | `Readonly`&lt;`Record`&lt;`string`, `any`&gt;&gt; | [MarkViewDesc.ts:84](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L84) |
-| `contentElement` | `HTMLElement`                                     | [MarkViewDesc.ts:85](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L85) |
-| `mark`           | `string`                                          | [MarkViewDesc.ts:83](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L83) |
+| `attrs`          | `Readonly`&lt;`Record`&lt;`string`, `any`&gt;&gt; | [MarkViewDesc.ts:84](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L84) |
+| `contentElement` | `HTMLElement`                                     | [MarkViewDesc.ts:85](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L85) |
+| `mark`           | `string`                                          | [MarkViewDesc.ts:83](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L83) |
 
 #### Overrides
 
@@ -1097,7 +1097,7 @@ Parse rule with mark info, or null if dirty or needs reparsing
 posBeforeChild(child): number;
 ```
 
-Defined in: [ViewDesc.ts:293](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L293)
+Defined in: [ViewDesc.ts:293](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L293)
 
 Calculates the document position just before a given child view.
 
@@ -1128,7 +1128,7 @@ posFromDOM(
    bias): number;
 ```
 
-Defined in: [ViewDesc.ts:354](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L354)
+Defined in: [ViewDesc.ts:354](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L354)
 
 Converts a DOM position to a document position.
 
@@ -1158,7 +1158,7 @@ The document position, or -1 if not found
 protected setDomNode(dom): void;
 ```
 
-Defined in: [ViewDesc.ts:575](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L575)
+Defined in: [ViewDesc.ts:575](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L575)
 
 Sets the DOM node for this description and establishes the bidirectional link.
 
@@ -1188,7 +1188,7 @@ setSelection(
    force?): void;
 ```
 
-Defined in: [ViewDesc.ts:492](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L492)
+Defined in: [ViewDesc.ts:492](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L492)
 
 Sets a selection within this view description or delegates to a child.
 
@@ -1228,7 +1228,7 @@ slice(
    view): MarkViewDesc;
 ```
 
-Defined in: [MarkViewDesc.ts:131](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L131)
+Defined in: [MarkViewDesc.ts:131](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L131)
 
 Creates a sliced copy of this mark view with a subset of its children.
 
@@ -1254,7 +1254,7 @@ A new MarkViewDesc with sliced children
 stopEvent(_event): boolean;
 ```
 
-Defined in: [ViewDesc.ts:256](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewDesc.ts#L256)
+Defined in: [ViewDesc.ts:256](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewDesc.ts#L256)
 
 Used by the editor's event handler to ignore events that come
 from certain descs.
@@ -1287,7 +1287,7 @@ static create(
    view): MarkViewDesc;
 ```
 
-Defined in: [MarkViewDesc.ts:53](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L53)
+Defined in: [MarkViewDesc.ts:53](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/MarkViewDesc.ts#L53)
 
 Creates a mark view description, using custom mark views if available.
 

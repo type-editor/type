@@ -10,7 +10,7 @@
 type EventHandler<T> = (view, event) => boolean | void;
 ```
 
-Defined in: [types/input/EventHandler.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/input/src/types/input/EventHandler.ts#L11)
+Defined in: [types/input/EventHandler.ts:11](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/input/src/types/input/EventHandler.ts#L11)
 
 Type definition for event handler functions used in the editor.
 

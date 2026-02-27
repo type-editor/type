@@ -6,7 +6,7 @@
 
 # Class: StringQuery
 
-Defined in: [search-query/StringQuery.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/StringQuery.ts#L14)
+Defined in: [search-query/StringQuery.ts:14](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/StringQuery.ts#L14)
 
 Query implementation for plain text string searches.
 Handles case-sensitive and case-insensitive string matching.
@@ -27,7 +27,7 @@ Handles case-sensitive and case-insensitive string matching.
 new StringQuery(query): StringQuery;
 ```
 
-Defined in: [search-query/StringQuery.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/StringQuery.ts#L23)
+Defined in: [search-query/StringQuery.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/StringQuery.ts#L23)
 
 Creates a new string query implementation.
 
@@ -56,7 +56,7 @@ findNext(
    to): SearchResult;
 ```
 
-Defined in: [search-query/StringQuery.ts:43](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/StringQuery.ts#L43)
+Defined in: [search-query/StringQuery.ts:43](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/StringQuery.ts#L43)
 
 Finds the next occurrence of the search text in the document.
 
@@ -89,7 +89,7 @@ findPrev(
    to): SearchResult;
 ```
 
-Defined in: [search-query/StringQuery.ts:75](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/StringQuery.ts#L75)
+Defined in: [search-query/StringQuery.ts:75](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/StringQuery.ts#L75)
 
 Finds the previous occurrence of the search text in the document.
 
@@ -124,7 +124,7 @@ protected scanTextblocks<T>(
    nodeStart?): T;
 ```
 
-Defined in: [search-query/AbstractQueryImpl.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/AbstractQueryImpl.ts#L29)
+Defined in: [search-query/AbstractQueryImpl.ts:29](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/AbstractQueryImpl.ts#L29)
 
 Scans through text blocks in a document tree, calling a callback for each text block
 that intersects with the given range.
@@ -165,7 +165,7 @@ The first non-null result from the callback, or null if none found
 protected textContent(node): string;
 ```
 
-Defined in: [search-query/AbstractQueryImpl.ts:90](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/search/src/search-query/AbstractQueryImpl.ts#L90)
+Defined in: [search-query/AbstractQueryImpl.ts:90](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/search-query/AbstractQueryImpl.ts#L90)
 
 Extracts the text content from a node, with caching for performance.
 

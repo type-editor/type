@@ -6,7 +6,7 @@
 
 # Interface: PmViewDesc
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:11](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L11)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:11](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L11)
 
 ## Extended by
 
@@ -16,24 +16,24 @@ Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:11](ht
 
 | Property                                                      | Modifier   | Type                                                                                  | Defined in                                                                                                                                                                                                            |
 | ------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-border"></a> `border`                         | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:27](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L27) |
-| <a id="property-children"></a> `children`                     | `public`   | `PmViewDesc`[]                                                                        | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:15](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L15) |
-| <a id="property-contentdom"></a> `contentDOM`                 | `readonly` | `HTMLElement`                                                                         | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:17](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L17) |
-| <a id="property-contentlost"></a> `contentLost`               | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:21](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L21) |
-| <a id="property-dirty"></a> `dirty`                           | `public`   | [`ViewDirtyState`](../../../../../view/ViewDirtyState/enumerations/ViewDirtyState.md) | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:12](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L12) |
-| <a id="property-dom"></a> `dom`                               | `readonly` | `Node`                                                                                | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:16](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L16) |
-| <a id="property-domatom"></a> `domAtom`                       | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:18](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L18) |
-| <a id="property-ignoreforcoords"></a> `ignoreForCoords`       | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:19](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L19) |
-| <a id="property-ignoreforselection"></a> `ignoreForSelection` | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:20](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L20) |
-| <a id="property-node"></a> `node`                             | `readonly` | `Node_2`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:13](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L13) |
-| <a id="property-nodedom"></a> `nodeDOM`                       | `readonly` | `Node`                                                                                | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L29) |
-| <a id="property-parent"></a> `parent`                         | `public`   | `PmViewDesc`                                                                          | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:14](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L14) |
-| <a id="property-posafter"></a> `posAfter`                     | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L24) |
-| <a id="property-posatend"></a> `posAtEnd`                     | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:25](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L25) |
-| <a id="property-posatstart"></a> `posAtStart`                 | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:23](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L23) |
-| <a id="property-posbefore"></a> `posBefore`                   | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:22](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L22) |
-| <a id="property-side"></a> `side`                             | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:28](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L28) |
-| <a id="property-size"></a> `size`                             | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:26](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L26) |
+| <a id="property-border"></a> `border`                         | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:27](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L27) |
+| <a id="property-children"></a> `children`                     | `public`   | `PmViewDesc`[]                                                                        | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L15) |
+| <a id="property-contentdom"></a> `contentDOM`                 | `readonly` | `HTMLElement`                                                                         | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:17](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L17) |
+| <a id="property-contentlost"></a> `contentLost`               | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:21](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L21) |
+| <a id="property-dirty"></a> `dirty`                           | `public`   | [`ViewDirtyState`](../../../../../view/ViewDirtyState/enumerations/ViewDirtyState.md) | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:12](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L12) |
+| <a id="property-dom"></a> `dom`                               | `readonly` | `Node`                                                                                | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:16](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L16) |
+| <a id="property-domatom"></a> `domAtom`                       | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:18](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L18) |
+| <a id="property-ignoreforcoords"></a> `ignoreForCoords`       | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L19) |
+| <a id="property-ignoreforselection"></a> `ignoreForSelection` | `readonly` | `boolean`                                                                             | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L20) |
+| <a id="property-node"></a> `node`                             | `readonly` | `Node_2`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L13) |
+| <a id="property-nodedom"></a> `nodeDOM`                       | `readonly` | `Node`                                                                                | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:29](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L29) |
+| <a id="property-parent"></a> `parent`                         | `public`   | `PmViewDesc`                                                                          | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:14](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L14) |
+| <a id="property-posafter"></a> `posAfter`                     | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L24) |
+| <a id="property-posatend"></a> `posAtEnd`                     | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L25) |
+| <a id="property-posatstart"></a> `posAtStart`                 | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L23) |
+| <a id="property-posbefore"></a> `posBefore`                   | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L22) |
+| <a id="property-side"></a> `side`                             | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L28) |
+| <a id="property-size"></a> `size`                             | `readonly` | `number`                                                                              | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:26](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L26) |
 
 ## Methods
 
@@ -43,7 +43,7 @@ Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:11](ht
 descAt(pos): PmViewDesc;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:137](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L137)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:137](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L137)
 
 Find the desc for the node after the given pos, if any. (When a
 parent node overrode rendering, there might not be one.)
@@ -68,7 +68,7 @@ The view description at that position, or undefined
 destroy(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:88](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L88)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:88](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L88)
 
 Destroys this view description and all its children, cleaning up references.
 
@@ -86,7 +86,7 @@ This method ensures proper cleanup even if exceptions occur during child destruc
 domAfterPos(pos): Node;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:186](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L186)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:186](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L186)
 
 Gets the DOM node immediately after a given document position.
 
@@ -118,7 +118,7 @@ domFromPos(pos, side): {
 };
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:152](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L152)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:152](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L152)
 
 Converts a document position to a DOM position.
 
@@ -150,9 +150,9 @@ Object containing the DOM node, offset, and optionally an atom marker
 
 | Name     | Type     | Defined in                                                                                                                                                                                                              |
 | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `atom?`  | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:153](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L153) |
-| `node`   | `Node`   | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:153](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L153) |
-| `offset` | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:153](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L153) |
+| `atom?`  | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:153](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L153) |
+| `node`   | `Node`   | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:153](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L153) |
+| `offset` | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:153](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L153) |
 
 ---
 
@@ -162,7 +162,7 @@ Object containing the DOM node, offset, and optionally an atom marker
 emptyChildAt(side): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:177](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L177)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:177](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L177)
 
 Checks if there's an empty child at the start or end of this view.
 
@@ -186,7 +186,7 @@ True if there's an empty child at the specified side
 getDesc(dom): PmViewDesc;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:118](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L118)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:118](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L118)
 
 Gets a view description from a DOM node if it's a descendant of this description.
 
@@ -210,7 +210,7 @@ The view description if it's a descendant, undefined otherwise
 getType(): ViewDescType;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:31](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L31)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:31](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L31)
 
 #### Returns
 
@@ -224,7 +224,7 @@ Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:31](ht
 ignoreMutation(mutation): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:214](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L214)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:214](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L214)
 
 Determines if a mutation can be safely ignored.
 
@@ -248,7 +248,7 @@ True if the mutation can be ignored, false if it needs processing
 isText(_text): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:235](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L235)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:235](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L235)
 
 Checks if this view represents text with a specific content.
 
@@ -275,7 +275,7 @@ localPosFromDOM(
    bias): number;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:110](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L110)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:110](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L110)
 
 Converts a DOM position within this view to a document position.
 
@@ -306,7 +306,7 @@ The document position corresponding to the DOM position
 markDirty(from, to): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:227](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L227)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:227](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L227)
 
 Marks a subtree that has been touched by a DOM change for redrawing.
 
@@ -335,7 +335,7 @@ the dirty range, then either:
 markParentsDirty(): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:241](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L241)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:241](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L241)
 
 Marks this description and its parents as dirty, propagating the dirty state up the tree.
 Sets the dirty level to CONTENT_DIRTY for the immediate parent and CHILD_DIRTY for ancestors.
@@ -352,7 +352,7 @@ Sets the dirty level to CONTENT_DIRTY for the immediate parent and CHILD_DIRTY f
 matchesHack(_nodeName): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:65](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L65)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:65](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L65)
 
 Checks if this description matches a hack node with a specific name.
 
@@ -376,7 +376,7 @@ True if this is a hack node with the given name
 matchesMark(_mark): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:47](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L47)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:47](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L47)
 
 Checks if this description matches a given mark.
 
@@ -403,7 +403,7 @@ matchesNode(
    _innerDeco): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:57](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L57)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:57](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L57)
 
 Checks if this description matches a given node with decorations.
 
@@ -429,7 +429,7 @@ True if this description represents the given node with matching decorations
 matchesWidget(_widget): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:39](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L39)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:39](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L39)
 
 Checks if this description matches a given widget decoration.
 
@@ -462,7 +462,7 @@ parseRange(
 };
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:167](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L167)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:167](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L167)
 
 Finds a DOM range in a single parent for a given changed range.
 
@@ -494,11 +494,11 @@ Object containing the DOM node and offsets for the range
 
 | Name         | Type     | Defined in                                                                                                                                                                                                              |
 | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `from`       | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
-| `fromOffset` | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
-| `node`       | `Node`   | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
-| `to`         | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
-| `toOffset`   | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
+| `from`       | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
+| `fromOffset` | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
+| `node`       | `Node`   | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
+| `to`         | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
+| `toOffset`   | `number` | [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:169](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L169) |
 
 ---
 
@@ -508,7 +508,7 @@ Object containing the DOM node and offsets for the range
 parseRule(): Omit<TagParseRule, "tag">;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:72](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L72)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:72](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L72)
 
 When parsing in-editor content (in domchange.js), we allow
 descriptions to determine the parse rules that should be used to
@@ -526,7 +526,7 @@ parse them.
 posBeforeChild(child): number;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:96](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L96)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:96](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L96)
 
 Calculates the document position just before a given child view.
 
@@ -553,7 +553,7 @@ posFromDOM(
    bias): number;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:128](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L128)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:128](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L128)
 
 Converts a DOM position to a document position.
 
@@ -583,7 +583,7 @@ setSelection(
    force?): void;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:203](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L203)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:203](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L203)
 
 Sets a selection within this view description or delegates to a child.
 
@@ -616,7 +616,7 @@ Strategy:
 stopEvent(_event): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:81](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L81)
+Defined in: [packages/editor-types/src/types/view/view-desc/PmViewDesc.ts:81](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/view/view-desc/PmViewDesc.ts#L81)
 
 Used by the editor's event handler to ignore events that come
 from certain descs.

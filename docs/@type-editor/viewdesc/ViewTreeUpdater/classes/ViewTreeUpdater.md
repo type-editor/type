@@ -6,7 +6,7 @@
 
 # Class: ViewTreeUpdater
 
-Defined in: [ViewTreeUpdater.ts:29](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L29)
+Defined in: [ViewTreeUpdater.ts:29](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L29)
 
 Helper class for incrementally updating a tree of mark descs and
 the widget and node descs inside of them.
@@ -30,7 +30,7 @@ new ViewTreeUpdater(
    view): ViewTreeUpdater;
 ```
 
-Defined in: [ViewTreeUpdater.ts:62](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L62)
+Defined in: [ViewTreeUpdater.ts:62](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L62)
 
 Creates a new ViewTreeUpdater.
 
@@ -56,7 +56,7 @@ Creates a new ViewTreeUpdater.
 get changed(): boolean;
 ```
 
-Defined in: [ViewTreeUpdater.ts:72](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L72)
+Defined in: [ViewTreeUpdater.ts:72](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L72)
 
 ##### Returns
 
@@ -74,7 +74,7 @@ addNode(
    pos): void;
 ```
 
-Defined in: [ViewTreeUpdater.ts:281](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L281)
+Defined in: [ViewTreeUpdater.ts:281](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L281)
 
 Insert the node as a newly created node desc.
 
@@ -99,7 +99,7 @@ Insert the node as a newly created node desc.
 addTextblockHacks(): void;
 ```
 
-Defined in: [ViewTreeUpdater.ts:326](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L326)
+Defined in: [ViewTreeUpdater.ts:326](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L326)
 
 Make sure a textblock looks and behaves correctly in contentEditable.
 
@@ -119,7 +119,7 @@ On some browsers, also adds IMG separators to work around cursor bugs.
 destroyRemaining(): void;
 ```
 
-Defined in: [ViewTreeUpdater.ts:79](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L79)
+Defined in: [ViewTreeUpdater.ts:79](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L79)
 
 Destroy all remaining children in `this.top` from the current index onwards.
 
@@ -135,7 +135,7 @@ Destroy all remaining children in `this.top` from the current index onwards.
 findIndexWithChild(domNode): number;
 ```
 
-Defined in: [ViewTreeUpdater.ts:180](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L180)
+Defined in: [ViewTreeUpdater.ts:180](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L180)
 
 Find the index of the child that contains a given DOM node.
 
@@ -163,7 +163,7 @@ findNodeMatch(
    index): boolean;
 ```
 
-Defined in: [ViewTreeUpdater.ts:117](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L117)
+Defined in: [ViewTreeUpdater.ts:117](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L117)
 
 Try to find a node desc matching the given data. Skip over it and
 return true when successful.
@@ -191,7 +191,7 @@ True if a match was found and used
 placeWidget(widget, pos): void;
 ```
 
-Defined in: [ViewTreeUpdater.ts:300](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L300)
+Defined in: [ViewTreeUpdater.ts:300](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L300)
 
 Place a widget decoration at the current position.
 Reuses existing widget if it matches, otherwise creates a new one.
@@ -218,7 +218,7 @@ syncToMarks(
    parentIndex): void;
 ```
 
-Defined in: [ViewTreeUpdater.ts:97](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L97)
+Defined in: [ViewTreeUpdater.ts:97](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L97)
 
 Syncs the current stack of mark descs with the given array of marks.
 
@@ -255,7 +255,7 @@ updateNextNode(
    pos): boolean;
 ```
 
-Defined in: [ViewTreeUpdater.ts:213](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L213)
+Defined in: [ViewTreeUpdater.ts:213](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L213)
 
 Try to update the next node, if any, to the given data. Checks
 pre-matches to avoid overwriting nodes that could still be used.
@@ -288,7 +288,7 @@ updateNodeAt(
    index): boolean;
 ```
 
-Defined in: [ViewTreeUpdater.ts:156](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L156)
+Defined in: [ViewTreeUpdater.ts:156](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/ViewTreeUpdater.ts#L156)
 
 Try to update the node view at a specific index.
 

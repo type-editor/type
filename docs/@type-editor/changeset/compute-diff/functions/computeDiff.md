@@ -10,7 +10,7 @@
 function computeDiff<T>(fragA, fragB, range, encoder?): Change<any>[];
 ```
 
-Defined in: [compute-diff.ts:24](https://github.com/type-editor/type/blob/8f2401b36ac56cc1b338db1b9300f2d4f10eb04a/packages/changeset/src/compute-diff.ts#L24)
+Defined in: [compute-diff.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/compute-diff.ts#L24)
 
 Compute the difference between two fragments using Myers' diff algorithm.
 

@@ -144,7 +144,7 @@
     background-color: var(--background-color);
     font-size: 16px;
     word-wrap: break-word;
-    outline: 0 solid transparent;
+    outline: none;
     /*position: relative;*/
     /*padding: 0 10px 10px 10px;*/
     line-height: 1.45;
@@ -152,6 +152,10 @@
     overflow-x: scroll;
     padding: 2rem 3.5rem 0.5rem 3.5rem;
     margin-top: 0.5rem;
+}
+
+.ProseMirror:focus {
+    outline: none;
 }
 
 /*.ProseMirror {*/
@@ -679,6 +683,8 @@ html[dir=rtl] .ProseMirror ol[style*="text-align: center"] li {
     z-index: 15;
     min-width: 6rem;
     margin-top: 10px;
+    padding: 5px 0 5px 0 !important;
+    list-style: none !important;
 }
 
 .ProseMirror-menu-dropdown-item {

@@ -6,7 +6,7 @@
 
 # Class: AbstractDecorationType
 
-Defined in: [decoration/AbstractDecorationType.ts:9](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/AbstractDecorationType.ts#L9)
+Defined in: [decoration/AbstractDecorationType.ts:9](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/decoration/src/decoration/AbstractDecorationType.ts#L9)
 
 Base class for decoration types that provides common functionality
 for comparing decoration specifications.
@@ -37,7 +37,7 @@ new AbstractDecorationType(): AbstractDecorationType;
 
 | Property                                                                                | Modifier   | Type                              | Default value | Description                                                        | Defined in                                                                                                                                                                                    |
 | --------------------------------------------------------------------------------------- | ---------- | --------------------------------- | ------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
+| <a id="property-empty_decoration_widget_options"></a> `EMPTY_DECORATION_WIDGET_OPTIONS` | `readonly` | `Record`&lt;`string`, `never`&gt; | `{}`          | Empty options object used as default to avoid repeated allocations | [decoration/AbstractDecorationType.ts:12](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/decoration/src/decoration/AbstractDecorationType.ts#L12) |
 
 ## Methods
 
@@ -47,7 +47,7 @@ new AbstractDecorationType(): AbstractDecorationType;
 protected compareObjs(a, b): boolean;
 ```
 
-Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
+Defined in: [decoration/AbstractDecorationType.ts:22](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/decoration/src/decoration/AbstractDecorationType.ts#L22)
 
 Deep comparison of two objects to check if they have the same properties
 and values. This is used to determine if two decoration specs are equal.

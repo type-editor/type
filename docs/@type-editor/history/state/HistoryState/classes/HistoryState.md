@@ -6,7 +6,7 @@
 
 # Class: HistoryState
 
-Defined in: [state/HistoryState.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L28)
+Defined in: [state/HistoryState.ts:28](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L28)
 
 Represents the complete undo/redo history state for an editor.
 
@@ -27,7 +27,7 @@ new HistoryState(
    prevComposition): HistoryState;
 ```
 
-Defined in: [state/HistoryState.ts:44](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L44)
+Defined in: [state/HistoryState.ts:44](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L44)
 
 Creates a new history state.
 
@@ -55,7 +55,7 @@ Creates a new history state.
 get done(): Branch;
 ```
 
-Defined in: [state/HistoryState.ts:59](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L59)
+Defined in: [state/HistoryState.ts:59](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L59)
 
 Gets the undo history branch.
 
@@ -69,7 +69,7 @@ Gets the undo history branch.
 set done(branch): void;
 ```
 
-Defined in: [state/HistoryState.ts:66](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L66)
+Defined in: [state/HistoryState.ts:66](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L66)
 
 Sets the undo history branch.
 
@@ -93,7 +93,7 @@ Sets the undo history branch.
 get prevComposition(): number;
 ```
 
-Defined in: [state/HistoryState.ts:94](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L94)
+Defined in: [state/HistoryState.ts:94](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L94)
 
 Gets the composition ID of the previous transaction.
 
@@ -111,7 +111,7 @@ Gets the composition ID of the previous transaction.
 get prevRanges(): readonly number[];
 ```
 
-Defined in: [state/HistoryState.ts:80](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L80)
+Defined in: [state/HistoryState.ts:80](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L80)
 
 Gets the position ranges from the previous transaction.
 
@@ -129,7 +129,7 @@ readonly `number`[]
 get prevTime(): number;
 ```
 
-Defined in: [state/HistoryState.ts:87](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L87)
+Defined in: [state/HistoryState.ts:87](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L87)
 
 Gets the timestamp of the previous transaction.
 
@@ -147,7 +147,7 @@ Gets the timestamp of the previous transaction.
 get undone(): Branch;
 ```
 
-Defined in: [state/HistoryState.ts:73](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L73)
+Defined in: [state/HistoryState.ts:73](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L73)
 
 Gets the redo history branch.
 
@@ -163,7 +163,7 @@ Gets the redo history branch.
 static createClosed(done, undone): HistoryState;
 ```
 
-Defined in: [state/HistoryState.ts:115](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L115)
+Defined in: [state/HistoryState.ts:115](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L115)
 
 Creates a closed history state, which prevents grouping with previous changes.
 This is used when the history should start a new group for the next transaction.
@@ -189,7 +189,7 @@ A new HistoryState with reset metadata to prevent grouping
 static createEmpty(): HistoryState;
 ```
 
-Defined in: [state/HistoryState.ts:103](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/state/HistoryState.ts#L103)
+Defined in: [state/HistoryState.ts:103](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/state/HistoryState.ts#L103)
 
 Creates an empty history state with no undo or redo history.
 

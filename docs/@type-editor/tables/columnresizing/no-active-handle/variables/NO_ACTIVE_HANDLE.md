@@ -10,6 +10,6 @@
 const NO_ACTIVE_HANDLE: -1 = -1;
 ```
 
-Defined in: [tables/src/columnresizing/no-active-handle.ts:4](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/columnresizing/no-active-handle.ts#L4)
+Defined in: [tables/src/columnresizing/no-active-handle.ts:4](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/columnresizing/no-active-handle.ts#L4)
 
 Sentinel value indicating no active resize handle.

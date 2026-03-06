@@ -10,4 +10,4 @@
 const baseKeymap: Record<string, Command>;
 ```
 
-Defined in: [baseKeyMap.ts:136](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/keymap/src/baseKeyMap.ts#L136)
+Defined in: [baseKeyMap.ts:136](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/keymap/src/baseKeyMap.ts#L136)

@@ -6,7 +6,7 @@
 
 # Interface: TransformDocument
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L25)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:25](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L25)
 
 Abstraction to build up and track an array of
 [steps](#transform.Step) representing a document transformation.
@@ -22,12 +22,12 @@ that they can be chained.
 
 | Property                                      | Modifier   | Type                                                     | Defined in                                                                                                                                                                                                                |
 | --------------------------------------------- | ---------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-before"></a> `before`         | `readonly` | `Node_2`                                                 | [packages/editor-types/src/types/transform/TransformDocument.ts:30](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L30) |
-| <a id="property-doc"></a> `doc`               | `readonly` | `Node_2`                                                 | [packages/editor-types/src/types/transform/TransformDocument.ts:26](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L26) |
-| <a id="property-docchanged"></a> `docChanged` | `readonly` | `boolean`                                                | [packages/editor-types/src/types/transform/TransformDocument.ts:31](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L31) |
-| <a id="property-docs"></a> `docs`             | `readonly` | readonly `Node_2`[]                                      | [packages/editor-types/src/types/transform/TransformDocument.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L28) |
-| <a id="property-mapping"></a> `mapping`       | `readonly` | [`PmMapping`](../../PmMapping/interfaces/PmMapping.md)   | [packages/editor-types/src/types/transform/TransformDocument.ts:29](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L29) |
-| <a id="property-steps"></a> `steps`           | `readonly` | readonly [`PmStep`](../../PmStep/interfaces/PmStep.md)[] | [packages/editor-types/src/types/transform/TransformDocument.ts:27](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L27) |
+| <a id="property-before"></a> `before`         | `readonly` | `Node_2`                                                 | [packages/editor-types/src/types/transform/TransformDocument.ts:30](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L30) |
+| <a id="property-doc"></a> `doc`               | `readonly` | `Node_2`                                                 | [packages/editor-types/src/types/transform/TransformDocument.ts:26](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L26) |
+| <a id="property-docchanged"></a> `docChanged` | `readonly` | `boolean`                                                | [packages/editor-types/src/types/transform/TransformDocument.ts:31](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L31) |
+| <a id="property-docs"></a> `docs`             | `readonly` | readonly `Node_2`[]                                      | [packages/editor-types/src/types/transform/TransformDocument.ts:28](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L28) |
+| <a id="property-mapping"></a> `mapping`       | `readonly` | [`PmMapping`](../../PmMapping/interfaces/PmMapping.md)   | [packages/editor-types/src/types/transform/TransformDocument.ts:29](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L29) |
+| <a id="property-steps"></a> `steps`           | `readonly` | readonly [`PmStep`](../../PmStep/interfaces/PmStep.md)[] | [packages/editor-types/src/types/transform/TransformDocument.ts:27](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L27) |
 
 ## Methods
 
@@ -40,7 +40,7 @@ addMark(
    mark): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:269](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L269)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:269](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L269)
 
 Add the given mark to the inline content between `from` and `to`.
 
@@ -66,7 +66,7 @@ This transform instance for chaining.
 addNodeMark(position, mark): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:235](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L235)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:235](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L235)
 
 Add a mark to the node at position `pos`.
 
@@ -95,7 +95,7 @@ When there is no node at the given position.
 addStep(step, doc): void;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:56](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L56)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:56](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L56)
 
 Add a step to the transform without applying it (assumes it has already been applied).
 Updates the internal state to track the step and its resulting document.
@@ -122,7 +122,7 @@ clearIncompatible(
    match?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:295](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L295)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:295](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L295)
 
 Removes all marks and nodes from the content of the node at
 `position` that don't match the given new parent node type. Accepts
@@ -151,7 +151,7 @@ This transform instance for chaining.
 delete(from, to): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:89](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L89)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:89](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L89)
 
 Delete the content between the given positions.
 
@@ -176,7 +176,7 @@ This transform instance for chaining.
 deleteRange(from, to): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:147](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L147)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:147](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L147)
 
 Delete the given range, expanding it to cover fully covered
 parent nodes until a valid replace is found.
@@ -202,7 +202,7 @@ This transform instance for chaining.
 insert(pos, content): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:97](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L97)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:97](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L97)
 
 Insert the given content at the given position.
 
@@ -227,7 +227,7 @@ This transform instance for chaining.
 join(pos, depth?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:168](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L168)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:168](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L168)
 
 Join the blocks around the given position. If depth is 2, their
 last and first siblings are also joined, and so on.
@@ -253,7 +253,7 @@ This transform instance for chaining.
 lift(range, target): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:159](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L159)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:159](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L159)
 
 Split the content in the given range off from its parent, if there
 is sibling content before or after it, and move it up the tree to
@@ -282,7 +282,7 @@ This transform instance for chaining.
 maybeStep(step): PmStepResult;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:48](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L48)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:48](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L48)
 
 Try to apply a step in this transformation, ignoring it if it
 fails. Returns the step result.
@@ -310,7 +310,7 @@ removeMark(
    mark?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:281](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L281)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:281](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L281)
 
 Remove marks from inline nodes between `from` and `to`. When
 `mark` is a single mark, remove precisely that mark. When it is
@@ -339,7 +339,7 @@ This transform instance for chaining.
 removeNodeMark(position, mark): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:245](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L245)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:245](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L245)
 
 Remove a mark (or all marks of the given type) from the node at
 position `pos`.
@@ -372,7 +372,7 @@ replace(
    slice?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:67](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L67)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:67](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L67)
 
 Replace the part of the document between `from` and `to` with the
 given `slice`. No-op replacements (empty slice over empty range) are
@@ -403,7 +403,7 @@ replaceRange(
    slice): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:123](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L123)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:123](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L123)
 
 Replace a range of the document with a given slice, using
 `from`, `to`, and the slice's
@@ -448,7 +448,7 @@ replaceRangeWith(
    node): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:138](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L138)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:138](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L138)
 
 Replace the given range with a node, but use `from` and `to` as
 hints, rather than precise positions. When from and to are the same
@@ -483,7 +483,7 @@ replaceWith(
    content): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:79](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L79)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:79](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L79)
 
 Replace the given range with the given content, which may be a
 fragment, node, or array of nodes.
@@ -514,7 +514,7 @@ setBlockType(
    attrs?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:190](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L190)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:190](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L190)
 
 Set the type of all textblocks (partly) between `from` and `to` to
 the given node type with the given attributes.
@@ -542,7 +542,7 @@ This transform instance for chaining.
 setDocAttribute(attr, value): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:226](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L226)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:226](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L226)
 
 Set a single attribute on the document to a new value.
 
@@ -570,7 +570,7 @@ setNodeAttribute(
    value): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:218](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L218)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:218](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L218)
 
 Set a single attribute on a given node to a new value.
 The `pos` addresses the document content. Use `setDocAttribute`
@@ -602,7 +602,7 @@ setNodeMarkup(
    marks?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:204](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L204)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:204](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L204)
 
 Change the type, attributes, and/or marks of the node at `pos`.
 When `type` isn't given, the existing node type is preserved.
@@ -633,7 +633,7 @@ split(
    typesAfter?): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:258](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L258)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:258](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L258)
 
 Split the node at the given position, and optionally, if `depth` is
 greater than one, any number of nodes above that. By default, the
@@ -663,7 +663,7 @@ This transform instance for chaining.
 step(step): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:40](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L40)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:40](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L40)
 
 Apply a new step in this transform, saving the result. Throws an
 error when the step fails.
@@ -692,7 +692,7 @@ When the step fails to apply.
 wrap(range, wrappers): this;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:178](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/TransformDocument.ts#L178)
+Defined in: [packages/editor-types/src/types/transform/TransformDocument.ts:178](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/TransformDocument.ts#L178)
 
 Wrap the given [range](#model.NodeRange) in the given set of wrappers.
 The wrappers are assumed to be valid in this position, and should

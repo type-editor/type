@@ -10,7 +10,7 @@
 function stopNativeHorizontalDelete(view, direction): boolean;
 ```
 
-Defined in: [stop-native-horizontal-delete.ts:32](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/stop-native-horizontal-delete.ts#L32)
+Defined in: [stop-native-horizontal-delete.ts:32](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/stop-native-horizontal-delete.ts#L32)
 
 Prevents native browser delete behavior when deleting non-text nodes.
 

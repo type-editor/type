@@ -6,7 +6,7 @@
 
 # Interface: ChangeJSON&lt;Data&gt;
 
-Defined in: [types/ChangeJSON.ts:10](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/types/ChangeJSON.ts#L10)
+Defined in: [types/ChangeJSON.ts:10](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/types/ChangeJSON.ts#L10)
 
 JSON-serializable representation of a Change.
 
@@ -23,9 +23,9 @@ the affected ranges and the deleted/inserted content spans.
 
 | Property                                  | Type                                                 | Description                                               | Defined in                                                                                                                                                 |
 | ----------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-deleted"></a> `deleted`   | readonly \{ `data`: `Data`; `length`: `number`; \}[] | The spans that were deleted from document A.              | [types/ChangeJSON.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/types/ChangeJSON.ts#L20) |
-| <a id="property-froma"></a> `fromA`       | `number`                                             | The start position in document A where the change begins. | [types/ChangeJSON.ts:12](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/types/ChangeJSON.ts#L12) |
-| <a id="property-fromb"></a> `fromB`       | `number`                                             | The start position in document B where the change begins. | [types/ChangeJSON.ts:16](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/types/ChangeJSON.ts#L16) |
-| <a id="property-inserted"></a> `inserted` | readonly \{ `data`: `Data`; `length`: `number`; \}[] | The spans that were inserted into document B.             | [types/ChangeJSON.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/types/ChangeJSON.ts#L22) |
-| <a id="property-toa"></a> `toA`           | `number`                                             | The end position in document A where the change ends.     | [types/ChangeJSON.ts:14](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/types/ChangeJSON.ts#L14) |
-| <a id="property-tob"></a> `toB`           | `number`                                             | The end position in document B where the change ends.     | [types/ChangeJSON.ts:18](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/types/ChangeJSON.ts#L18) |
+| <a id="property-deleted"></a> `deleted`   | readonly \{ `data`: `Data`; `length`: `number`; \}[] | The spans that were deleted from document A.              | [types/ChangeJSON.ts:20](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/types/ChangeJSON.ts#L20) |
+| <a id="property-froma"></a> `fromA`       | `number`                                             | The start position in document A where the change begins. | [types/ChangeJSON.ts:12](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/types/ChangeJSON.ts#L12) |
+| <a id="property-fromb"></a> `fromB`       | `number`                                             | The start position in document B where the change begins. | [types/ChangeJSON.ts:16](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/types/ChangeJSON.ts#L16) |
+| <a id="property-inserted"></a> `inserted` | readonly \{ `data`: `Data`; `length`: `number`; \}[] | The spans that were inserted into document B.             | [types/ChangeJSON.ts:22](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/types/ChangeJSON.ts#L22) |
+| <a id="property-toa"></a> `toA`           | `number`                                             | The end position in document A where the change ends.     | [types/ChangeJSON.ts:14](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/types/ChangeJSON.ts#L14) |
+| <a id="property-tob"></a> `toB`           | `number`                                             | The end position in document B where the change ends.     | [types/ChangeJSON.ts:18](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/types/ChangeJSON.ts#L18) |

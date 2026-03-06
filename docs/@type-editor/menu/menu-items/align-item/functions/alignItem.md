@@ -18,7 +18,7 @@ function alignItem(
 ): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/align-item.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/menu/src/menu-items/align-item.ts#L15)
+Defined in: [packages/menu/src/menu-items/align-item.ts:15](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menu-items/align-item.ts#L15)
 
 Menu item for the `align` command.
 

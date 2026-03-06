@@ -6,7 +6,7 @@
 
 # Class: MarkdownParseState
 
-Defined in: [from-markdown/MarkdownParseState.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L13)
+Defined in: [from-markdown/MarkdownParseState.ts:13](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L13)
 
 Manages the state during markdown parsing, maintaining a stack of nodes being constructed
 and tracking active marks. This class handles the incremental building of a ProseMirror
@@ -20,7 +20,7 @@ document tree from markdown-it tokens.
 new MarkdownParseState(schema, tokenHandlers): MarkdownParseState;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L25)
+Defined in: [from-markdown/MarkdownParseState.ts:25](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L25)
 
 Creates a new markdown parse state.
 
@@ -45,7 +45,7 @@ Creates a new markdown parse state.
 get stack(): StackElement[];
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:39](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L39)
+Defined in: [from-markdown/MarkdownParseState.ts:39](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L39)
 
 Gets the current parsing stack.
 
@@ -66,7 +66,7 @@ addNode(
    content?): Node_2;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:125](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L125)
+Defined in: [from-markdown/MarkdownParseState.ts:125](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L125)
 
 Adds a node at the current position in the document tree.
 
@@ -92,7 +92,7 @@ The created node, or null if creation failed.
 addText(text): void;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:50](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L50)
+Defined in: [from-markdown/MarkdownParseState.ts:50](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L50)
 
 Adds the given text to the current position in the document,
 using the current marks as styling. Attempts to merge with the
@@ -116,7 +116,7 @@ previous text node if they share the same marks.
 closeMark(mark): void;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:91](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L91)
+Defined in: [from-markdown/MarkdownParseState.ts:91](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L91)
 
 Removes the given mark from the set of active marks.
 
@@ -138,7 +138,7 @@ Removes the given mark from the set of active marks.
 closeNode(): Node_2;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:160](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L160)
+Defined in: [from-markdown/MarkdownParseState.ts:160](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L160)
 
 Closes the node currently on top of the stack and adds it to its parent.
 
@@ -156,7 +156,7 @@ The closed node.
 openMark(mark): void;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:81](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L81)
+Defined in: [from-markdown/MarkdownParseState.ts:81](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L81)
 
 Adds the given mark to the set of active marks.
 Active marks are applied to all text nodes added until the mark is closed.
@@ -179,7 +179,7 @@ Active marks are applied to all text nodes added until the mark is closed.
 openNode(type, attrs): void;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:146](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L146)
+Defined in: [from-markdown/MarkdownParseState.ts:146](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L146)
 
 Opens a new node context on the stack. Subsequent content will be added
 as children to this node until closeNode is called.
@@ -203,7 +203,7 @@ as children to this node until closeNode is called.
 parseTokens(tokens): void;
 ```
 
-Defined in: [from-markdown/MarkdownParseState.ts:102](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/markdown/src/from-markdown/MarkdownParseState.ts#L102)
+Defined in: [from-markdown/MarkdownParseState.ts:102](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/MarkdownParseState.ts#L102)
 
 Parses an array of markdown-it tokens and processes them using registered handlers.
 

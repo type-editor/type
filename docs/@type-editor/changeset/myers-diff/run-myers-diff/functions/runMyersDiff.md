@@ -16,7 +16,7 @@ function runMyersDiff<T>(
 ): Change<any>[];
 ```
 
-Defined in: [myers-diff/run-myers-diff.ts:40](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/myers-diff/run-myers-diff.ts#L40)
+Defined in: [myers-diff/run-myers-diff.ts:40](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/myers-diff/run-myers-diff.ts#L40)
 
 Run Myers' diff algorithm to find the optimal sequence of changes.
 

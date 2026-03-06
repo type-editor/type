@@ -10,7 +10,7 @@
 type Axis = "horiz" | "vert";
 ```
 
-Defined in: [tables/src/types/input/Axis.ts:6](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/types/input/Axis.ts#L6)
+Defined in: [tables/src/types/input/Axis.ts:6](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/types/input/Axis.ts#L6)
 
 Represents the axis of movement for arrow key navigation.
 

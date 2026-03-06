@@ -6,7 +6,7 @@
 
 # Interface: QueryImpl
 
-Defined in: [types/QueryImpl.ts:9](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/QueryImpl.ts#L9)
+Defined in: [types/QueryImpl.ts:9](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/types/QueryImpl.ts#L9)
 
 Internal interface for query implementation strategies.
 Different implementations handle string search vs. regex search.
@@ -22,7 +22,7 @@ findNext(
    to): SearchResult;
 ```
 
-Defined in: [types/QueryImpl.ts:18](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/QueryImpl.ts#L18)
+Defined in: [types/QueryImpl.ts:18](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/types/QueryImpl.ts#L18)
 
 Finds the next occurrence of the query in the document.
 
@@ -51,7 +51,7 @@ findPrev(
    to): SearchResult;
 ```
 
-Defined in: [types/QueryImpl.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/types/QueryImpl.ts#L28)
+Defined in: [types/QueryImpl.ts:28](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/types/QueryImpl.ts#L28)
 
 Finds the previous occurrence of the query in the document.
 

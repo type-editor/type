@@ -10,4 +10,4 @@
 const DOCUMENT_FRAGMENT_NODE: 11 = 11;
 ```
 
-Defined in: [constants/node-type.ts:5](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/constants/node-type.ts#L5)
+Defined in: [constants/node-type.ts:5](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/constants/node-type.ts#L5)

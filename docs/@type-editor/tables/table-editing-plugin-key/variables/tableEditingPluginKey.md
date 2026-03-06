@@ -10,7 +10,7 @@
 const tableEditingPluginKey: PluginKey<number>;
 ```
 
-Defined in: [tables/src/table-editing-plugin-key.ts:7](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/table-editing-plugin-key.ts#L7)
+Defined in: [tables/src/table-editing-plugin-key.ts:7](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/table-editing-plugin-key.ts#L7)
 
 Plugin key for the table editing plugin.
 Used to track when cells are being selected in the editor.

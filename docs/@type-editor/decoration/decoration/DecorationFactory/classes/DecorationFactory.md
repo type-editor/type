@@ -6,7 +6,7 @@
 
 # Class: DecorationFactory
 
-Defined in: [decoration/DecorationFactory.ts:5](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/DecorationFactory.ts#L5)
+Defined in: [decoration/DecorationFactory.ts:5](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/decoration/src/decoration/DecorationFactory.ts#L5)
 
 ## Constructors
 
@@ -31,7 +31,7 @@ static createDecoration(
    type): PmDecoration;
 ```
 
-Defined in: [decoration/DecorationFactory.ts:18](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/decoration/src/decoration/DecorationFactory.ts#L18)
+Defined in: [decoration/DecorationFactory.ts:18](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/decoration/src/decoration/DecorationFactory.ts#L18)
 
 Creates a decoration with the given range and type.
 

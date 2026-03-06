@@ -10,7 +10,7 @@
 function selectionBetween(view, $anchor, $head, bias?): PmSelection;
 ```
 
-Defined in: [selection-between.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/selection-util/src/selection/selection-between.ts#L19)
+Defined in: [selection-between.ts:19](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/selection-util/src/selection/selection-between.ts#L19)
 
 Creates a selection between two resolved positions.
 

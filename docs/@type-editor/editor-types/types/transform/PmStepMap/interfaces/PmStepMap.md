@@ -6,7 +6,7 @@
 
 # Interface: PmStepMap
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:5](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L5)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:5](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L5)
 
 Interface for objects that can map positions through document changes.
 
@@ -40,7 +40,7 @@ const stayPos = stepMap.map(0, -1); // Returns 0 (position stays before insertio
 forEach(callbackFunc): void;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:56](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L56)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:56](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L56)
 
 Calls the given function on each of the changed ranges included in
 this map.
@@ -63,7 +63,7 @@ this map.
 invert(): PmStepMap;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:64](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L64)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:64](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L64)
 
 Create an inverted version of this map. The result can be used to
 map positions in the post-step document to the pre-step document.
@@ -82,7 +82,7 @@ An inverted StepMap.
 map(pos, assoc?): number;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:38](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L38)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:38](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L38)
 
 Map a position through this step map.
 
@@ -113,7 +113,7 @@ Mappable.map;
 mapResult(pos, assoc?): MapResult;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L28)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:28](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L28)
 
 Map a position through this step map, returning a MapResult object
 with additional information about the mapping, including whether
@@ -146,7 +146,7 @@ Mappable.mapResult;
 recover(value): number;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:16](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L16)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:16](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L16)
 
 Recover a position that was deleted by this step map, using a recovery value
 obtained from a previous mapping. Returns the pre-deletion position
@@ -176,7 +176,7 @@ If the recovery value references an invalid range index.
 toString(): string;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:72](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L72)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:72](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L72)
 
 Returns a string representation of this step map.
 Inverted maps are prefixed with a minus sign.
@@ -195,7 +195,7 @@ A JSON string representation of the ranges, optionally prefixed with '-'.
 touches(pos, recover): boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:48](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/editor-types/src/types/transform/PmStepMap.ts#L48)
+Defined in: [packages/editor-types/src/types/transform/PmStepMap.ts:48](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/editor-types/src/types/transform/PmStepMap.ts#L48)
 
 Test whether the given position touches the range with the
 given recover value.

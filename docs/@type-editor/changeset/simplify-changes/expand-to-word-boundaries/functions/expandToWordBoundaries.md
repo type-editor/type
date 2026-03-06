@@ -16,7 +16,7 @@ function expandToWordBoundaries(
 ): [number, number];
 ```
 
-Defined in: [simplify-changes/expand-to-word-boundaries.ts:17](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/changeset/src/simplify-changes/expand-to-word-boundaries.ts#L17)
+Defined in: [simplify-changes/expand-to-word-boundaries.ts:17](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/simplify-changes/expand-to-word-boundaries.ts#L17)
 
 Expands a position range to word boundaries.
 

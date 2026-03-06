@@ -10,7 +10,7 @@
 type MoveDirection = -1 | 0 | 1;
 ```
 
-Defined in: [tables/src/utils/move-row-in-array-of-rows.ts:7](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/utils/move-row-in-array-of-rows.ts#L7)
+Defined in: [tables/src/utils/move-row-in-array-of-rows.ts:7](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/utils/move-row-in-array-of-rows.ts#L7)
 
 Direction indicator for row movement.
 

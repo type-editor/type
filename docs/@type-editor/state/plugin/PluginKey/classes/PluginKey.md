@@ -6,7 +6,7 @@
 
 # Class: PluginKey&lt;PluginState&gt;
 
-Defined in: [state/src/plugin/PluginKey.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/plugin/PluginKey.ts#L13)
+Defined in: [state/src/plugin/PluginKey.ts:13](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/plugin/PluginKey.ts#L13)
 
 A key is used to [tag](#state.PluginSpec.key) plugins in a way
 that makes it possible to find them, given an editor state.
@@ -35,7 +35,7 @@ active in a state.
 new PluginKey<PluginState>(name?): PluginKey<PluginState>;
 ```
 
-Defined in: [state/src/plugin/PluginKey.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/plugin/PluginKey.ts#L20)
+Defined in: [state/src/plugin/PluginKey.ts:20](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/plugin/PluginKey.ts#L20)
 
 Create a plugin key.
 
@@ -63,7 +63,7 @@ Create a plugin key.
 get key(): string;
 ```
 
-Defined in: [state/src/plugin/PluginKey.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/plugin/PluginKey.ts#L25)
+Defined in: [state/src/plugin/PluginKey.ts:25](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/plugin/PluginKey.ts#L25)
 
 ##### Returns
 
@@ -83,7 +83,7 @@ PmPluginKey.key;
 protected createKey(name): string;
 ```
 
-Defined in: [state/src/plugin/PluginBase.ts:10](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/plugin/PluginBase.ts#L10)
+Defined in: [state/src/plugin/PluginBase.ts:10](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/plugin/PluginBase.ts#L10)
 
 Creates a unique key by appending a counter to the given name.
 Each call with the same name increments the counter.
@@ -110,7 +110,7 @@ Each call with the same name increments the counter.
 get(state): PmPlugin<PluginState>;
 ```
 
-Defined in: [state/src/plugin/PluginKey.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/plugin/PluginKey.ts#L33)
+Defined in: [state/src/plugin/PluginKey.ts:33](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/plugin/PluginKey.ts#L33)
 
 Get the active plugin with this key, if any, from an editor
 state.
@@ -139,7 +139,7 @@ PmPluginKey.get;
 getState(state): PluginState;
 ```
 
-Defined in: [state/src/plugin/PluginKey.ts:53](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/state/src/plugin/PluginKey.ts#L53)
+Defined in: [state/src/plugin/PluginKey.ts:53](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/state/src/plugin/PluginKey.ts#L53)
 
 Get the plugin's state from an editor state.
 

@@ -6,7 +6,7 @@
 
 # Class: NodeType
 
-Defined in: [packages/model/src/schema/NodeType.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L23)
+Defined in: [packages/model/src/schema/NodeType.ts:23](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L23)
 
 Node types are objects allocated once per `Schema` and used to
 [tag](#model.Node.type) `Node` instances. They contain information
@@ -28,7 +28,7 @@ new NodeType(
    spec): NodeType;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:82](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L82)
+Defined in: [packages/model/src/schema/NodeType.ts:82](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L82)
 
 Creates a new NodeType instance.
 
@@ -52,10 +52,10 @@ Creates a new NodeType instance.
 
 | Property                                                            | Modifier    | Type                                                                                    | Default value | Description                                               | Inherited from                                                                                                | Defined in                                                                                                                                                              |
 | ------------------------------------------------------------------- | ----------- | --------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-_contentmatch"></a> `_contentMatch`                 | `protected` | [`ContentMatch`](../../../types/content-parser/ContentMatch/interfaces/ContentMatch.md) | `undefined`   | The starting match of the node type's content expression. | -                                                                                                             | [packages/model/src/schema/NodeType.ts:30](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L30) |
-| <a id="property-attrs"></a> `attrs`                                 | `readonly`  | `Record`&lt;`string`, [`Attribute`](../../Attribute/classes/Attribute.md)&gt;           | `undefined`   | -                                                         | [`TypeBase`](../../TypeBase/classes/TypeBase.md).[`attrs`](../../TypeBase/classes/TypeBase.md#property-attrs) | [packages/model/src/schema/TypeBase.ts:16](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/TypeBase.ts#L16) |
-| <a id="property-isinlinecontent"></a> `isInlineContent`             | `protected` | `boolean`                                                                               | `false`       | True if this node type has inline content.                | -                                                                                                             | [packages/model/src/schema/NodeType.ts:34](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L34) |
-| <a id="property-elements_id_attr_name"></a> `ELEMENTS_ID_ATTR_NAME` | `readonly`  | `"id"`                                                                                  | `'id'`        | -                                                         | -                                                                                                             | [packages/model/src/schema/NodeType.ts:25](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L25) |
+| <a id="property-_contentmatch"></a> `_contentMatch`                 | `protected` | [`ContentMatch`](../../../types/content-parser/ContentMatch/interfaces/ContentMatch.md) | `undefined`   | The starting match of the node type's content expression. | -                                                                                                             | [packages/model/src/schema/NodeType.ts:30](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L30) |
+| <a id="property-attrs"></a> `attrs`                                 | `readonly`  | `Record`&lt;`string`, [`Attribute`](../../Attribute/classes/Attribute.md)&gt;           | `undefined`   | -                                                         | [`TypeBase`](../../TypeBase/classes/TypeBase.md).[`attrs`](../../TypeBase/classes/TypeBase.md#property-attrs) | [packages/model/src/schema/TypeBase.ts:16](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/TypeBase.ts#L16) |
+| <a id="property-isinlinecontent"></a> `isInlineContent`             | `protected` | `boolean`                                                                               | `false`       | True if this node type has inline content.                | -                                                                                                             | [packages/model/src/schema/NodeType.ts:34](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L34) |
+| <a id="property-elements_id_attr_name"></a> `ELEMENTS_ID_ATTR_NAME` | `readonly`  | `"id"`                                                                                  | `'id'`        | -                                                         | -                                                                                                             | [packages/model/src/schema/NodeType.ts:25](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L25) |
 
 ## Accessors
 
@@ -67,7 +67,7 @@ Creates a new NodeType instance.
 get attributeSpecs(): Record<string, Attribute>;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:160](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L160)
+Defined in: [packages/model/src/schema/NodeType.ts:160](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L160)
 
 The attribute specifications for this node type.
 Contains metadata about each attribute including validation and comparison behavior.
@@ -86,7 +86,7 @@ Contains metadata about each attribute including validation and comparison behav
 get contentMatch(): ContentMatch;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:119](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L119)
+Defined in: [packages/model/src/schema/NodeType.ts:119](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L119)
 
 The starting match of the node type's content expression.
 Used to validate and match content during node operations.
@@ -101,7 +101,7 @@ Used to validate and match content during node operations.
 set contentMatch(value): void;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:127](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L127)
+Defined in: [packages/model/src/schema/NodeType.ts:127](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L127)
 
 Sets the content match for this node type.
 
@@ -125,7 +125,7 @@ Sets the content match for this node type.
 get defaultAttrs(): Attrs;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:152](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L152)
+Defined in: [packages/model/src/schema/NodeType.ts:152](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L152)
 
 The default attributes for this node type.
 When creating nodes without specifying attributes, these defaults are used.
@@ -144,7 +144,7 @@ When creating nodes without specifying attributes, these defaults are used.
 get inlineContent(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:167](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L167)
+Defined in: [packages/model/src/schema/NodeType.ts:167](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L167)
 
 True if this node type has inline content.
 
@@ -158,7 +158,7 @@ True if this node type has inline content.
 set inlineContent(value): void;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:175](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L175)
+Defined in: [packages/model/src/schema/NodeType.ts:175](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L175)
 
 Sets whether this node type has inline content.
 
@@ -182,7 +182,7 @@ Sets whether this node type has inline content.
 get isAtom(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:218](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L218)
+Defined in: [packages/model/src/schema/NodeType.ts:218](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L218)
 
 True when this node is an atom, i.e. when it does not have
 directly editable content.
@@ -201,7 +201,7 @@ directly editable content.
 get isBlock(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:196](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L196)
+Defined in: [packages/model/src/schema/NodeType.ts:196](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L196)
 
 True if this is a block type (not inline).
 
@@ -219,7 +219,7 @@ True if this is a block type (not inline).
 get isInline(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:182](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L182)
+Defined in: [packages/model/src/schema/NodeType.ts:182](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L182)
 
 True if this is an inline type.
 
@@ -237,7 +237,7 @@ True if this is an inline type.
 get isLeaf(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:210](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L210)
+Defined in: [packages/model/src/schema/NodeType.ts:210](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L210)
 
 True for node types that allow no content.
 
@@ -255,7 +255,7 @@ True for node types that allow no content.
 get isText(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:203](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L203)
+Defined in: [packages/model/src/schema/NodeType.ts:203](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L203)
 
 True if this is the text node type.
 
@@ -273,7 +273,7 @@ True if this is the text node type.
 get isTextblock(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:189](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L189)
+Defined in: [packages/model/src/schema/NodeType.ts:189](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L189)
 
 True if this is a textblock type, a block that contains inline content.
 
@@ -291,7 +291,7 @@ True if this is a textblock type, a block that contains inline content.
 get markSet(): readonly MarkType[];
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:136](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L136)
+Defined in: [packages/model/src/schema/NodeType.ts:136](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L136)
 
 The set of marks allowed in this node.
 `null` means all marks are allowed, an empty array means no marks are allowed,
@@ -307,7 +307,7 @@ readonly [`MarkType`](../../MarkType/classes/MarkType.md)[]
 set markSet(value): void;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:144](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L144)
+Defined in: [packages/model/src/schema/NodeType.ts:144](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L144)
 
 Sets the mark restrictions for this node type.
 
@@ -331,7 +331,7 @@ Sets the mark restrictions for this node type.
 get name(): string;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:97](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L97)
+Defined in: [packages/model/src/schema/NodeType.ts:97](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L97)
 
 The name of this node type.
 
@@ -349,7 +349,7 @@ The name of this node type.
 get schema(): Schema;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:104](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L104)
+Defined in: [packages/model/src/schema/NodeType.ts:104](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L104)
 
 The schema that this node type is part of.
 
@@ -367,7 +367,7 @@ The schema that this node type is part of.
 get spec(): NodeSpec;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:111](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L111)
+Defined in: [packages/model/src/schema/NodeType.ts:111](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L111)
 
 The spec that this node type is based on.
 
@@ -385,7 +385,7 @@ The spec that this node type is based on.
 get whitespace(): "pre" | "normal";
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:226](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L226)
+Defined in: [packages/model/src/schema/NodeType.ts:226](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L226)
 
 The node type's [whitespace](#model.NodeSpec.whitespace) option.
 
@@ -401,7 +401,7 @@ The node type's [whitespace](#model.NodeSpec.whitespace) option.
 allowedMarks(marks): readonly Mark[];
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:454](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L454)
+Defined in: [packages/model/src/schema/NodeType.ts:454](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L454)
 
 Filters the given marks to only those allowed in this node.
 Returns a new array with disallowed marks removed.
@@ -426,7 +426,7 @@ A new array containing only the marks allowed in this node
 allowsMarks(marks): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:434](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L434)
+Defined in: [packages/model/src/schema/NodeType.ts:434](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L434)
 
 Tests whether the given set of marks are all allowed in this node.
 
@@ -450,7 +450,7 @@ True if all marks in the set are allowed in this node
 allowsMarkType(markType): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:424](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L424)
+Defined in: [packages/model/src/schema/NodeType.ts:424](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L424)
 
 Checks whether the given mark type is allowed in this node.
 
@@ -474,7 +474,7 @@ True if the mark type is allowed in this node
 protected checkAttributes(values, type): void;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:36](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/TypeBase.ts#L36)
+Defined in: [packages/model/src/schema/TypeBase.ts:36](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/TypeBase.ts#L36)
 
 Validates attribute values against the type's attribute specifications.
 Throws a RangeError if any attribute is unsupported or fails validation.
@@ -506,7 +506,7 @@ If an unsupported attribute is found or validation fails
 checkAttrs(attrs): void;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:414](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L414)
+Defined in: [packages/model/src/schema/NodeType.ts:414](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L414)
 
 Validates attributes for this node type.
 
@@ -532,7 +532,7 @@ If any attribute is invalid
 checkContent(content): void;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:402](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L402)
+Defined in: [packages/model/src/schema/NodeType.ts:402](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L402)
 
 Validates that the given fragment is valid content for this node type.
 
@@ -558,7 +558,7 @@ If the content is not valid for this node type
 compatibleContent(other): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:302](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L302)
+Defined in: [packages/model/src/schema/NodeType.ts:302](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L302)
 
 Checks whether this node type allows some of the same content as another node type.
 Used to determine if content can be transferred between different node types.
@@ -583,7 +583,7 @@ True if the content expressions are compatible
 protected computeAttributes(providedAttrs): Attrs;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:86](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/TypeBase.ts#L86)
+Defined in: [packages/model/src/schema/TypeBase.ts:86](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/TypeBase.ts#L86)
 
 Computes a complete set of attributes by merging provided values with defaults.
 Ensures all required attributes are present and applies defaults where needed.
@@ -619,7 +619,7 @@ create(
    marks?): Node;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:316](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L316)
+Defined in: [packages/model/src/schema/NodeType.ts:316](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L316)
 
 Creates a Node of this type with the specified attributes, content, and marks.
 Attributes are merged with defaults. This method does not validate content.
@@ -653,7 +653,7 @@ createAndFill(
    marks?): Node;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:355](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L355)
+Defined in: [packages/model/src/schema/NodeType.ts:355](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L355)
 
 Creates a Node like create(), but attempts to add required nodes to the start
 or end of the content to satisfy the node type's content expression.
@@ -689,7 +689,7 @@ createChecked(
    marks?): Node;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:335](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L335)
+Defined in: [packages/model/src/schema/NodeType.ts:335](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L335)
 
 Creates a Node like create(), but validates content against the node type's
 content restrictions before creating the node.
@@ -720,7 +720,7 @@ If the content doesn't match the node type's content expression
 protected createDefaultAttrs(): Readonly<Record<string, any>>;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:63](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/TypeBase.ts#L63)
+Defined in: [packages/model/src/schema/TypeBase.ts:63](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/TypeBase.ts#L63)
 
 Creates a reusable default attributes object for types where all attributes
 have default values. This optimization allows sharing the same object across
@@ -745,7 +745,7 @@ lacks a default value (indicating required attributes exist)
 hasRequiredAttrs(): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:286](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L286)
+Defined in: [packages/model/src/schema/NodeType.ts:286](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L286)
 
 Checks whether this node type has any required attributes (attributes without default values).
 
@@ -763,7 +763,7 @@ True if at least one attribute is required, false otherwise
 protected initAttrs(typeName, attrs?): Record<string, Attribute>;
 ```
 
-Defined in: [packages/model/src/schema/TypeBase.ts:120](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/TypeBase.ts#L120)
+Defined in: [packages/model/src/schema/TypeBase.ts:120](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/TypeBase.ts#L120)
 
 Initializes attribute descriptors from the provided specification.
 Creates Attribute objects that encapsulate validation and default values.
@@ -793,7 +793,7 @@ A record mapping attribute names to Attribute descriptors
 isInGroup(group): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:277](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L277)
+Defined in: [packages/model/src/schema/NodeType.ts:277](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L277)
 
 Checks whether this node type is part of the given group.
 Groups are defined in the node spec and allow categorizing node types.
@@ -818,7 +818,7 @@ True if this node type belongs to the specified group
 validContent(content): boolean;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:382](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L382)
+Defined in: [packages/model/src/schema/NodeType.ts:382](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L382)
 
 Checks whether the given fragment is valid content for this node type.
 Validates both the content structure and that all marks are allowed.
@@ -843,7 +843,7 @@ True if the content is valid for this node type
 static compile<Nodes>(nodes, schema): Readonly<Record<Nodes, NodeType>>;
 ```
 
-Defined in: [packages/model/src/schema/NodeType.ts:244](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/schema/NodeType.ts#L244)
+Defined in: [packages/model/src/schema/NodeType.ts:244](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/schema/NodeType.ts#L244)
 
 Compiles a set of node specifications into NodeType instances.
 Validates that required node types (top node and text) are present and correctly configured.

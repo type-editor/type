@@ -10,7 +10,7 @@
 function deleteColumn(state, dispatch?): boolean;
 ```
 
-Defined in: [tables/src/commands/delete-column.ts:22](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/commands/delete-column.ts#L22)
+Defined in: [tables/src/commands/delete-column.ts:22](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/commands/delete-column.ts#L22)
 
 Command that removes the selected columns from a table.
 

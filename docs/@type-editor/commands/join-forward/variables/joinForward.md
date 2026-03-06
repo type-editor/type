@@ -10,7 +10,7 @@
 const joinForward: Command;
 ```
 
-Defined in: [join-forward.ts:38](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/join-forward.ts#L38)
+Defined in: [join-forward.ts:38](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/join-forward.ts#L38)
 
 Joins or merges the current block with the one after it when the cursor is at the end
 of a textblock.

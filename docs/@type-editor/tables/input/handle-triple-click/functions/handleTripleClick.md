@@ -10,7 +10,7 @@
 function handleTripleClick(view, pos): boolean;
 ```
 
-Defined in: [tables/src/input/handle-triple-click.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/input/handle-triple-click.ts#L28)
+Defined in: [tables/src/input/handle-triple-click.ts:28](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/input/handle-triple-click.ts#L28)
 
 Handles triple-click events to select an entire table cell.
 

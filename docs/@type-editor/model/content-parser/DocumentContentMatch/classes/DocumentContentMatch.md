@@ -6,7 +6,7 @@
 
 # Class: DocumentContentMatch
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:88](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L88)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:88](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L88)
 
 Instances of this class represent a match state of a node type's
 [content expression](#model.NodeSpec.content), and can be used to
@@ -67,7 +67,7 @@ if (wrapping) {
 new DocumentContentMatch(validEnd): DocumentContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:134](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L134)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:134](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L134)
 
 Creates a new content match state.
 
@@ -105,7 +105,7 @@ const intermediateState = new ContentMatch(false);
 get defaultType(): NodeType;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:227](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L227)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:227](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L227)
 
 Get the first matching node type at this match position that can
 be generated without additional attributes or content.
@@ -148,7 +148,7 @@ The first auto-fillable node type, or null if none exists.
 get edgeCount(): number;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:256](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L256)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:256](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L256)
 
 The number of outgoing edges this node has in the finite
 automaton that describes the content expression.
@@ -187,7 +187,7 @@ The number of possible next node types.
 get inlineContent(): boolean;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:201](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L201)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:201](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L201)
 
 Returns true if this match state represents inline content.
 Content is considered inline if there are possible next matches
@@ -227,7 +227,7 @@ True if the next possible content is inline, false otherwise.
 get next(): MatchEdge[];
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:154](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L154)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:154](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L154)
 
 Get the array of possible next match edges from this state.
 
@@ -263,7 +263,7 @@ An array of match edges representing all valid transitions from this state.
 get validEnd(): boolean;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:177](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L177)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:177](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L177)
 
 Returns true when this match state represents a valid end of the node.
 
@@ -300,7 +300,7 @@ True if content can terminate at this state, false otherwise.
 compatible(other): boolean;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:358](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L358)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:358](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L358)
 
 Check whether this match state is compatible with another match state.
 Two match states are compatible if they have at least one node type in common
@@ -347,7 +347,7 @@ if (match1.compatible(match2)) {
 edge(number): MatchEdge;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:519](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L519)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:519](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L519)
 
 Get the _n_'th outgoing edge from this node in the finite
 automaton that describes the content expression.
@@ -397,7 +397,7 @@ fillBefore(
    startIndex?): Fragment;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:414](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L414)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:414](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L414)
 
 Try to match the given fragment, and if that fails, see if it can
 be made to match by inserting nodes in front of it. When
@@ -460,7 +460,7 @@ if (toEnd && contentMatch.matchFragment(toEnd.append(fragment))?.validEnd) {
 findWrapping(target): readonly NodeType[];
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:485](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L485)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:485](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L485)
 
 Find a set of wrapping node types that would allow a node of the
 given type to appear at this position. The result may be empty
@@ -524,7 +524,7 @@ matchFragment(
    end?): ContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:328](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L328)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:328](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L328)
 
 Try to match a fragment. Returns the resulting match state when successful.
 
@@ -578,7 +578,7 @@ const partial = contentMatch.matchFragment(fragment, 1, 2);
 matchType(type): ContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:286](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L286)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:286](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L286)
 
 Match a node type, returning the next match state after that node if successful.
 
@@ -626,7 +626,7 @@ if (afterPara) {
 toString(): string;
 ```
 
-Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:552](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/model/src/content-parser/DocumentContentMatch.ts#L552)
+Defined in: [packages/model/src/content-parser/DocumentContentMatch.ts:552](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/content-parser/DocumentContentMatch.ts#L552)
 
 Generate a string representation of this content match and all reachable states.
 Useful for debugging and visualizing the finite automaton structure.

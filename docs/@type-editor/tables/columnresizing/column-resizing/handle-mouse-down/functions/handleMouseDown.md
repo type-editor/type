@@ -15,7 +15,7 @@ function handleMouseDown(
 ): boolean;
 ```
 
-Defined in: [tables/src/columnresizing/column-resizing/handle-mouse-down.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/tables/src/columnresizing/column-resizing/handle-mouse-down.ts#L28)
+Defined in: [tables/src/columnresizing/column-resizing/handle-mouse-down.ts:28](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/columnresizing/column-resizing/handle-mouse-down.ts#L28)
 
 Handles mouse down events to initiate column resizing when clicking on an
 active resize handle.

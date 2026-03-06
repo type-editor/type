@@ -10,7 +10,7 @@
 function normalizeSiblings(fragment, $context): Fragment;
 ```
 
-Defined in: [clipboard/parse/normalize-siblings.ts:13](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/input/src/clipboard/parse/normalize-siblings.ts#L13)
+Defined in: [clipboard/parse/normalize-siblings.ts:13](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/clipboard/parse/normalize-siblings.ts#L13)
 
 Try to wrap a list of top-level sibling nodes so they fit into a parent
 in the current context. This transforms nodes where necessary to make

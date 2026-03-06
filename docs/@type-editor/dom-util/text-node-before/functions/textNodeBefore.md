@@ -10,7 +10,7 @@
 function textNodeBefore(node, offset): Text;
 ```
 
-Defined in: [text-node-before.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-util/src/dom/text-node-before.ts#L23)
+Defined in: [text-node-before.ts:23](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-util/src/dom/text-node-before.ts#L23)
 
 Finds the text node before a given position in the DOM tree.
 

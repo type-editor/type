@@ -6,7 +6,7 @@
 
 # Class: OuterDecoLevel
 
-Defined in: [OuterDecoLevel.ts:15](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L15)
+Defined in: [OuterDecoLevel.ts:15](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L15)
 
 Represents a level of outer decoration wrapping, storing HTML attributes
 like nodeName, class, style, and other custom attributes as key-value pairs.
@@ -30,7 +30,7 @@ This would use two OuterDecoLevel instances.
 new OuterDecoLevel(nodeName?): OuterDecoLevel;
 ```
 
-Defined in: [OuterDecoLevel.ts:33](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L33)
+Defined in: [OuterDecoLevel.ts:33](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L33)
 
 Creates a new OuterDecoLevel.
 
@@ -54,7 +54,7 @@ Creates a new OuterDecoLevel.
 get attributes(): ReadonlyMap<string, string>;
 ```
 
-Defined in: [OuterDecoLevel.ts:67](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L67)
+Defined in: [OuterDecoLevel.ts:67](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L67)
 
 Gets the read-only map of custom attributes (excluding class, style, nodeName).
 
@@ -72,7 +72,7 @@ Gets the read-only map of custom attributes (excluding class, style, nodeName).
 get class(): string;
 ```
 
-Defined in: [OuterDecoLevel.ts:47](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L47)
+Defined in: [OuterDecoLevel.ts:47](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L47)
 
 ##### Returns
 
@@ -84,7 +84,7 @@ Defined in: [OuterDecoLevel.ts:47](https://github.com/type-editor/type/blob/29c0
 set class(className): void;
 ```
 
-Defined in: [OuterDecoLevel.ts:51](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L51)
+Defined in: [OuterDecoLevel.ts:51](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L51)
 
 ##### Parameters
 
@@ -106,7 +106,7 @@ Defined in: [OuterDecoLevel.ts:51](https://github.com/type-editor/type/blob/29c0
 get nodeName(): string;
 ```
 
-Defined in: [OuterDecoLevel.ts:39](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L39)
+Defined in: [OuterDecoLevel.ts:39](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L39)
 
 ##### Returns
 
@@ -118,7 +118,7 @@ Defined in: [OuterDecoLevel.ts:39](https://github.com/type-editor/type/blob/29c0
 set nodeName(nodeName): void;
 ```
 
-Defined in: [OuterDecoLevel.ts:43](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L43)
+Defined in: [OuterDecoLevel.ts:43](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L43)
 
 ##### Parameters
 
@@ -140,7 +140,7 @@ Defined in: [OuterDecoLevel.ts:43](https://github.com/type-editor/type/blob/29c0
 get style(): string;
 ```
 
-Defined in: [OuterDecoLevel.ts:55](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L55)
+Defined in: [OuterDecoLevel.ts:55](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L55)
 
 ##### Returns
 
@@ -152,7 +152,7 @@ Defined in: [OuterDecoLevel.ts:55](https://github.com/type-editor/type/blob/29c0
 set style(style): void;
 ```
 
-Defined in: [OuterDecoLevel.ts:59](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L59)
+Defined in: [OuterDecoLevel.ts:59](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L59)
 
 ##### Parameters
 
@@ -172,7 +172,7 @@ Defined in: [OuterDecoLevel.ts:59](https://github.com/type-editor/type/blob/29c0
 setAttribute(name, value): void;
 ```
 
-Defined in: [OuterDecoLevel.ts:77](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L77)
+Defined in: [OuterDecoLevel.ts:77](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/viewdesc/src/view-desc/OuterDecoLevel.ts#L77)
 
 Sets a custom HTML attribute on this decoration level.
 

@@ -10,7 +10,7 @@
 function mustPreserveItems(state): boolean;
 ```
 
-Defined in: [helper/must-preserve-items.ts:17](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/history/src/helper/must-preserve-items.ts#L17)
+Defined in: [helper/must-preserve-items.ts:17](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/helper/must-preserve-items.ts#L17)
 
 Checks whether any plugin requires history items to be preserved for rebasing.
 

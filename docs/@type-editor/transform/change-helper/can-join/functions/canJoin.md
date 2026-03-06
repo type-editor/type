@@ -10,7 +10,7 @@
 function canJoin(doc, pos): boolean;
 ```
 
-Defined in: [packages/transform/src/change-helper/can-join.ts:12](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-helper/can-join.ts#L12)
+Defined in: [packages/transform/src/change-helper/can-join.ts:12](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-helper/can-join.ts#L12)
 
 Test whether the blocks before and after a given position can be joined.
 

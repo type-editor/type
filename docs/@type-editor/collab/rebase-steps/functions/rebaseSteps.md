@@ -10,7 +10,7 @@
 function rebaseSteps(steps, over, transform): Rebaseable[];
 ```
 
-Defined in: [rebase-steps.ts:20](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/collab/src/rebase-steps.ts#L20)
+Defined in: [rebase-steps.ts:20](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/collab/src/rebase-steps.ts#L20)
 
 **`Internal`**
 

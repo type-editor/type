@@ -6,7 +6,7 @@
 
 # Class: StepResult
 
-Defined in: [packages/transform/src/change-steps/StepResult.ts:9](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/StepResult.ts#L9)
+Defined in: [packages/transform/src/change-steps/StepResult.ts:9](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/StepResult.ts#L9)
 
 The result of [applying](#transform.Step.apply) a step. Contains either a
 new document or a failure value.
@@ -23,7 +23,7 @@ new document or a failure value.
 new StepResult(doc, failed): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/StepResult.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/StepResult.ts#L19)
+Defined in: [packages/transform/src/change-steps/StepResult.ts:19](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/StepResult.ts#L19)
 
 **`Internal`**
 
@@ -48,7 +48,7 @@ Defined in: [packages/transform/src/change-steps/StepResult.ts:19](https://githu
 get doc(): Node_2;
 ```
 
-Defined in: [packages/transform/src/change-steps/StepResult.ts:28](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/StepResult.ts#L28)
+Defined in: [packages/transform/src/change-steps/StepResult.ts:28](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/StepResult.ts#L28)
 
 ##### Returns
 
@@ -70,7 +70,7 @@ PmStepResult.doc;
 get failed(): string;
 ```
 
-Defined in: [packages/transform/src/change-steps/StepResult.ts:32](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/StepResult.ts#L32)
+Defined in: [packages/transform/src/change-steps/StepResult.ts:32](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/StepResult.ts#L32)
 
 ##### Returns
 
@@ -90,7 +90,7 @@ PmStepResult.failed;
 static fail(message): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/StepResult.ts:55](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/StepResult.ts#L55)
+Defined in: [packages/transform/src/change-steps/StepResult.ts:55](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/StepResult.ts#L55)
 
 Create a failed step result.
 
@@ -118,7 +118,7 @@ static fromReplace(
    slice): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/StepResult.ts:73](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/StepResult.ts#L73)
+Defined in: [packages/transform/src/change-steps/StepResult.ts:73](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/StepResult.ts#L73)
 
 Call [`Node.replace`](#model.Node.replace) with the given
 arguments. Create a successful result if it succeeds, and a
@@ -147,7 +147,7 @@ A StepResult indicating success or failure.
 static ok(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/StepResult.ts:42](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/StepResult.ts#L42)
+Defined in: [packages/transform/src/change-steps/StepResult.ts:42](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/StepResult.ts#L42)
 
 Create a successful step result.
 

@@ -17,7 +17,7 @@ function looksLikeEnterKey(
 ): boolean;
 ```
 
-Defined in: [parse-change/looks-like-enter-key.ts:41](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/dom-change-util/src/dom-change/parse-change/looks-like-enter-key.ts#L41)
+Defined in: [parse-change/looks-like-enter-key.ts:41](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-change-util/src/dom-change/parse-change/looks-like-enter-key.ts#L41)
 
 Checks if the change looks like the effect of pressing the Enter key.
 

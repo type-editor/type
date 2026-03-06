@@ -10,7 +10,7 @@
 const findPrevNoWrap: Command;
 ```
 
-Defined in: [commands/find-prev-no-wrap.ts:11](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/search/src/commands/find-prev-no-wrap.ts#L11)
+Defined in: [commands/find-prev-no-wrap.ts:11](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/commands/find-prev-no-wrap.ts#L11)
 
 Find the previous instance of the search query and move the
 selection to it. Don't wrap at the start of the document or search

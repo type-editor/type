@@ -6,7 +6,7 @@
 
 # Class: Mapping
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:29](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L29)
+Defined in: [packages/transform/src/change-map/Mapping.ts:29](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L29)
 
 A mapping represents a pipeline of zero or more [step maps](#transform.StepMap).
 
@@ -46,7 +46,7 @@ new Mapping(
    to?): Mapping;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:101](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L101)
+Defined in: [packages/transform/src/change-map/Mapping.ts:101](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L101)
 
 Create a new mapping with the given position maps.
 
@@ -86,7 +86,7 @@ const mapping3 = new Mapping([stepMap1, stepMap2], undefined, 1, 2);
 get from(): number;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:133](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L133)
+Defined in: [packages/transform/src/change-map/Mapping.ts:133](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L133)
 
 Returns the starting position in the `maps` array.
 
@@ -109,7 +109,7 @@ The starting index for mapping operations.
 get maps(): readonly PmStepMap[];
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:121](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L121)
+Defined in: [packages/transform/src/change-map/Mapping.ts:121](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L121)
 
 Returns the step maps in this mapping.
 
@@ -133,7 +133,7 @@ A read-only array of step maps representing the transformation pipeline.
 get to(): number;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:145](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L145)
+Defined in: [packages/transform/src/change-map/Mapping.ts:145](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L145)
 
 Returns the end position (exclusive) in the `maps` array.
 
@@ -154,7 +154,7 @@ The ending index for mapping operations.
 appendMap(map, mirrors?): void;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:194](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L194)
+Defined in: [packages/transform/src/change-map/Mapping.ts:194](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L194)
 
 Add a step map to the end of this mapping.
 
@@ -192,7 +192,7 @@ mapping.appendMap(insertMap, 0); // Mirror with the delete at index 0
 appendMapping(mapping): void;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:223](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L223)
+Defined in: [packages/transform/src/change-map/Mapping.ts:223](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L223)
 
 Add all the step maps in a given mapping to this one, preserving mirroring information.
 
@@ -226,7 +226,7 @@ mapping1.appendMapping(mapping2); // mapping1 now contains [map1, map2, map3, ma
 getMirror(offset): number;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:252](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L252)
+Defined in: [packages/transform/src/change-map/Mapping.ts:252](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L252)
 
 Finds the offset of the step map that mirrors the map at the given offset.
 
@@ -265,7 +265,7 @@ mapping.getMirror(1); // Returns 0
 invert(): Mapping;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:311](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L311)
+Defined in: [packages/transform/src/change-map/Mapping.ts:311](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L311)
 
 Create an inverted version of this mapping.
 
@@ -299,7 +299,7 @@ const original = inverted.map(pos); // Returns 5 (back to original)
 map(pos, assoc?): number;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:339](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L339)
+Defined in: [packages/transform/src/change-map/Mapping.ts:339](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L339)
 
 Map a position through this mapping.
 
@@ -343,7 +343,7 @@ Mappable.map;
 mapResult(pos, assoc?): MapResult;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:375](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L375)
+Defined in: [packages/transform/src/change-map/Mapping.ts:375](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L375)
 
 Map a position through this mapping, returning a MapResult with detailed information.
 
@@ -387,7 +387,7 @@ Mappable.mapResult;
 setMirror(offset, mirrorOffset): void;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:284](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L284)
+Defined in: [packages/transform/src/change-map/Mapping.ts:284](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L284)
 
 Register a mirroring relationship between two step maps.
 
@@ -425,7 +425,7 @@ mapping.setMirror(0, 1); // Establish mirror relationship
 slice(from?, to?): Mapping;
 ```
 
-Defined in: [packages/transform/src/change-map/Mapping.ts:167](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-map/Mapping.ts#L167)
+Defined in: [packages/transform/src/change-map/Mapping.ts:167](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-map/Mapping.ts#L167)
 
 Create a mapping that maps only through a part of this one.
 

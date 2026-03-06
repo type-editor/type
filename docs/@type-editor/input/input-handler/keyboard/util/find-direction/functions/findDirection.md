@@ -10,7 +10,7 @@
 function findDirection(view, pos): "rtl" | "ltr";
 ```
 
-Defined in: [input-handler/keyboard/util/find-direction.ts:16](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/input/src/input-handler/keyboard/util/find-direction.ts#L16)
+Defined in: [input-handler/keyboard/util/find-direction.ts:16](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/input-handler/keyboard/util/find-direction.ts#L16)
 
 Determines the text direction (LTR or RTL) at a specific position in the document.
 

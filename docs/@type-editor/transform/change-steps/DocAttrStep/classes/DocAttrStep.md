@@ -6,7 +6,7 @@
 
 # Class: DocAttrStep
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:24](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L24)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:24](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L24)
 
 A document attribute step represents an update to an attribute
 of the document node itself (rather than a node within the document).
@@ -33,7 +33,7 @@ const step = new DocAttrStep("language", "en-US");
 new DocAttrStep(attr, value): DocAttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:37](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L37)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:37](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L37)
 
 Construct a document attribute step.
 
@@ -60,7 +60,7 @@ Construct a document attribute step.
 apply(doc): StepResult;
 ```
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:74](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L74)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:74](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L74)
 
 Apply this step to a document, modifying an attribute of the document node itself.
 
@@ -92,7 +92,7 @@ A StepResult with the updated document (always succeeds for valid documents).
 getMap(): StepMap;
 ```
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:93](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L93)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:93](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L93)
 
 Get the step map for this step.
 
@@ -117,7 +117,7 @@ An empty StepMap indicating no position changes occurred.
 invert(doc): DocAttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:106](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L106)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:106](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L106)
 
 Create an inverted version of this step that undoes the document attribute change.
 
@@ -148,7 +148,7 @@ A DocAttrStep that restores the original attribute value.
 map(_mapping): DocAttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:120](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L120)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:120](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L120)
 
 Map this step through a mappable object.
 
@@ -183,7 +183,7 @@ protected mapFragment(
    parent): Fragment;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L144)
+Defined in: [packages/transform/src/change-steps/Step.ts:144](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/Step.ts#L144)
 
 Recursively map over inline nodes in a fragment, applying a callback function.
 
@@ -217,7 +217,7 @@ A new fragment with transformed nodes, preserving the structure.
 merge(_other): Step;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L117)
+Defined in: [packages/transform/src/change-steps/Step.ts:117](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/Step.ts#L117)
 
 Try to merge this step with another one, to be applied directly
 after it. Returns the merged step when possible, null if the
@@ -247,7 +247,7 @@ The merged step, or null if the steps can't be merged.
 toJSON(): AttrStepJson;
 ```
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:131](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L131)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:131](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L131)
 
 Serialize this step to JSON for storage or transmission.
 
@@ -271,7 +271,7 @@ The JSON representation of this step including stepType, attr, and value.
 static fromJSON(_schema, json): DocAttrStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:54](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/DocAttrStep.ts#L54)
+Defined in: [packages/transform/src/change-steps/DocAttrStep.ts:54](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/DocAttrStep.ts#L54)
 
 Deserialize a document attribute step from its JSON representation.
 
@@ -307,7 +307,7 @@ When the JSON is invalid or attribute name is empty.
 static registerStep(jsonId, stepClass): void;
 ```
 
-Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/transform/src/change-steps/Step.ts#L61)
+Defined in: [packages/transform/src/change-steps/Step.ts:61](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/change-steps/Step.ts#L61)
 
 To be able to serialize steps to JSON, each step needs a string
 ID to attach to its JSON representation. Use this method to

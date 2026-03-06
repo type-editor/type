@@ -10,7 +10,7 @@
 function applyRequiredWrappers(wrap, doc): number;
 ```
 
-Defined in: [clipboard/serialize/apply-required-wrappers.ts:14](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/input/src/clipboard/serialize/apply-required-wrappers.ts#L14)
+Defined in: [clipboard/serialize/apply-required-wrappers.ts:14](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/clipboard/serialize/apply-required-wrappers.ts#L14)
 
 Apply required wrapper elements to ensure certain HTML tags can be properly
 inserted via innerHTML (e.g., wrapping \<td\> with \<table\>\<tbody\>\<tr\>).

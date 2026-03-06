@@ -6,7 +6,7 @@
 
 # Class: OrderedMap&lt;T&gt;
 
-Defined in: [OrderedMap.ts:7](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L7)
+Defined in: [OrderedMap.ts:7](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L7)
 
 Persistent data structure representing an ordered mapping from
 strings to values, with some convenient update methods.
@@ -25,7 +25,7 @@ strings to values, with some convenient update methods.
 new OrderedMap<T>(content): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:19](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L19)
+Defined in: [OrderedMap.ts:19](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L19)
 
 Create a new OrderedMap with the given content array.
 
@@ -49,7 +49,7 @@ Create a new OrderedMap with the given content array.
 get size(): number;
 ```
 
-Defined in: [OrderedMap.ts:30](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L30)
+Defined in: [OrderedMap.ts:30](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L30)
 
 The amount of keys in this map.
 
@@ -67,7 +67,7 @@ The amount of keys in this map.
 get type(): string;
 ```
 
-Defined in: [OrderedMap.ts:23](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L23)
+Defined in: [OrderedMap.ts:23](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L23)
 
 ##### Returns
 
@@ -84,7 +84,7 @@ addBefore(
    value): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:172](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L172)
+Defined in: [OrderedMap.ts:172](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L172)
 
 Add the given key/value before `place`. If `place` is not found,
 the new key is added to the end.
@@ -111,7 +111,7 @@ A new OrderedMap with the key added before the place key
 addToEnd(key, value): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:158](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L158)
+Defined in: [OrderedMap.ts:158](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L158)
 
 Add a new key to the end of the map.
 
@@ -136,7 +136,7 @@ A new OrderedMap with the key added at the end
 addToStart(key, value): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:148](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L148)
+Defined in: [OrderedMap.ts:148](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L148)
 
 Add a new key to the start of the map.
 
@@ -161,7 +161,7 @@ A new OrderedMap with the key added at the start
 append(map): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:211](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L211)
+Defined in: [OrderedMap.ts:211](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L211)
 
 Create a new map by appending the keys in this map that don't
 appear in `map` after the keys in `map`.
@@ -186,7 +186,7 @@ A new OrderedMap with the appended keys
 find(key): number;
 ```
 
-Defined in: [OrderedMap.ts:82](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L82)
+Defined in: [OrderedMap.ts:82](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L82)
 
 **`Internal`**
 
@@ -212,7 +212,7 @@ The index of the key, or -1 if not found
 forEach(f): void;
 ```
 
-Defined in: [OrderedMap.ts:185](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L185)
+Defined in: [OrderedMap.ts:185](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L185)
 
 Call the given function for each key/value pair in the map, in
 order.
@@ -235,7 +235,7 @@ order.
 get(key): T;
 ```
 
-Defined in: [OrderedMap.ts:97](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L97)
+Defined in: [OrderedMap.ts:97](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L97)
 
 Retrieve the value stored under `key`, or return undefined when
 no such key exists.
@@ -260,7 +260,7 @@ The value associated with the key, or undefined
 prepend(map): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:197](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L197)
+Defined in: [OrderedMap.ts:197](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L197)
 
 Create a new map by prepending the keys in this map that don't
 appear in `map` before the keys in `map`.
@@ -285,7 +285,7 @@ A new OrderedMap with the prepended keys
 remove(key): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:131](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L131)
+Defined in: [OrderedMap.ts:131](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L131)
 
 Return a map with the given key removed, if it existed.
 
@@ -309,7 +309,7 @@ A new OrderedMap with the key removed
 subtract(map): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:225](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L225)
+Defined in: [OrderedMap.ts:225](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L225)
 
 Create a map containing all the keys in this map that don't
 appear in `map`.
@@ -334,7 +334,7 @@ A new OrderedMap with the subtracted keys
 toObject(): Record<string, T>;
 ```
 
-Defined in: [OrderedMap.ts:245](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L245)
+Defined in: [OrderedMap.ts:245](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L245)
 
 Turn ordered map into a plain object.
 
@@ -355,7 +355,7 @@ update(
    newKey?): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:111](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L111)
+Defined in: [OrderedMap.ts:111](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L111)
 
 Create a new map by replacing the value of `key` with a new
 value, or adding a binding to the end of the map. If `newKey` is
@@ -383,7 +383,7 @@ A new OrderedMap with the update applied
 static from<T>(value): OrderedMap<T>;
 ```
 
-Defined in: [OrderedMap.ts:41](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commons/src/OrderedMap.ts#L41)
+Defined in: [OrderedMap.ts:41](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/OrderedMap.ts#L41)
 
 Return a map with the given content. If null, create an empty
 map. If given an ordered map, return that map itself. If given an

@@ -10,7 +10,7 @@
 function autoDeleteLink(keyType, linkMarkType?, fileLinkType?): Command;
 ```
 
-Defined in: [auto-delete-link.ts:36](https://github.com/type-editor/type/blob/29c0b7ebbb68b1528c0edc5e9973c4538cccdb64/packages/commands/src/auto-delete-link.ts#L36)
+Defined in: [auto-delete-link.ts:36](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/auto-delete-link.ts#L36)
 
 Creates a command that removes link marks from the current selection or cursor position.
 

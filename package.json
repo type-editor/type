@@ -63,7 +63,7 @@
     "scripts": {
         "release": "pnpm publish -r --access public --no-git-checks",
         "build": "pnpm recursive run build",
-        "build:prod": "NODE_ENV=production pnpm recursive run build:prod",
+        "build:prod": "NODE_ENV=production pnpm install && pnpm recursive run build:prod",
         "build:dev": "NODE_ENV=development pnpm recursive run build:dev",
         "build:ts": "pnpm recursive run build:ts",
         "install:pnpm": "npm install --global corepack@latest && corepack enable pnpm",

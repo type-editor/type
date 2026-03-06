@@ -10,7 +10,7 @@
 const icons: Record<string, IconSpec>;
 ```
 
-Defined in: [packages/menu/src/menubar/icons/icons.ts:13](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menubar/icons/icons.ts#L13)
+Defined in: [packages/menu/src/menubar/icons/icons.ts:13](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/menubar/icons/icons.ts#L13)
 
 A set of basic editor-related icons. Contains the properties
 `join`, `lift`, `selectParentNode`, `undo`, `redo`, `strong`, `em`,

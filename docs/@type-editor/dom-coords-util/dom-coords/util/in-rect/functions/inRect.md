@@ -10,7 +10,7 @@
 function inRect(coords, rect): boolean;
 ```
 
-Defined in: [dom-coords/util/in-rect.ts:14](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-coords-util/src/dom-coords/util/in-rect.ts#L14)
+Defined in: [dom-coords/util/in-rect.ts:14](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-coords-util/src/dom-coords/util/in-rect.ts#L14)
 
 Check if coordinates are within a rectangle, with tolerance.
 

@@ -10,7 +10,7 @@
 function applyTransaction(history, state, transaction, options): HistoryState;
 ```
 
-Defined in: [plugin/apply-transaction.ts:40](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/plugin/apply-transaction.ts#L40)
+Defined in: [plugin/apply-transaction.ts:40](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/history/src/plugin/apply-transaction.ts#L40)
 
 Applies a transaction to the history state, updating the undo/redo stacks appropriately.
 

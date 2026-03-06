@@ -10,7 +10,7 @@
 function removeMark(transform, from, to, mark?): void;
 ```
 
-Defined in: [packages/transform/src/mark-changes/remove-mark.ts:41](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/mark-changes/remove-mark.ts#L41)
+Defined in: [packages/transform/src/mark-changes/remove-mark.ts:41](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/mark-changes/remove-mark.ts#L41)
 
 Remove marks from inline nodes between two positions.
 

@@ -10,7 +10,7 @@
 function colCount($pos): number;
 ```
 
-Defined in: [tables/src/utils/col-count.ts:21](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/utils/col-count.ts#L21)
+Defined in: [tables/src/utils/col-count.ts:21](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/utils/col-count.ts#L21)
 
 Gets the column index of the cell at the given position.
 

@@ -14,7 +14,7 @@ function getSelectionRangeInColumn(
 ): CellSelectionRange;
 ```
 
-Defined in: [tables/src/utils/selection-range.ts:333](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/utils/selection-range.ts#L333)
+Defined in: [tables/src/utils/selection-range.ts:333](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/utils/selection-range.ts#L333)
 
 Returns a range of rectangular selection spanning all merged cells around a
 column at the specified index.

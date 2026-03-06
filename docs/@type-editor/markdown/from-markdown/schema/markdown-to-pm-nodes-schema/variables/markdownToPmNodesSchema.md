@@ -10,7 +10,7 @@
 const markdownToPmNodesSchema: Record<string, ParseSpec>;
 ```
 
-Defined in: [from-markdown/schema/markdown-to-pm-nodes-schema.ts:11](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/markdown/src/from-markdown/schema/markdown-to-pm-nodes-schema.ts#L11)
+Defined in: [from-markdown/schema/markdown-to-pm-nodes-schema.ts:11](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/markdown/src/from-markdown/schema/markdown-to-pm-nodes-schema.ts#L11)
 
 Parse specification for unextended [CommonMark](http://commonmark.org/),
 without inline HTML, producing a document in the basic schema.

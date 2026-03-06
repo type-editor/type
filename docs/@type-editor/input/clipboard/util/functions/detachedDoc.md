@@ -10,7 +10,7 @@
 function detachedDoc(): Document;
 ```
 
-Defined in: [clipboard/util.ts:3](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/clipboard/util.ts#L3)
+Defined in: [clipboard/util.ts:3](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/input/src/clipboard/util.ts#L3)
 
 ## Returns
 

@@ -10,4 +10,4 @@
 const COMPOSITION_ENDED_INITIAL: -200000000 = -2e8;
 ```
 
-Defined in: [input-handler/compositon-constants.ts:5](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/input-handler/compositon-constants.ts#L5)
+Defined in: [input-handler/compositon-constants.ts:5](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/input/src/input-handler/compositon-constants.ts#L5)

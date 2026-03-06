@@ -10,4 +10,4 @@
 const openSingleQuote: InputRule;
 ```
 
-Defined in: [commands/open-single-quote.ts:20](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/inputrules/src/commands/open-single-quote.ts#L20)
+Defined in: [commands/open-single-quote.ts:20](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/inputrules/src/commands/open-single-quote.ts#L20)

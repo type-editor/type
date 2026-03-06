@@ -10,7 +10,7 @@
 function isMarkChange(cur, prev): MarkChangeInfo;
 ```
 
-Defined in: [parse-change/is-mark-change.ts:34](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-change-util/src/dom-change/parse-change/is-mark-change.ts#L34)
+Defined in: [parse-change/is-mark-change.ts:34](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-change-util/src/dom-change/parse-change/is-mark-change.ts#L34)
 
 Determines whether one fragment could be created from another by adding or removing
 a single mark type. Used to optimize mark changes.

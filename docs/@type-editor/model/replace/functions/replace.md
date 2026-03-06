@@ -10,7 +10,7 @@
 function replace($from, $to, slice): Node;
 ```
 
-Defined in: [packages/model/src/replace.ts:43](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/replace.ts#L43)
+Defined in: [packages/model/src/replace.ts:43](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/model/src/replace.ts#L43)
 
 Replace a range of content between two resolved positions with a slice.
 This is the main entry point for performing document replacements.

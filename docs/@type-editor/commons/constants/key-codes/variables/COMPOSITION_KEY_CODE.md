@@ -10,4 +10,4 @@
 const COMPOSITION_KEY_CODE: 229 = 229;
 ```
 
-Defined in: [constants/key-codes.ts:8](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commons/src/constants/key-codes.ts#L8)
+Defined in: [constants/key-codes.ts:8](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commons/src/constants/key-codes.ts#L8)

@@ -10,4 +10,4 @@
 const historyKey: PluginKey<any>;
 ```
 
-Defined in: [plugin/history-plugin-key.ts:3](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/plugin/history-plugin-key.ts#L3)
+Defined in: [plugin/history-plugin-key.ts:3](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/history/src/plugin/history-plugin-key.ts#L3)

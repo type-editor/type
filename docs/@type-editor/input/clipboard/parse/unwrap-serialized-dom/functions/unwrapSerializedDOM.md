@@ -10,7 +10,7 @@
 function unwrapSerializedDOM(dom, wrapperCount): HTMLElement;
 ```
 
-Defined in: [clipboard/parse/unwrap-serialized-dom.ts:11](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/clipboard/parse/unwrap-serialized-dom.ts#L11)
+Defined in: [clipboard/parse/unwrap-serialized-dom.ts:11](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/input/src/clipboard/parse/unwrap-serialized-dom.ts#L11)
 
 Unwrap serialized DOM by removing the specified number of wrapper layers.
 This reverses the wrapping applied during serialization.

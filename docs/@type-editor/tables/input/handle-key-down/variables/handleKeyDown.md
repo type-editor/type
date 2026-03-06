@@ -10,7 +10,7 @@
 const handleKeyDown: (view, event) => boolean;
 ```
 
-Defined in: [tables/src/input/handle-key-down.ts:36](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/input/handle-key-down.ts#L36)
+Defined in: [tables/src/input/handle-key-down.ts:36](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/input/handle-key-down.ts#L36)
 
 Keydown handler for table-related keyboard shortcuts.
 

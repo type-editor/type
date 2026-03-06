@@ -10,7 +10,7 @@
 const joinTextblockForward: Command;
 ```
 
-Defined in: [join-textblock-forward.ts:39](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/join-textblock-forward.ts#L39)
+Defined in: [join-textblock-forward.ts:39](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/join-textblock-forward.ts#L39)
 
 Joins the current textblock with the textblock after it.
 

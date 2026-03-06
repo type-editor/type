@@ -14,7 +14,7 @@ function normalizeSelection(
 ): PmTransaction;
 ```
 
-Defined in: [tables/src/cellselection/normalize-selection.ts:29](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/cellselection/normalize-selection.ts#L29)
+Defined in: [tables/src/cellselection/normalize-selection.ts:29](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/cellselection/normalize-selection.ts#L29)
 
 Normalizes table-related selections to ensure consistent behavior.
 

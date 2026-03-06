@@ -7,10 +7,10 @@
 # Function: dropCursor()
 
 ```ts
-function dropCursor(options?): Plugin_2;
+function dropCursor(options?): PmPlugin;
 ```
 
-Defined in: [drop-cursor-plugin.ts:35](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dropcursor/src/drop-cursor-plugin.ts#L35)
+Defined in: [drop-cursor-plugin.ts:35](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dropcursor/src/drop-cursor-plugin.ts#L35)
 
 Creates a plugin that displays a visual drop cursor indicator when content is dragged over the editor.
 
@@ -43,6 +43,6 @@ can appear inside them. This can be:
 
 ## Returns
 
-`Plugin_2`
+`PmPlugin`
 
 A ProseMirror plugin instance

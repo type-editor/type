@@ -10,7 +10,7 @@
 function splitListItem(itemType, itemAttrs?): Command;
 ```
 
-Defined in: [list-commands/split-list-item.ts:19](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/schema/src/list-commands/split-list-item.ts#L19)
+Defined in: [list-commands/split-list-item.ts:19](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/schema/src/list-commands/split-list-item.ts#L19)
 
 Build a command that splits a list item at the current selection position.
 

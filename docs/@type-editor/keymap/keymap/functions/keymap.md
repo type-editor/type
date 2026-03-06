@@ -7,10 +7,10 @@
 # Function: keymap()
 
 ```ts
-function keymap(bindings): Plugin_2;
+function keymap(bindings): PmPlugin;
 ```
 
-Defined in: [keymap.ts:43](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/keymap/src/keymap.ts#L43)
+Defined in: [keymap.ts:43](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/keymap/src/keymap.ts#L43)
 
 Creates a keymap plugin for the given set of key bindings.
 
@@ -43,7 +43,7 @@ their precedence (the ones early in the array get to dispatch first).
 
 ## Returns
 
-`Plugin_2`
+`PmPlugin`
 
 A plugin instance that handles keydown events according to the provided bindings
 

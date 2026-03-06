@@ -10,7 +10,7 @@
 function fileUploadItem(title?, fileType?, codeBlockNodeType?): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/file-upload-item.ts:96](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menu-items/file-upload-item.ts#L96)
+Defined in: [packages/menu/src/menu-items/file-upload-item.ts:96](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/menu-items/file-upload-item.ts#L96)
 
 Creates a menu item for uploading and managing file attachments in the editor.
 

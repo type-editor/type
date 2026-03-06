@@ -10,7 +10,7 @@
 type setDOMAttr = (value, attrs) => void;
 ```
 
-Defined in: [tables/src/schema.ts:135](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/schema.ts#L135)
+Defined in: [tables/src/schema.ts:135](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/schema.ts#L135)
 
 Function type for setting an attribute value on a DOM attributes object.
 

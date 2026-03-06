@@ -10,7 +10,7 @@
 function hasSelection(view): boolean;
 ```
 
-Defined in: [has-selection.ts:20](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/selection-util/src/selection/has-selection.ts#L20)
+Defined in: [has-selection.ts:20](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/selection-util/src/selection/has-selection.ts#L20)
 
 Checks if the editor contains a valid DOM selection.
 

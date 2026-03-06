@@ -17,7 +17,7 @@ type DOMOutputSpec =
   | DOMOutputSpecArray;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/DOMOutputSpec.ts:21](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/types/dom-parser/DOMOutputSpec.ts#L21)
+Defined in: [packages/model/src/types/dom-parser/DOMOutputSpec.ts:21](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/model/src/types/dom-parser/DOMOutputSpec.ts#L21)
 
 A description of a DOM structure. Can be either a string, which is
 interpreted as a text node, a DOM node, which is interpreted as

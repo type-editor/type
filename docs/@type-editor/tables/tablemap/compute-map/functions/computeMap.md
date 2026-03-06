@@ -10,7 +10,7 @@
 function computeMap(table): TableMap;
 ```
 
-Defined in: [tables/src/tablemap/compute-map.ts:41](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/tablemap/compute-map.ts#L41)
+Defined in: [tables/src/tablemap/compute-map.ts:41](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/tablemap/compute-map.ts#L41)
 
 Compute a table map for the given table node.
 

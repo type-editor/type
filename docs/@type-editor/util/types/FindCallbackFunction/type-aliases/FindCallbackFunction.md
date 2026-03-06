@@ -10,7 +10,7 @@
 type FindCallbackFunction = (node) => boolean;
 ```
 
-Defined in: [types/FindCallbackFunction.ts:9](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/util/src/types/FindCallbackFunction.ts#L9)
+Defined in: [types/FindCallbackFunction.ts:9](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/util/src/types/FindCallbackFunction.ts#L9)
 
 A callback function used to find nodes in the document tree.
 

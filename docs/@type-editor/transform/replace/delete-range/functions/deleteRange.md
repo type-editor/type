@@ -10,7 +10,7 @@
 function deleteRange(transform, from, to): TransformDocument;
 ```
 
-Defined in: [packages/transform/src/replace/delete-range.ts:14](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/replace/delete-range.ts#L14)
+Defined in: [packages/transform/src/replace/delete-range.ts:14](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/replace/delete-range.ts#L14)
 
 Delete a range from the document, expanding to cover appropriate node boundaries.
 

@@ -17,7 +17,7 @@ function tokenizeTextNode<T>(
 ): void;
 ```
 
-Defined in: [tokenizer/tokenize-textNode.ts:16](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/tokenizer/tokenize-textNode.ts#L16)
+Defined in: [tokenizer/tokenize-textNode.ts:16](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/tokenizer/tokenize-textNode.ts#L16)
 
 Tokenize a text node by encoding each character within the specified range.
 

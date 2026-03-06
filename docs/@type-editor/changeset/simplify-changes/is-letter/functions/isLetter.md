@@ -10,7 +10,7 @@
 function isLetter(code): boolean;
 ```
 
-Defined in: [simplify-changes/is-letter.ts:45](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/simplify-changes/is-letter.ts#L45)
+Defined in: [simplify-changes/is-letter.ts:45](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/simplify-changes/is-letter.ts#L45)
 
 Determines whether a character code represents a letter or digit.
 

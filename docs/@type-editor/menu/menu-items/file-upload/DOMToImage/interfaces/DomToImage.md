@@ -6,7 +6,7 @@
 
 # Interface: DomToImage
 
-Defined in: [packages/menu/src/menu-items/file-upload/DOMToImage.ts:1588](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menu-items/file-upload/DOMToImage.ts#L1588)
+Defined in: [packages/menu/src/menu-items/file-upload/DOMToImage.ts:1588](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/menu-items/file-upload/DOMToImage.ts#L1588)
 
 Main DomToImage API interface
 
@@ -14,4 +14,4 @@ Main DomToImage API interface
 
 | Property                                | Type                                                 | Description                                       | Defined in                                                                                                                                                                                                    |
 | --------------------------------------- | ---------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-toimage"></a> `toImage` | (`element`, `options?`) => `Promise`&lt;`string`&gt; | Converts a DOM element to a raster image data URL | [packages/menu/src/menu-items/file-upload/DOMToImage.ts:1590](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menu-items/file-upload/DOMToImage.ts#L1590) |
+| <a id="property-toimage"></a> `toImage` | (`element`, `options?`) => `Promise`&lt;`string`&gt; | Converts a DOM element to a raster image data URL | [packages/menu/src/menu-items/file-upload/DOMToImage.ts:1590](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/menu-items/file-upload/DOMToImage.ts#L1590) |

@@ -7,10 +7,10 @@
 # Function: history()
 
 ```ts
-function history(config?): Plugin_2;
+function history(config?): PmPlugin;
 ```
 
-Defined in: [plugin/history-plugin.ts:30](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/history/src/plugin/history-plugin.ts#L30)
+Defined in: [plugin/history-plugin.ts:30](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/history/src/plugin/history-plugin.ts#L30)
 
 Returns a plugin that enables the undo history for an editor. The
 plugin will track undo and redo stacks, which can be used with the
@@ -28,6 +28,6 @@ to prevent it from being rolled back by undo.
 
 ## Returns
 
-`Plugin_2`
+`PmPlugin`
 
 A ProseMirror plugin that manages undo/redo history

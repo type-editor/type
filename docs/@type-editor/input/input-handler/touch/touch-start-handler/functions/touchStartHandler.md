@@ -10,7 +10,7 @@
 function touchStartHandler(view, _event): boolean;
 ```
 
-Defined in: [input-handler/touch/touch-start-handler.ts:9](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/input-handler/touch/touch-start-handler.ts#L9)
+Defined in: [input-handler/touch/touch-start-handler.ts:9](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/input/src/input-handler/touch/touch-start-handler.ts#L9)
 
 Handles touchstart events, flushing DOM changes and tracking touch timing.
 

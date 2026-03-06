@@ -10,7 +10,7 @@
 function compareDeep<T>(value1, value2): boolean;
 ```
 
-Defined in: [packages/model/src/elements/util/compare-deep.ts:36](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/model/src/elements/util/compare-deep.ts#L36)
+Defined in: [packages/model/src/elements/util/compare-deep.ts:36](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/model/src/elements/util/compare-deep.ts#L36)
 
 Performs a deep equality comparison between two values.
 

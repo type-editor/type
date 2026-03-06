@@ -7,10 +7,10 @@
 # Function: gapCursor()
 
 ```ts
-function gapCursor(): Plugin_2;
+function gapCursor(): PmPlugin;
 ```
 
-Defined in: [gapcursor/src/gap-cursor-plugin.ts:36](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/gapcursor/src/gap-cursor-plugin.ts#L36)
+Defined in: [gapcursor/src/gap-cursor-plugin.ts:37](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/gapcursor/src/gap-cursor-plugin.ts#L37)
 
 Creates a gap cursor plugin for the editor.
 
@@ -23,6 +23,6 @@ When enabled, this plugin will:
 
 ## Returns
 
-`Plugin_2`
+`PmPlugin`
 
 A configured Plugin instance.

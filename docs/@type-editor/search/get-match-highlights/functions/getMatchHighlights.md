@@ -10,7 +10,7 @@
 function getMatchHighlights(state): DecorationSet;
 ```
 
-Defined in: [get-match-highlights.ts:15](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/get-match-highlights.ts#L15)
+Defined in: [get-match-highlights.ts:15](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/search/src/get-match-highlights.ts#L15)
 
 Access the decoration set holding the currently highlighted search
 matches in the document.

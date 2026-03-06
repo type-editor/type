@@ -10,7 +10,7 @@
 function applyReplacements(transaction, replacements): void;
 ```
 
-Defined in: [commands/util/apply-replacements.ts:12](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/commands/util/apply-replacements.ts#L12)
+Defined in: [commands/util/apply-replacements.ts:12](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/search/src/commands/util/apply-replacements.ts#L12)
 
 Applies all replacement ranges to a transaction in reverse order.
 

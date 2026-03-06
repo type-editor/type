@@ -10,7 +10,7 @@
 function keyDownHandler(view, event): boolean;
 ```
 
-Defined in: [input-handler/keyboard/key-down-handler.ts:49](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/input/src/input-handler/keyboard/key-down-handler.ts#L49)
+Defined in: [input-handler/keyboard/key-down-handler.ts:49](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/input/src/input-handler/keyboard/key-down-handler.ts#L49)
 
 Handles keydown events in the editor. Manages composition state, platform-specific
 quirks (iOS Enter handling, Chrome Android composition), and delegates to custom

@@ -10,7 +10,7 @@
 function deleteBarrier(state, $cut, dispatch, direction): boolean;
 ```
 
-Defined in: [util/helpers.ts:471](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/util/helpers.ts#L471)
+Defined in: [util/helpers.ts:471](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/util/helpers.ts#L471)
 
 Attempts to delete or join nodes separated by a structural barrier.
 

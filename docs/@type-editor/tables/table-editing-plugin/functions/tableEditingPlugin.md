@@ -10,7 +10,7 @@
 function tableEditingPlugin(allowTableNodeSelection?): Plugin_2;
 ```
 
-Defined in: [tables/src/table-editing-plugin.ts:36](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/tables/src/table-editing-plugin.ts#L36)
+Defined in: [tables/src/table-editing-plugin.ts:36](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/table-editing-plugin.ts#L36)
 
 Creates a [plugin](http://prosemirror.net/docs/ref/#state.Plugin)
 that, when added to an editor, enables cell-selection, handles

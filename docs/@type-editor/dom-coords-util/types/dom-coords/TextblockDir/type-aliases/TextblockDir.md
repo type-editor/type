@@ -10,4 +10,4 @@
 type TextblockDir = "up" | "down" | "left" | "right" | "forward" | "backward";
 ```
 
-Defined in: [types/dom-coords/TextblockDir.ts:2](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-coords-util/src/types/dom-coords/TextblockDir.ts#L2)
+Defined in: [types/dom-coords/TextblockDir.ts:2](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-coords-util/src/types/dom-coords/TextblockDir.ts#L2)

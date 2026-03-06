@@ -10,7 +10,7 @@
 function findCommand(wrap, dir): Command;
 ```
 
-Defined in: [commands/util/find-command.ts:18](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/search/src/commands/util/find-command.ts#L18)
+Defined in: [commands/util/find-command.ts:18](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/search/src/commands/util/find-command.ts#L18)
 
 Factory function that creates a command for finding the next or previous search match.
 

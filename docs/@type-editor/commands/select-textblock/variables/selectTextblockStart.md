@@ -10,7 +10,7 @@
 const selectTextblockStart: Command;
 ```
 
-Defined in: [select-textblock.ts:40](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/commands/src/select-textblock.ts#L40)
+Defined in: [select-textblock.ts:40](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/select-textblock.ts#L40)
 
 Moves the cursor to the start of the current textblock.
 

@@ -10,7 +10,7 @@
 function coordsAtPos(view, pos, side): Rect;
 ```
 
-Defined in: [dom-coords/coords-at-pos.ts:21](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/dom-coords-util/src/dom-coords/coords-at-pos.ts#L21)
+Defined in: [dom-coords/coords-at-pos.ts:21](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-coords-util/src/dom-coords/coords-at-pos.ts#L21)
 
 Given a position in the document model, get a bounding box of the
 character at that position, relative to the window.

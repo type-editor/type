@@ -10,7 +10,7 @@
 function replaceStep(doc, from, to?, slice?): Step;
 ```
 
-Defined in: [packages/transform/src/replace/replace-step.ts:855](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/replace/replace-step.ts#L855)
+Defined in: [packages/transform/src/replace/replace-step.ts:855](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/replace/replace-step.ts#L855)
 
 'Fit' a slice into a given position in the document, producing a
 [step](#transform.Step) that inserts it. Will return null if

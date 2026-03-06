@@ -10,7 +10,7 @@
 function selectionCollapsed(domSel): boolean;
 ```
 
-Defined in: [selection-collapsed.ts:22](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/selection-util/src/selection/selection-collapsed.ts#L22)
+Defined in: [selection-collapsed.ts:22](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/selection-util/src/selection/selection-collapsed.ts#L22)
 
 Checks if a DOM selection is collapsed (has no range).
 

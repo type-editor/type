@@ -15,4 +15,4 @@ type ChildElement =
   | undefined;
 ```
 
-Defined in: [packages/menu/src/menubar/util/create-html-element.ts:6](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/menu/src/menubar/util/create-html-element.ts#L6)
+Defined in: [packages/menu/src/menubar/util/create-html-element.ts:6](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/menubar/util/create-html-element.ts#L6)

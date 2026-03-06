@@ -18,7 +18,7 @@ function tokenizeBlockNode<T>(
 ): void;
 ```
 
-Defined in: [tokenizer/tokenize-block-node.ts:19](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/changeset/src/tokenizer/tokenize-block-node.ts#L19)
+Defined in: [tokenizer/tokenize-block-node.ts:19](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/tokenizer/tokenize-block-node.ts#L19)
 
 Tokenize a block (non-leaf) node by encoding its boundaries and recursively
 tokenizing its content.

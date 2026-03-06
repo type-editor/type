@@ -16,7 +16,7 @@ function clearIncompatible(
 ): void;
 ```
 
-Defined in: [packages/transform/src/block-changes/util.ts:212](https://github.com/type-editor/type/blob/c311ca079abd6b61221c2aab5ce7aaefbf4271cf/packages/transform/src/block-changes/util.ts#L212)
+Defined in: [packages/transform/src/block-changes/util.ts:212](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/block-changes/util.ts#L212)
 
 Remove nodes and marks that are incompatible with the given parent node type.
 

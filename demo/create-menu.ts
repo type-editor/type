@@ -1,3 +1,4 @@
+import type { PmPlugin } from '@type-editor/editor-types';
 import {
     alignItem,
     blockquoteItem,
@@ -20,7 +21,6 @@ import {
     superscriptItem,
     undoItem,
 } from '@type-editor/menu';
-import { Plugin as PmPlugin } from '@type-editor/state';
 
 
 export function createMenu(): PmPlugin {

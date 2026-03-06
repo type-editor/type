@@ -50,7 +50,7 @@ export const Editor: FC = () => {
 
         // Focus the editor after creation
         setTimeout(() => {
-            (editorContainer.querySelector('.ProseMirror') as HTMLElement)?.focus();
+            editorContainer.querySelector<HTMLElement>('.ProseMirror')?.focus();
         }, 0);
     };
 

@@ -27,7 +27,7 @@
 <script setup lang="ts">
 import { useNodeViewFactory } from '@type-editor/adapter-vue';
 import { computed, nextTick, ref } from 'vue';
-import type { EditorView as PmEditorView } from '@type-editor/view';
+import type { PmEditorView } from '@type-editor/editor-types';
 import { EditorView } from '@type-editor/view';
 import { schema } from '@type-editor/schema';
 import { getHeadingFactory, getParagraphFactory } from './custom-components-factory';

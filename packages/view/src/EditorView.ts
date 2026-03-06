@@ -105,6 +105,20 @@ export class EditorView implements PmEditorView {
     private isPluginsUpdateNeeded = false;
 
     /**
+     * Flag indicating that the node view set needs to be rebuilt on the next update.
+     * Set when `plugins` or `nodeViews` props change via {@link update} or {@link addPlugin},
+     * cleared after the rebuild in {@link updateStateInner}.
+     */
+    private _nodeViewsUpdateNeeded = false;
+
+    /**
+     * Flag indicating that DOM event listeners need to be re-registered on the next update.
+     * Set when the `handleDOMEvents` prop changes via {@link update},
+     * cleared after re-registration in {@link updateStateInner}.
+     */
+    private _handleDOMEventsChanged = false;
+
+    /**
      * Array of plugin view instances created from plugin specs.
      */
     private pluginViews: Array<PluginView> = [];
@@ -546,6 +560,7 @@ export class EditorView implements PmEditorView {
      */
     public addPlugin(plugin: PmPlugin): void {
         this.directPlugins = Array.from(this.directPlugins).concat([plugin]);
+        this._nodeViewsUpdateNeeded = true;
         if(this.state) {
             // Validate plugins don't have state components - plugins with state must be added to EditorState
             this.checkStateComponent()(plugin);
@@ -580,12 +595,10 @@ export class EditorView implements PmEditorView {
      * ```
      */
     public update(props: DirectEditorProps): void {
-        // Re-register event listeners if DOM event handlers changed
         if (props.handleDOMEvents !== this._props.handleDOMEvents) {
-            this.inputState.ensureListeners();
+            this._handleDOMEventsChanged = true;
         }
 
-        const prevProps: DirectEditorProps = this._props;
         this._props = props;
         this._frozenProps = null; // Invalidate cache to force recomputation on next access
 
@@ -594,10 +607,16 @@ export class EditorView implements PmEditorView {
             props.plugins.forEach(this.checkStateComponent());
             this.directPlugins = props.plugins;
             this.isPluginsUpdateNeeded = true;
+            this._nodeViewsUpdateNeeded = true;
+        }
+
+        // Rebuild node views if nodeViews prop changed
+        if (props.nodeViews !== undefined) {
+            this._nodeViewsUpdateNeeded = true;
         }
 
         // Propagate state update through the view
-        this.updateStateInner(props.state, prevProps);
+        this.updateStateInner(props.state);
     }
 
     /**
@@ -630,7 +649,7 @@ export class EditorView implements PmEditorView {
      * ```
      */
     public updateState(state: PmEditorState): void {
-        this.updateStateInner(state, this._props);
+        this.updateStateInner(state);
     }
 
     /**
@@ -1098,9 +1117,8 @@ export class EditorView implements PmEditorView {
      * Internal method to update the editor state and synchronize the DOM.
      *
      * @param state - The new editor state
-     * @param prevProps - The previous editor props for comparison
      */
-    private updateStateInner(state: PmEditorState, prevProps: DirectEditorProps): void {
+    private updateStateInner(state: PmEditorState): void {
         const prev: PmEditorState = this.editorState;
         let redraw = false;
         let updateSel = false;
@@ -1113,13 +1131,14 @@ export class EditorView implements PmEditorView {
 
         this.editorState = state;
 
-        // Check if plugins or node views changed - these require rebuilding the view tree
-        const pluginsChanged: boolean = this.hasPluginsChanged(prev, state, prevProps);
-        const nodeViewsChanged: boolean = pluginsChanged
-            || this._props.plugins !== prevProps.plugins
-            || this._props.nodeViews !== prevProps.nodeViews;
+        // Check if state-level plugins changed (e.g. reconfigured state)
+        const statePluginsChanged: boolean = prev.plugins !== state.plugins;
 
+        // Rebuild node views if the state plugins changed, or if props changed
+        // (_nodeViewsUpdateNeeded is set by update() / addPlugin() when relevant)
+        const nodeViewsChanged: boolean = statePluginsChanged || this._nodeViewsUpdateNeeded;
         if (nodeViewsChanged) {
+            this._nodeViewsUpdateNeeded = false;
             const nodeViews: NodeViewSet = this.buildNodeViews();
             // Only trigger full redraw if node view implementations actually changed
             if (this.changedNodeViews(nodeViews, this._nodeViews)) {
@@ -1129,7 +1148,8 @@ export class EditorView implements PmEditorView {
         }
 
         // Re-register event listeners if plugins or DOM handlers changed
-        if (pluginsChanged || prevProps.handleDOMEvents !== this._props.handleDOMEvents) {
+        if (statePluginsChanged || this._handleDOMEventsChanged) {
+            this._handleDOMEventsChanged = false;
             this.inputState.ensureListeners();
         }
 
@@ -1172,17 +1192,6 @@ export class EditorView implements PmEditorView {
         this.applyScrollBehavior(scrollBehavior, oldScrollPos);
     }
 
-    /**
-     * Checks if plugins have changed between states or props.
-     *
-     * @param prevState - The previous editor state
-     * @param newState - The new editor state
-     * @param prevProps - The previous editor props
-     * @returns true if plugins have changed
-     */
-    private hasPluginsChanged(prevState: PmEditorState, newState: PmEditorState, prevProps: DirectEditorProps): boolean {
-        return prevState.plugins !== newState.plugins || this._props.plugins !== prevProps.plugins;
-    }
 
     /**
      * Determines the scroll behavior based on state changes.

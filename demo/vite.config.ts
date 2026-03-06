@@ -1,9 +1,8 @@
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 import react from '@vitejs/plugin-react';
 import vue from '@vitejs/plugin-vue';
-import { rename, rm } from 'fs/promises';
-import { glob } from 'fs/promises';
-import { resolve } from 'path';
+import { readdir, rename, rm, stat } from 'fs/promises';
+import { extname, resolve } from 'path';
 import {defineConfig, type Plugin} from 'vite';
 // import { viteStaticCopy } from 'vite-plugin-static-copy';
 
@@ -22,12 +21,22 @@ function cleanWebsite(): Plugin {
         name: 'clean-website',
         buildStart: async () => {
             const outDir = resolve(__dirname, '../website');
-            const patterns = ['*.js', '*.css', '*.html', '*.svg'];
-            for (const pattern of patterns) {
-                for await (const file of glob(resolve(outDir, pattern))) {
-                    await rm(file, { force: true });
-                }
+            const extensions = new Set(['.js', '.css', '.html', '.svg']);
+            let names: Array<string>;
+            try {
+                names = await readdir(outDir);
+            } catch {
+                return; // outDir doesn't exist yet, nothing to clean
             }
+            await Promise.all(
+                names
+                    .filter(name => extensions.has(extname(name)))
+                    .map(async name => {
+                        const full = resolve(outDir, name);
+                        const s = await stat(full);
+                        if (s.isFile()) { await rm(full, { force: true }); }
+                    })
+            );
             const dirs = ['plain', 'react', 'svelte', 'vue'];
             for (const dir of dirs) {
                 await rm(resolve(outDir, dir), { recursive: true, force: true });

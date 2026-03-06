@@ -10,7 +10,7 @@
 function simplifyAdjacentChanges(changes, from, to, doc, target): void;
 ```
 
-Defined in: [simplify-changes/simplify-adjacent-changes.ts:25](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/simplify-changes/simplify-adjacent-changes.ts#L25)
+Defined in: [simplify-changes/simplify-adjacent-changes.ts:25](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/changeset/src/simplify-changes/simplify-adjacent-changes.ts#L25)
 
 Processes a group of adjacent changes and adds simplified versions to the target array.
 

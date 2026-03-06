@@ -10,7 +10,7 @@
 function canSplit(doc, pos, depth?, typesAfter?): boolean;
 ```
 
-Defined in: [packages/transform/src/change-helper/can-split.ts:12](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/change-helper/can-split.ts#L12)
+Defined in: [packages/transform/src/change-helper/can-split.ts:12](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/change-helper/can-split.ts#L12)
 
 Check whether splitting at the given position is allowed.
 

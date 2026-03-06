@@ -10,7 +10,7 @@
 function setAttribute(attributeName, attribute, ...applyToParent): Command;
 ```
 
-Defined in: [set-attribute.ts:28](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/set-attribute.ts#L28)
+Defined in: [set-attribute.ts:28](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commands/src/set-attribute.ts#L28)
 
 Creates a command that sets an attribute on nodes within the current selection.
 

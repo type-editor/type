@@ -10,7 +10,7 @@
 function cellNear($pos): ResolvedPos;
 ```
 
-Defined in: [tables/src/utils/cell-near.ts:24](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/utils/cell-near.ts#L24)
+Defined in: [tables/src/utils/cell-near.ts:24](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/utils/cell-near.ts#L24)
 
 Finds a cell near the given position by traversing adjacent nodes.
 

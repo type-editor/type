@@ -16,7 +16,7 @@ function findDiff(
 ): DocumentChange;
 ```
 
-Defined in: [parse-change/find-diff.ts:51](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-change-util/src/dom-change/parse-change/find-diff.ts#L51)
+Defined in: [parse-change/find-diff.ts:51](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-change-util/src/dom-change/parse-change/find-diff.ts#L51)
 
 Finds the difference between two fragments and returns the positions of the change.
 

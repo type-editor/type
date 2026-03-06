@@ -10,7 +10,7 @@
 function findCommonParent(selection): FindParentResult;
 ```
 
-Defined in: [find-parent.ts:87](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/util/src/find-parent.ts#L87)
+Defined in: [find-parent.ts:87](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/util/src/find-parent.ts#L87)
 
 Finds the deepest common ancestor node that contains both ends of the selection.
 

@@ -10,7 +10,7 @@
 function closeHistory(transaction): Transaction;
 ```
 
-Defined in: [helper/close-history.ts:15](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/history/src/helper/close-history.ts#L15)
+Defined in: [helper/close-history.ts:15](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/helper/close-history.ts#L15)
 
 Sets a flag on the given transaction that prevents further steps from being
 appended to an existing history event.

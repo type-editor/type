@@ -6,7 +6,7 @@
 
 # Class: MenuBarBuilder
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:33](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/MenuBarBuilder.ts#L33)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:33](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/MenuBarBuilder.ts#L33)
 
 Builder for constructing a ProseMirror menu bar plugin.
 
@@ -31,7 +31,7 @@ const plugin = new MenuBarBuilder()
 new MenuBarBuilder(isLegacy?, floating?): MenuBarBuilder;
 ```
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:47](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/MenuBarBuilder.ts#L47)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:47](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/MenuBarBuilder.ts#L47)
 
 Creates a new `MenuBarBuilder`.
 
@@ -54,7 +54,7 @@ Creates a new `MenuBarBuilder`.
 addDropDown(options?, ...menuElements): MenuBarBuilder;
 ```
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:136](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/MenuBarBuilder.ts#L136)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:136](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/MenuBarBuilder.ts#L136)
 
 Adds a dropdown menu group to the menu bar.
 
@@ -86,7 +86,7 @@ This builder instance for method chaining.
 addMenuGroup(...menuElements): MenuBarBuilder;
 ```
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:180](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/MenuBarBuilder.ts#L180)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:180](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/MenuBarBuilder.ts#L180)
 
 Adds a flat group of menu elements to the menu bar.
 
@@ -114,7 +114,7 @@ This builder instance for method chaining.
 addStaticDropDown(options?, ...menuElements): MenuBarBuilder;
 ```
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:142](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/MenuBarBuilder.ts#L142)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:142](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/MenuBarBuilder.ts#L142)
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: [packages/menu/src/MenuBarBuilder.ts:142](https://github.com/type-ed
 build(): PmPlugin;
 ```
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:113](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/MenuBarBuilder.ts#L113)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:113](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/MenuBarBuilder.ts#L113)
 
 Builds and returns the configured menu bar `Plugin`.
 
@@ -156,7 +156,7 @@ A ProseMirror `Plugin` that renders the menu bar.
 static createMenuItem(spec, useSelect?): MenuItem;
 ```
 
-Defined in: [packages/menu/src/MenuBarBuilder.ts:70](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/MenuBarBuilder.ts#L70)
+Defined in: [packages/menu/src/MenuBarBuilder.ts:70](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/MenuBarBuilder.ts#L70)
 
 Creates a `MenuItem` from the given spec.
 

@@ -10,7 +10,7 @@
 function safariShadowSelectionRange(view, selection): DOMSelectionRange;
 ```
 
-Defined in: [dom-observer/safari-shadow-selection-range.ts:19](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/view/src/dom-observer/safari-shadow-selection-range.ts#L19)
+Defined in: [dom-observer/safari-shadow-selection-range.ts:19](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/view/src/dom-observer/safari-shadow-selection-range.ts#L19)
 
 Workaround for Safari Selection/shadow DOM bug.
 Safari (at least in 2018-2022) doesn't provide regular access to the selection

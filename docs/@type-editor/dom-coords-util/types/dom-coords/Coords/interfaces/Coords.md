@@ -6,11 +6,11 @@
 
 # Interface: Coords
 
-Defined in: [types/dom-coords/Coords.ts:1](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-coords-util/src/types/dom-coords/Coords.ts#L1)
+Defined in: [types/dom-coords/Coords.ts:1](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-coords-util/src/types/dom-coords/Coords.ts#L1)
 
 ## Properties
 
 | Property                          | Type     | Defined in                                                                                                                                                                   |
 | --------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-left"></a> `left` | `number` | [types/dom-coords/Coords.ts:3](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-coords-util/src/types/dom-coords/Coords.ts#L3) |
-| <a id="property-top"></a> `top`   | `number` | [types/dom-coords/Coords.ts:2](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-coords-util/src/types/dom-coords/Coords.ts#L2) |
+| <a id="property-left"></a> `left` | `number` | [types/dom-coords/Coords.ts:3](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-coords-util/src/types/dom-coords/Coords.ts#L3) |
+| <a id="property-top"></a> `top`   | `number` | [types/dom-coords/Coords.ts:2](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-coords-util/src/types/dom-coords/Coords.ts#L2) |

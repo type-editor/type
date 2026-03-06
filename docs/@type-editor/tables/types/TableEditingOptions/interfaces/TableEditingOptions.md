@@ -6,10 +6,10 @@
 
 # Interface: TableEditingOptions
 
-Defined in: [tables/src/types/TableEditingOptions.ts:2](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/types/TableEditingOptions.ts#L2)
+Defined in: [tables/src/types/TableEditingOptions.ts:2](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/types/TableEditingOptions.ts#L2)
 
 ## Properties
 
 | Property                                                                 | Type      | Description                                                                                                                                                                                                                                              | Defined in                                                                                                                                                                           |
 | ------------------------------------------------------------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-allowtablenodeselection"></a> `allowTableNodeSelection?` | `boolean` | Whether to allow table node selection. By default, any node selection wrapping a table will be converted into a CellSelection wrapping all cells in the table. You can pass `true` to allow the selection to remain a NodeSelection. **Default** `false` | [tables/src/types/TableEditingOptions.ts:12](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/types/TableEditingOptions.ts#L12) |
+| <a id="property-allowtablenodeselection"></a> `allowTableNodeSelection?` | `boolean` | Whether to allow table node selection. By default, any node selection wrapping a table will be converted into a CellSelection wrapping all cells in the table. You can pass `true` to allow the selection to remain a NodeSelection. **Default** `false` | [tables/src/types/TableEditingOptions.ts:12](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/types/TableEditingOptions.ts#L12) |

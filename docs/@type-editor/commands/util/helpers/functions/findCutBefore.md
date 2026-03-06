@@ -10,7 +10,7 @@
 function findCutBefore($pos): ResolvedPos;
 ```
 
-Defined in: [util/helpers.ts:100](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/util/helpers.ts#L100)
+Defined in: [util/helpers.ts:100](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commands/src/util/helpers.ts#L100)
 
 Finds the position where a backward cut/join operation should occur.
 

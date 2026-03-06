@@ -10,7 +10,7 @@
 function addMark(transform, from, to, mark): void;
 ```
 
-Defined in: [packages/transform/src/mark-changes/add-mark.ts:21](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/mark-changes/add-mark.ts#L21)
+Defined in: [packages/transform/src/mark-changes/add-mark.ts:21](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/mark-changes/add-mark.ts#L21)
 
 Add a mark to all inline content between two positions.
 

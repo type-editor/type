@@ -10,7 +10,7 @@
 function nodeSize(node): number;
 ```
 
-Defined in: [node-size.ts:22](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-util/src/dom/node-size.ts#L22)
+Defined in: [node-size.ts:22](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-util/src/dom/node-size.ts#L22)
 
 Gets the size of a DOM node.
 

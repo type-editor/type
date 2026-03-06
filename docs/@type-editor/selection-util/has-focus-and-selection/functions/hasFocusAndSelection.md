@@ -10,7 +10,7 @@
 function hasFocusAndSelection(view): boolean;
 ```
 
-Defined in: [has-focus-and-selection.ts:15](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/selection-util/src/selection/has-focus-and-selection.ts#L15)
+Defined in: [has-focus-and-selection.ts:15](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/selection-util/src/selection/has-focus-and-selection.ts#L15)
 
 Checks if the editor both has focus and contains a selection.
 

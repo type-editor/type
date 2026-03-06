@@ -10,7 +10,7 @@
 function receiveTransaction(state, steps, clientIDs, options?): PmTransaction;
 ```
 
-Defined in: [receive-transaction.ts:29](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/collab/src/receive-transaction.ts#L29)
+Defined in: [receive-transaction.ts:29](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/collab/src/receive-transaction.ts#L29)
 
 Creates a transaction that represents a set of new steps received from
 the central authority. Applying this transaction moves the state forward

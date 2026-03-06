@@ -10,7 +10,7 @@
 const regexFlags: string;
 ```
 
-Defined in: [search-query/regex-flags.ts:14](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/search/src/search-query/regex-flags.ts#L14)
+Defined in: [search-query/regex-flags.ts:14](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/search/src/search-query/regex-flags.ts#L14)
 
 Base flags for regular expressions:
 

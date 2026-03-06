@@ -10,7 +10,7 @@
 function scheduleComposeEnd(view, delay): void;
 ```
 
-Defined in: [input-handler/keyboard/util/schedule-compose-end.ts:12](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/input/src/input-handler/keyboard/util/schedule-compose-end.ts#L12)
+Defined in: [input-handler/keyboard/util/schedule-compose-end.ts:12](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/input/src/input-handler/keyboard/util/schedule-compose-end.ts#L12)
 
 Schedules the end of composition handling after a delay. Clears any
 previously scheduled timeout first.

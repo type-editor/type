@@ -10,7 +10,7 @@
 const escapeTableDown: Command;
 ```
 
-Defined in: [tables/src/input/escape-table-down.ts:22](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/input/escape-table-down.ts#L22)
+Defined in: [tables/src/input/escape-table-down.ts:22](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/input/escape-table-down.ts#L22)
 
 Command that handles ArrowDown when the cursor is in the last row of a table
 and there is no selectable content after the table.

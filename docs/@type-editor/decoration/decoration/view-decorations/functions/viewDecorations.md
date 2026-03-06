@@ -10,7 +10,7 @@
 function viewDecorations(view): DecorationSource;
 ```
 
-Defined in: [decoration/view-decorations.ts:20](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/decoration/src/decoration/view-decorations.ts#L20)
+Defined in: [decoration/view-decorations.ts:20](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/decoration/src/decoration/view-decorations.ts#L20)
 
 Get the decorations associated with the current props of a view.
 This function collects decorations from all plugin decorations props

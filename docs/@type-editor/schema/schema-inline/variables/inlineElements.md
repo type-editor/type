@@ -10,6 +10,6 @@
 const inlineElements: Record<string, NodeSpec>;
 ```
 
-Defined in: [schema-inline.ts:7](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/schema/src/schema-inline.ts#L7)
+Defined in: [schema-inline.ts:7](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/schema/src/schema-inline.ts#L7)
 
 [Specs](#model.NodeSpec) for the nodes defined in this schema.

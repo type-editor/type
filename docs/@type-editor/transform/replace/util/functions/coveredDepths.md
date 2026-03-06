@@ -10,7 +10,7 @@
 function coveredDepths($from, $to): number[];
 ```
 
-Defined in: [packages/transform/src/replace/util.ts:11](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/replace/util.ts#L11)
+Defined in: [packages/transform/src/replace/util.ts:11](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/replace/util.ts#L11)
 
 Returns an array of all depths for which $from - $to spans the
 whole content of the nodes at that depth.

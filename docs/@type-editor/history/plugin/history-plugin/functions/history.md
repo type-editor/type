@@ -10,7 +10,7 @@
 function history(config?): PmPlugin;
 ```
 
-Defined in: [plugin/history-plugin.ts:30](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/history/src/plugin/history-plugin.ts#L30)
+Defined in: [plugin/history-plugin.ts:30](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/plugin/history-plugin.ts#L30)
 
 Returns a plugin that enables the undo history for an editor. The
 plugin will track undo and redo stacks, which can be used with the

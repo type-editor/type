@@ -17,7 +17,7 @@ function shouldSuppressSelectionDuringComposition(
 ): boolean;
 ```
 
-Defined in: [browser-hacks/should-suppress-selection-during-composition.ts:40](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-change-util/src/dom-change/browser-hacks/should-suppress-selection-during-composition.ts#L40)
+Defined in: [browser-hacks/should-suppress-selection-during-composition.ts:40](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-change-util/src/dom-change/browser-hacks/should-suppress-selection-during-composition.ts#L40)
 
 Checks if selection should be suppressed due to Chrome composition issues.
 

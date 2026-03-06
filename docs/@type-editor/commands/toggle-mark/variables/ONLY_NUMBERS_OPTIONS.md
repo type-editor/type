@@ -10,6 +10,6 @@
 const ONLY_NUMBERS_OPTIONS: ToggleMarkOptions;
 ```
 
-Defined in: [toggle-mark.ts:480](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/toggle-mark.ts#L480)
+Defined in: [toggle-mark.ts:480](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commands/src/toggle-mark.ts#L480)
 
 Subscript / Superscript configuration for toggleMark commands.

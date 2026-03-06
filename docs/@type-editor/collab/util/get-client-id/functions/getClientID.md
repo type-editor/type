@@ -10,7 +10,7 @@
 function getClientID(state): string | number;
 ```
 
-Defined in: [util/get-client-id.ts:13](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/collab/src/util/get-client-id.ts#L13)
+Defined in: [util/get-client-id.ts:13](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/collab/src/util/get-client-id.ts#L13)
 
 Gets the client ID from the collab plugin configuration.
 

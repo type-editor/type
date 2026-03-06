@@ -10,7 +10,7 @@
 type WidgetConstructor = (view?, getPos?) => Node | Node;
 ```
 
-Defined in: [types/decoration/WidgetConstructor.ts:38](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/decoration/src/types/decoration/WidgetConstructor.ts#L38)
+Defined in: [types/decoration/WidgetConstructor.ts:38](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/decoration/src/types/decoration/WidgetConstructor.ts#L38)
 
 A function or DOM node used to construct a widget decoration.
 

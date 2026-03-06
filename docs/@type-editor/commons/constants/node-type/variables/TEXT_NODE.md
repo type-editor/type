@@ -10,4 +10,4 @@
 const TEXT_NODE: 3 = 3;
 ```
 
-Defined in: [constants/node-type.ts:3](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commons/src/constants/node-type.ts#L3)
+Defined in: [constants/node-type.ts:3](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commons/src/constants/node-type.ts#L3)

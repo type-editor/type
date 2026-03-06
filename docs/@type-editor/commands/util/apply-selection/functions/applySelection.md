@@ -10,7 +10,7 @@
 function applySelection(view, selection): boolean;
 ```
 
-Defined in: [util/apply-selection.ts:11](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/util/apply-selection.ts#L11)
+Defined in: [util/apply-selection.ts:11](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commands/src/util/apply-selection.ts#L11)
 
 Applies a new selection to the editor view.
 

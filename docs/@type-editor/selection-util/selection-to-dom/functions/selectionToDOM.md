@@ -10,7 +10,7 @@
 function selectionToDOM(view, force?): void;
 ```
 
-Defined in: [selection-to-dom.ts:42](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/selection-util/src/selection/selection-to-dom.ts#L42)
+Defined in: [selection-to-dom.ts:42](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/selection-util/src/selection/selection-to-dom.ts#L42)
 
 Synchronizes the ProseMirror selection to the DOM.
 

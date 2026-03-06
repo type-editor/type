@@ -10,7 +10,7 @@
 function menuBarPlugin(options): Plugin_2;
 ```
 
-Defined in: [packages/menu/src/menu-bar-plugin.ts:20](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/menu/src/menu-bar-plugin.ts#L20)
+Defined in: [packages/menu/src/menu-bar-plugin.ts:20](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/menu-bar-plugin.ts#L20)
 
 A plugin that will place a menu bar above the editor. Note that
 this involves wrapping the editor in an additional `<div>`.

@@ -10,7 +10,7 @@
 function dropPoint(doc, pos, slice): number;
 ```
 
-Defined in: [packages/transform/src/change-helper/drop-point.ts:13](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/change-helper/drop-point.ts#L13)
+Defined in: [packages/transform/src/change-helper/drop-point.ts:13](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/change-helper/drop-point.ts#L13)
 
 Finds a position at or around the given position where the given
 slice can be inserted. Will look at parent nodes' nearest boundary

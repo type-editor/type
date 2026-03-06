@@ -10,7 +10,7 @@
 function wrapRangeInList(transaction, range, listType, attrs?): boolean;
 ```
 
-Defined in: [list-commands/wrap-range-in-list.ts:26](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/schema/src/list-commands/wrap-range-in-list.ts#L26)
+Defined in: [list-commands/wrap-range-in-list.ts:26](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/schema/src/list-commands/wrap-range-in-list.ts#L26)
 
 Attempts to wrap the given node range in a list of the specified type.
 

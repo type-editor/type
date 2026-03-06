@@ -10,7 +10,7 @@
 function createRopeSequence<T>(values): RopeSequence<T>;
 ```
 
-Defined in: [state/create-rope-sequence.ts:575](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/history/src/state/create-rope-sequence.ts#L575)
+Defined in: [state/create-rope-sequence.ts:575](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/state/create-rope-sequence.ts#L575)
 
 Create a rope sequence from an array or return the rope if already a rope sequence.
 

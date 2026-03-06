@@ -10,7 +10,7 @@
 function wrap(transform, range, wrappers): void;
 ```
 
-Defined in: [packages/transform/src/block-changes/wrap.ts:14](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/block-changes/wrap.ts#L14)
+Defined in: [packages/transform/src/block-changes/wrap.ts:14](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/block-changes/wrap.ts#L14)
 
 Wrap the content in a range with a series of wrapper nodes.
 The wrappers are applied from outermost to innermost.

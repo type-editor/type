@@ -10,7 +10,7 @@
 function readDOMChange(view, from, to, typeOver, addedNodes): void;
 ```
 
-Defined in: [read-dom-change.ts:101](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-change-util/src/dom-change/read-dom-change.ts#L101)
+Defined in: [read-dom-change.ts:101](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-change-util/src/dom-change/read-dom-change.ts#L101)
 
 Reads and processes changes from the DOM, converting them into ProseMirror transactions.
 

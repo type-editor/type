@@ -10,7 +10,7 @@
 function atBlockStart(state, view?): ResolvedPos;
 ```
 
-Defined in: [util/helpers.ts:34](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/commands/src/util/helpers.ts#L34)
+Defined in: [util/helpers.ts:34](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commands/src/util/helpers.ts#L34)
 
 Checks if the cursor is at the start of a textblock.
 

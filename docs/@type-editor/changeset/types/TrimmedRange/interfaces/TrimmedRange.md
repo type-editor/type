@@ -6,7 +6,7 @@
 
 # Interface: TrimmedRange
 
-Defined in: [types/TrimmedRange.ts:6](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/types/TrimmedRange.ts#L6)
+Defined in: [types/TrimmedRange.ts:6](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/changeset/src/types/TrimmedRange.ts#L6)
 
 Represents a trimmed range after eliminating equal tokens from both ends.
 
@@ -14,6 +14,6 @@ Represents a trimmed range after eliminating equal tokens from both ends.
 
 | Property                            | Type     | Defined in                                                                                                                                                   |
 | ----------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-enda"></a> `endA`   | `number` | [types/TrimmedRange.ts:8](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/types/TrimmedRange.ts#L8) |
-| <a id="property-endb"></a> `endB`   | `number` | [types/TrimmedRange.ts:9](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/types/TrimmedRange.ts#L9) |
-| <a id="property-start"></a> `start` | `number` | [types/TrimmedRange.ts:7](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/changeset/src/types/TrimmedRange.ts#L7) |
+| <a id="property-enda"></a> `endA`   | `number` | [types/TrimmedRange.ts:8](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/changeset/src/types/TrimmedRange.ts#L8) |
+| <a id="property-endb"></a> `endB`   | `number` | [types/TrimmedRange.ts:9](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/changeset/src/types/TrimmedRange.ts#L9) |
+| <a id="property-start"></a> `start` | `number` | [types/TrimmedRange.ts:7](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/changeset/src/types/TrimmedRange.ts#L7) |

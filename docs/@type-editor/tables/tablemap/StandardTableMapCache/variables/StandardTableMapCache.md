@@ -10,7 +10,7 @@
 const StandardTableMapCache: TableMapCache;
 ```
 
-Defined in: [tables/src/tablemap/StandardTableMapCache.ts:11](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/tablemap/StandardTableMapCache.ts#L11)
+Defined in: [tables/src/tablemap/StandardTableMapCache.ts:11](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/tablemap/StandardTableMapCache.ts#L11)
 
 The table map cache instance.
 Uses WeakMap when available, falls back to a fixed-size array cache.

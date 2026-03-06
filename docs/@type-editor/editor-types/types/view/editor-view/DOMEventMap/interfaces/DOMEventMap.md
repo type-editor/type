@@ -6,7 +6,7 @@
 
 # Interface: DOMEventMap
 
-Defined in: [packages/editor-types/src/types/view/editor-view/DOMEventMap.ts:6](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/editor-types/src/types/view/editor-view/DOMEventMap.ts#L6)
+Defined in: [packages/editor-types/src/types/view/editor-view/DOMEventMap.ts:6](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/view/editor-view/DOMEventMap.ts#L6)
 
 Helper type that maps event names to event object types, but
 includes events that TypeScript's HTMLElementEventMap doesn't know

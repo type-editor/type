@@ -10,7 +10,7 @@
 function replaceCommand(wrap, moveForward): Command;
 ```
 
-Defined in: [commands/util/replace-command.ts:19](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/search/src/commands/util/replace-command.ts#L19)
+Defined in: [commands/util/replace-command.ts:19](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/search/src/commands/util/replace-command.ts#L19)
 
 Factory function that creates a command for replacing search matches.
 

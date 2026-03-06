@@ -10,7 +10,7 @@
 function parentNode(node): Node;
 ```
 
-Defined in: [parent-node.ts:20](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-util/src/dom/parent-node.ts#L20)
+Defined in: [parent-node.ts:20](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-util/src/dom/parent-node.ts#L20)
 
 Gets the parent node of a DOM node, accounting for Shadow DOM and slot assignments.
 

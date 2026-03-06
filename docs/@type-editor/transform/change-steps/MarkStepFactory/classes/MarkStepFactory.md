@@ -6,7 +6,7 @@
 
 # Class: MarkStepFactory
 
-Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:8](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/change-steps/MarkStepFactory.ts#L8)
+Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:8](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/change-steps/MarkStepFactory.ts#L8)
 
 ## Constructors
 
@@ -31,7 +31,7 @@ static createAddMarkStep(
    mark): AddMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:10](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/change-steps/MarkStepFactory.ts#L10)
+Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:10](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/change-steps/MarkStepFactory.ts#L10)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:10](https://
 static createAddNodeMarkStep(pos, mark): AddNodeMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:18](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/change-steps/MarkStepFactory.ts#L18)
+Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:18](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/change-steps/MarkStepFactory.ts#L18)
 
 #### Parameters
 
@@ -77,7 +77,7 @@ static createRemoveMarkStep(
    mark): RemoveMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:14](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/change-steps/MarkStepFactory.ts#L14)
+Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:14](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/change-steps/MarkStepFactory.ts#L14)
 
 #### Parameters
 
@@ -99,7 +99,7 @@ Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:14](https://
 static createRemoveNodeMarkStep(pos, mark): RemoveNodeMarkStep;
 ```
 
-Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:22](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/transform/src/change-steps/MarkStepFactory.ts#L22)
+Defined in: [packages/transform/src/change-steps/MarkStepFactory.ts:22](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/transform/src/change-steps/MarkStepFactory.ts#L22)
 
 #### Parameters
 

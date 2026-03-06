@@ -10,7 +10,7 @@
 const columnResizingPluginKey: PluginKey<ResizeState>;
 ```
 
-Defined in: [tables/src/columnresizing/column-resizing-plugin-key.ts:17](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/columnresizing/column-resizing-plugin-key.ts#L17)
+Defined in: [tables/src/columnresizing/column-resizing-plugin-key.ts:17](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/columnresizing/column-resizing-plugin-key.ts#L17)
 
 Plugin key for accessing the column resizing plugin state.
 Use this key to retrieve the current [ResizeState](../../ResizeState/classes/ResizeState.md) from the editor state.

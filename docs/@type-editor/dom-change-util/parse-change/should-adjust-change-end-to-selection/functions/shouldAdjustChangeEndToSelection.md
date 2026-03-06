@@ -10,7 +10,7 @@
 function shouldAdjustChangeEndToSelection(change, selection, parseTo): boolean;
 ```
 
-Defined in: [parse-change/should-adjust-change-end-to-selection.ts:29](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/dom-change-util/src/dom-change/parse-change/should-adjust-change-end-to-selection.ts#L29)
+Defined in: [parse-change/should-adjust-change-end-to-selection.ts:29](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-change-util/src/dom-change/parse-change/should-adjust-change-end-to-selection.ts#L29)
 
 Checks if change end should be adjusted to selection end.
 

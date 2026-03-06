@@ -10,7 +10,7 @@
 function findCell($pos): Rect;
 ```
 
-Defined in: [tables/src/utils/find-cell.ts:22](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/tables/src/utils/find-cell.ts#L22)
+Defined in: [tables/src/utils/find-cell.ts:22](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/utils/find-cell.ts#L22)
 
 Finds the rectangular bounds of the cell at the given position.
 

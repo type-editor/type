@@ -13,6 +13,6 @@ type DecorationSpec =
   | NodeDecorationOptions;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/DecorationSpec.ts:8](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/editor-types/src/types/view/decoration/DecorationSpec.ts#L8)
+Defined in: [packages/editor-types/src/types/view/decoration/DecorationSpec.ts:8](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/view/decoration/DecorationSpec.ts#L8)
 
 Union type for all possible decoration specification objects.

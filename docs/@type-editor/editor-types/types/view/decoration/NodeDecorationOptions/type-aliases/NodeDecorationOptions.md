@@ -10,7 +10,7 @@
 type NodeDecorationOptions = Record<string, unknown>;
 ```
 
-Defined in: [packages/editor-types/src/types/view/decoration/NodeDecorationOptions.ts:29](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/editor-types/src/types/view/decoration/NodeDecorationOptions.ts#L29)
+Defined in: [packages/editor-types/src/types/view/decoration/NodeDecorationOptions.ts:29](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/view/decoration/NodeDecorationOptions.ts#L29)
 
 Specs allow arbitrary additional properties for storing custom data.
 These properties are preserved when decorations are mapped through

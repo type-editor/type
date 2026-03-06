@@ -10,7 +10,7 @@
 function redoDepth(state): number;
 ```
 
-Defined in: [helper/redo-depth.ts:21](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/history/src/helper/redo-depth.ts#L21)
+Defined in: [helper/redo-depth.ts:21](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/helper/redo-depth.ts#L21)
 
 Returns the number of redoable events available in the editor's history.
 

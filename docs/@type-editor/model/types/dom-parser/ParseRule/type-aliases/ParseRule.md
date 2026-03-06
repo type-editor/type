@@ -10,7 +10,7 @@
 type ParseRule = TagParseRule | StyleParseRule;
 ```
 
-Defined in: [packages/model/src/types/dom-parser/ParseRule.ts:9](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/model/src/types/dom-parser/ParseRule.ts#L9)
+Defined in: [packages/model/src/types/dom-parser/ParseRule.ts:9](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/dom-parser/ParseRule.ts#L9)
 
 A value that describes how to parse a given DOM node or inline
 style as a ProseMirror node or mark.

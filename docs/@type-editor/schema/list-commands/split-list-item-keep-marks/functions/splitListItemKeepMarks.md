@@ -10,7 +10,7 @@
 function splitListItemKeepMarks(itemType, itemAttrs?): Command;
 ```
 
-Defined in: [list-commands/split-list-item-keep-marks.ts:30](https://github.com/type-editor/type/blob/70862bf5e8a5266dfb443941f265014c48842b41/packages/schema/src/list-commands/split-list-item-keep-marks.ts#L30)
+Defined in: [list-commands/split-list-item-keep-marks.ts:30](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/schema/src/list-commands/split-list-item-keep-marks.ts#L30)
 
 Build a command that splits a list item while preserving active marks.
 

@@ -10,7 +10,7 @@
 function sinkListItem(itemType): Command;
 ```
 
-Defined in: [list-commands/sink-list-item.ts:22](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/schema/src/list-commands/sink-list-item.ts#L22)
+Defined in: [list-commands/sink-list-item.ts:22](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/schema/src/list-commands/sink-list-item.ts#L22)
 
 Creates a command to sink (indent) the list item around the selection down
 into an inner nested list.

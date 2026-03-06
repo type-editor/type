@@ -10,7 +10,7 @@
 function restoreReplacedSpaces(dom): void;
 ```
 
-Defined in: [clipboard/parse/restore-replaced-spaces.ts:9](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/input/src/clipboard/parse/restore-replaced-spaces.ts#L9)
+Defined in: [clipboard/parse/restore-replaced-spaces.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/clipboard/parse/restore-replaced-spaces.ts#L9)
 
 WebKit sometimes replaces spaces with NBSPs inside a wrapper span when
 copying. This restores normal spaces for those placeholder spans.

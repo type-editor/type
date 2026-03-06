@@ -6,7 +6,7 @@
 
 # Class: InputRule
 
-Defined in: [InputRule.ts:13](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/InputRule.ts#L13)
+Defined in: [InputRule.ts:13](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/InputRule.ts#L13)
 
 Input rules are regular expressions describing a piece of text
 that, when typed, causes something to happen. This might be
@@ -24,7 +24,7 @@ new InputRule(
    options?): InputRule;
 ```
 
-Defined in: [InputRule.ts:41](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/InputRule.ts#L41)
+Defined in: [InputRule.ts:41](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/InputRule.ts#L41)
 
 Create an input rule. The rule applies when the user typed
 something and the text directly in front of the cursor matches
@@ -63,7 +63,7 @@ rule's effect, or null to indicate the input was not handled.
 get handler(): InputRuleHandler;
 ```
 
-Defined in: [InputRule.ts:59](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/InputRule.ts#L59)
+Defined in: [InputRule.ts:59](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/InputRule.ts#L59)
 
 The handler function that applies the rule's transformation.
 
@@ -81,7 +81,7 @@ The handler function that applies the rule's transformation.
 get inCode(): boolean | "only";
 ```
 
-Defined in: [InputRule.ts:73](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/InputRule.ts#L73)
+Defined in: [InputRule.ts:73](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/InputRule.ts#L73)
 
 Whether this rule applies inside code nodes.
 
@@ -99,7 +99,7 @@ Whether this rule applies inside code nodes.
 get inCodeMark(): boolean;
 ```
 
-Defined in: [InputRule.ts:80](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/InputRule.ts#L80)
+Defined in: [InputRule.ts:80](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/InputRule.ts#L80)
 
 Whether this rule applies inside code marks.
 
@@ -117,7 +117,7 @@ Whether this rule applies inside code marks.
 get match(): RegExp;
 ```
 
-Defined in: [InputRule.ts:52](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/InputRule.ts#L52)
+Defined in: [InputRule.ts:52](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/InputRule.ts#L52)
 
 The regular expression pattern for this rule.
 
@@ -135,7 +135,7 @@ The regular expression pattern for this rule.
 get undoable(): boolean;
 ```
 
-Defined in: [InputRule.ts:66](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/InputRule.ts#L66)
+Defined in: [InputRule.ts:66](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/InputRule.ts#L66)
 
 Whether this rule can be undone with the undoInputRule command.
 

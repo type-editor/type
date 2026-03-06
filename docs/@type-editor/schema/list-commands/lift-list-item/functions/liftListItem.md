@@ -10,7 +10,7 @@
 function liftListItem(itemType): Command;
 ```
 
-Defined in: [list-commands/lift-list-item.ts:18](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/schema/src/list-commands/lift-list-item.ts#L18)
+Defined in: [list-commands/lift-list-item.ts:18](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/schema/src/list-commands/lift-list-item.ts#L18)
 
 Create a command to lift the list item around the selection up into
 a wrapping list.

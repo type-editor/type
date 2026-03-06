@@ -10,7 +10,7 @@
 const deleteSelection: Command;
 ```
 
-Defined in: [delete-selection.ts:26](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commands/src/delete-selection.ts#L26)
+Defined in: [delete-selection.ts:26](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/commands/src/delete-selection.ts#L26)
 
 Deletes the current selection if one exists.
 

@@ -6,7 +6,7 @@
 
 # Interface: MatchEdge
 
-Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:22](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/content-parser/ContentMatch.ts#L22)
+Defined in: [packages/model/src/types/content-parser/ContentMatch.ts:22](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/content-parser/ContentMatch.ts#L22)
 
 Represents an edge in the content match finite automaton.
 Each edge connects a node type to the next match state.
@@ -29,5 +29,5 @@ const edge: MatchEdge = {
 
 | Property                          | Type                                                          | Description                                                                                                   | Defined in                                                                                                                                                                                                  |
 | --------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-next"></a> `next` | [`ContentMatch`](ContentMatch.md)                             | The next match state after matching this node type. Following this edge leads to this state in the automaton. | [packages/model/src/types/content-parser/ContentMatch.ts:33](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/content-parser/ContentMatch.ts#L33) |
-| <a id="property-type"></a> `type` | [`NodeType`](../../../../schema/NodeType/classes/NodeType.md) | The node type that this edge represents. This is the type of node that can be matched at this transition.     | [packages/model/src/types/content-parser/ContentMatch.ts:27](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/content-parser/ContentMatch.ts#L27) |
+| <a id="property-next"></a> `next` | [`ContentMatch`](ContentMatch.md)                             | The next match state after matching this node type. Following this edge leads to this state in the automaton. | [packages/model/src/types/content-parser/ContentMatch.ts:33](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/content-parser/ContentMatch.ts#L33) |
+| <a id="property-type"></a> `type` | [`NodeType`](../../../../schema/NodeType/classes/NodeType.md) | The node type that this edge represents. This is the type of node that can be matched at this transition.     | [packages/model/src/types/content-parser/ContentMatch.ts:27](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/content-parser/ContentMatch.ts#L27) |

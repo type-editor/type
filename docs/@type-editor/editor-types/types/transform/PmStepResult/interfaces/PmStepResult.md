@@ -6,11 +6,11 @@
 
 # Interface: PmStepResult
 
-Defined in: [packages/editor-types/src/types/transform/PmStepResult.ts:4](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/transform/PmStepResult.ts#L4)
+Defined in: [packages/editor-types/src/types/transform/PmStepResult.ts:4](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/editor-types/src/types/transform/PmStepResult.ts#L4)
 
 ## Properties
 
 | Property                              | Modifier   | Type     | Defined in                                                                                                                                                                                                    |
 | ------------------------------------- | ---------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-doc"></a> `doc`       | `readonly` | `Node_2` | [packages/editor-types/src/types/transform/PmStepResult.ts:5](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/transform/PmStepResult.ts#L5) |
-| <a id="property-failed"></a> `failed` | `readonly` | `string` | [packages/editor-types/src/types/transform/PmStepResult.ts:6](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/transform/PmStepResult.ts#L6) |
+| <a id="property-doc"></a> `doc`       | `readonly` | `Node_2` | [packages/editor-types/src/types/transform/PmStepResult.ts:5](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/editor-types/src/types/transform/PmStepResult.ts#L5) |
+| <a id="property-failed"></a> `failed` | `readonly` | `string` | [packages/editor-types/src/types/transform/PmStepResult.ts:6](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/editor-types/src/types/transform/PmStepResult.ts#L6) |

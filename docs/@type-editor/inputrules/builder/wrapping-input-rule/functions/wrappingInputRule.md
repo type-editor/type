@@ -15,7 +15,7 @@ function wrappingInputRule(
 ): InputRule;
 ```
 
-Defined in: [builder/wrapping-input-rule.ts:29](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/inputrules/src/builder/wrapping-input-rule.ts#L29)
+Defined in: [builder/wrapping-input-rule.ts:29](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/inputrules/src/builder/wrapping-input-rule.ts#L29)
 
 Build an input rule for automatically wrapping a textblock when a
 given string is typed. The `regexp` argument is

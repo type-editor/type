@@ -10,7 +10,7 @@
 function looksLikeBackspace(old, start, end, $newStart, $newEnd): boolean;
 ```
 
-Defined in: [parse-change/looks-like-backspace.ts:33](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-change-util/src/dom-change/parse-change/looks-like-backspace.ts#L33)
+Defined in: [parse-change/looks-like-backspace.ts:33](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dom-change-util/src/dom-change/parse-change/looks-like-backspace.ts#L33)
 
 Determines if a change looks like a backspace operation (joining or deleting blocks).
 

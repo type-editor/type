@@ -10,7 +10,7 @@
 function scanTextblocks<T>(node, from, to, callback, nodeStart?): T;
 ```
 
-Defined in: [search-query/scan-textblocks.ts:17](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/search/src/search-query/scan-textblocks.ts#L17)
+Defined in: [search-query/scan-textblocks.ts:17](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/search/src/search-query/scan-textblocks.ts#L17)
 
 Scans through text blocks in a document tree, calling a callback for each text block
 that intersects with the given range.

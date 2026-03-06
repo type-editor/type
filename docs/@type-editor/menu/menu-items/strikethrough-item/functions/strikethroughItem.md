@@ -10,7 +10,7 @@
 function strikethroughItem(title?, markType?): MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/strikethrough-item.ts:15](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/menu/src/menu-items/strikethrough-item.ts#L15)
+Defined in: [packages/menu/src/menu-items/strikethrough-item.ts:15](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/menu/src/menu-items/strikethrough-item.ts#L15)
 
 Menu item for the `strikethrough` command.
 

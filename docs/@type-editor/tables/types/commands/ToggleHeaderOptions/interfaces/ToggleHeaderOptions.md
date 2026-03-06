@@ -6,7 +6,7 @@
 
 # Interface: ToggleHeaderOptions
 
-Defined in: [tables/src/types/commands/ToggleHeaderOptions.ts:4](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/types/commands/ToggleHeaderOptions.ts#L4)
+Defined in: [tables/src/types/commands/ToggleHeaderOptions.ts:4](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/commands/ToggleHeaderOptions.ts#L4)
 
 Configuration options for the toggleHeader command.
 
@@ -14,4 +14,4 @@ Configuration options for the toggleHeader command.
 
 | Property                                                           | Type      | Description                                                                                                     | Defined in                                                                                                                                                                                           |
 | ------------------------------------------------------------------ | --------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-useselectedrowcolumn"></a> `useSelectedRowColumn?` | `boolean` | If true, toggles the selected row/column instead of the first one. Only applies when type is 'row' or 'column'. | [tables/src/types/commands/ToggleHeaderOptions.ts:9](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/types/commands/ToggleHeaderOptions.ts#L9) |
+| <a id="property-useselectedrowcolumn"></a> `useSelectedRowColumn?` | `boolean` | If true, toggles the selected row/column instead of the first one. Only applies when type is 'row' or 'column'. | [tables/src/types/commands/ToggleHeaderOptions.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/commands/ToggleHeaderOptions.ts#L9) |

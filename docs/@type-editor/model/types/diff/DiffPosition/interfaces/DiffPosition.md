@@ -6,7 +6,7 @@
 
 # Interface: DiffPosition
 
-Defined in: [packages/model/src/types/diff/DiffPosition.ts:8](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/diff/DiffPosition.ts#L8)
+Defined in: [packages/model/src/types/diff/DiffPosition.ts:8](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/diff/DiffPosition.ts#L8)
 
 Represents a pair of positions in two different fragments.
 
@@ -17,7 +17,7 @@ in two fragments being compared, typically indicating where differences occur.
 
 | Property                                  | Type     | Description                                                    | Defined in                                                                                                                                                                              |
 | ----------------------------------------- | -------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-a"></a> ~~`a`~~           | `number` | Backwards compatibility **Deprecated** Use `selfPos` instead.  | [packages/model/src/types/diff/DiffPosition.ts:19](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/diff/DiffPosition.ts#L19) |
-| <a id="property-b"></a> ~~`b`~~           | `number` | Backwards compatibility **Deprecated** Use `otherPos` instead. | [packages/model/src/types/diff/DiffPosition.ts:31](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/diff/DiffPosition.ts#L31) |
-| <a id="property-otherpos"></a> `otherPos` | `number` | The position in the second (other) fragment.                   | [packages/model/src/types/diff/DiffPosition.ts:24](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/diff/DiffPosition.ts#L24) |
-| <a id="property-selfpos"></a> `selfPos`   | `number` | The position in the first (self) fragment.                     | [packages/model/src/types/diff/DiffPosition.ts:12](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/model/src/types/diff/DiffPosition.ts#L12) |
+| <a id="property-a"></a> ~~`a`~~           | `number` | Backwards compatibility **Deprecated** Use `selfPos` instead.  | [packages/model/src/types/diff/DiffPosition.ts:19](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/diff/DiffPosition.ts#L19) |
+| <a id="property-b"></a> ~~`b`~~           | `number` | Backwards compatibility **Deprecated** Use `otherPos` instead. | [packages/model/src/types/diff/DiffPosition.ts:31](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/diff/DiffPosition.ts#L31) |
+| <a id="property-otherpos"></a> `otherPos` | `number` | The position in the second (other) fragment.                   | [packages/model/src/types/diff/DiffPosition.ts:24](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/diff/DiffPosition.ts#L24) |
+| <a id="property-selfpos"></a> `selfPos`   | `number` | The position in the first (self) fragment.                     | [packages/model/src/types/diff/DiffPosition.ts:12](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/types/diff/DiffPosition.ts#L12) |

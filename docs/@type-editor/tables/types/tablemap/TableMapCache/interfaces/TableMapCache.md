@@ -6,7 +6,7 @@
 
 # Interface: TableMapCache
 
-Defined in: [tables/src/types/tablemap/TableMapCache.ts:9](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/types/tablemap/TableMapCache.ts#L9)
+Defined in: [tables/src/types/tablemap/TableMapCache.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/tablemap/TableMapCache.ts#L9)
 
 Cache interface for TableMap storage.
 Provides read and write operations for caching computed table maps.
@@ -15,5 +15,5 @@ Provides read and write operations for caching computed table maps.
 
 | Property                        | Type                                                                                | Description                                          | Defined in                                                                                                                                                                                 |
 | ------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-get"></a> `get` | (`key`) => [`TableMap`](../../../../tablemap/TableMap/classes/TableMap.md)          | Retrieves a cached TableMap for the given table node | [tables/src/types/tablemap/TableMapCache.ts:11](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/types/tablemap/TableMapCache.ts#L11) |
-| <a id="property-set"></a> `set` | (`key`, `value`) => [`TableMap`](../../../../tablemap/TableMap/classes/TableMap.md) | Stores a TableMap in the cache and returns it        | [tables/src/types/tablemap/TableMapCache.ts:13](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/types/tablemap/TableMapCache.ts#L13) |
+| <a id="property-get"></a> `get` | (`key`) => [`TableMap`](../../../../tablemap/TableMap/classes/TableMap.md)          | Retrieves a cached TableMap for the given table node | [tables/src/types/tablemap/TableMapCache.ts:11](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/tablemap/TableMapCache.ts#L11) |
+| <a id="property-set"></a> `set` | (`key`, `value`) => [`TableMap`](../../../../tablemap/TableMap/classes/TableMap.md) | Stores a TableMap in the cache and returns it        | [tables/src/types/tablemap/TableMapCache.ts:13](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/tablemap/TableMapCache.ts#L13) |

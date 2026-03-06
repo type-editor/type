@@ -10,7 +10,7 @@
 function domIndex(node): number;
 ```
 
-Defined in: [dom-index.ts:13](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-util/src/dom/dom-index.ts#L13)
+Defined in: [dom-index.ts:13](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dom-util/src/dom/dom-index.ts#L13)
 
 Gets the index of a DOM node within its parent's child list.
 

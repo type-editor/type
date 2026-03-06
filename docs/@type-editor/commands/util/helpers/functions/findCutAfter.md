@@ -10,7 +10,7 @@
 function findCutAfter($pos): ResolvedPos;
 ```
 
-Defined in: [util/helpers.ts:136](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/commands/src/util/helpers.ts#L136)
+Defined in: [util/helpers.ts:136](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/commands/src/util/helpers.ts#L136)
 
 Finds the position where a forward cut/join operation should occur.
 

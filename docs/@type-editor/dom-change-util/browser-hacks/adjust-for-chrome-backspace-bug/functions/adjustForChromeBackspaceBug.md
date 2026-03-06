@@ -15,7 +15,7 @@ function adjustForChromeBackspaceBug(
 ): number;
 ```
 
-Defined in: [browser-hacks/adjust-for-chrome-backspace-bug.ts:30](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-change-util/src/dom-change/browser-hacks/adjust-for-chrome-backspace-bug.ts#L30)
+Defined in: [browser-hacks/adjust-for-chrome-backspace-bug.ts:30](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dom-change-util/src/dom-change/browser-hacks/adjust-for-chrome-backspace-bug.ts#L30)
 
 Adjusts the toOffset to work around Chrome's backspace bug where it sometimes
 replaces deleted content with a random BR node (issues #799, #831).

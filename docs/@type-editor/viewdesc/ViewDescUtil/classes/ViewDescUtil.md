@@ -6,7 +6,7 @@
 
 # Class: ViewDescUtil
 
-Defined in: [ViewDescUtil.ts:8](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDescUtil.ts#L8)
+Defined in: [ViewDescUtil.ts:8](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDescUtil.ts#L8)
 
 ## Constructors
 
@@ -28,7 +28,7 @@ new ViewDescUtil(): ViewDescUtil;
 static nearestNodeViewDesc(viewDesc, dom): NodeViewDesc;
 ```
 
-Defined in: [ViewDescUtil.ts:28](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDescUtil.ts#L28)
+Defined in: [ViewDescUtil.ts:28](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDescUtil.ts#L28)
 
 Scan up the DOM tree to find the first node view description that is a descendant of this one.
 
@@ -53,7 +53,7 @@ The nearest node view description, or undefined if none found
 static nearestViewDesc(viewDesc, dom): ViewDesc;
 ```
 
-Defined in: [ViewDescUtil.ts:17](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDescUtil.ts#L17)
+Defined in: [ViewDescUtil.ts:17](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDescUtil.ts#L17)
 
 Scan up the DOM tree to find the first view description that is a descendant of this one.
 

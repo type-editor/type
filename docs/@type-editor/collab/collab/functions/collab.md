@@ -10,7 +10,7 @@
 function collab(config?): Plugin_2;
 ```
 
-Defined in: [collab.ts:21](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/collab/src/collab.ts#L21)
+Defined in: [collab.ts:21](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/collab/src/collab.ts#L21)
 
 Creates a plugin that enables the collaborative editing framework for the editor.
 

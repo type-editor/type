@@ -10,7 +10,7 @@
 function hasBlockDesc(dom): boolean;
 ```
 
-Defined in: [has-block-desc.ts:19](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/dom-util/src/dom/has-block-desc.ts#L19)
+Defined in: [has-block-desc.ts:19](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dom-util/src/dom/has-block-desc.ts#L19)
 
 Checks if a DOM node has a block-level ViewDesc associated with it.
 

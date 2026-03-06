@@ -10,7 +10,7 @@
 function mergeCells(state, dispatch?): boolean;
 ```
 
-Defined in: [tables/src/commands/merge-cells.ts:29](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/commands/merge-cells.ts#L29)
+Defined in: [tables/src/commands/merge-cells.ts:29](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/commands/merge-cells.ts#L29)
 
 Merges the selected cells into a single cell.
 

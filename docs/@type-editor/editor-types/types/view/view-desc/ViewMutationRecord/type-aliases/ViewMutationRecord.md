@@ -15,7 +15,7 @@ type ViewMutationRecord =
     };
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/ViewMutationRecord.ts:8](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/view/view-desc/ViewMutationRecord.ts#L8)
+Defined in: [packages/editor-types/src/types/view/view-desc/ViewMutationRecord.ts:8](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/editor-types/src/types/view/view-desc/ViewMutationRecord.ts#L8)
 
 A ViewMutationRecord represents a DOM
 [mutation](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)

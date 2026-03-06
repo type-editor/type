@@ -10,7 +10,7 @@
 function findTable($pos): FindNodeResult;
 ```
 
-Defined in: [tables/src/utils/query.ts:103](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/tables/src/utils/query.ts#L103)
+Defined in: [tables/src/utils/query.ts:103](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/utils/query.ts#L103)
 
 Finds the closest table node containing the given position.
 

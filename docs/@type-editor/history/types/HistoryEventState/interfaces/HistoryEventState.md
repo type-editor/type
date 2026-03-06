@@ -6,7 +6,7 @@
 
 # Interface: HistoryEventState
 
-Defined in: [types/HistoryEventState.ts:10](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/types/HistoryEventState.ts#L10)
+Defined in: [types/HistoryEventState.ts:10](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/history/src/types/HistoryEventState.ts#L10)
 
 Represents the state of a history event during undo/redo operations.
 
@@ -14,6 +14,6 @@ Represents the state of a history event during undo/redo operations.
 
 | Property                                    | Type                                                | Description                                  | Defined in                                                                                                                                                             |
 | ------------------------------------------- | --------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-remaining"></a> `remaining` | [`Branch`](../../../state/Branch/classes/Branch.md) | The remaining branch after popping the event | [types/HistoryEventState.ts:12](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/types/HistoryEventState.ts#L12) |
-| <a id="property-selection"></a> `selection` | `SelectionBookmark`                                 | The selection bookmark to restore            | [types/HistoryEventState.ts:16](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/types/HistoryEventState.ts#L16) |
-| <a id="property-transform"></a> `transform` | `Transaction`                                       | The transaction containing the event steps   | [types/HistoryEventState.ts:14](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/history/src/types/HistoryEventState.ts#L14) |
+| <a id="property-remaining"></a> `remaining` | [`Branch`](../../../state/Branch/classes/Branch.md) | The remaining branch after popping the event | [types/HistoryEventState.ts:12](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/history/src/types/HistoryEventState.ts#L12) |
+| <a id="property-selection"></a> `selection` | `SelectionBookmark`                                 | The selection bookmark to restore            | [types/HistoryEventState.ts:16](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/history/src/types/HistoryEventState.ts#L16) |
+| <a id="property-transform"></a> `transform` | `Transaction`                                       | The transaction containing the event steps   | [types/HistoryEventState.ts:14](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/history/src/types/HistoryEventState.ts#L14) |

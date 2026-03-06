@@ -10,7 +10,7 @@
 type Command = (state, dispatch?, view?) => boolean;
 ```
 
-Defined in: [packages/editor-types/src/types/state/command/Command.ts:17](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/editor-types/src/types/state/command/Command.ts#L17)
+Defined in: [packages/editor-types/src/types/state/command/Command.ts:17](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/editor-types/src/types/state/command/Command.ts#L17)
 
 Commands are functions that take a state and a an optional
 transaction dispatch function and...

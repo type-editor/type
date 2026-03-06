@@ -10,7 +10,7 @@
 function getText(clipboardData): string;
 ```
 
-Defined in: [input-handler/util/get-text.ts:9](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/input/src/input-handler/util/get-text.ts#L9)
+Defined in: [input-handler/util/get-text.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/input-handler/util/get-text.ts#L9)
 
 Extracts text content from clipboard data, falling back to URI list if
 plain text is not available.

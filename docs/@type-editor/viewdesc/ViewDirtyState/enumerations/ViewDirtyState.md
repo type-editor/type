@@ -6,7 +6,7 @@
 
 # Enumeration: ViewDirtyState
 
-Defined in: [ViewDirtyState.ts:4](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L4)
+Defined in: [ViewDirtyState.ts:4](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L4)
 
 Dirty state constants - used to track which parts of the view need redrawing
 
@@ -14,7 +14,7 @@ Dirty state constants - used to track which parts of the view need redrawing
 
 | Enumeration Member                                            | Value | Defined in                                                                                                                                                    |
 | ------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="enumeration-member-child_dirty"></a> `CHILD_DIRTY`     | `1`   | [ViewDirtyState.ts:6](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L6) |
-| <a id="enumeration-member-content_dirty"></a> `CONTENT_DIRTY` | `2`   | [ViewDirtyState.ts:7](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L7) |
-| <a id="enumeration-member-node_dirty"></a> `NODE_DIRTY`       | `3`   | [ViewDirtyState.ts:8](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L8) |
-| <a id="enumeration-member-not_dirty"></a> `NOT_DIRTY`         | `0`   | [ViewDirtyState.ts:5](https://github.com/type-editor/type/blob/aa914636446ba41d4acaa23bd67323cc71b1ac08/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L5) |
+| <a id="enumeration-member-child_dirty"></a> `CHILD_DIRTY`     | `1`   | [ViewDirtyState.ts:6](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L6) |
+| <a id="enumeration-member-content_dirty"></a> `CONTENT_DIRTY` | `2`   | [ViewDirtyState.ts:7](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L7) |
+| <a id="enumeration-member-node_dirty"></a> `NODE_DIRTY`       | `3`   | [ViewDirtyState.ts:8](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L8) |
+| <a id="enumeration-member-not_dirty"></a> `NOT_DIRTY`         | `0`   | [ViewDirtyState.ts:5](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/viewdesc/src/view-desc/ViewDirtyState.ts#L5) |

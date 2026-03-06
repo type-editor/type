@@ -35,7 +35,7 @@
         "@type-editor/menu": "workspace:^",
         "@type-editor-compat/menu": "workspace:^",
         "@type-editor/schema": "workspace:^",
-        "@type-editor-compat/schema": "workspace:^",
+        "@type-editor-compat/schema-list": "workspace:^",
         "@type-editor/state": "workspace:^",
         "@type-editor-compat/state": "workspace:^",
         "@type-editor/transform": "workspace:^"

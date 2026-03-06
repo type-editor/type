@@ -14,7 +14,7 @@ import {
     undoItem,
     wrapItem,
 } from '@type-editor-compat/menu';
-import { wrapInList } from '@type-editor-compat/schema';
+import { wrapInList } from '@type-editor-compat/schema-list';
 import { toggleMark } from '@type-editor-compat/commands';
 import type { MarkType, NodeType, Schema } from '@type-editor-compat/model';
 import type { Command } from '@type-editor-compat/commands';

@@ -16,7 +16,9 @@
         }
     },
     "dependencies": {
+        "@type-editor-compat/commands": "workspace:^",
         "@type-editor/commons": "workspace:^",
+        "@type-editor/model": "workspace:^",
         "@type-editor-compat/model": "workspace:^",
         "@type-editor-compat/state": "workspace:^",
         "@type-editor-compat/transform": "workspace:^",

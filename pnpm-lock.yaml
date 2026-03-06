@@ -432,9 +432,9 @@ importers:
       '@type-editor-compat/model':
         specifier: workspace:^
         version: link:../model
-      '@type-editor-compat/schema':
+      '@type-editor-compat/schema-list':
         specifier: workspace:^
-        version: link:../schema
+        version: link:../schema-list
       '@type-editor-compat/state':
         specifier: workspace:^
         version: link:../state
@@ -557,27 +557,6 @@ importers:
         specifier: workspace:^
         version: link:../../packages/model
 
-  packages-compat/schema:
-    dependencies:
-      '@type-editor-compat/commands':
-        specifier: workspace:^
-        version: link:../commands
-      '@type-editor-compat/model':
-        specifier: workspace:^
-        version: link:../model
-      '@type-editor-compat/state':
-        specifier: workspace:^
-        version: link:../state
-      '@type-editor/commands':
-        specifier: workspace:^
-        version: link:../../packages/commands
-      '@type-editor/model':
-        specifier: workspace:^
-        version: link:../../packages/model
-      '@type-editor/schema':
-        specifier: workspace:^
-        version: link:../../packages/schema
-
   packages-compat/schema-basic:
     dependencies:
       '@type-editor/model':
@@ -586,6 +565,9 @@ importers:
 
   packages-compat/schema-list:
     dependencies:
+      '@type-editor-compat/commands':
+        specifier: workspace:^
+        version: link:../commands
       '@type-editor-compat/model':
         specifier: workspace:^
         version: link:../model
@@ -601,6 +583,9 @@ importers:
       '@type-editor/commons':
         specifier: workspace:^
         version: link:../../packages/commons
+      '@type-editor/model':
+        specifier: workspace:^
+        version: link:../../packages/model
     devDependencies:
       '@type-editor/editor-types':
         specifier: workspace:^

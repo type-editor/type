@@ -1,7 +1,7 @@
 import {isUndefinedOrNull} from '@type-editor/commons';
 import type {DecorationSource, DecorationSpec, PmDecoration} from '@type-editor/editor-types';
 import type {Node} from '@type-editor/model';
-import {Mapping} from '@type-editor/transform';
+import type {Mapping} from '@type-editor/transform';
 
 import {AbstractDecorationSource} from './AbstractDecorationSource';
 import {Decoration} from './Decoration';

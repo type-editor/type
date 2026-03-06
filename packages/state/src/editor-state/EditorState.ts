@@ -14,16 +14,16 @@ import type {
     PmSelection,
     PmTransaction,
     SelectionJSON,
-    StateJSON
+    StateJSON,
 } from '@type-editor/editor-types';
-import type {MarkJSON, NodeJSON, Schema,} from '@type-editor/model';
-import {type Mark, PmNode} from '@type-editor/model';
+import type { MarkJSON, NodeJSON, Schema } from '@type-editor/model';
+import { type Mark, PmNode } from '@type-editor/model';
 import { nanoid } from 'nanoid';
 
-import {Plugin} from '../plugin/Plugin';
-import {Selection} from '../selection/Selection';
-import {Transaction} from '../Transaction';
-import {FieldDesc} from './FieldDesc';
+import { Plugin } from '../plugin/Plugin';
+import { Selection } from '../selection/Selection';
+import { Transaction } from '../Transaction';
+import { FieldDesc } from './FieldDesc';
 
 
 /**
@@ -175,7 +175,7 @@ export class EditorState implements PmEditorState {
     /**
      * The plugins that are active in this state.
      */
-    get plugins(): ReadonlyArray<Plugin> {
+    get plugins(): ReadonlyArray<PmPlugin> {
         return this.config.plugins;
     }
 
@@ -382,7 +382,7 @@ export class EditorState implements PmEditorState {
      * @param key - The unique key identifying the plugin
      * @returns The plugin instance, or undefined if not found
      */
-    public getPlugin(key: string): Plugin | undefined {
+    public getPlugin(key: string): PmPlugin | undefined {
         return this.config.pluginsMap.get(key);
     }
 
@@ -465,7 +465,7 @@ export class EditorState implements PmEditorState {
      * @param config.plugins - Optional array of plugins for the new state
      * @returns A new editor state with the reconfigured plugins
      */
-    public reconfigure(config: { plugins?: ReadonlyArray<Plugin>; }): EditorState {
+    public reconfigure(config: { plugins?: ReadonlyArray<PmPlugin>; }): EditorState {
         const editorStateDto: EditorStateDto = {
             ...this.cloneState(),
             fieldData: new Map<string, unknown>()

@@ -1,5 +1,5 @@
 import { browser, hasOwnProperty } from '@type-editor/commons';
-import type { Command, PmEditorView } from '@type-editor/editor-types';
+import type { Command, PmEditorView, PmPlugin } from '@type-editor/editor-types';
 import { Plugin } from '@type-editor/state';
 import { base, keyName } from 'w3c-keyname';
 
@@ -40,7 +40,7 @@ import { base, keyName } from 'w3c-keyname';
  * });
  * ```
  */
-export function keymap(bindings: Record<string, Command>): Plugin {
+export function keymap(bindings: Record<string, Command>): PmPlugin {
   return new Plugin({props: {handleKeyDown: keydownHandler(bindings)}});
 }
 

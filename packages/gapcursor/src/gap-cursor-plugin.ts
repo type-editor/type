@@ -4,6 +4,7 @@ import type {
     DispatchFunction,
     PmEditorState,
     PmEditorView,
+    PmPlugin,
     PmSelection,
     PmTransaction,
 } from '@type-editor/editor-types';
@@ -33,7 +34,7 @@ import { GapCursor } from './GapCursor';
  *
  * @returns A configured Plugin instance.
  */
-export function gapCursor(): Plugin {
+export function gapCursor(): PmPlugin {
     return new Plugin({
         props: {
             decorations: drawGapCursor,

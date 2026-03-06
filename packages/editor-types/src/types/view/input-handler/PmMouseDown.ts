@@ -3,7 +3,7 @@ import { PmNode } from '@type-editor/model';
 export interface PmMouseDown {
 
     readonly allowDefault: boolean;
-    readonly mightDrag: { node: PmNode; pos: number; addAttr: boolean; setUneditable: boolean };
+    readonly mightDrag: { node: PmNode; pos: number; addAttr: boolean; setUneditable: boolean } | null;
     delayedSelectionSync: boolean;
 
     /**

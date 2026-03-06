@@ -17,13 +17,13 @@ export interface PmEditorView {
     readonly props: Readonly<DirectEditorProps>;
     readonly root: Document | ShadowRoot;
     focused: boolean;
-    markCursor: ReadonlyArray<Mark>;
-    readonly cursorWrapper: { dom: Node; deco: PmDecoration };
+    markCursor: ReadonlyArray<Mark> | null;
+    readonly cursorWrapper: { dom: Node; deco: PmDecoration } | null;
     readonly nodeViews: Readonly<NodeViewSet>;
     readonly docView: PmNodeViewDesc;
-    lastSelectedViewDesc: PmViewDesc;
+    lastSelectedViewDesc: PmViewDesc | null;
     readonly trackWrites: Node | null;
-    dragging: PmDragging;
+    dragging: PmDragging | null;
     readonly dom: HTMLElement;
     readonly editable: boolean;
     readonly input: PmInputState;

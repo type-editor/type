@@ -2,9 +2,9 @@ import type {DOMSelectionRange} from './dom/DOMSelectionRange';
 
 
 export interface PmSelectionState {
-    readonly anchorNode: Node;
+    readonly anchorNode: Node | null;
     readonly anchorOffset: number;
-    readonly focusNode: Node;
+    readonly focusNode: Node | null;
 
     /**
      * Updates the selection state with new values.

@@ -8,7 +8,7 @@ import type {PmSelection} from './selection/PmSelection';
 
 export interface PmTransaction extends TransformDocument {
 
-    readonly storedMarks: ReadonlyArray<Mark>;
+    readonly storedMarks: ReadonlyArray<Mark> | null;
     readonly time: number;
     readonly selection: PmSelection;
     readonly selectionSet: boolean;

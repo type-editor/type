@@ -11,10 +11,10 @@ import type {ViewMutationRecord} from './ViewMutationRecord';
 export interface PmViewDesc {
     dirty: ViewDirtyState;
     readonly node: PmNode;
-    parent: PmViewDesc;
+    parent: PmViewDesc | undefined;
     children: Array<PmViewDesc>;
     readonly dom: Node;
-    readonly contentDOM: HTMLElement;
+    readonly contentDOM: HTMLElement | null;
     readonly domAtom: boolean;
     readonly ignoreForCoords: boolean;
     readonly ignoreForSelection: boolean;

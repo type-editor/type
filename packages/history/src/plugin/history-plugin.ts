@@ -1,4 +1,4 @@
-import type { PmEditorState, PmEditorView, PmTransaction } from '@type-editor/editor-types';
+import type { PmEditorState, PmEditorView, PmPlugin, PmTransaction } from '@type-editor/editor-types';
 import { Plugin } from '@type-editor/state';
 
 import { HistoryState } from '../state/HistoryState';
@@ -27,7 +27,7 @@ const DEFAULT_NEW_GROUP_DELAY = 500;
  * @param config.newGroupDelay - The delay in milliseconds between changes after which a new group should be started (default: 500)
  * @returns A ProseMirror plugin that manages undo/redo history
  */
-export function history(config: HistoryOptions = {}): Plugin {
+export function history(config: HistoryOptions = {}): PmPlugin {
     const normalizedConfig: Required<HistoryOptions> = {
         depth: config.depth ?? DEFAULT_HISTORY_DEPTH,
         newGroupDelay: config.newGroupDelay ?? DEFAULT_NEW_GROUP_DELAY

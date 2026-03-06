@@ -2,7 +2,7 @@ import type {PmSelectionState} from './PmSelectionState';
 
 export interface PmDOMObserver {
     readonly flushingSoon: number;
-    readonly lastChangedTextNode: Text;
+    readonly lastChangedTextNode: Text | null;
     readonly currentSelection: PmSelectionState;
     readonly requiresGeckoHackNode: boolean;
 

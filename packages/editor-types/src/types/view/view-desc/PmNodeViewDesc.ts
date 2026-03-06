@@ -6,8 +6,8 @@ import type { PmViewDesc } from './PmViewDesc';
 
 export interface PmNodeViewDesc extends PmViewDesc {
 
-    readonly outerDeco: ReadonlyArray<PmDecoration>;
-    readonly innerDeco: DecorationSource;
+    readonly outerDeco: ReadonlyArray<PmDecoration> | null;
+    readonly innerDeco: DecorationSource | null;
 
     /**
      * Updates the internal state of this node view with new node and decorations.

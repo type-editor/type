@@ -1,5 +1,4 @@
-import type { PmEditorState } from '@type-editor/editor-types';
-import { Plugin } from '@type-editor/state';
+import type { PmEditorState, PmPlugin } from '@type-editor/editor-types';
 
 import { menuBarPlugin } from './menu-bar-plugin';
 import { Dropdown } from './menubar/dropdown/Dropdown';
@@ -111,7 +110,7 @@ export class MenuBarBuilder {
      *
      * @returns A ProseMirror `Plugin` that renders the menu bar.
      */
-    public build(): Plugin {
+    public build(): PmPlugin {
         const options: MenuBarOptions = {
             floating: this.isFloating,
             content: this.menu,

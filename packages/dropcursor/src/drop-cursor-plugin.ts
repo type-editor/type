@@ -1,8 +1,8 @@
-import type {PmEditorView} from '@type-editor/editor-types';
-import {Plugin} from '@type-editor/state';
+import type { PmEditorView, PmPlugin } from '@type-editor/editor-types';
+import { Plugin } from '@type-editor/state';
 
-import {DropCursorView} from './DropCursorView';
-import type {DropCursorOptions} from './types/DropCursorOptions';
+import { DropCursorView } from './DropCursorView';
+import type { DropCursorOptions } from './types/DropCursorOptions';
 
 
 /**
@@ -32,7 +32,7 @@ import type {DropCursorOptions} from './types/DropCursorOptions';
  * @param options.class - A CSS class name to add to the cursor element for custom styling
  * @returns A ProseMirror plugin instance
  */
-export function dropCursor(options: DropCursorOptions = {}): Plugin {
+export function dropCursor(options: DropCursorOptions = {}): PmPlugin {
     return new Plugin({
         view(editorView: PmEditorView): DropCursorView {
             return new DropCursorView(editorView, options);

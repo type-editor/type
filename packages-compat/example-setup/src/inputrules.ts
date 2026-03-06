@@ -1,5 +1,5 @@
 import {ellipsis, emDash, inputRules, smartQuotes, textblockTypeInputRule, wrappingInputRule} from '@type-editor-compat/inputrules';
-import {type NodeType, Schema} from '@type-editor-compat/model';
+import type {NodeType, Schema} from '@type-editor-compat/model';
 
 
 /**

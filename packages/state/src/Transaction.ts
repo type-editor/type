@@ -1,12 +1,10 @@
-import {isUndefinedOrNull} from '@type-editor/commons';
-import type {PmSelection, PmTransaction} from '@type-editor/editor-types';
-import {Mark, type MarkType, Node, type ResolvedPos, type Schema, type Slice} from '@type-editor/model';
-import {type Step, Transform,} from '@type-editor/transform';
+import { isUndefinedOrNull } from '@type-editor/commons';
+import type { PmPlugin, PmPluginKey, PmSelection, PmStep, PmTransaction } from '@type-editor/editor-types';
+import { Mark, type MarkType, type PmNode, type ResolvedPos, type Schema, type Slice } from '@type-editor/model';
+import { Transform } from '@type-editor/transform';
 
-import type {EditorState} from './editor-state/EditorState';
-import type {Plugin} from './plugin/Plugin';
-import type {PluginKey} from './plugin/PluginKey';
-import {Selection} from './selection/Selection';
+import type { EditorState } from './editor-state/EditorState';
+import { Selection } from './selection/Selection';
 
 enum UpdateType {
 
@@ -183,7 +181,7 @@ export class Transaction extends Transform implements PmTransaction {
         return this.ensureMarks(removedMarks);
     }
 
-    public addStep(step: Step, doc: Node): void {
+    public addStep(step: PmStep, doc: PmNode): void {
         super.addStep(step, doc);
         this.updated = this.updated & ~UpdateType.UPDATED_MARKS;
         this._storedMarks = null;
@@ -214,7 +212,7 @@ export class Transaction extends Transform implements PmTransaction {
      * @param node
      * @param inheritMarks
      */
-    public replaceSelectionWith(node: Node, inheritMarks = true): Transaction {
+    public replaceSelectionWith(node: PmNode, inheritMarks = true): Transaction {
         const selection: Selection = this.selection;
 
         if (inheritMarks) {
@@ -278,7 +276,7 @@ export class Transaction extends Transform implements PmTransaction {
      * Store a metadata property in this transaction, keyed either by
      * name or by plugin.
      */
-    public setMeta(key: string | Plugin | PluginKey, value: any): Transaction {
+    public setMeta(key: string | PmPlugin | PmPluginKey, value: any): Transaction {
         this.meta.set(typeof key === 'string' ? key : key.key, value);
         return this;
     }
@@ -286,7 +284,7 @@ export class Transaction extends Transform implements PmTransaction {
     /**
      * Retrieve a metadata property for a given name or plugin.
      */
-    public getMeta(key: string | Plugin | PluginKey): any {
+    public getMeta(key: string | PmPlugin | PmPluginKey): any {
         return this.meta.get(typeof key === 'string' ? key : key.key);
     }
 

@@ -1,12 +1,11 @@
-import {CorePluginView} from '@type-editor/adapter-core';
-import {nanoid} from 'nanoid';
-import type {ReactPortal} from 'react';
-import {createPortal} from 'react-dom';
+import { CorePluginView } from '@type-editor/adapter-core';
+import { nanoid } from 'nanoid';
+import { createElement, type ReactPortal } from 'react';
+import { createPortal } from 'react-dom';
 
-import type {ReactRenderer} from '../ReactRenderer';
-import type {PluginViewContext} from './pluginViewContext';
-import {pluginViewContext} from './pluginViewContext';
-import type {ReactPluginViewComponent} from './ReactPluginViewOptions';
+import type { ReactRenderer } from '../ReactRenderer';
+import { type PluginViewContext, pluginViewContext } from './pluginViewContext';
+import type { ReactPluginViewComponent } from './ReactPluginViewOptions';
 
 /**
  * React-specific plugin view that bridges a {@link CorePluginView} with the
@@ -47,11 +46,9 @@ export class ReactPluginView extends CorePluginView<ReactPluginViewComponent> im
         const UserComponent: ReactPluginViewComponent = this.component;
 
         return createPortal(
-            <pluginViewContext.Provider value={this._context}>
-                <UserComponent/>
-            </pluginViewContext.Provider>,
+            createElement(pluginViewContext.Provider, { value: this.context }, createElement(UserComponent, null)),
             this.root,
-            this._key,
+            this.key,
         );
     }
 }

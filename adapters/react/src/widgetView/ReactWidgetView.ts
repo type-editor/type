@@ -1,12 +1,11 @@
 import {CoreWidgetView} from '@type-editor/adapter-core';
 import {nanoid} from 'nanoid';
-import type {ReactPortal} from 'react';
+import { createElement, type ReactPortal } from 'react';
 import {createPortal} from 'react-dom';
 
 import type {ReactRenderer} from '../ReactRenderer';
 import type {ReactWidgetViewComponent} from './ReactWidgetViewOptions';
-import type {WidgetViewContext} from './widgetViewContext';
-import {widgetViewContext} from './widgetViewContext';
+import { type WidgetViewContext,widgetViewContext } from './widgetViewContext';
 
 /**
  * React-specific widget view that bridges a {@link CoreWidgetView} with the
@@ -49,9 +48,7 @@ export class ReactWidgetView extends CoreWidgetView<ReactWidgetViewComponent> im
         const UserComponent: ReactWidgetViewComponent = this.component;
 
         return createPortal(
-            <widgetViewContext.Provider value={this._context}>
-                <UserComponent/>
-            </widgetViewContext.Provider>,
+            createElement(widgetViewContext.Provider, { value: this.context }, createElement(UserComponent, null)),
             this.dom,
             this._key,
         );

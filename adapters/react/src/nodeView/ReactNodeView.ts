@@ -1,10 +1,9 @@
 import { CoreNodeView } from '@type-editor/adapter-core';
-import type { ReactPortal } from 'react';
+import { createElement, type ReactPortal } from 'react';
 import { createPortal } from 'react-dom';
 
 import type { ReactRenderer } from '../ReactRenderer';
-import type { NodeViewContext } from './nodeViewContext';
-import { nodeViewContext } from './nodeViewContext';
+import { type NodeViewContext, nodeViewContext } from './nodeViewContext';
 import type { ReactNodeViewComponent } from './ReactNodeViewOptions';
 
 /**
@@ -27,7 +26,9 @@ export class ReactNodeView extends CoreNodeView<ReactNodeViewComponent> implemen
             },
             dom: this.dom,
             view: this.view,
+            // eslint-disable-next-line @typescript-eslint/unbound-method
             getPos: this.getPos,
+            // eslint-disable-next-line @typescript-eslint/unbound-method
             setAttrs: this.setAttrs,
             node: this.node,
             selected: this.selected,
@@ -59,9 +60,7 @@ export class ReactNodeView extends CoreNodeView<ReactNodeViewComponent> implemen
         const UserComponent: ReactNodeViewComponent = this.component;
 
         return createPortal(
-            <nodeViewContext.Provider value={this._context}>
-                <UserComponent/>
-            </nodeViewContext.Provider>,
+            createElement(nodeViewContext.Provider, { value: this.context }, createElement(UserComponent, null)),
             this.dom,
             // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
             this.node.attrs.id,

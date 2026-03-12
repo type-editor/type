@@ -1,14 +1,14 @@
-import {defineComponent, Fragment, h, provide} from 'vue';
+import { defineComponent, Fragment, h, provide } from 'vue';
 
-import {markViewFactoryKey} from './markView';
-import {useVueMarkViewCreator} from './markView/useVueMarkViewCreator';
-import {nodeViewFactoryKey} from './nodeView';
-import {useVueNodeViewCreator} from './nodeView/useVueNodeViewCreator';
-import {pluginViewFactoryKey} from './pluginView';
-import {useVuePluginViewCreator} from './pluginView/useVuePluginViewCreator';
-import {useVueRenderer} from './VueRenderer';
-import {useVueWidgetViewCreator} from './widgetView/useVueWidgetViewCreator';
-import {widgetViewFactoryKey} from './widgetView/widgetViewContext';
+import { markViewFactoryKey } from './markView';
+import { useVueMarkViewCreator } from './markView/useVueMarkViewCreator';
+import { nodeViewFactoryKey } from './nodeView';
+import { useVueNodeViewCreator } from './nodeView/useVueNodeViewCreator';
+import { pluginViewFactoryKey } from './pluginView';
+import { useVuePluginViewCreator } from './pluginView/useVuePluginViewCreator';
+import { useVueRenderer } from './VueRenderer';
+import { widgetViewFactoryKey } from './widgetView';
+import { useVueWidgetViewCreator } from './widgetView/useVueWidgetViewCreator';
 
 /** Factory type returned by `useVueNodeViewCreator`. */
 export type CreateVueNodeView = ReturnType<typeof useVueNodeViewCreator>
@@ -32,8 +32,8 @@ export const ProsemirrorAdapterProvider = defineComponent({
 
     name: 'ProsemirrorAdapterProvider',
 
-    setup: (_, {slots}) => {
-        const {portals, renderVueRenderer, removeVueRenderer} = useVueRenderer();
+    setup: (_, { slots }) => {
+        const { render, renderVueRenderer, removeVueRenderer } = useVueRenderer();
 
         const createVueNodeView: CreateVueNodeView = useVueNodeViewCreator(renderVueRenderer, removeVueRenderer);
         const createVueMarkView: CreateVueMarkView = useVueMarkViewCreator(renderVueRenderer, removeVueRenderer);
@@ -46,7 +46,9 @@ export const ProsemirrorAdapterProvider = defineComponent({
         provide(widgetViewFactoryKey, createVueWidgetView);
 
         return () => {
-            return h(Fragment, null, [slots.default?.(), Object.values(portals.value).map((x) => h(x))]);
+            const childrenPart = h(Fragment, { key: 1 }, [slots.default?.()]);
+            const portalsPart = h(Fragment, { key: 2 }, render());
+            return h(Fragment, null, [childrenPart, portalsPart]);
         };
     },
 });

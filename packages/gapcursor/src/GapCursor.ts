@@ -99,7 +99,7 @@ export class GapCursor extends Selection implements PmSelection {
 
         // Gap cursors cannot exist in text blocks or at positions that aren't
         // surrounded by "closed" (non-inline) content
-        if (parent.isTextblock || !GapCursor.closedBefore($pos) || !GapCursor.closedAfter($pos)) {
+        if (parent.isTextblock || parent.inlineContent || !GapCursor.closedBefore($pos) || !GapCursor.closedAfter($pos)) {
             return false;
         }
 

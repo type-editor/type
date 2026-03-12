@@ -1,5 +1,14 @@
-import type {ComponentInternalInstance, DefineComponent, Ref} from 'vue';
-import {getCurrentInstance, markRaw, onBeforeMount, onUnmounted, ref} from 'vue';
+import {
+    type ComponentInternalInstance,
+    type DefineComponent,
+    getCurrentInstance,
+    h,
+    markRaw,
+    onBeforeMount,
+    onUnmounted,
+    ref,
+    type VNode,
+} from 'vue';
 
 /** A Vue component type used as a renderable unit (any `DefineComponent`). */
 export type VueRendererComponent = DefineComponent<any, any, any>
@@ -15,31 +24,31 @@ export type VueRendererComponent = DefineComponent<any, any, any>
  */
 export interface VueRenderer<Context> {
     /** Unique key used to identify this renderer in the portal map. */
-    key: string
+    key: string;
     /** The context object provided to the rendered component. */
-    context: Context
+    context: Context;
     /** Creates a Vue component that renders the user component via Teleport. */
-    render: () => VueRendererComponent
+    render: () => VueRendererComponent;
     /** Synchronises the context object with the latest editor state. */
-    updateContext: () => void
+    updateContext: () => void;
 }
 
 /** Return value of {@link useVueRenderer}. */
 export interface VueRendererResult {
     /** Reactive map of active Vue renderer components keyed by renderer key. */
-    readonly portals: Ref<Record<string, VueRendererComponent>>
+    readonly render: () => Array<VNode>;
     /**
      * Registers or updates a renderer in the portal map.
      *
      * @param renderer - The renderer to register.
      */
-    readonly renderVueRenderer: (renderer: VueRenderer<unknown>) => void
+    readonly renderVueRenderer: (renderer: VueRenderer<unknown>) => void;
     /**
      * Removes a renderer from the portal map.
      *
      * @param renderer - The renderer to remove.
      */
-    readonly removeVueRenderer: (renderer: VueRenderer<unknown>) => void
+    readonly removeVueRenderer: (renderer: VueRenderer<unknown>) => void;
 }
 
 /**
@@ -55,7 +64,7 @@ export interface VueRendererResult {
  */
 
 export function useVueRenderer(): VueRendererResult {
-    const portals = ref<Record<string, VueRendererComponent>>({});
+    const portals = ref<Map<string, VueRendererComponent>>(new Map());
     const instance: ComponentInternalInstance = getCurrentInstance();
     const update = markRaw<{ updater?: () => void }>({});
 
@@ -70,7 +79,7 @@ export function useVueRenderer(): VueRendererResult {
     });
 
     function renderVueRenderer(renderer: VueRenderer<unknown>): void {
-        portals.value[renderer.key] = renderer.render();
+        portals.value.set(renderer.key, renderer.render());
 
         // Force update the vue component to render
         // Cursor won't move to new node without this
@@ -78,11 +87,19 @@ export function useVueRenderer(): VueRendererResult {
     }
 
     function removeVueRenderer(renderer: VueRenderer<unknown>): void {
-        delete portals.value[renderer.key];
+        portals.value.delete(renderer.key);
     }
 
+    const render = () => {
+        const children: Array<VNode> = [];
+        for (const [key, Comp] of portals.value.entries()) {
+            children.push(h(Comp, { key }));
+        }
+        return children;
+    };
+
     return {
-        portals,
+        render,
         renderVueRenderer,
         removeVueRenderer,
     } as const;

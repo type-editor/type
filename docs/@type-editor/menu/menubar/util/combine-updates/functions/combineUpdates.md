@@ -10,7 +10,7 @@
 function combineUpdates(updates, nodes): (state) => boolean;
 ```
 
-Defined in: [packages/menu/src/menubar/util/combine-updates.ts:11](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/menu/src/menubar/util/combine-updates.ts#L11)
+Defined in: [packages/menu/src/menubar/util/combine-updates.ts:11](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/menubar/util/combine-updates.ts#L11)
 
 Combines multiple update functions into a single update function.
 Each update function controls the visibility of its corresponding node.

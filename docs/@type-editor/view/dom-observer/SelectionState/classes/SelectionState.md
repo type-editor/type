@@ -6,7 +6,7 @@
 
 # Class: SelectionState
 
-Defined in: [dom-observer/SelectionState.ts:8](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/view/src/dom-observer/SelectionState.ts#L8)
+Defined in: [dom-observer/SelectionState.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/dom-observer/SelectionState.ts#L8)
 
 Represents the state of a DOM selection, tracking anchor and focus positions.
 This is used to detect selection changes efficiently.
@@ -37,7 +37,7 @@ new SelectionState(): SelectionState;
 get anchorNode(): Node;
 ```
 
-Defined in: [dom-observer/SelectionState.ts:15](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/view/src/dom-observer/SelectionState.ts#L15)
+Defined in: [dom-observer/SelectionState.ts:15](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/dom-observer/SelectionState.ts#L15)
 
 ##### Returns
 
@@ -59,7 +59,7 @@ PmSelectionState.anchorNode;
 get anchorOffset(): number;
 ```
 
-Defined in: [dom-observer/SelectionState.ts:19](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/view/src/dom-observer/SelectionState.ts#L19)
+Defined in: [dom-observer/SelectionState.ts:19](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/dom-observer/SelectionState.ts#L19)
 
 ##### Returns
 
@@ -81,7 +81,7 @@ PmSelectionState.anchorOffset;
 get focusNode(): Node;
 ```
 
-Defined in: [dom-observer/SelectionState.ts:23](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/view/src/dom-observer/SelectionState.ts#L23)
+Defined in: [dom-observer/SelectionState.ts:23](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/dom-observer/SelectionState.ts#L23)
 
 ##### Returns
 
@@ -101,7 +101,7 @@ PmSelectionState.focusNode;
 clear(): void;
 ```
 
-Defined in: [dom-observer/SelectionState.ts:41](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/view/src/dom-observer/SelectionState.ts#L41)
+Defined in: [dom-observer/SelectionState.ts:41](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/dom-observer/SelectionState.ts#L41)
 
 Clears the selection state by resetting all nodes to null.
 
@@ -123,7 +123,7 @@ PmSelectionState.clear;
 eq(sel): boolean;
 ```
 
-Defined in: [dom-observer/SelectionState.ts:53](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/view/src/dom-observer/SelectionState.ts#L53)
+Defined in: [dom-observer/SelectionState.ts:53](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/dom-observer/SelectionState.ts#L53)
 
 Checks if the given selection range equals this selection state.
 
@@ -153,7 +153,7 @@ PmSelectionState.eq;
 set(sel): void;
 ```
 
-Defined in: [dom-observer/SelectionState.ts:31](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/view/src/dom-observer/SelectionState.ts#L31)
+Defined in: [dom-observer/SelectionState.ts:31](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/dom-observer/SelectionState.ts#L31)
 
 Updates the selection state with new values.
 

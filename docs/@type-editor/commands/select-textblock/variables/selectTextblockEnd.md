@@ -10,7 +10,7 @@
 const selectTextblockEnd: Command;
 ```
 
-Defined in: [select-textblock.ts:70](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/commands/src/select-textblock.ts#L70)
+Defined in: [select-textblock.ts:70](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/select-textblock.ts#L70)
 
 Moves the cursor to the end of the current textblock.
 

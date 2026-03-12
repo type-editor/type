@@ -10,7 +10,7 @@
 function clipCells(area, newWidth, newHeight): Area;
 ```
 
-Defined in: [tables/src/copypaste/clip-cells.ts:30](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/copypaste/clip-cells.ts#L30)
+Defined in: [tables/src/copypaste/clip-cells.ts:30](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/copypaste/clip-cells.ts#L30)
 
 Clips or extends (repeats) a set of cells to cover the given dimensions.
 

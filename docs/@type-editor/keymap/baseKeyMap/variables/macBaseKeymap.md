@@ -10,7 +10,7 @@
 const macBaseKeymap: Record<string, Command>;
 ```
 
-Defined in: [baseKeyMap.ts:122](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/keymap/src/baseKeyMap.ts#L122)
+Defined in: [baseKeyMap.ts:122](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/keymap/src/baseKeyMap.ts#L122)
 
 A copy of `pcBaseKeymap` that also binds **Ctrl-h** like Backspace,
 **Ctrl-d** like Delete, **Alt-Backspace** like Ctrl-Backspace, and

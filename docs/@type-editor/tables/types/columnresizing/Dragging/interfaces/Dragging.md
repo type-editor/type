@@ -6,7 +6,7 @@
 
 # Interface: Dragging
 
-Defined in: [tables/src/types/columnresizing/Dragging.ts:4](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/columnresizing/Dragging.ts#L4)
+Defined in: [tables/src/types/columnresizing/Dragging.ts:4](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/columnresizing/Dragging.ts#L4)
 
 Represents the state of an active column resize drag operation.
 
@@ -14,5 +14,5 @@ Represents the state of an active column resize drag operation.
 
 | Property                                      | Type     | Description                                              | Defined in                                                                                                                                                                                   |
 | --------------------------------------------- | -------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-startwidth"></a> `startWidth` | `number` | The width of the column when the drag operation started. | [tables/src/types/columnresizing/Dragging.ts:12](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/columnresizing/Dragging.ts#L12) |
-| <a id="property-startx"></a> `startX`         | `number` | The X coordinate where the drag operation started.       | [tables/src/types/columnresizing/Dragging.ts:8](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/types/columnresizing/Dragging.ts#L8)   |
+| <a id="property-startwidth"></a> `startWidth` | `number` | The width of the column when the drag operation started. | [tables/src/types/columnresizing/Dragging.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/columnresizing/Dragging.ts#L12) |
+| <a id="property-startx"></a> `startX`         | `number` | The X coordinate where the drag operation started.       | [tables/src/types/columnresizing/Dragging.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/columnresizing/Dragging.ts#L8)   |

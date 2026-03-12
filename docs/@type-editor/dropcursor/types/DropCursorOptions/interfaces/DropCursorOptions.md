@@ -6,12 +6,12 @@
 
 # Interface: DropCursorOptions
 
-Defined in: [types/DropCursorOptions.ts:2](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dropcursor/src/types/DropCursorOptions.ts#L2)
+Defined in: [types/DropCursorOptions.ts:2](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dropcursor/src/types/DropCursorOptions.ts#L2)
 
 ## Properties
 
 | Property                             | Type                | Description                                                                                         | Defined in                                                                                                                                                                |
 | ------------------------------------ | ------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-class"></a> `class?` | `string`            | A CSS class name to add to the cursor element.                                                      | [types/DropCursorOptions.ts:10](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dropcursor/src/types/DropCursorOptions.ts#L10) |
-| <a id="property-color"></a> `color?` | `string` \| `false` | The color of the cursor. Defaults to `black`. Use `false` to apply no color and rely only on class. | [types/DropCursorOptions.ts:4](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dropcursor/src/types/DropCursorOptions.ts#L4)   |
-| <a id="property-width"></a> `width?` | `number`            | The precise width of the cursor in pixels. Defaults to 1.                                           | [types/DropCursorOptions.ts:7](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dropcursor/src/types/DropCursorOptions.ts#L7)   |
+| <a id="property-class"></a> `class?` | `string`            | A CSS class name to add to the cursor element.                                                      | [types/DropCursorOptions.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dropcursor/src/types/DropCursorOptions.ts#L10) |
+| <a id="property-color"></a> `color?` | `string` \| `false` | The color of the cursor. Defaults to `black`. Use `false` to apply no color and rely only on class. | [types/DropCursorOptions.ts:4](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dropcursor/src/types/DropCursorOptions.ts#L4)   |
+| <a id="property-width"></a> `width?` | `number`            | The precise width of the cursor in pixels. Defaults to 1.                                           | [types/DropCursorOptions.ts:7](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dropcursor/src/types/DropCursorOptions.ts#L7)   |

@@ -10,7 +10,7 @@
 const wrapMap: Record<string, string[]>;
 ```
 
-Defined in: [clipboard/util.ts:12](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/clipboard/util.ts#L12)
+Defined in: [clipboard/util.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/clipboard/util.ts#L12)
 
 Trick from jQuery -- some elements must be wrapped in other
 elements for innerHTML to work. I.e. if you do `div.innerHTML =

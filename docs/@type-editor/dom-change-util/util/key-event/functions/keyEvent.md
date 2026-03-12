@@ -10,7 +10,7 @@
 function keyEvent(keyCode, key): KeyboardEvent;
 ```
 
-Defined in: [util/key-event.ts:14](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/dom-change-util/src/dom-change/util/key-event.ts#L14)
+Defined in: [util/key-event.ts:14](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-change-util/src/dom-change/util/key-event.ts#L14)
 
 Creates a synthetic keyboard event for testing or programmatic key simulation.
 

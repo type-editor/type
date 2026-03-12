@@ -6,7 +6,7 @@
 
 # Class: SelectionRange
 
-Defined in: [state/src/selection/SelectionRange.ts:10](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/selection/SelectionRange.ts#L10)
+Defined in: [state/src/selection/SelectionRange.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/selection/SelectionRange.ts#L10)
 
 Represents a selected range in a document.
 A range has a start position ($from) and an end position ($to).
@@ -25,7 +25,7 @@ may use multiple ranges to represent discontinuous selections.
 new SelectionRange($from, $to): SelectionRange;
 ```
 
-Defined in: [state/src/selection/SelectionRange.ts:30](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/selection/SelectionRange.ts#L30)
+Defined in: [state/src/selection/SelectionRange.ts:30](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/selection/SelectionRange.ts#L30)
 
 Create a range.
 
@@ -50,7 +50,7 @@ Create a range.
 get $from(): ResolvedPos;
 ```
 
-Defined in: [state/src/selection/SelectionRange.ts:40](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/selection/SelectionRange.ts#L40)
+Defined in: [state/src/selection/SelectionRange.ts:40](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/selection/SelectionRange.ts#L40)
 
 The resolved lower bound of the range.
 
@@ -76,7 +76,7 @@ PmSelectionRange.$from;
 get $to(): ResolvedPos;
 ```
 
-Defined in: [state/src/selection/SelectionRange.ts:49](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/selection/SelectionRange.ts#L49)
+Defined in: [state/src/selection/SelectionRange.ts:49](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/selection/SelectionRange.ts#L49)
 
 The resolved upper bound of the range.
 

@@ -6,7 +6,7 @@
 
 # Interface: StackElement
 
-Defined in: [types/StackElement.ts:7](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/markdown/src/types/StackElement.ts#L7)
+Defined in: [types/StackElement.ts:7](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/StackElement.ts#L7)
 
 Represents a stack element used during markdown parsing to track nested node construction.
 
@@ -14,7 +14,7 @@ Represents a stack element used during markdown parsing to track nested node con
 
 | Property                                | Type                                              | Description                                              | Defined in                                                                                                                                                    |
 | --------------------------------------- | ------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-attrs"></a> `attrs`     | `Readonly`&lt;`Record`&lt;`string`, `any`&gt;&gt; | The attributes for the node, if any.                     | [types/StackElement.ts:11](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/markdown/src/types/StackElement.ts#L11) |
-| <a id="property-content"></a> `content` | `Node_2`[]                                        | The child nodes that will be contained in this node.     | [types/StackElement.ts:13](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/markdown/src/types/StackElement.ts#L13) |
-| <a id="property-marks"></a> `marks`     | readonly `Mark`[]                                 | The active marks that apply to content within this node. | [types/StackElement.ts:15](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/markdown/src/types/StackElement.ts#L15) |
-| <a id="property-type"></a> `type`       | `NodeType`                                        | The type of the ProseMirror node being constructed.      | [types/StackElement.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/markdown/src/types/StackElement.ts#L9)   |
+| <a id="property-attrs"></a> `attrs`     | `Readonly`&lt;`Record`&lt;`string`, `any`&gt;&gt; | The attributes for the node, if any.                     | [types/StackElement.ts:11](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/StackElement.ts#L11) |
+| <a id="property-content"></a> `content` | `Node_2`[]                                        | The child nodes that will be contained in this node.     | [types/StackElement.ts:13](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/StackElement.ts#L13) |
+| <a id="property-marks"></a> `marks`     | readonly `Mark`[]                                 | The active marks that apply to content within this node. | [types/StackElement.ts:15](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/StackElement.ts#L15) |
+| <a id="property-type"></a> `type`       | `NodeType`                                        | The type of the ProseMirror node being constructed.      | [types/StackElement.ts:9](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/StackElement.ts#L9)   |

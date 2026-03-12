@@ -10,7 +10,7 @@
 function selectionCell(state): ResolvedPos;
 ```
 
-Defined in: [tables/src/utils/selection-cell.ts:32](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/utils/selection-cell.ts#L32)
+Defined in: [tables/src/utils/selection-cell.ts:32](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/utils/selection-cell.ts#L32)
 
 Gets the resolved position of the "main" cell in the current selection.
 

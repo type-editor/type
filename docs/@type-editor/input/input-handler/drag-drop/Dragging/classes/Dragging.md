@@ -6,7 +6,7 @@
 
 # Class: Dragging
 
-Defined in: [input-handler/drag-drop/Dragging.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/input-handler/drag-drop/Dragging.ts#L9)
+Defined in: [input-handler/drag-drop/Dragging.ts:9](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/input-handler/drag-drop/Dragging.ts#L9)
 
 Represents an active drag operation, storing information about what
 is being dragged and whether it's a move or copy operation.
@@ -26,7 +26,7 @@ new Dragging(
    nodeSelection?): Dragging;
 ```
 
-Defined in: [input-handler/drag-drop/Dragging.ts:26](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/input-handler/drag-drop/Dragging.ts#L26)
+Defined in: [input-handler/drag-drop/Dragging.ts:26](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/input-handler/drag-drop/Dragging.ts#L26)
 
 Creates a new Dragging instance.
 
@@ -56,7 +56,7 @@ Error if nodeSelection is provided but is not a NodeSelection
 get move(): boolean;
 ```
 
-Defined in: [input-handler/drag-drop/Dragging.ts:41](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/input-handler/drag-drop/Dragging.ts#L41)
+Defined in: [input-handler/drag-drop/Dragging.ts:41](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/input-handler/drag-drop/Dragging.ts#L41)
 
 Whether this is a move operation
 
@@ -80,7 +80,7 @@ PmDragging.move;
 get nodeSelection(): PmSelection;
 ```
 
-Defined in: [input-handler/drag-drop/Dragging.ts:46](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/input-handler/drag-drop/Dragging.ts#L46)
+Defined in: [input-handler/drag-drop/Dragging.ts:46](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/input-handler/drag-drop/Dragging.ts#L46)
 
 The node selection being dragged, if any
 
@@ -104,7 +104,7 @@ PmDragging.nodeSelection;
 get slice(): Slice;
 ```
 
-Defined in: [input-handler/drag-drop/Dragging.ts:36](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/input-handler/drag-drop/Dragging.ts#L36)
+Defined in: [input-handler/drag-drop/Dragging.ts:36](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/input-handler/drag-drop/Dragging.ts#L36)
 
 The content slice being dragged
 

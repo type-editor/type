@@ -6,7 +6,7 @@
 
 # Class: Rebaseable
 
-Defined in: [Rebaseable.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/collab/src/Rebaseable.ts#L9)
+Defined in: [Rebaseable.ts:9](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/Rebaseable.ts#L9)
 
 Represents a step that can be rebased (undone and redone after applying other steps).
 Stores the original step, its inverse, and the transform that originated it.
@@ -22,7 +22,7 @@ new Rebaseable(
    origin): Rebaseable;
 ```
 
-Defined in: [Rebaseable.ts:16](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/collab/src/Rebaseable.ts#L16)
+Defined in: [Rebaseable.ts:16](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/Rebaseable.ts#L16)
 
 Creates a new Rebaseable instance.
 
@@ -42,6 +42,6 @@ Creates a new Rebaseable instance.
 
 | Property                                  | Modifier   | Type        | Description                                       | Defined in                                                                                                                                  |
 | ----------------------------------------- | ---------- | ----------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-inverted"></a> `inverted` | `readonly` | `PmStep`    | The inverse of the step, used for undoing.        | [Rebaseable.ts:18](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/collab/src/Rebaseable.ts#L18) |
-| <a id="property-origin"></a> `origin`     | `readonly` | `Transform` | The transform that originally produced this step. | [Rebaseable.ts:19](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/collab/src/Rebaseable.ts#L19) |
-| <a id="property-step"></a> `step`         | `readonly` | `PmStep`    | The original step to be applied.                  | [Rebaseable.ts:17](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/collab/src/Rebaseable.ts#L17) |
+| <a id="property-inverted"></a> `inverted` | `readonly` | `PmStep`    | The inverse of the step, used for undoing.        | [Rebaseable.ts:18](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/Rebaseable.ts#L18) |
+| <a id="property-origin"></a> `origin`     | `readonly` | `Transform` | The transform that originally produced this step. | [Rebaseable.ts:19](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/Rebaseable.ts#L19) |
+| <a id="property-step"></a> `step`         | `readonly` | `PmStep`    | The original step to be applied.                  | [Rebaseable.ts:17](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/Rebaseable.ts#L17) |

@@ -10,7 +10,7 @@
 const findNext: Command;
 ```
 
-Defined in: [commands/find-next.ts:9](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/search/src/commands/find-next.ts#L9)
+Defined in: [commands/find-next.ts:9](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/search/src/commands/find-next.ts#L9)
 
 Find the next instance of the search query after the current
 selection and move the selection to it.

@@ -10,7 +10,7 @@
 type SerializationContext = (string | Record<string, unknown> | null)[];
 ```
 
-Defined in: [types/clipboard/SerializationContext.ts:5](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/types/clipboard/SerializationContext.ts#L5)
+Defined in: [types/clipboard/SerializationContext.ts:5](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/SerializationContext.ts#L5)
 
 Context data stored during serialization to preserve wrapper information.
 Stored as an array alternating between node type name and attributes.

@@ -6,7 +6,7 @@
 
 # Interface: SerializedClipboard
 
-Defined in: [types/clipboard/SerializedClipboard.ts:6](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/types/clipboard/SerializedClipboard.ts#L6)
+Defined in: [types/clipboard/SerializedClipboard.ts:6](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/SerializedClipboard.ts#L6)
 
 Represents the result of serializing a slice for clipboard operations.
 
@@ -14,6 +14,6 @@ Represents the result of serializing a slice for clipboard operations.
 
 | Property                            | Type             | Description                                    | Defined in                                                                                                                                                                                   |
 | ----------------------------------- | ---------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-dom"></a> `dom`     | `HTMLDivElement` | The DOM element containing the serialized HTML | [types/clipboard/SerializedClipboard.ts:8](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/types/clipboard/SerializedClipboard.ts#L8)   |
-| <a id="property-slice"></a> `slice` | `Slice`          | The normalized slice that was serialized       | [types/clipboard/SerializedClipboard.ts:12](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/types/clipboard/SerializedClipboard.ts#L12) |
-| <a id="property-text"></a> `text`   | `string`         | The plain text representation                  | [types/clipboard/SerializedClipboard.ts:10](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/input/src/types/clipboard/SerializedClipboard.ts#L10) |
+| <a id="property-dom"></a> `dom`     | `HTMLDivElement` | The DOM element containing the serialized HTML | [types/clipboard/SerializedClipboard.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/SerializedClipboard.ts#L8)   |
+| <a id="property-slice"></a> `slice` | `Slice`          | The normalized slice that was serialized       | [types/clipboard/SerializedClipboard.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/SerializedClipboard.ts#L12) |
+| <a id="property-text"></a> `text`   | `string`         | The plain text representation                  | [types/clipboard/SerializedClipboard.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/SerializedClipboard.ts#L10) |

@@ -6,7 +6,7 @@
 
 # Class: Plugin&lt;PluginState&gt;
 
-Defined in: [state/src/plugin/Plugin.ts:14](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/plugin/Plugin.ts#L14)
+Defined in: [state/src/plugin/Plugin.ts:14](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/plugin/Plugin.ts#L14)
 
 Plugins bundle functionality that can be added to an editor.
 They are part of the [editor state](#state.EditorState) and
@@ -34,7 +34,7 @@ may influence that state and the view that contains it.
 new Plugin<PluginState>(spec): Plugin<PluginState>;
 ```
 
-Defined in: [state/src/plugin/Plugin.ts:24](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/plugin/Plugin.ts#L24)
+Defined in: [state/src/plugin/Plugin.ts:24](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/plugin/Plugin.ts#L24)
 
 Create a plugin.
 
@@ -62,7 +62,7 @@ Create a plugin.
 get key(): string;
 ```
 
-Defined in: [state/src/plugin/Plugin.ts:40](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/plugin/Plugin.ts#L40)
+Defined in: [state/src/plugin/Plugin.ts:40](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/plugin/Plugin.ts#L40)
 
 ##### Returns
 
@@ -84,7 +84,7 @@ PmPlugin.key;
 get props(): EditorProps<Plugin<PluginState>>;
 ```
 
-Defined in: [state/src/plugin/Plugin.ts:36](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/plugin/Plugin.ts#L36)
+Defined in: [state/src/plugin/Plugin.ts:36](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/plugin/Plugin.ts#L36)
 
 The [props](#view.EditorProps) exported by this plugin.
 
@@ -108,7 +108,7 @@ PmPlugin.props;
 get spec(): PluginSpec<PluginState>;
 ```
 
-Defined in: [state/src/plugin/Plugin.ts:44](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/plugin/Plugin.ts#L44)
+Defined in: [state/src/plugin/Plugin.ts:44](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/plugin/Plugin.ts#L44)
 
 ##### Returns
 
@@ -128,7 +128,7 @@ PmPlugin.spec;
 protected createKey(name): string;
 ```
 
-Defined in: [state/src/plugin/PluginBase.ts:10](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/plugin/PluginBase.ts#L10)
+Defined in: [state/src/plugin/PluginBase.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/plugin/PluginBase.ts#L10)
 
 Creates a unique key by appending a counter to the given name.
 Each call with the same name increments the counter.
@@ -155,7 +155,7 @@ Each call with the same name increments the counter.
 getState(state): PluginState;
 ```
 
-Defined in: [state/src/plugin/Plugin.ts:51](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/state/src/plugin/Plugin.ts#L51)
+Defined in: [state/src/plugin/Plugin.ts:51](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/state/src/plugin/Plugin.ts#L51)
 
 Extract the plugin's state field from an editor state.
 

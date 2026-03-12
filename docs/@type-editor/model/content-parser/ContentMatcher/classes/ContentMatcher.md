@@ -6,7 +6,7 @@
 
 # Class: ContentMatcher
 
-Defined in: [packages/model/src/content-parser/ContentMatcher.ts:20](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/content-parser/ContentMatcher.ts#L20)
+Defined in: [packages/model/src/content-parser/ContentMatcher.ts:20](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/content-parser/ContentMatcher.ts#L20)
 
 Compiles content expressions into a deterministic finite automaton (DFA).
 
@@ -27,7 +27,7 @@ https://swtch.com/~rsc/regexp/regexp1.html
 new ContentMatcher(expression): ContentMatcher;
 ```
 
-Defined in: [packages/model/src/content-parser/ContentMatcher.ts:35](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/content-parser/ContentMatcher.ts#L35)
+Defined in: [packages/model/src/content-parser/ContentMatcher.ts:35](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/content-parser/ContentMatcher.ts#L35)
 
 Creates a new content matcher and compiles the expression into a DFA.
 
@@ -51,7 +51,7 @@ Creates a new content matcher and compiles the expression into a DFA.
 get match(): ContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/ContentMatcher.ts:46](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/content-parser/ContentMatcher.ts#L46)
+Defined in: [packages/model/src/content-parser/ContentMatcher.ts:46](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/content-parser/ContentMatcher.ts#L46)
 
 Gets the compiled content match automaton.
 
@@ -69,7 +69,7 @@ The compiled ContentMatch DFA
 getCheckedMatch(stream): ContentMatch;
 ```
 
-Defined in: [packages/model/src/content-parser/ContentMatcher.ts:57](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/model/src/content-parser/ContentMatcher.ts#L57)
+Defined in: [packages/model/src/content-parser/ContentMatcher.ts:57](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/content-parser/ContentMatcher.ts#L57)
 
 Gets the compiled content match after validating it for dead ends.
 

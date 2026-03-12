@@ -6,7 +6,7 @@
 
 # Class: CellBookmark
 
-Defined in: [tables/src/cellselection/CellBookmark.ts:17](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/cellselection/CellBookmark.ts#L17)
+Defined in: [tables/src/cellselection/CellBookmark.ts:17](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/cellselection/CellBookmark.ts#L17)
 
 A bookmark for a CellSelection that can survive document changes.
 
@@ -26,7 +26,7 @@ to recreate the original CellSelection or fall back to a nearby selection.
 new CellBookmark(anchor, head): CellBookmark;
 ```
 
-Defined in: [tables/src/cellselection/CellBookmark.ts:30](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/cellselection/CellBookmark.ts#L30)
+Defined in: [tables/src/cellselection/CellBookmark.ts:30](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/cellselection/CellBookmark.ts#L30)
 
 Creates a new CellBookmark.
 
@@ -49,7 +49,7 @@ Creates a new CellBookmark.
 map(mapping): CellBookmark;
 ```
 
-Defined in: [tables/src/cellselection/CellBookmark.ts:41](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/cellselection/CellBookmark.ts#L41)
+Defined in: [tables/src/cellselection/CellBookmark.ts:41](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/cellselection/CellBookmark.ts#L41)
 
 Maps this bookmark through a document transformation.
 
@@ -75,7 +75,7 @@ resolve(doc):
   | Selection_2;
 ```
 
-Defined in: [tables/src/cellselection/CellBookmark.ts:54](https://github.com/type-editor/type/blob/038251caf1e55ad0b5bc733a9b37b984ac250944/packages/tables/src/cellselection/CellBookmark.ts#L54)
+Defined in: [tables/src/cellselection/CellBookmark.ts:54](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/cellselection/CellBookmark.ts#L54)
 
 Resolves this bookmark to a selection in the given document.
 

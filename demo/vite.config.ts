@@ -71,7 +71,7 @@ export default ({mode}) => {
             outDir: mode === 'development' ? 'dist' : '../website',
             assetsDir: '',
             emptyOutDir: mode === 'development',
-            minify: 'terser',
+            minify: 'oxc',
             rollupOptions: {
                 input: {
                     main: mode === 'development' ? 'index.html' : 'index-web.html',

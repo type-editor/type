@@ -60,7 +60,7 @@ export default ({mode}) => {
             outDir: 'dist',
             assetsDir: '',
             emptyOutDir: true,
-            minify: 'terser',
+            minify: 'oxc',
             rollupOptions: {
                 input: mode === 'development' ? 'preview/index.html' : 'src/index.ts',
                 preserveEntrySignatures: "allow-extension",

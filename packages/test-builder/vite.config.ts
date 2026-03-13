@@ -14,7 +14,7 @@ export default defineProject({
         outDir: 'dist',
         assetsDir: '',
         emptyOutDir: true,
-        minify: 'terser',
+        minify: 'oxc',
         rollupOptions: {
             input: 'src/index.ts',
             preserveEntrySignatures: "allow-extension",

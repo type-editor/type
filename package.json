@@ -32,33 +32,33 @@
     ],
     "devDependencies": {
         "@eslint/js": "^10.0.1",
-        "@microsoft/api-extractor": "^7.57.6",
+        "@microsoft/api-extractor": "^7.57.7",
         "@types/jsdom": "^28.0.0",
         "@types/markdown-it": "^14.1.2",
-        "@types/node": "^25.3.1",
-        "@typescript-eslint/eslint-plugin": "^8.56.1",
-        "@typescript-eslint/parser": "^8.56.1",
-        "@vitest/browser-playwright": "^4.0.18",
-        "eslint": "^9.0.0",
+        "@types/node": "^25.5.0",
+        "@typescript-eslint/eslint-plugin": "^8.57.0",
+        "@typescript-eslint/parser": "^8.57.0",
+        "@vitest/browser-playwright": "^4.1.0",
+        "eslint": "^10.0.3",
         "eslint-plugin-prettier": "^5.5.5",
         "eslint-plugin-simple-import-sort": "^12.1.1",
         "ist": "^1.1.7",
         "jiti": "^2.6.1",
         "jsdom": "^28.1.0",
         "markdown-it": "^14.1.1",
+        "oxc": "^1.0.1",
         "playwright": "^1.58.2",
         "prettier": "^3.8.1",
-        "terser": "^5.46.0",
         "typedoc": "^0.28.17",
         "typedoc-plugin-markdown": "^4.10.0",
         "typedoc-theme-fresh": "^0.2.3",
         "typescript": "^5.9.3",
-        "typescript-eslint": "^8.56.1",
-        "vite": "^7.3.1",
+        "typescript-eslint": "^8.57.0",
+        "vite": "^8.0.0",
         "vite-plugin-dts": "^4.5.4",
         "vite-tsconfig-paths": "^6.1.1",
         "vitepress": "2.0.0-alpha.16",
-        "vitest": "^4.0.18"
+        "vitest": "^4.1.0"
     },
     "scripts": {
         "release": "pnpm publish -r --access public --no-git-checks",
@@ -83,5 +83,5 @@
             "typescript": "$typescript"
         }
     },
-    "packageManager": "pnpm@10.30.3"
+    "packageManager": "pnpm@10.32.1"
 }

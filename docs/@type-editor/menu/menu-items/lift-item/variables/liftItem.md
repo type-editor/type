@@ -10,6 +10,6 @@
 const liftItem: MenuItem;
 ```
 
-Defined in: [packages/menu/src/menu-items/lift-item.ts:11](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/menu-items/lift-item.ts#L11)
+Defined in: [packages/menu/src/menu-items/lift-item.ts:11](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/menu-items/lift-item.ts#L11)
 
 Menu item for the `lift` command.

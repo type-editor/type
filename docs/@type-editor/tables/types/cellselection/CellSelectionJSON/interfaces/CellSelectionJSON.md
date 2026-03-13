@@ -6,7 +6,7 @@
 
 # Interface: CellSelectionJSON
 
-Defined in: [tables/src/types/cellselection/CellSelectionJSON.ts:6](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L6)
+Defined in: [tables/src/types/cellselection/CellSelectionJSON.ts:6](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L6)
 
 JSON representation of a CellSelection for serialization.
 
@@ -16,6 +16,6 @@ CellSelectionJSON
 
 | Property                              | Type     | Description                                             | Defined in                                                                                                                                                                                                   |
 | ------------------------------------- | -------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-anchor"></a> `anchor` | `number` | The document position of the anchor cell.               | [tables/src/types/cellselection/CellSelectionJSON.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L10) |
-| <a id="property-head"></a> `head`     | `number` | The document position of the head cell.                 | [tables/src/types/cellselection/CellSelectionJSON.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L12) |
-| <a id="property-type"></a> `type`     | `string` | The type identifier for this selection (always 'cell'). | [tables/src/types/cellselection/CellSelectionJSON.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L8)   |
+| <a id="property-anchor"></a> `anchor` | `number` | The document position of the anchor cell.               | [tables/src/types/cellselection/CellSelectionJSON.ts:10](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L10) |
+| <a id="property-head"></a> `head`     | `number` | The document position of the head cell.                 | [tables/src/types/cellselection/CellSelectionJSON.ts:12](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L12) |
+| <a id="property-type"></a> `type`     | `string` | The type identifier for this selection (always 'cell'). | [tables/src/types/cellselection/CellSelectionJSON.ts:8](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/cellselection/CellSelectionJSON.ts#L8)   |

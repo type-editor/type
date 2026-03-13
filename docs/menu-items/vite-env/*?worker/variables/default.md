@@ -10,7 +10,7 @@
 const default: (options?) => Worker;
 ```
 
-Defined in: node_modules/.pnpm/vite@7.3.1_@types+node@25.3.1_jiti@2.6.1_terser@5.46.0_yaml@2.8.2/node_modules/vite/client.d.ts:206
+Defined in: node_modules/.pnpm/vite@8.0.0_@types+node@25.5.0_esbuild@0.27.3_jiti@2.6.1_terser@5.46.0_yaml@2.8.2/node_modules/vite/client.d.ts:206
 
 ## Parameters
 

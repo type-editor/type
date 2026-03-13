@@ -6,13 +6,13 @@
 
 # Interface: DOMSelectionRange
 
-Defined in: [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:1](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L1)
+Defined in: [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:1](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L1)
 
 ## Properties
 
 | Property                                          | Type     | Defined in                                                                                                                                                                                                            |
 | ------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-anchornode"></a> `anchorNode`     | `Node`   | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:3](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L3) |
-| <a id="property-anchoroffset"></a> `anchorOffset` | `number` | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:3](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L3) |
-| <a id="property-focusnode"></a> `focusNode`       | `Node`   | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:2](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L2) |
-| <a id="property-focusoffset"></a> `focusOffset`   | `number` | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:2](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L2) |
+| <a id="property-anchornode"></a> `anchorNode`     | `Node`   | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:3](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L3) |
+| <a id="property-anchoroffset"></a> `anchorOffset` | `number` | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:3](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L3) |
+| <a id="property-focusnode"></a> `focusNode`       | `Node`   | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:2](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L2) |
+| <a id="property-focusoffset"></a> `focusOffset`   | `number` | [packages/editor-types/src/types/view/dom/DOMSelectionRange.ts:2](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/view/dom/DOMSelectionRange.ts#L2) |

@@ -6,7 +6,7 @@
 
 # Interface: MarkJSON
 
-Defined in: [packages/model/src/types/elements/MarkJSON.ts:6](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/MarkJSON.ts#L6)
+Defined in: [packages/model/src/types/elements/MarkJSON.ts:6](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/MarkJSON.ts#L6)
 
 A JSON representation of a mark, used for serialization and deserialization.
 
@@ -14,5 +14,5 @@ A JSON representation of a mark, used for serialization and deserialization.
 
 | Property                             | Type                                                   | Description                                       | Defined in                                                                                                                                                                              |
 | ------------------------------------ | ------------------------------------------------------ | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-attrs"></a> `attrs?` | [`Attrs`](../../../schema/Attrs/type-aliases/Attrs.md) | The attributes associated with this mark, if any. | [packages/model/src/types/elements/MarkJSON.ts:15](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/MarkJSON.ts#L15) |
-| <a id="property-type"></a> `type`    | `string`                                               | The name of the mark type.                        | [packages/model/src/types/elements/MarkJSON.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/MarkJSON.ts#L10) |
+| <a id="property-attrs"></a> `attrs?` | [`Attrs`](../../../schema/Attrs/type-aliases/Attrs.md) | The attributes associated with this mark, if any. | [packages/model/src/types/elements/MarkJSON.ts:15](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/MarkJSON.ts#L15) |
+| <a id="property-type"></a> `type`    | `string`                                               | The name of the mark type.                        | [packages/model/src/types/elements/MarkJSON.ts:10](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/MarkJSON.ts#L10) |

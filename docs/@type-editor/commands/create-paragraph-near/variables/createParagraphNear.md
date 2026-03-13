@@ -10,7 +10,7 @@
 const createParagraphNear: Command;
 ```
 
-Defined in: [create-paragraph-near.ts:29](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/create-paragraph-near.ts#L29)
+Defined in: [create-paragraph-near.ts:29](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commands/src/create-paragraph-near.ts#L29)
 
 Creates an empty paragraph before or after a selected block node.
 

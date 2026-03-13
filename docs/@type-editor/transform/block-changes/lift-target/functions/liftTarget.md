@@ -10,7 +10,7 @@
 function liftTarget(range): number;
 ```
 
-Defined in: [packages/transform/src/block-changes/lift-target.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/transform/src/block-changes/lift-target.ts#L10)
+Defined in: [packages/transform/src/block-changes/lift-target.ts:10](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/transform/src/block-changes/lift-target.ts#L10)
 
 Try to find a target depth to which the content in the given range
 can be lifted. Will not go across isolating parent nodes.

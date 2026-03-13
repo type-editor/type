@@ -10,7 +10,7 @@
 function looksLikesEnterKeyiOS(view, inlineChange, addedNodes): boolean;
 ```
 
-Defined in: [browser-hacks/looks-likes-enter-key-ios.ts:23](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-change-util/src/dom-change/browser-hacks/looks-likes-enter-key-ios.ts#L23)
+Defined in: [browser-hacks/looks-likes-enter-key-ios.ts:23](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-change-util/src/dom-change/browser-hacks/looks-likes-enter-key-ios.ts#L23)
 
 Checks if the change looks like the effect of pressing the Enter key.
 

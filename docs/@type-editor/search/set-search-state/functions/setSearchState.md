@@ -10,7 +10,7 @@
 function setSearchState(transaction, query, range?): Transaction;
 ```
 
-Defined in: [set-search-state.ts:17](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/search/src/set-search-state.ts#L17)
+Defined in: [set-search-state.ts:17](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/search/src/set-search-state.ts#L17)
 
 Add metadata to a transaction that updates the active search query
 and searched range, when dispatched.

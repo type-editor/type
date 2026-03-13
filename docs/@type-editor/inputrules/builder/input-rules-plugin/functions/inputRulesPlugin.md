@@ -15,7 +15,7 @@ function inputRulesPlugin(config): PmPlugin<{
 }>;
 ```
 
-Defined in: [builder/input-rules-plugin.ts:17](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/inputrules/src/builder/input-rules-plugin.ts#L17)
+Defined in: [builder/input-rules-plugin.ts:17](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/inputrules/src/builder/input-rules-plugin.ts#L17)
 
 Create an input rules plugin. When enabled, it will cause text
 input that matches any of the given rules to trigger the rule's

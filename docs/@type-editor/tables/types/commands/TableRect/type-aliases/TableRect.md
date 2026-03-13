@@ -14,7 +14,7 @@ type TableRect = Rect & {
 };
 ```
 
-Defined in: [tables/src/types/commands/TableRect.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/commands/TableRect.ts#L10)
+Defined in: [tables/src/types/commands/TableRect.ts:10](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/commands/TableRect.ts#L10)
 
 Represents a rectangular region within a table, extended with table-specific information.
 This type combines the basic rectangle coordinates with the table context needed for operations.
@@ -23,6 +23,6 @@ This type combines the basic rectangle coordinates with the table context needed
 
 | Name         | Type                                                            | Description                                                 | Defined in                                                                                                                                                                         |
 | ------------ | --------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `map`        | [`TableMap`](../../../../tablemap/TableMap/classes/TableMap.md) | The table map providing cell position information           | [tables/src/types/commands/TableRect.ts:14](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/commands/TableRect.ts#L14) |
-| `table`      | `PmNode`                                                        | The table node itself                                       | [tables/src/types/commands/TableRect.ts:16](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/commands/TableRect.ts#L16) |
-| `tableStart` | `number`                                                        | The position where the table content starts in the document | [tables/src/types/commands/TableRect.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/commands/TableRect.ts#L12) |
+| `map`        | [`TableMap`](../../../../tablemap/TableMap/classes/TableMap.md) | The table map providing cell position information           | [tables/src/types/commands/TableRect.ts:14](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/commands/TableRect.ts#L14) |
+| `table`      | `PmNode`                                                        | The table node itself                                       | [tables/src/types/commands/TableRect.ts:16](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/commands/TableRect.ts#L16) |
+| `tableStart` | `number`                                                        | The position where the table content starts in the document | [tables/src/types/commands/TableRect.ts:12](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/commands/TableRect.ts#L12) |

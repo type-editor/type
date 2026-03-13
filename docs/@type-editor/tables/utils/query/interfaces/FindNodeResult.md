@@ -6,7 +6,7 @@
 
 # Interface: FindNodeResult
 
-Defined in: [tables/src/utils/query.ts:28](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/utils/query.ts#L28)
+Defined in: [tables/src/utils/query.ts:28](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/utils/query.ts#L28)
 
 Result of finding a parent node that matches a predicate.
 
@@ -17,7 +17,7 @@ including its position in the document and its depth in the node tree.
 
 | Property                            | Type     | Description                                                                                                      | Defined in                                                                                                                                               |
 | ----------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-depth"></a> `depth` | `number` | The depth of the node in the document tree. The root document has depth 0, and each nested level increases by 1. | [tables/src/utils/query.ts:50](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/utils/query.ts#L50) |
-| <a id="property-node"></a> `node`   | `Node_2` | The closest parent node that satisfies the predicate.                                                            | [tables/src/utils/query.ts:32](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/utils/query.ts#L32) |
-| <a id="property-pos"></a> `pos`     | `number` | The position directly before the node. For the root node (depth 0), this is always 0.                            | [tables/src/utils/query.ts:38](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/utils/query.ts#L38) |
-| <a id="property-start"></a> `start` | `number` | The position at the start of the node's content. This is the position immediately after the opening of the node. | [tables/src/utils/query.ts:44](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/utils/query.ts#L44) |
+| <a id="property-depth"></a> `depth` | `number` | The depth of the node in the document tree. The root document has depth 0, and each nested level increases by 1. | [tables/src/utils/query.ts:50](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/utils/query.ts#L50) |
+| <a id="property-node"></a> `node`   | `Node_2` | The closest parent node that satisfies the predicate.                                                            | [tables/src/utils/query.ts:32](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/utils/query.ts#L32) |
+| <a id="property-pos"></a> `pos`     | `number` | The position directly before the node. For the root node (depth 0), this is always 0.                            | [tables/src/utils/query.ts:38](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/utils/query.ts#L38) |
+| <a id="property-start"></a> `start` | `number` | The position at the start of the node's content. This is the position immediately after the opening of the node. | [tables/src/utils/query.ts:44](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/utils/query.ts#L44) |

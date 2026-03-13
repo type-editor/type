@@ -10,7 +10,7 @@
 function findCompositionNode(view): Text;
 ```
 
-Defined in: [util/find-composition-node.ts:13](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/view/src/util/find-composition-node.ts#L13)
+Defined in: [util/find-composition-node.ts:13](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/view/src/util/find-composition-node.ts#L13)
 
 Finds the text node where composition is occurring. Looks at text nodes
 before and after the cursor, using heuristics to determine which one

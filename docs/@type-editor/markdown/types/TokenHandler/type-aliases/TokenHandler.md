@@ -10,7 +10,7 @@
 type TokenHandler = (state, token, tokens, i) => void;
 ```
 
-Defined in: [types/TokenHandler.ts:14](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/TokenHandler.ts#L14)
+Defined in: [types/TokenHandler.ts:14](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/markdown/src/types/TokenHandler.ts#L14)
 
 Function type for handling a specific markdown-it token during parsing.
 

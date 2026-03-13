@@ -6,10 +6,10 @@
 
 # Interface: PmElement
 
-Defined in: [packages/model/src/types/elements/PmElement.ts:3](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/PmElement.ts#L3)
+Defined in: [packages/model/src/types/elements/PmElement.ts:3](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/PmElement.ts#L3)
 
 ## Properties
 
 | Property                                        | Modifier   | Type                                                                          | Defined in                                                                                                                                                                              |
 | ----------------------------------------------- | ---------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-elementtype"></a> `elementType` | `readonly` | [`ElementType`](../../../../elements/ElementType/enumerations/ElementType.md) | [packages/model/src/types/elements/PmElement.ts:5](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/PmElement.ts#L5) |
+| <a id="property-elementtype"></a> `elementType` | `readonly` | [`ElementType`](../../../../elements/ElementType/enumerations/ElementType.md) | [packages/model/src/types/elements/PmElement.ts:5](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/PmElement.ts#L5) |

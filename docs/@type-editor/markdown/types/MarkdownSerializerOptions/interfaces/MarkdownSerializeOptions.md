@@ -6,7 +6,7 @@
 
 # Interface: MarkdownSerializeOptions
 
-Defined in: [types/MarkdownSerializerOptions.ts:2](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/MarkdownSerializerOptions.ts#L2)
+Defined in: [types/MarkdownSerializerOptions.ts:2](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/markdown/src/types/MarkdownSerializerOptions.ts#L2)
 
 ## Extended by
 
@@ -16,4 +16,4 @@ Defined in: [types/MarkdownSerializerOptions.ts:2](https://github.com/type-edito
 
 | Property                                       | Type      | Description                                                                                                                                      | Defined in                                                                                                                                                                            |
 | ---------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-tightlists"></a> `tightLists?` | `boolean` | Whether to render lists in a tight style. This can be overridden on a node level by specifying a tight attribute on the node. Defaults to false. | [types/MarkdownSerializerOptions.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/types/MarkdownSerializerOptions.ts#L8) |
+| <a id="property-tightlists"></a> `tightLists?` | `boolean` | Whether to render lists in a tight style. This can be overridden on a node level by specifying a tight attribute on the node. Defaults to false. | [types/MarkdownSerializerOptions.ts:8](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/markdown/src/types/MarkdownSerializerOptions.ts#L8) |

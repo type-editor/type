@@ -6,7 +6,7 @@
 
 # Interface: TextIcon
 
-Defined in: [packages/menu/src/types/Icon.ts:36](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/types/Icon.ts#L36)
+Defined in: [packages/menu/src/types/Icon.ts:36](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/types/Icon.ts#L36)
 
 Represents a text-based icon with optional CSS styling.
 
@@ -14,5 +14,5 @@ Represents a text-based icon with optional CSS styling.
 
 | Property                          | Type     | Description                | Defined in                                                                                                                                                  |
 | --------------------------------- | -------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-css"></a> `css?`  | `string` | Optional inline CSS styles | [packages/menu/src/types/Icon.ts:40](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/types/Icon.ts#L40) |
-| <a id="property-text"></a> `text` | `string` | Text content for the icon  | [packages/menu/src/types/Icon.ts:38](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/types/Icon.ts#L38) |
+| <a id="property-css"></a> `css?`  | `string` | Optional inline CSS styles | [packages/menu/src/types/Icon.ts:40](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/types/Icon.ts#L40) |
+| <a id="property-text"></a> `text` | `string` | Text content for the icon  | [packages/menu/src/types/Icon.ts:38](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/types/Icon.ts#L38) |

@@ -10,7 +10,7 @@
 function getCellsInRow(rowIndex, selection): FindNodeResult[];
 ```
 
-Defined in: [tables/src/utils/get-cells.ts:102](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/utils/get-cells.ts#L102)
+Defined in: [tables/src/utils/get-cells.ts:102](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/utils/get-cells.ts#L102)
 
 Returns an array of cells in a row at the specified row index.
 

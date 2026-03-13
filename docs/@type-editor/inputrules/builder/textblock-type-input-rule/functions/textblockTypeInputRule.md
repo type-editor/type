@@ -10,7 +10,7 @@
 function textblockTypeInputRule(regexp, nodeType, getAttrs?): InputRule;
 ```
 
-Defined in: [builder/textblock-type-input-rule.ts:18](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/inputrules/src/builder/textblock-type-input-rule.ts#L18)
+Defined in: [builder/textblock-type-input-rule.ts:18](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/inputrules/src/builder/textblock-type-input-rule.ts#L18)
 
 Build an input rule that changes the type of a textblock when the
 matched text is typed into it. You'll usually want to start your

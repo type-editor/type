@@ -10,7 +10,7 @@
 function setBlockType(nodeType, attrs?): Command;
 ```
 
-Defined in: [set-block-type.ts:52](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/set-block-type.ts#L52)
+Defined in: [set-block-type.ts:52](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commands/src/set-block-type.ts#L52)
 
 Creates a command that converts selected textblocks to a given node type.
 

@@ -10,7 +10,7 @@
 function clearTextFormatting(state, dispatch): boolean;
 ```
 
-Defined in: [clear-text-formatting.ts:19](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/clear-text-formatting.ts#L19)
+Defined in: [clear-text-formatting.ts:19](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commands/src/clear-text-formatting.ts#L19)
 
 Removes common text formatting marks from the current selection.
 

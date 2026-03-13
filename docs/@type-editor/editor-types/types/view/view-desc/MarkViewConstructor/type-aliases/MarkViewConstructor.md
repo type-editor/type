@@ -10,7 +10,7 @@
 type MarkViewConstructor = (mark, view, inline) => MarkView;
 ```
 
-Defined in: [packages/editor-types/src/types/view/view-desc/MarkViewConstructor.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/view/view-desc/MarkViewConstructor.ts#L10)
+Defined in: [packages/editor-types/src/types/view/view-desc/MarkViewConstructor.ts:10](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/view/view-desc/MarkViewConstructor.ts#L10)
 
 The function types [used](#view.EditorProps.markViews) to create
 mark views.

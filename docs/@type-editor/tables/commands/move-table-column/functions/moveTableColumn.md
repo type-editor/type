@@ -10,7 +10,7 @@
 function moveTableColumn(options): Command;
 ```
 
-Defined in: [tables/src/commands/move-table-column.ts:14](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/commands/move-table-column.ts#L14)
+Defined in: [tables/src/commands/move-table-column.ts:14](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/commands/move-table-column.ts#L14)
 
 Creates a command that moves a table column from one index to another.
 

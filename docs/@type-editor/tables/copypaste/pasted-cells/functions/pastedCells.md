@@ -10,7 +10,7 @@
 function pastedCells(slice): Area;
 ```
 
-Defined in: [tables/src/copypaste/pasted-cells.ts:38](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/copypaste/pasted-cells.ts#L38)
+Defined in: [tables/src/copypaste/pasted-cells.ts:38](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/copypaste/pasted-cells.ts#L38)
 
 Extracts a rectangular area of cells from a slice.
 

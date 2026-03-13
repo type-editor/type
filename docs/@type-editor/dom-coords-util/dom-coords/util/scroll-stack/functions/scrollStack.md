@@ -10,7 +10,7 @@
 function scrollStack(dom): ScrollPos[];
 ```
 
-Defined in: [dom-coords/util/scroll-stack.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/dom-coords/util/scroll-stack.ts#L12)
+Defined in: [dom-coords/util/scroll-stack.ts:12](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/dom-coords/util/scroll-stack.ts#L12)
 
 Build a stack of scroll positions for all ancestors of the given DOM node.
 

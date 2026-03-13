@@ -17,7 +17,7 @@ function updateColumnsOnResize(
 ): void;
 ```
 
-Defined in: [tables/src/tableview/update-columns-on-resize.ts:39](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/tableview/update-columns-on-resize.ts#L39)
+Defined in: [tables/src/tableview/update-columns-on-resize.ts:39](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/tableview/update-columns-on-resize.ts#L39)
 
 Updates the column widths of a table's colgroup to match the document state.
 

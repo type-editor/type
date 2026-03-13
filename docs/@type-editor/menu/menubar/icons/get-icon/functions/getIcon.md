@@ -10,7 +10,7 @@
 function getIcon(root, icon, title, showLabel?, isLegacy?): HTMLElement;
 ```
 
-Defined in: [packages/menu/src/menubar/icons/get-icon.ts:38](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/menubar/icons/get-icon.ts#L38)
+Defined in: [packages/menu/src/menubar/icons/get-icon.ts:38](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/menubar/icons/get-icon.ts#L38)
 
 Creates an HTML element representation of an icon.
 Supports three icon types: SVG-based, DOM-based, and text-based.

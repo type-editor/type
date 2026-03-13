@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractViewDesc
 
-Defined in: [AbstractViewDesc.ts:6](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L6)
+Defined in: [AbstractViewDesc.ts:6](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L6)
 
 Abstract base class for view descriptions.
 Provides minimal interface that all view descriptions must implement.
@@ -37,7 +37,7 @@ new AbstractViewDesc(): AbstractViewDesc;
 get nodeDOM(): Node;
 ```
 
-Defined in: [AbstractViewDesc.ts:22](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L22)
+Defined in: [AbstractViewDesc.ts:22](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L22)
 
 The DOM node that directly represents this ProseMirror node.
 May differ from `dom` if outer decorations wrap it.
@@ -58,7 +58,7 @@ The node DOM element, or null if this view doesn't have a direct node representa
 get abstract side(): number;
 ```
 
-Defined in: [AbstractViewDesc.ts:14](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L14)
+Defined in: [AbstractViewDesc.ts:14](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/viewdesc/src/view-desc/AbstractViewDesc.ts#L14)
 
 Gets the side value which determines positioning behavior of the view.
 

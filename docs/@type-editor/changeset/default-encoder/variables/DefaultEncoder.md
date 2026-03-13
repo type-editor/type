@@ -10,7 +10,7 @@
 const DefaultEncoder: TokenEncoder<number | string>;
 ```
 
-Defined in: [default-encoder.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/changeset/src/default-encoder.ts#L12)
+Defined in: [default-encoder.ts:12](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/changeset/src/default-encoder.ts#L12)
 
 The default token encoder for diff operations.
 

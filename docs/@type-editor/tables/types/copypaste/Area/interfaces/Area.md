@@ -6,7 +6,7 @@
 
 # Interface: Area
 
-Defined in: [tables/src/types/copypaste/Area.ts:9](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/copypaste/Area.ts#L9)
+Defined in: [tables/src/types/copypaste/Area.ts:9](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/copypaste/Area.ts#L9)
 
 Represents a rectangular area of table cells.
 
@@ -17,6 +17,6 @@ copied, pasted, or manipulated as a unit.
 
 | Property                              | Type         | Description                                                            | Defined in                                                                                                                                                                 |
 | ------------------------------------- | ------------ | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-height"></a> `height` | `number`     | The number of rows in the area (accounting for rowspan).               | [tables/src/types/copypaste/Area.ts:13](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/copypaste/Area.ts#L13) |
-| <a id="property-rows"></a> `rows`     | `Fragment`[] | The rows of cells, where each row is a Fragment containing cell nodes. | [tables/src/types/copypaste/Area.ts:15](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/copypaste/Area.ts#L15) |
-| <a id="property-width"></a> `width`   | `number`     | The number of columns in the area (accounting for colspan).            | [tables/src/types/copypaste/Area.ts:11](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/types/copypaste/Area.ts#L11) |
+| <a id="property-height"></a> `height` | `number`     | The number of rows in the area (accounting for rowspan).               | [tables/src/types/copypaste/Area.ts:13](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/copypaste/Area.ts#L13) |
+| <a id="property-rows"></a> `rows`     | `Fragment`[] | The rows of cells, where each row is a Fragment containing cell nodes. | [tables/src/types/copypaste/Area.ts:15](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/copypaste/Area.ts#L15) |
+| <a id="property-width"></a> `width`   | `number`     | The number of columns in the area (accounting for colspan).            | [tables/src/types/copypaste/Area.ts:11](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/types/copypaste/Area.ts#L11) |

@@ -10,7 +10,7 @@
 const del: Command;
 ```
 
-Defined in: [del.ts:18](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/del.ts#L18)
+Defined in: [del.ts:18](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commands/src/del.ts#L18)
 
 Default command for the delete/forward-delete key.
 

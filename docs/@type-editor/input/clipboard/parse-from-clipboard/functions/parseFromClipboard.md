@@ -10,7 +10,7 @@
 function parseFromClipboard(view, text, html, plainText, $context): Slice;
 ```
 
-Defined in: [clipboard/parse-from-clipboard.ts:29](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/clipboard/parse-from-clipboard.ts#L29)
+Defined in: [clipboard/parse-from-clipboard.ts:29](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/input/src/clipboard/parse-from-clipboard.ts#L29)
 
 Read a slice from clipboard data (text and/or html).
 Handles plaintext, html, and various ProseMirror-specific clipboard markers.

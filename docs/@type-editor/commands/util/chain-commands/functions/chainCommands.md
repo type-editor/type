@@ -10,7 +10,7 @@
 function chainCommands(...commands): Command;
 ```
 
-Defined in: [util/chain-commands.ts:32](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/util/chain-commands.ts#L32)
+Defined in: [util/chain-commands.ts:32](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commands/src/util/chain-commands.ts#L32)
 
 Combines multiple command functions into a single command that executes them sequentially
 until one succeeds.

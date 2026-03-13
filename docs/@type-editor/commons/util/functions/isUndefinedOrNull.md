@@ -10,7 +10,7 @@
 function isUndefinedOrNull(value): boolean;
 ```
 
-Defined in: [util.ts:1](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commons/src/util.ts#L1)
+Defined in: [util.ts:1](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commons/src/util.ts#L1)
 
 ## Parameters
 

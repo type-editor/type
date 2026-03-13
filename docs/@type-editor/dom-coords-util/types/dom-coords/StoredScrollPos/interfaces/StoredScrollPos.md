@@ -6,12 +6,12 @@
 
 # Interface: StoredScrollPos
 
-Defined in: [types/dom-coords/StoredScrollPos.ts:3](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L3)
+Defined in: [types/dom-coords/StoredScrollPos.ts:3](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L3)
 
 ## Properties
 
 | Property                              | Type                                                     | Defined in                                                                                                                                                                                     |
 | ------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-refdom"></a> `refDOM` | `HTMLElement`                                            | [types/dom-coords/StoredScrollPos.ts:4](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L4) |
-| <a id="property-reftop"></a> `refTop` | `number`                                                 | [types/dom-coords/StoredScrollPos.ts:5](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L5) |
-| <a id="property-stack"></a> `stack`   | [`ScrollPos`](../../ScrollPos/interfaces/ScrollPos.md)[] | [types/dom-coords/StoredScrollPos.ts:6](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L6) |
+| <a id="property-refdom"></a> `refDOM` | `HTMLElement`                                            | [types/dom-coords/StoredScrollPos.ts:4](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L4) |
+| <a id="property-reftop"></a> `refTop` | `number`                                                 | [types/dom-coords/StoredScrollPos.ts:5](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L5) |
+| <a id="property-stack"></a> `stack`   | [`ScrollPos`](../../ScrollPos/interfaces/ScrollPos.md)[] | [types/dom-coords/StoredScrollPos.ts:6](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/StoredScrollPos.ts#L6) |

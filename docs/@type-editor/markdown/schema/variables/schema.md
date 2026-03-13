@@ -24,6 +24,6 @@ const schema: Schema<
 >;
 ```
 
-Defined in: [schema.ts:6](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/markdown/src/schema.ts#L6)
+Defined in: [schema.ts:6](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/markdown/src/schema.ts#L6)
 
 Document schema for the data model used by CommonMark.

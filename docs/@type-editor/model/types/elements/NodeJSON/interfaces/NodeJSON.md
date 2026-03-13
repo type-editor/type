@@ -6,7 +6,7 @@
 
 # Interface: NodeJSON
 
-Defined in: [packages/model/src/types/elements/NodeJSON.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/NodeJSON.ts#L8)
+Defined in: [packages/model/src/types/elements/NodeJSON.ts:8](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/NodeJSON.ts#L8)
 
 JSON representation of a node, used for serialization and deserialization.
 
@@ -18,8 +18,8 @@ JSON representation of a node, used for serialization and deserialization.
 
 | Property                                 | Type                                                   | Description                             | Defined in                                                                                                                                                                              |
 | ---------------------------------------- | ------------------------------------------------------ | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-attrs"></a> `attrs?`     | [`Attrs`](../../../schema/Attrs/type-aliases/Attrs.md) | The node's attributes, if any.          | [packages/model/src/types/elements/NodeJSON.ts:17](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/NodeJSON.ts#L17) |
-| <a id="property-content"></a> `content?` | `NodeJSON`[]                                           | The node's child nodes, if any.         | [packages/model/src/types/elements/NodeJSON.ts:22](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/NodeJSON.ts#L22) |
-| <a id="property-marks"></a> `marks?`     | [`MarkJSON`](../../MarkJSON/interfaces/MarkJSON.md)[]  | The marks applied to this node, if any. | [packages/model/src/types/elements/NodeJSON.ts:27](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/NodeJSON.ts#L27) |
-| <a id="property-text"></a> `text?`       | `string`                                               | For text nodes, the text content.       | [packages/model/src/types/elements/NodeJSON.ts:32](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/NodeJSON.ts#L32) |
-| <a id="property-type"></a> `type?`       | `string`                                               | The name of the node type.              | [packages/model/src/types/elements/NodeJSON.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/NodeJSON.ts#L12) |
+| <a id="property-attrs"></a> `attrs?`     | [`Attrs`](../../../schema/Attrs/type-aliases/Attrs.md) | The node's attributes, if any.          | [packages/model/src/types/elements/NodeJSON.ts:17](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/NodeJSON.ts#L17) |
+| <a id="property-content"></a> `content?` | `NodeJSON`[]                                           | The node's child nodes, if any.         | [packages/model/src/types/elements/NodeJSON.ts:22](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/NodeJSON.ts#L22) |
+| <a id="property-marks"></a> `marks?`     | [`MarkJSON`](../../MarkJSON/interfaces/MarkJSON.md)[]  | The marks applied to this node, if any. | [packages/model/src/types/elements/NodeJSON.ts:27](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/NodeJSON.ts#L27) |
+| <a id="property-text"></a> `text?`       | `string`                                               | For text nodes, the text content.       | [packages/model/src/types/elements/NodeJSON.ts:32](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/NodeJSON.ts#L32) |
+| <a id="property-type"></a> `type?`       | `string`                                               | The name of the node type.              | [packages/model/src/types/elements/NodeJSON.ts:12](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/NodeJSON.ts#L12) |

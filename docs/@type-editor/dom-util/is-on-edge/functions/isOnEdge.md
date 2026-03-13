@@ -10,7 +10,7 @@
 function isOnEdge(node, offset, parent): boolean;
 ```
 
-Defined in: [is-on-edge.ts:22](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-util/src/dom/is-on-edge.ts#L22)
+Defined in: [is-on-edge.ts:22](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-util/src/dom/is-on-edge.ts#L22)
 
 Checks if a position is at the start or end edge of a parent node.
 

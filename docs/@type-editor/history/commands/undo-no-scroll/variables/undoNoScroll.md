@@ -10,7 +10,7 @@
 const undoNoScroll: Command;
 ```
 
-Defined in: [commands/undo-no-scroll.ts:15](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/history/src/commands/undo-no-scroll.ts#L15)
+Defined in: [commands/undo-no-scroll.ts:15](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/history/src/commands/undo-no-scroll.ts#L15)
 
 A command function that undoes the last change without scrolling the
 selection into view.

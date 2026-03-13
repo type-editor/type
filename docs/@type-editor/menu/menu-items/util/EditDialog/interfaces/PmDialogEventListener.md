@@ -6,7 +6,7 @@
 
 # Interface: PmDialogEventListener
 
-Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:7](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/menu-items/util/EditDialog.ts#L7)
+Defined in: [packages/menu/src/menu-items/util/EditDialog.ts:7](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/menu-items/util/EditDialog.ts#L7)
 
 Represents an event listener registered on a DOM element.
 Used to track listeners for proper cleanup.
@@ -15,6 +15,6 @@ Used to track listeners for proper cleanup.
 
 | Property                                    | Type                      | Description                                                          | Defined in                                                                                                                                                                                  |
 | ------------------------------------------- | ------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-element"></a> `element`     | `HTMLElement` \| `Window` | The element (window or HTMLElement) that the listener is attached to | [packages/menu/src/menu-items/util/EditDialog.ts:9](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/menu-items/util/EditDialog.ts#L9)   |
-| <a id="property-eventtype"></a> `eventType` | `string`                  | The type of event being listened to (e.g., 'click', 'keydown')       | [packages/menu/src/menu-items/util/EditDialog.ts:11](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/menu-items/util/EditDialog.ts#L11) |
-| <a id="property-listener"></a> `listener`   | `EventListener`           | The event listener function                                          | [packages/menu/src/menu-items/util/EditDialog.ts:13](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/menu/src/menu-items/util/EditDialog.ts#L13) |
+| <a id="property-element"></a> `element`     | `HTMLElement` \| `Window` | The element (window or HTMLElement) that the listener is attached to | [packages/menu/src/menu-items/util/EditDialog.ts:9](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/menu-items/util/EditDialog.ts#L9)   |
+| <a id="property-eventtype"></a> `eventType` | `string`                  | The type of event being listened to (e.g., 'click', 'keydown')       | [packages/menu/src/menu-items/util/EditDialog.ts:11](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/menu-items/util/EditDialog.ts#L11) |
+| <a id="property-listener"></a> `listener`   | `EventListener`           | The event listener function                                          | [packages/menu/src/menu-items/util/EditDialog.ts:13](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/menu/src/menu-items/util/EditDialog.ts#L13) |

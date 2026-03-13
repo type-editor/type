@@ -6,13 +6,13 @@
 
 # Interface: TrustedTypes
 
-Defined in: [types/clipboard/TrustedTypesPolicy.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L8)
+Defined in: [types/clipboard/TrustedTypesPolicy.ts:8](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L8)
 
 ## Properties
 
 | Property                                             | Type                                          | Defined in                                                                                                                                                                               |
 | ---------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-defaultpolicy"></a> `defaultPolicy?` | [`TrustedTypesPolicy`](TrustedTypesPolicy.md) | [types/clipboard/TrustedTypesPolicy.ts:9](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L9) |
+| <a id="property-defaultpolicy"></a> `defaultPolicy?` | [`TrustedTypesPolicy`](TrustedTypesPolicy.md) | [types/clipboard/TrustedTypesPolicy.ts:9](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L9) |
 
 ## Methods
 
@@ -22,7 +22,7 @@ Defined in: [types/clipboard/TrustedTypesPolicy.ts:8](https://github.com/type-ed
 createPolicy(name, rules): TrustedTypesPolicy;
 ```
 
-Defined in: [types/clipboard/TrustedTypesPolicy.ts:10](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L10)
+Defined in: [types/clipboard/TrustedTypesPolicy.ts:10](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/input/src/types/clipboard/TrustedTypesPolicy.ts#L10)
 
 #### Parameters
 

@@ -10,7 +10,7 @@
 function closeRight(node, depth): Node_2;
 ```
 
-Defined in: [clipboard/parse/normalize-siblings.ts:132](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/input/src/clipboard/parse/normalize-siblings.ts#L132)
+Defined in: [clipboard/parse/normalize-siblings.ts:132](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/input/src/clipboard/parse/normalize-siblings.ts#L132)
 
 Close off the rightmost open positions in a node down to `depth` levels.
 

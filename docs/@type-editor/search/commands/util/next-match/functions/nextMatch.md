@@ -10,7 +10,7 @@
 function nextMatch(search, state, wrap, curFrom, curTo): SearchResult;
 ```
 
-Defined in: [commands/util/next-match.ts:19](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/search/src/commands/util/next-match.ts#L19)
+Defined in: [commands/util/next-match.ts:19](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/search/src/commands/util/next-match.ts#L19)
 
 Finds the next match after the current position, optionally wrapping around
 to the start of the search range.

@@ -10,7 +10,7 @@
 function deepActiveElement(doc): Element;
 ```
 
-Defined in: [deep-active-element.ts:18](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-util/src/dom/deep-active-element.ts#L18)
+Defined in: [deep-active-element.ts:18](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-util/src/dom/deep-active-element.ts#L18)
 
 Gets the deeply nested active element, traversing through Shadow DOM boundaries.
 

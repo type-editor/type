@@ -10,7 +10,7 @@
 function tokenizeFragment<T>(fragment, encoder, start, end, target): T[];
 ```
 
-Defined in: [tokenizer/tokenize-fragment.ts:19](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/changeset/src/tokenizer/tokenize-fragment.ts#L19)
+Defined in: [tokenizer/tokenize-fragment.ts:19](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/changeset/src/tokenizer/tokenize-fragment.ts#L19)
 
 Convert the given range of a fragment to tokens for diff comparison.
 Recursively processes the fragment tree, encoding text characters and node boundaries.

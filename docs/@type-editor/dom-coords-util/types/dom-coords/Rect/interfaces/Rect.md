@@ -6,13 +6,13 @@
 
 # Interface: Rect
 
-Defined in: [types/dom-coords/Rect.ts:2](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L2)
+Defined in: [types/dom-coords/Rect.ts:2](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L2)
 
 ## Properties
 
 | Property                              | Type     | Defined in                                                                                                                                                               |
 | ------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="property-bottom"></a> `bottom` | `number` | [types/dom-coords/Rect.ts:6](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L6) |
-| <a id="property-left"></a> `left`     | `number` | [types/dom-coords/Rect.ts:3](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L3) |
-| <a id="property-right"></a> `right`   | `number` | [types/dom-coords/Rect.ts:4](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L4) |
-| <a id="property-top"></a> `top`       | `number` | [types/dom-coords/Rect.ts:5](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L5) |
+| <a id="property-bottom"></a> `bottom` | `number` | [types/dom-coords/Rect.ts:6](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L6) |
+| <a id="property-left"></a> `left`     | `number` | [types/dom-coords/Rect.ts:3](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L3) |
+| <a id="property-right"></a> `right`   | `number` | [types/dom-coords/Rect.ts:4](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L4) |
+| <a id="property-top"></a> `top`       | `number` | [types/dom-coords/Rect.ts:5](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/types/dom-coords/Rect.ts#L5) |

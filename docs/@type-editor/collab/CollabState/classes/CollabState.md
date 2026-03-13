@@ -6,7 +6,7 @@
 
 # Class: CollabState
 
-Defined in: [CollabState.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/CollabState.ts#L12)
+Defined in: [CollabState.ts:12](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/collab/src/CollabState.ts#L12)
 
 Represents the state of the collaborative editing plugin.
 
@@ -23,7 +23,7 @@ and any unconfirmed local steps.
 new CollabState(version, unconfirmed): CollabState;
 ```
 
-Defined in: [CollabState.ts:22](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/CollabState.ts#L22)
+Defined in: [CollabState.ts:22](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/collab/src/CollabState.ts#L22)
 
 Creates a new CollabState instance.
 
@@ -42,5 +42,5 @@ Creates a new CollabState instance.
 
 | Property                                        | Modifier   | Type                                                              | Description                                                                                                                                                                                             | Defined in                                                                                                                                    |
 | ----------------------------------------------- | ---------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-unconfirmed"></a> `unconfirmed` | `readonly` | readonly [`Rebaseable`](../../Rebaseable/classes/Rebaseable.md)[] | The local steps that haven't been successfully sent to the server yet.                                                                                                                                  | [CollabState.ts:24](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/CollabState.ts#L24) |
-| <a id="property-version"></a> `version`         | `readonly` | `number`                                                          | The version number of the last update received from the central authority. Starts at 0 or the value of the `version` property in the option object, for the editor's value when the option was enabled. | [CollabState.ts:23](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/collab/src/CollabState.ts#L23) |
+| <a id="property-unconfirmed"></a> `unconfirmed` | `readonly` | readonly [`Rebaseable`](../../Rebaseable/classes/Rebaseable.md)[] | The local steps that haven't been successfully sent to the server yet.                                                                                                                                  | [CollabState.ts:24](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/collab/src/CollabState.ts#L24) |
+| <a id="property-version"></a> `version`         | `readonly` | `number`                                                          | The version number of the last update received from the central authority. Starts at 0 or the value of the `version` property in the option object, for the editor's value when the option was enabled. | [CollabState.ts:23](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/collab/src/CollabState.ts#L23) |

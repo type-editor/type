@@ -10,7 +10,7 @@
 function getText(fragment, start, end): string;
 ```
 
-Defined in: [simplify-changes/get-text.ts:16](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/changeset/src/simplify-changes/get-text.ts#L16)
+Defined in: [simplify-changes/get-text.ts:16](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/changeset/src/simplify-changes/get-text.ts#L16)
 
 Extracts text content from a document fragment range.
 

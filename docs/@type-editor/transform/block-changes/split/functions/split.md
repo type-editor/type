@@ -10,7 +10,7 @@
 function split(transform, pos, depth?, typesAfter?): void;
 ```
 
-Defined in: [packages/transform/src/block-changes/split.ts:15](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/transform/src/block-changes/split.ts#L15)
+Defined in: [packages/transform/src/block-changes/split.ts:15](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/transform/src/block-changes/split.ts#L15)
 
 Split the node at the given position at the specified depth.
 Creates a gap in the document by duplicating ancestor nodes.

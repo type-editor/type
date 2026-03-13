@@ -10,7 +10,7 @@
 function zoomReset(_state, _dispatch, view): boolean;
 ```
 
-Defined in: [zoom.ts:34](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/zoom.ts#L34)
+Defined in: [zoom.ts:34](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commands/src/zoom.ts#L34)
 
 Command to reset the editor view zoom to 100%.
 

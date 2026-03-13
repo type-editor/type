@@ -16,7 +16,7 @@ function posAtCoords(
 };
 ```
 
-Defined in: [dom-coords/pos-at-coords.ts:34](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/dom-coords/pos-at-coords.ts#L34)
+Defined in: [dom-coords/pos-at-coords.ts:34](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/dom-coords/pos-at-coords.ts#L34)
 
 Given x,y coordinates on the editor, get the corresponding position in the document.
 This function handles various browser quirks and edge cases to accurately determine
@@ -42,5 +42,5 @@ Object containing the document position and inside information, or null if outsi
 
 | Name     | Type     | Defined in                                                                                                                                                                       |
 | -------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `inside` | `number` | [dom-coords/pos-at-coords.ts:34](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/dom-coords/pos-at-coords.ts#L34) |
-| `pos`    | `number` | [dom-coords/pos-at-coords.ts:34](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/dom-coords-util/src/dom-coords/pos-at-coords.ts#L34) |
+| `inside` | `number` | [dom-coords/pos-at-coords.ts:34](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/dom-coords/pos-at-coords.ts#L34) |
+| `pos`    | `number` | [dom-coords/pos-at-coords.ts:34](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/dom-coords-util/src/dom-coords/pos-at-coords.ts#L34) |

@@ -10,7 +10,7 @@
 const splitBlockKeepMarks: Command;
 ```
 
-Defined in: [split-block-keep-marks.ts:42](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commands/src/split-block-keep-marks.ts#L42)
+Defined in: [split-block-keep-marks.ts:42](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commands/src/split-block-keep-marks.ts#L42)
 
 Splits a block while preserving active marks.
 

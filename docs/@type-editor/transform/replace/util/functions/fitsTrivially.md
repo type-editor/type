@@ -10,7 +10,7 @@
 function fitsTrivially($from, $to, slice): boolean;
 ```
 
-Defined in: [packages/transform/src/replace/util.ts:89](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/transform/src/replace/util.ts#L89)
+Defined in: [packages/transform/src/replace/util.ts:89](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/transform/src/replace/util.ts#L89)
 
 Check if a slice fits trivially at the given position without needing complex fitting logic.
 

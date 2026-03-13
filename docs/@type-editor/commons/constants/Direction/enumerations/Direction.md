@@ -6,13 +6,13 @@
 
 # Enumeration: Direction
 
-Defined in: [constants/Direction.ts:1](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commons/src/constants/Direction.ts#L1)
+Defined in: [constants/Direction.ts:1](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commons/src/constants/Direction.ts#L1)
 
 ## Enumeration Members
 
 | Enumeration Member                                  | Value | Defined in                                                                                                                                                   |
 | --------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a id="enumeration-member-backward"></a> `Backward` | `-1`  | [constants/Direction.ts:2](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commons/src/constants/Direction.ts#L2) |
-| <a id="enumeration-member-down"></a> `Down`         | `1`   | [constants/Direction.ts:7](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commons/src/constants/Direction.ts#L7) |
-| <a id="enumeration-member-forward"></a> `Forward`   | `1`   | [constants/Direction.ts:3](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commons/src/constants/Direction.ts#L3) |
-| <a id="enumeration-member-up"></a> `Up`             | `-1`  | [constants/Direction.ts:5](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/commons/src/constants/Direction.ts#L5) |
+| <a id="enumeration-member-backward"></a> `Backward` | `-1`  | [constants/Direction.ts:2](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commons/src/constants/Direction.ts#L2) |
+| <a id="enumeration-member-down"></a> `Down`         | `1`   | [constants/Direction.ts:7](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commons/src/constants/Direction.ts#L7) |
+| <a id="enumeration-member-forward"></a> `Forward`   | `1`   | [constants/Direction.ts:3](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commons/src/constants/Direction.ts#L3) |
+| <a id="enumeration-member-up"></a> `Up`             | `-1`  | [constants/Direction.ts:5](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/commons/src/constants/Direction.ts#L5) |

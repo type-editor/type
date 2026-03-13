@@ -6,7 +6,7 @@
 
 # Class: AbstractQueryImpl
 
-Defined in: [search-query/AbstractQueryImpl.ts:4](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/search/src/search-query/AbstractQueryImpl.ts#L4)
+Defined in: [search-query/AbstractQueryImpl.ts:4](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/search/src/search-query/AbstractQueryImpl.ts#L4)
 
 ## Extended by
 
@@ -38,7 +38,7 @@ protected scanTextblocks<T>(
    nodeStart?): T;
 ```
 
-Defined in: [search-query/AbstractQueryImpl.ts:29](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/search/src/search-query/AbstractQueryImpl.ts#L29)
+Defined in: [search-query/AbstractQueryImpl.ts:29](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/search/src/search-query/AbstractQueryImpl.ts#L29)
 
 Scans through text blocks in a document tree, calling a callback for each text block
 that intersects with the given range.
@@ -75,7 +75,7 @@ The first non-null result from the callback, or null if none found
 protected textContent(node): string;
 ```
 
-Defined in: [search-query/AbstractQueryImpl.ts:90](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/search/src/search-query/AbstractQueryImpl.ts#L90)
+Defined in: [search-query/AbstractQueryImpl.ts:90](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/search/src/search-query/AbstractQueryImpl.ts#L90)
 
 Extracts the text content from a node, with caching for performance.
 

@@ -10,7 +10,7 @@
 function atEndOfCell(view, axis, dir): number;
 ```
 
-Defined in: [tables/src/input/util/at-end-of-cell.ts:18](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/tables/src/input/util/at-end-of-cell.ts#L18)
+Defined in: [tables/src/input/util/at-end-of-cell.ts:18](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/tables/src/input/util/at-end-of-cell.ts#L18)
 
 Checks whether the cursor is at the edge of a cell in the specified direction.
 

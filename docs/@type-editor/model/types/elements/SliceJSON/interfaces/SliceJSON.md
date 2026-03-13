@@ -6,7 +6,7 @@
 
 # Interface: SliceJSON
 
-Defined in: [packages/model/src/types/elements/SliceJSON.ts:7](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/SliceJSON.ts#L7)
+Defined in: [packages/model/src/types/elements/SliceJSON.ts:7](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/SliceJSON.ts#L7)
 
 JSON representation of a Slice for serialization.
 
@@ -14,6 +14,6 @@ JSON representation of a Slice for serialization.
 
 | Property                                     | Type                                                  | Description                                                               | Defined in                                                                                                                                                                                |
 | -------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-content"></a> `content`      | [`NodeJSON`](../../NodeJSON/interfaces/NodeJSON.md)[] | The content nodes of the slice in JSON format.                            | [packages/model/src/types/elements/SliceJSON.ts:21](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/SliceJSON.ts#L21) |
-| <a id="property-openend"></a> `openEnd?`     | `number`                                              | The open depth at the end of the slice. Defaults to 0 if not specified.   | [packages/model/src/types/elements/SliceJSON.ts:16](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/SliceJSON.ts#L16) |
-| <a id="property-openstart"></a> `openStart?` | `number`                                              | The open depth at the start of the slice. Defaults to 0 if not specified. | [packages/model/src/types/elements/SliceJSON.ts:11](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/model/src/types/elements/SliceJSON.ts#L11) |
+| <a id="property-content"></a> `content`      | [`NodeJSON`](../../NodeJSON/interfaces/NodeJSON.md)[] | The content nodes of the slice in JSON format.                            | [packages/model/src/types/elements/SliceJSON.ts:21](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/SliceJSON.ts#L21) |
+| <a id="property-openend"></a> `openEnd?`     | `number`                                              | The open depth at the end of the slice. Defaults to 0 if not specified.   | [packages/model/src/types/elements/SliceJSON.ts:16](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/SliceJSON.ts#L16) |
+| <a id="property-openstart"></a> `openStart?` | `number`                                              | The open depth at the start of the slice. Defaults to 0 if not specified. | [packages/model/src/types/elements/SliceJSON.ts:11](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/model/src/types/elements/SliceJSON.ts#L11) |

@@ -6,7 +6,7 @@
 
 # Interface: PluginView
 
-Defined in: [packages/editor-types/src/types/state/plugin/PluginView.ts:8](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/state/plugin/PluginView.ts#L8)
+Defined in: [packages/editor-types/src/types/state/plugin/PluginView.ts:8](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/state/plugin/PluginView.ts#L8)
 
 A stateful object that can be installed in an editor by a
 [plugin](#state.PluginSpec.view).
@@ -15,5 +15,5 @@ A stateful object that can be installed in an editor by a
 
 | Property                                 | Type                            | Description                                                                   | Defined in                                                                                                                                                                                                        |
 | ---------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a id="property-destroy"></a> `destroy?` | () => `void`                    | Called when the view is destroyed or receives a state with different plugins. | [packages/editor-types/src/types/state/plugin/PluginView.ts:18](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/state/plugin/PluginView.ts#L18) |
-| <a id="property-update"></a> `update?`   | (`view`, `prevState`) => `void` | Called whenever the view's state is updated.                                  | [packages/editor-types/src/types/state/plugin/PluginView.ts:12](https://github.com/type-editor/type/blob/99c78b8d1f93eef5c6a5bbfe09ed0a72a4c9ab4c/packages/editor-types/src/types/state/plugin/PluginView.ts#L12) |
+| <a id="property-destroy"></a> `destroy?` | () => `void`                    | Called when the view is destroyed or receives a state with different plugins. | [packages/editor-types/src/types/state/plugin/PluginView.ts:18](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/state/plugin/PluginView.ts#L18) |
+| <a id="property-update"></a> `update?`   | (`view`, `prevState`) => `void` | Called whenever the view's state is updated.                                  | [packages/editor-types/src/types/state/plugin/PluginView.ts:12](https://github.com/type-editor/type/blob/4813813a587dda7eec62dd72332119887ded8d65/packages/editor-types/src/types/state/plugin/PluginView.ts#L12) |
